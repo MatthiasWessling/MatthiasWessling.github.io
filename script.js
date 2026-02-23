@@ -1,62 +1,59 @@
 const siteContent = {
-  name: "Your Name",
-  title: "Your Name | Personal Website",
-  intro: "I am interested in artificial intelligence, research, and building practical tools.",
-  bio: "Use this website to share your work, thoughts, projects, and updates. Edit this text in script.js.",
-  email: "you@example.com",
-  footer: "© 2026 Your Name. All rights reserved.",
+  name: "Matthias Wessling",
+  title: "Matthias Wessling | Personal Website",
+  intro: "Welcome to my personal website.",
+  bio: "I share updates about my projects, learning progress, and technical interests. This page is intentionally simple and easy to update in Cursor.",
+  email: "matthias.wessling@example.com",
+  footer: "© 2026 Matthias Wessling. All rights reserved.",
   cvUrl: "cv.pdf",
   socialLinks: [
-    { label: "GitHub", url: "https://github.com/your-username" },
-    { label: "LinkedIn", url: "https://linkedin.com/in/your-profile" },
-    { label: "Google Scholar", url: "https://scholar.google.com/" },
-    { label: "X", url: "https://x.com/your-handle" }
+    { label: "GitHub", url: "https://github.com/MatthiasWessling" }
   ],
   news: [
     {
-      date: "Feb 18, 2026",
-      title: "Example milestone",
-      description: "Add your latest announcement or achievement here."
+      date: "Feb 23, 2026",
+      title: "Launched personal GitHub Pages website",
+      description: "Set up and published my personal site from a local Cursor project."
     },
     {
-      date: "Jul 27, 2025",
-      title: "Example conference/project update",
-      description: "Share notable updates in chronological order."
+      date: "Jan 15, 2026",
+      title: "Portfolio refresh in progress",
+      description: "Currently updating project descriptions and adding better documentation."
     }
   ],
   blogPosts: [
     {
-      date: "Feb 9, 2026",
-      title: "Using Agents to Assist Research Tasks",
-      description: "Write a short summary of the post and link to a full article if needed.",
-      tags: ["education", "machine-learning", "ai-agents"]
+      date: "Feb 23, 2026",
+      title: "Building a personal site with Cursor and GitHub Pages",
+      description: "A short walkthrough of setting up a clean static site and publishing it.",
+      tags: ["cursor", "github-pages", "web"]
     },
     {
-      date: "Oct 17, 2025",
-      title: "Recap: More than 20 students supervised",
-      description: "Describe your key takeaway in one sentence.",
-      tags: ["education", "supervision", "student-research"]
+      date: "Feb 10, 2026",
+      title: "What I want to improve this year",
+      description: "Notes on technical goals, writing more, and shipping small projects consistently.",
+      tags: ["learning", "career", "projects"]
     }
   ],
   research: [
-    "Summarize your current research focus.",
-    "Explain what problems you are working on and why they matter."
+    "I am interested in practical software engineering, developer tooling, and reliable automation.",
+    "I use this section to capture what I am currently exploring and experimenting with."
   ],
   projects: [
     {
-      title: "Project One",
-      description: "One line about the project goal and impact.",
-      link: "https://github.com/your-username/project-one"
+      title: "Test",
+      description: "Wolfram modules and experiments.",
+      link: "https://github.com/MatthiasWessling/Test"
     },
     {
-      title: "Project Two",
-      description: "Another project or demo.",
-      link: "https://github.com/your-username/project-two"
+      title: "Personal Website",
+      description: "Source code for this GitHub Pages website.",
+      link: "https://github.com/MatthiasWessling/MatthiasWessling.github.io"
     }
   ],
   hobbies: [
-    "List hobbies you enjoy outside work.",
-    "Example: hiking, coding side projects, fitness, photography."
+    "I enjoy coding side projects and learning new tools.",
+    "I also like walking, fitness, and working on practical ideas end-to-end."
   ]
 };
 
