@@ -48,8 +48,13 @@ theme = 'custom'
   weight = 6
 
 [[menu.main]]
+  name = 'Notebooks'
+  url = '/notebooks/'
+  weight = 7
+
+[[menu.main]]
   name = 'CV'
   url = '/files/cv.pdf'
-  weight = 7
+  weight = 8
   [menu.main.params]
     download = true

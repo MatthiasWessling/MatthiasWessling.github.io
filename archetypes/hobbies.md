@@ -10,4 +10,5 @@ featured = false
 
 {{ .Params.description }}
 
-Your hobby details go here...
+Reading
+Geometric art

@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container">
+    <article class="single-content">
+        <header class="content-header">
+            <h1>{{ .Title }}</h1>
+            <div class="content-meta">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+            </div>
+        </header>
+
+        {{ if .Params.summary }}
+        <p>{{ .Params.summary }}</p>
+        {{ end }}
+
+        {{ if .Params.notebooklm_url }}
+        <p>
+            <a href="{{ .Params.notebooklm_url }}" target="_blank" rel="noopener" class="read-more">Open in NotebookLM →</a>
+        </p>
+        {{ end }}
+
+        <div class="single-body">
+            {{ .Content }}
+        </div>
+
+        <footer class="content-footer">
+            <div class="back-to-list">
+                <a href="/notebooks/">← Back to all notebooks</a>
+            </div>
+        </footer>
+    </article>
+</div>
+{{ end }}
