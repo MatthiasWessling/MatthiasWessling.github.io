@@ -768,6 +768,33 @@ a:hover {
     opacity: 0.75;
 }
 
+.notebook-entry-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.notebook-media img,
+.notebook-media video,
+.notebook-single-media img,
+.notebook-single-media video {
+    width: 100%;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+.notebook-media img,
+.notebook-media video {
+    max-height: 140px;
+    object-fit: cover;
+}
+
+.notebook-single-media {
+    max-width: 560px;
+    margin: 0 0 1rem 0;
+}
+
 /* Single Page Styles */
 .single-content,
 .blog-single,
@@ -1157,6 +1184,15 @@ code {
 
     .notebooks-sort-wrap select {
         min-width: 0;
+    }
+
+    .notebook-entry-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .notebook-media img,
+    .notebook-media video {
+        max-height: none;
     }
 
     h1 {

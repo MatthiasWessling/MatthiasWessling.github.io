@@ -35,18 +35,36 @@
             data-summary="{{ .Params.summary | default "" | lower }}"
             data-date="{{ .Date.Unix }}"
         >
-            <div class="news-meta">
-                <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
-            </div>
-            <h2 class="news-title">{{ .Title }}</h2>
-            {{ if .Params.summary }}
-            <p class="news-summary">{{ .Params.summary }}</p>
-            {{ end }}
-            <div class="project-links">
-                {{ if .Params.notebooklm_url }}
-                <a href="{{ .Params.notebooklm_url }}" target="_blank" rel="noopener" class="read-more">Open in NotebookLM →</a>
+            <div class="notebook-entry-layout">
+                {{ if .Params.image }}
+                {{ $media := lower (.Params.image | default "") }}
+                <div class="notebook-media">
+                    {{ if or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
+                    <video controls class="notebook-video">
+                        <source src="{{ .Params.image }}">
+                        Your browser does not support the video tag.
+                    </video>
+                    {{ else }}
+                    <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
+                    {{ end }}
+                </div>
                 {{ end }}
-                <a href="{{ .Permalink }}" class="read-more">Details →</a>
+
+                <div class="notebook-main">
+                    <div class="news-meta">
+                        <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
+                    </div>
+                    <h2 class="news-title">{{ .Title }}</h2>
+                    {{ if .Params.summary }}
+                    <p class="news-summary">{{ .Params.summary }}</p>
+                    {{ end }}
+                    <div class="project-links">
+                        {{ if .Params.notebooklm_url }}
+                        <a href="{{ .Params.notebooklm_url }}" target="_blank" rel="noopener" class="read-more">Open in NotebookLM →</a>
+                        {{ end }}
+                        <a href="{{ .Permalink }}" class="read-more">Details →</a>
+                    </div>
+                </div>
             </div>
         </article>
         {{ else }}

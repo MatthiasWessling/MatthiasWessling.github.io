@@ -12,6 +12,20 @@
         <p>{{ .Params.summary }}</p>
         {{ end }}
 
+        {{ if .Params.image }}
+        {{ $media := lower (.Params.image | default "") }}
+        <div class="notebook-single-media">
+            {{ if or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
+            <video controls class="notebook-video">
+                <source src="{{ .Params.image }}">
+                Your browser does not support the video tag.
+            </video>
+            {{ else }}
+            <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
+            {{ end }}
+        </div>
+        {{ end }}
+
         {{ if .Params.notebooklm_url }}
         <p>
             <a href="{{ .Params.notebooklm_url }}" target="_blank" rel="noopener" class="read-more">Open in NotebookLM →</a>

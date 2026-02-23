@@ -3,4 +3,4 @@ title = "Notebooks"
 description = "A collection of NotebookLM resources."
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Browse the entries below to open NotebookLM resources.
+I am working on generating NotebookLMs which allow you to interact with the manuscripts which we published on certain topics. 
