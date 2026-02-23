@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://example.org/sitemap.xml
+
+# Common crawler directives
+Crawl-delay: 1
+
+# Block access to admin areas (if any)
+Disallow: /admin/
+Disallow: /.git/
+
+# Allow search engines to index all content
+Allow: /blog/
+Allow: /research/
+Allow: /projects/
+Allow: /hobbies/
+Allow: /news/

@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="container">
+    <article class="hobby-single">
+        <header class="hobby-header">
+            <h1>{{ .Title }}</h1>
+            <div class="hobby-meta">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+            </div>
+        </header>
+
+        {{ if .Params.image }}
+        <div class="hobby-image">
+            <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
+        </div>
+        {{ end }}
+
+        {{ if .Params.description }}
+        <section class="hobby-description">
+            <p class="lead">{{ .Params.description }}</p>
+        </section>
+        {{ end }}
+
+        <div class="hobby-content">
+            {{ .Content }}
+        </div>
+
+        <footer class="hobby-footer">
+            {{ if or .Prev .Next }}
+            <nav class="hobby-nav">
+                {{ if .Prev }}
+                <a href="{{ .Prev.Permalink }}" class="nav-prev">
+                    ← {{ .Prev.Title }}
+                </a>
+                {{ end }}
+                {{ if .Next }}
+                <a href="{{ .Next.Permalink }}" class="nav-next">
+                    {{ .Next.Title }} →
+                </a>
+                {{ end }}
+            </nav>
+            {{ end }}
+
+            <div class="back-to-list">
+                <a href="/hobbies/">← Back to all hobbies</a>
+            </div>
+        </footer>
+    </article>
+</div>
+{{ end }}

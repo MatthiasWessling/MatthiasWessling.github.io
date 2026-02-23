@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="container">
+    <article class="single-content">
+        <header class="content-header">
+            <h1>{{ .Title }}</h1>
+            <div class="content-meta">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.tags }}
+                <div class="content-tags">
+                    {{ range .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </header>
+
+        <div class="content-body">
+            {{ .Content }}
+        </div>
+
+        {{ if or .Prev .Next }}
+        <nav class="content-nav">
+            {{ if .Prev }}
+            <a href="{{ .Prev.Permalink }}" class="nav-prev">
+                ← {{ .Prev.Title }}
+            </a>
+            {{ end }}
+            {{ if .Next }}
+            <a href="{{ .Next.Permalink }}" class="nav-next">
+                {{ .Next.Title }} →
+            </a>
+            {{ end }}
+        </nav>
+        {{ end }}
+    </article>
+</div>
+{{ end }}

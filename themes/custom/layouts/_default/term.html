@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="container">
+    <header class="section-header">
+        <h1>{{ .Title }}</h1>
+        <p class="term-description">Posts tagged with "{{ .Title }}"</p>
+    </header>
+
+    <div class="blog-list">
+        {{ range .Pages }}
+        <article class="blog-item">
+            <div class="blog-meta">
+                <time class="blog-date">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.tags }}
+                <div class="blog-tags">
+                    {{ range .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            <h2 class="blog-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            {{ if .Params.summary }}
+            <p class="blog-summary">{{ .Params.summary }}</p>
+            {{ else }}
+            <p class="blog-summary">{{ .Summary }}</p>
+            {{ end }}
+            <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+        </article>
+        {{ else }}
+        <p class="no-content">No posts found with this tag.</p>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

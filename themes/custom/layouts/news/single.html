@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="container">
+    <article class="news-single">
+        <header class="news-header">
+            <h1>{{ .Title }}</h1>
+            <div class="news-meta">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+            </div>
+        </header>
+
+        {{ if .Params.summary }}
+        <section class="news-summary">
+            <p class="lead">{{ .Params.summary }}</p>
+        </section>
+        {{ end }}
+
+        <div class="news-content">
+            {{ .Content }}
+        </div>
+
+        <footer class="news-footer">
+            {{ if or .Prev .Next }}
+            <nav class="news-nav">
+                {{ if .Prev }}
+                <a href="{{ .Prev.Permalink }}" class="nav-prev">
+                    ← {{ .Prev.Title }}
+                </a>
+                {{ end }}
+                {{ if .Next }}
+                <a href="{{ .Next.Permalink }}" class="nav-next">
+                    {{ .Next.Title }} →
+                </a>
+                {{ end }}
+            </nav>
+            {{ end }}
+
+            <div class="back-to-list">
+                <a href="/news/">← Back to all news</a>
+            </div>
+        </footer>
+    </article>
+</div>
+{{ end }}

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+    <header class="section-header">
+        <h1>{{ .Title }}</h1>
+        <p class="taxonomy-description">Browse all {{ lower .Title }}</p>
+    </header>
+
+    <div class="taxonomy-list">
+        {{ range .Data.Terms.Alphabetical }}
+        <div class="taxonomy-item">
+            <h3 class="taxonomy-term">
+                <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+                <span class="taxonomy-count">({{ .Count }})</span>
+            </h3>
+        </div>
+        {{ else }}
+        <p class="no-content">No {{ lower .Title }} found.</p>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

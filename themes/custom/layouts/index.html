@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="container">
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>{{ .Site.Params.author }}</h1>
+                {{ .Content }}
+            </div>
+            <div class="hero-image">
+                <img src="{{ .Site.Params.profileImage }}" alt="{{ .Site.Params.author }}" class="profile-image clickable-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Content Section -->
+    <section class="latest-content">
+        <div class="content-boxes">
+            <!-- Latest News -->
+            <div class="content-box">
+                <div class="box-header">
+                    <h2>Latest News</h2>
+                    <a href="/news/" class="view-all-link">View all news →</a>
+                </div>
+                <div class="content-list">
+                    {{ $news := where .Site.RegularPages "Section" "news" }}
+                    {{ $recentNews := first 3 (sort $news "Date" "desc") }}
+                    {{ range $recentNews }}
+                    <article class="content-item">
+                        <div class="item-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+                        <h3>{{ .Title }}</h3>
+                        {{ if .Params.summary }}
+                        <p class="item-summary">{{ .Params.summary }}</p>
+                        {{ end }}
+                    </article>
+                    {{ else }}
+                    <p class="no-content">No news items yet.</p>
+                    {{ end }}
+                </div>
+            </div>
+
+            <!-- Latest Blog Posts -->
+            <div class="content-box">
+                <div class="box-header">
+                    <h2>Latest Blog Posts</h2>
+                    <a href="/blog/" class="view-all-link">View all posts →</a>
+                </div>
+                <div class="content-list">
+                    {{ $blog := where .Site.RegularPages "Section" "blog" }}
+                    {{ $recentBlog := first 3 (sort $blog "Date" "desc") }}
+                    {{ range $recentBlog }}
+                    <article class="content-item">
+                        <div class="item-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        {{ if .Params.summary }}
+                        <p class="item-summary">{{ .Params.summary }}</p>
+                        {{ end }}
+                        {{ if .Params.tags }}
+                        <div class="item-tags">
+                            {{ range .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </article>
+                    {{ else }}
+                    <p class="no-content">No blog posts yet.</p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{{ end }}

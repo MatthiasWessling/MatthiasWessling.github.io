@@ -1,0 +1,76 @@
+{{ define "main" }}
+<div class="container">
+    <article class="research-single">
+        <header class="research-header">
+            <h1>{{ .Title }}</h1>
+            <div class="research-meta">
+                {{ if .Params.authors }}
+                <div class="research-authors">
+                    <strong>Authors:</strong> {{ delimit .Params.authors ", " }}
+                </div>
+                {{ end }}
+                {{ if .Params.publication }}
+                <div class="research-publication">
+                    <strong>Published in:</strong> {{ .Params.publication }}
+                </div>
+                {{ end }}
+                <div class="research-year">
+                    <strong>Year:</strong> {{ .Params.publication_year | default (.Date.Format "2006") }}
+                </div>
+                {{ if .Params.paper_url }}
+                <div class="research-links">
+                    <a href="{{ .Params.paper_url }}" target="_blank" rel="noopener" class="paper-link">View Full Paper →</a>
+                </div>
+                {{ end }}
+            </div>
+        </header>
+
+        {{ if .Params.image }}
+        <div class="research-image">
+            <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
+        </div>
+        {{ end }}
+
+        {{ if .Params.abstract }}
+        <section class="research-abstract">
+            <h2>Abstract</h2>
+            <p>{{ .Params.abstract }}</p>
+        </section>
+        {{ end }}
+
+        <div class="research-content">
+            {{ .Content }}
+        </div>
+
+        {{ if .Params.tags }}
+        <div class="research-tags">
+            <h3>Tags</h3>
+            {{ range .Params.tags }}
+            <span class="tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <footer class="research-footer">
+            {{ if or .Prev .Next }}
+            <nav class="research-nav">
+                {{ if .Prev }}
+                <a href="{{ .Prev.Permalink }}" class="nav-prev">
+                    ← {{ .Prev.Title }}
+                </a>
+                {{ end }}
+                {{ if .Next }}
+                <a href="{{ .Next.Permalink }}" class="nav-next">
+                    {{ .Next.Title }} →
+                </a>
+                {{ end }}
+            </nav>
+            {{ end }}
+
+            <div class="back-to-list">
+                <a href="/research/">← Back to all research</a>
+            </div>
+        </footer>
+    </article>
+</div>
+{{ end }}

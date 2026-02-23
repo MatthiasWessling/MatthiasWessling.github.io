@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="container">
+    <article class="blog-single">
+        <header class="blog-header">
+            <h1>{{ .Title }}</h1>
+            <div class="blog-meta">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.categories }}
+                <div class="blog-categories">
+                    {{ range .Params.categories }}
+                    <span class="category">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+                {{ if .Params.tags }}
+                <div class="blog-tags">
+                    {{ range .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </header>
+
+        <div class="blog-content">
+            {{ .Content }}
+        </div>
+
+        <footer class="blog-footer">
+            {{ if or .Prev .Next }}
+            <nav class="blog-nav">
+                {{ if .Prev }}
+                <a href="{{ .Prev.Permalink }}" class="nav-prev">
+                    ← {{ .Prev.Title }}
+                </a>
+                {{ end }}
+                {{ if .Next }}
+                <a href="{{ .Next.Permalink }}" class="nav-next">
+                    {{ .Next.Title }} →
+                </a>
+                {{ end }}
+            </nav>
+            {{ end }}
+
+            <div class="back-to-list">
+                <a href="/blog/">← Back to all posts</a>
+            </div>
+        </footer>
+    </article>
+</div>
+{{ end }}
