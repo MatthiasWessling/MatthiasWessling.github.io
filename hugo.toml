@@ -4,13 +4,13 @@ title = 'Lorem Ipsum'
 theme = 'custom'
 
 [params]
-  author = 'Lorem Ipsum'
+  author = 'Matthias Wessling'
   description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   profileImage = '/images/profile.svg'
   github = 'https://github.com/MatthiasWessling'
-  linkedin = 'https://www.linkedin.com/in/lorem-ipsum'
-  googlescholar = 'https://scholar.google.com/'
-  x = 'https://x.com/lorem_ipsum'
+  linkedin = 'https://www.linkedin.com/in/matthiaswessling/'
+  googlescholar = 'https://scholar.google.com/citations?hl=de&user=ldEjzsgAAAAJ&view_op=list_works&sortby=pubdate'
+ 
 
 [markup]
   [markup.goldmark]
