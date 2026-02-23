@@ -9,9 +9,32 @@
         {{ end }}
     </header>
 
-    <div class="news-list">
-        {{ range .Pages }}
-        <article class="news-item">
+    <div class="notebooks-controls">
+        <div class="notebooks-search-wrap">
+            <label for="notebooks-search" class="notebooks-control-label">Search</label>
+            <input id="notebooks-search" type="search" placeholder="Search notebooks by title or summary" autocomplete="off">
+        </div>
+        <div class="notebooks-sort-wrap">
+            <label for="notebooks-sort" class="notebooks-control-label">Sort</label>
+            <select id="notebooks-sort">
+                <option value="newest">Newest first</option>
+                <option value="oldest">Oldest first</option>
+                <option value="title-asc">Title A-Z</option>
+                <option value="title-desc">Title Z-A</option>
+            </select>
+        </div>
+    </div>
+
+    <p id="notebooks-results-count" class="notebooks-results-count"></p>
+
+    <div id="notebooks-list" class="news-list">
+        {{ range .Pages.ByDate.Reverse }}
+        <article
+            class="news-item notebook-entry"
+            data-title="{{ .Title | lower }}"
+            data-summary="{{ .Params.summary | default "" | lower }}"
+            data-date="{{ .Date.Unix }}"
+        >
             <div class="news-meta">
                 <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
             </div>

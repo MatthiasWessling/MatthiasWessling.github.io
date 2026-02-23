@@ -728,6 +728,46 @@ a:hover {
     opacity: 0.8;
 }
 
+/* Notebooks controls */
+.notebooks-controls {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+    align-items: end;
+}
+
+.notebooks-control-label {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-bottom: 0.35rem;
+}
+
+.notebooks-search-wrap input,
+.notebooks-sort-wrap select {
+    width: 100%;
+    min-height: 2.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.4rem;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+}
+
+.notebooks-sort-wrap select {
+    min-width: 180px;
+}
+
+.notebooks-results-count {
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
 /* Single Page Styles */
 .single-content,
 .blog-single,
@@ -1109,6 +1149,14 @@ code {
     .research-buttons {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .notebooks-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .notebooks-sort-wrap select {
+        min-width: 0;
     }
 
     h1 {
