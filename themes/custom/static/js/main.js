@@ -535,6 +535,78 @@ class NotebookDirectory {
     }
 }
 
+// News list search and sorting
+class NewsDirectory {
+    constructor() {
+        this.list = document.getElementById('news-list');
+        this.searchInput = document.getElementById('news-search');
+        this.sortSelect = document.getElementById('news-sort');
+        this.resultsCount = document.getElementById('news-results-count');
+        this.entries = [];
+
+        this.init();
+    }
+
+    init() {
+        if (!this.list || !this.searchInput || !this.sortSelect) {
+            return;
+        }
+
+        this.entries = Array.from(this.list.querySelectorAll('.news-entry'));
+        if (!this.entries.length) {
+            return;
+        }
+
+        this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        this.sortSelect.addEventListener('change', () => this.render());
+        this.render();
+    }
+
+    render() {
+        const query = this.searchInput.value.trim().toLowerCase();
+        const sortMode = this.sortSelect.value;
+
+        const filtered = this.entries.filter((entry) => {
+            const title = entry.dataset.title || '';
+            const summary = entry.dataset.summary || '';
+            return !query || title.includes(query) || summary.includes(query);
+        });
+
+        filtered.sort((a, b) => {
+            const dateA = Number(a.dataset.date || 0);
+            const dateB = Number(b.dataset.date || 0);
+            const titleA = (a.dataset.title || '').toLowerCase();
+            const titleB = (b.dataset.title || '').toLowerCase();
+
+            if (sortMode === 'oldest') {
+                return dateA - dateB;
+            }
+            if (sortMode === 'title-asc') {
+                return titleA.localeCompare(titleB);
+            }
+            if (sortMode === 'title-desc') {
+                return titleB.localeCompare(titleA);
+            }
+            // default: newest first
+            return dateB - dateA;
+        });
+
+        this.entries.forEach((entry) => {
+            entry.style.display = 'none';
+        });
+        filtered.forEach((entry) => {
+            entry.style.display = '';
+            this.list.appendChild(entry);
+        });
+
+        if (this.resultsCount) {
+            const total = this.entries.length;
+            const visible = filtered.length;
+            this.resultsCount.textContent = `${visible} of ${total} news items`;
+        }
+    }
+}
+
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize core functionality
@@ -547,6 +619,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new ClipboardManager();
     new GifSynchronizer();
     new NotebookDirectory();
+    new NewsDirectory();
 
     // Add any additional initialization here
     console.log('Personal website initialized successfully!');

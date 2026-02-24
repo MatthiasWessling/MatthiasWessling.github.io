@@ -4,6 +4,8 @@ date = '{{ .Date }}'
 draft = true
 summary = ''
 featured = false
+image = ''
+image_alt = ''
 +++
 
 {{ .Params.summary }}

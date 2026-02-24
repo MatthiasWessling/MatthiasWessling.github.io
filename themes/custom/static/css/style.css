@@ -728,6 +728,73 @@ a:hover {
     opacity: 0.8;
 }
 
+/* News controls */
+.news-controls {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+    align-items: end;
+}
+
+.news-control-label {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    margin-bottom: 0.35rem;
+}
+
+.news-search-wrap input,
+.news-sort-wrap select {
+    width: 100%;
+    min-height: 2.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.4rem;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+}
+
+.news-sort-wrap select {
+    min-width: 180px;
+}
+
+.news-results-count {
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
+.news-entry-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.news-media img,
+.news-media video,
+.news-single-media img,
+.news-single-media video {
+    width: 100%;
+    border-radius: 0.5rem;
+    display: block;
+}
+
+.news-media img,
+.news-media video {
+    max-height: 140px;
+    object-fit: cover;
+}
+
+.news-single-media {
+    max-width: 560px;
+    margin: 0 0 1rem 0;
+}
+
 /* Notebooks controls */
 .notebooks-controls {
     display: grid;
@@ -1176,6 +1243,23 @@ code {
     .research-buttons {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    .news-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .news-sort-wrap select {
+        min-width: 0;
+    }
+
+    .news-entry-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .news-media img,
+    .news-media video {
+        max-height: none;
     }
 
     .notebooks-controls {

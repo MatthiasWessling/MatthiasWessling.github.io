@@ -9,14 +9,58 @@
         {{ end }}
     </header>
 
-    <div class="news-list">
-        {{ range .Pages }}
-        <article class="news-item">
-            <div class="news-meta">
-                <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
+    <div class="news-controls">
+        <div class="news-search-wrap">
+            <label for="news-search" class="news-control-label">Search</label>
+            <input id="news-search" type="search" placeholder="Search news by title or content" autocomplete="off">
+        </div>
+        <div class="news-sort-wrap">
+            <label for="news-sort" class="news-control-label">Sort</label>
+            <select id="news-sort">
+                <option value="newest">Newest first</option>
+                <option value="oldest">Oldest first</option>
+                <option value="title-asc">Title A-Z</option>
+                <option value="title-desc">Title Z-A</option>
+            </select>
+        </div>
+    </div>
+
+    <p id="news-results-count" class="news-results-count"></p>
+
+    <div id="news-list" class="news-list">
+        {{ range .Pages.ByDate.Reverse }}
+        <article
+            class="news-item news-entry"
+            data-title="{{ .Title | lower }}"
+            data-summary="{{ (printf "%s %s" (.Params.summary | default "") (.Plain | default "")) | lower }}"
+            data-date="{{ .Date.Unix }}"
+        >
+            <div class="news-entry-layout">
+                {{ if .Params.image }}
+                {{ $media := lower (.Params.image | default "") }}
+                <div class="news-media">
+                    {{ if or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
+                    <video controls class="news-video">
+                        <source src="{{ .Params.image }}">
+                        Your browser does not support the video tag.
+                    </video>
+                    {{ else }}
+                    <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                <div class="news-main">
+                    <div class="news-meta">
+                        <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
+                    </div>
+                    <h2 class="news-title">{{ .Title }}</h2>
+                    {{ if .Params.summary }}
+                    <p class="news-summary">{{ .Params.summary }}</p>
+                    {{ end }}
+                    <div class="news-full-content">{{ .Content }}</div>
+                </div>
             </div>
-            <h2 class="news-title">{{ .Title }}</h2>
-            <div class="news-full-content">{{ .Content }}</div>
         </article>
         {{ else }}
         <p class="no-content">No news yet.</p>
