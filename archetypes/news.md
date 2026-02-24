@@ -2,12 +2,13 @@
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
 draft = true
-summary = ''
+summary = 'One-sentence summary shown on the news overview page.'
 featured = false
-image = ''
-image_alt = ''
+image = '/images/news/your-image.jpg'
+image_alt = 'Describe the news image'
+image_full_width = true
 +++
 
-{{ .Params.summary }}
+Write the full news text here.
 
-Your news content goes here...
+You can include links, short paragraphs, and hashtags.

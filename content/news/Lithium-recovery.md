@@ -6,6 +6,7 @@ summary = 'Continuous electrochemical lithium recovery from wet-shredding stream
 featured = false
 image = '/images/news/Lithium recovery.jpg'
 image_alt = 'Lithium recovery concept graphic'
+image_full_width = true
 +++
 
 Lithium recovery is becoming a central challenge in building a truly circular battery economy. While much attention is placed on cobalt and nickel, lithium is often diluted, lost, or recovered late in the recycling flowsheet.

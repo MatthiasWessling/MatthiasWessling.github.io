@@ -10,7 +10,7 @@
 
         {{ if .Params.image }}
         {{ $media := lower (.Params.image | default "") }}
-        <div class="news-single-media">
+        <div class="news-single-media {{ if .Params.image_full_width }}news-single-media-full{{ end }}">
             {{ if or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
             <video controls class="news-video">
                 <source src="{{ .Params.image }}">

@@ -795,6 +795,14 @@ a:hover {
     margin: 0 0 1rem 0;
 }
 
+.news-single-media-full img,
+.news-single-media-full video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 /* Notebooks controls */
 .notebooks-controls {
     display: grid;
