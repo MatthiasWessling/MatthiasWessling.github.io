@@ -1,8 +1,12 @@
 +++
-title = "Welcome"
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+title = "Matthias Wessling"
+description = "Research, projects, and updates from Matthias Wessling."
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+On these pages, I share news, blog posts, and insights on:
+- the research we conduct in my group at RWTH Aachen University and the DWI Leibniz Institute for Interactive Materials
+- projects I am interested in and currently working on
+- startup activities from the past, present, and future
 
-Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Feel free to reach out at lorem.ipsum@example.com.
+You can reach me privately at Matthiaswessling(at)gmail.com
+or at the university at matthias.wessling(at)avt.rwth-aachen.de.
