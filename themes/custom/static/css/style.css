@@ -770,7 +770,7 @@ a:hover {
 
 .news-entry-layout {
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
     align-items: start;
 }
@@ -786,8 +786,9 @@ a:hover {
 
 .news-media img,
 .news-media video {
-    max-height: 140px;
-    object-fit: cover;
+    max-height: none;
+    height: auto;
+    object-fit: contain;
 }
 
 .news-single-media {

@@ -11,4 +11,6 @@ image_full_width = true
 
 Write the full news text here.
 
+The image will render full width on both /news/ and the single news page.
+
 You can include links, short paragraphs, and hashtags.
