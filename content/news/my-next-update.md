@@ -1,6 +1,6 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = '{{ .Date }}'
+title = 'My Next Update'
+date = '2026-02-24T20:18:58+01:00'
 draft = true
 summary = 'One-sentence summary shown on the news overview page.'
 featured = false
