@@ -8,12 +8,6 @@
             </div>
         </header>
 
-        {{ if .Params.summary }}
-        <section class="news-summary">
-            <p class="lead">{{ .Params.summary }}</p>
-        </section>
-        {{ end }}
-
         {{ if .Params.image }}
         {{ $media := lower (.Params.image | default "") }}
         <div class="news-single-media">
@@ -26,6 +20,12 @@
             <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
             {{ end }}
         </div>
+        {{ end }}
+
+        {{ if .Params.summary }}
+        <section class="news-summary">
+            <p class="lead">{{ .Params.summary }}</p>
+        </section>
         {{ end }}
 
         <div class="news-content">
