@@ -1,11 +1,11 @@
 baseURL = 'https://matthiaswessling.github.io'
 languageCode = 'en-us'
-title = 'Lorem Ipsum'
+title = 'Matthias Wessling'
 theme = 'custom'
 
 [params]
   author = 'Matthias Wessling'
-  description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+  description = 'Information on my work and interests'
   profileImage = '/images/profile.svg'
   github = 'https://github.com/MatthiasWessling'
   linkedin = 'https://www.linkedin.com/in/matthiaswessling/'
