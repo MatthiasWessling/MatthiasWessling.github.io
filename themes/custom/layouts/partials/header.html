@@ -9,8 +9,16 @@
             <ul class="nav-links desktop-nav">
                 {{ range .Site.Menus.main }}
                 <li>
-                    <a href="{{ .URL }}" {{ if .Params.download }}download{{ end }} {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>
+                    <a href="{{ .URL }}"
+                        {{ if .Params.download }}download{{ end }}
+                        {{ if eq .Name "RSS" }}class="rss-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}" aria-label="RSS feed" title="RSS feed"{{ else if $.IsMenuCurrent "main" . }}class="active"{{ end }}>
+                        {{ if eq .Name "RSS" }}
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M4.26 15.74a2.26 2.26 0 1 0 0 4.52 2.26 2.26 0 0 0 0-4.52zm-2.26-9.5v3.2c6 0 10.86 4.86 10.86 10.86h3.2C16.06 12.53 9.77 6.24 2 6.24zm0-5.5v3.2c9.03 0 16.36 7.33 16.36 16.36h3.2C21.56 9.5 12.8.74 2 .74z"/>
+                        </svg>
+                        {{ else }}
                         {{ .Name }}
+                        {{ end }}
                     </a>
                 </li>
                 {{ end }}
@@ -26,8 +34,16 @@
                 <ul class="mobile-nav-menu" id="mobile-nav-menu">
                     {{ range .Site.Menus.main }}
                     <li>
-                        <a href="{{ .URL }}" {{ if .Params.download }}download{{ end }} {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>
+                        <a href="{{ .URL }}"
+                            {{ if .Params.download }}download{{ end }}
+                            {{ if eq .Name "RSS" }}class="rss-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}" aria-label="RSS feed" title="RSS feed"{{ else if $.IsMenuCurrent "main" . }}class="active"{{ end }}>
+                            {{ if eq .Name "RSS" }}
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M4.26 15.74a2.26 2.26 0 1 0 0 4.52 2.26 2.26 0 0 0 0-4.52zm-2.26-9.5v3.2c6 0 10.86 4.86 10.86 10.86h3.2C16.06 12.53 9.77 6.24 2 6.24zm0-5.5v3.2c9.03 0 16.36 7.33 16.36 16.36h3.2C21.56 9.5 12.8.74 2 .74z"/>
+                            </svg>
+                            {{ else }}
                             {{ .Name }}
+                            {{ end }}
                         </a>
                     </li>
                     {{ end }}

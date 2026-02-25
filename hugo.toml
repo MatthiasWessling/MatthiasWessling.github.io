@@ -23,6 +23,12 @@ theme = 'custom'
   weight = 1
 
 [[menu.main]]
+  name = 'News'
+  url = '/news/'
+  weight = 7
+
+
+[[menu.main]]
   name = 'Blog'
   url = '/blog/'
   weight = 2
@@ -48,11 +54,6 @@ theme = 'custom'
   weight = 6
 
 [[menu.main]]
-  name = 'News'
-  url = '/news/'
-  weight = 7
-
-[[menu.main]]
   name = 'Notebooks'
   url = '/notebooks/'
   weight = 8
@@ -63,3 +64,8 @@ theme = 'custom'
   weight = 9
   [menu.main.params]
     download = true
+
+[[menu.main]]
+  name = 'RSS'
+  url = '/index.xml'
+  weight = 10

@@ -135,7 +135,7 @@ a:hover {
 .main-nav {
     display: flex;
     align-items: center;
-    gap: clamp(0.75rem, 2vw, 2rem);
+    gap: clamp(0.35rem, 1vw, 1rem);
 }
 
 .nav-brand a {
@@ -148,18 +148,18 @@ a:hover {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: clamp(0.25rem, 1vw, 1.5rem);
+    gap: clamp(0.1rem, 0.55vw, 0.6rem);
     margin: 0;
     padding: 0;
     flex: 1;
-    justify-content: center;
+    justify-content: flex-start;
     min-width: 0;
 }
 
 .nav-links a {
     color: var(--header-text);
-    font-size: clamp(0.8rem, 0.8vw, 0.95rem);
-    padding: clamp(0.35rem, 0.7vw, 0.5rem) clamp(0.45rem, 1vw, 1rem);
+    font-size: clamp(0.76rem, 0.7vw, 0.9rem);
+    padding: clamp(0.25rem, 0.45vw, 0.4rem) clamp(0.3rem, 0.65vw, 0.65rem);
     border-radius: 0.25rem;
     transition: background-color 0.3s ease;
     white-space: nowrap;
@@ -170,21 +170,32 @@ a:hover {
     background-color: var(--nav-hover);
 }
 
+.rss-nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.rss-nav-link svg {
+    display: block;
+}
+
 .nav-controls {
     display: flex;
     align-items: center;
-    gap: clamp(0.4rem, 0.9vw, 1rem);
+    gap: clamp(0.25rem, 0.6vw, 0.6rem);
     margin-left: auto;
 }
 
 .social-icons {
     display: flex;
-    gap: 0.75rem;
+    gap: clamp(0.25rem, 0.6vw, 0.5rem);
 }
 
 .social-icons a {
     color: var(--header-text);
-    padding: 0.5rem;
+    padding: 0.35rem;
     border-radius: 0.25rem;
     transition: background-color 0.3s ease;
 }
