@@ -6,7 +6,7 @@ theme = 'custom'
 [params]
   author = 'Matthias Wessling'
   description = 'Information on my work and interests'
-  profileImage = '/images/profile.svg'
+  profileImage = '/images/Profile MaWe.jpg'
   github = 'https://github.com/MatthiasWessling'
   linkedin = 'https://www.linkedin.com/in/matthiaswessling/'
   googlescholar = 'https://scholar.google.com/citations?hl=de&user=ldEjzsgAAAAJ&view_op=list_works&sortby=pubdate'
@@ -67,5 +67,5 @@ theme = 'custom'
 
 [[menu.main]]
   name = 'RSS'
-  url = '/index.xml'
+  url = '/subscribe/'
   weight = 10

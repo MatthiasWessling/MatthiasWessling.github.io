@@ -24,6 +24,7 @@
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ else }}/index.xml{{ end }}">
 </head>
 <body>
     <!-- Header -->
