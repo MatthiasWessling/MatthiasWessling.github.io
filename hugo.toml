@@ -43,18 +43,23 @@ theme = 'custom'
   weight = 5
 
 [[menu.main]]
+  name = 'Graduates'
+  url = '/graduates/'
+  weight = 6
+
+[[menu.main]]
   name = 'News'
   url = '/news/'
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = 'Notebooks'
   url = '/notebooks/'
-  weight = 7
+  weight = 8
 
 [[menu.main]]
   name = 'CV'
   url = '/files/cv.pdf'
-  weight = 8
+  weight = 9
   [menu.main.params]
     download = true
