@@ -33,7 +33,7 @@ theme = 'custom'
   weight = 3
 
 [[menu.main]]
-  name = 'Patents & Products'
+  name = 'Patents'
   url = '/patents-products/'
   weight = 4
 

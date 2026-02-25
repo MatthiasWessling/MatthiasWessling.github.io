@@ -679,7 +679,7 @@ class GraduatesDirectory {
     }
 }
 
-// Patents & products list search and sorting
+// Patents list search and sorting
 class PatentsProductsDirectory {
     constructor() {
         this.list = document.getElementById('patents-products-list');
@@ -746,7 +746,7 @@ class PatentsProductsDirectory {
         if (this.resultsCount) {
             const total = this.entries.length;
             const visible = filtered.length;
-            this.resultsCount.textContent = `${visible} of ${total} patents/products`;
+            this.resultsCount.textContent = `${visible} of ${total} patents`;
         }
     }
 }

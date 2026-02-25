@@ -1,5 +1,5 @@
 +++
-title = "Patents & Products"
+title = "Patents"
 description = "Patents, prototypes, and product developments."
 +++
 
