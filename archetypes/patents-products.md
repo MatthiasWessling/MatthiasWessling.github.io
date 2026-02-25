@@ -2,13 +2,10 @@
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
 draft = true
-description = ''
+summary = ''
 image = ''
 image_alt = ''
 featured = false
 +++
 
-{{ .Params.description }}
-
-Reading
-Geometric art
+{{ .Params.summary }}

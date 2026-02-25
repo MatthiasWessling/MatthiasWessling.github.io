@@ -14,6 +14,7 @@ Disallow: /.git/
 # Allow search engines to index all content
 Allow: /blog/
 Allow: /research/
-Allow: /projects/
-Allow: /hobbies/
+Allow: /patents-products/
+Allow: /startups/
+Allow: /graduates/
 Allow: /news/

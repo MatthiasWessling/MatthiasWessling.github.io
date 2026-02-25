@@ -1,32 +1,40 @@
 {{ define "main" }}
 <div class="container">
-    <article class="hobby-single">
-        <header class="hobby-header">
+    <article class="news-single">
+        <header class="news-header">
             <h1>{{ .Title }}</h1>
-            <div class="hobby-meta">
+            <div class="news-meta">
                 <time>{{ .Date.Format "January 2, 2006" }}</time>
             </div>
         </header>
 
         {{ if .Params.image }}
-        <div class="hobby-image">
+        {{ $media := lower (.Params.image | default "") }}
+        <div class="news-single-media {{ if .Params.image_full_width }}news-single-media-full{{ end }}">
+            {{ if or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
+            <video controls class="news-video">
+                <source src="{{ .Params.image }}">
+                Your browser does not support the video tag.
+            </video>
+            {{ else }}
             <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
+            {{ end }}
         </div>
         {{ end }}
 
-        {{ if .Params.description }}
-        <section class="hobby-description">
-            <p class="lead">{{ .Params.description }}</p>
+        {{ if .Params.summary }}
+        <section class="news-summary">
+            <p class="lead">{{ .Params.summary }}</p>
         </section>
         {{ end }}
 
-        <div class="hobby-content">
+        <div class="news-content">
             {{ .Content }}
         </div>
 
-        <footer class="hobby-footer">
+        <footer class="news-footer">
             {{ if or .Prev .Next }}
-            <nav class="hobby-nav">
+            <nav class="news-nav">
                 {{ if .Prev }}
                 <a href="{{ .Prev.Permalink }}" class="nav-prev">
                     ← {{ .Prev.Title }}
@@ -41,7 +49,7 @@
             {{ end }}
 
             <div class="back-to-list">
-                <a href="/hobbies/">← Back to all hobbies</a>
+                <a href="/patents-products/">← Back to all patents and products</a>
             </div>
         </footer>
     </article>

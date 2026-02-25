@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="container">
+    <article class="news-single">
+        <header class="news-header">
+            <h1>{{ .Title }}</h1>
+            <div class="news-meta">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+            </div>
+        </header>
+
+        {{ if .Params.image }}
+        {{ $media := lower (.Params.image | default "") }}
+        <div class="news-single-media {{ if .Params.image_full_width }}news-single-media-full{{ end }}">
+            {{ if or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
+            <video controls class="news-video">
+                <source src="{{ .Params.image }}">
+                Your browser does not support the video tag.
+            </video>
+            {{ else }}
+            <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
+            {{ end }}
+        </div>
+        {{ end }}
+
+        {{ if .Params.summary }}
+        <section class="news-summary">
+            <p class="lead">{{ .Params.summary }}</p>
+        </section>
+        {{ end }}
+
+        <div class="news-content">
+            {{ .Content }}
+        </div>
+
+        <footer class="news-footer">
+            {{ if or .Prev .Next }}
+            <nav class="news-nav">
+                {{ if .Prev }}
+                <a href="{{ .Prev.Permalink }}" class="nav-prev">
+                    ← {{ .Prev.Title }}
+                </a>
+                {{ end }}
+                {{ if .Next }}
+                <a href="{{ .Next.Permalink }}" class="nav-next">
+                    {{ .Next.Title }} →
+                </a>
+                {{ end }}
+            </nav>
+            {{ end }}
+
+            <div class="back-to-list">
+                <a href="/graduates/">← Back to all graduates</a>
+            </div>
+        </footer>
+    </article>
+</div>
+{{ end }}

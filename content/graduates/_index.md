@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "Graduates"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 +++
 

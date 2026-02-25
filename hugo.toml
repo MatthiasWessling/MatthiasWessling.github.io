@@ -33,13 +33,13 @@ theme = 'custom'
   weight = 3
 
 [[menu.main]]
-  name = 'Projects'
-  url = '/projects/'
+  name = 'Patents & Products'
+  url = '/patents-products/'
   weight = 4
 
 [[menu.main]]
-  name = 'Hobbies'
-  url = '/hobbies/'
+  name = 'Startups'
+  url = '/startups/'
   weight = 5
 
 [[menu.main]]

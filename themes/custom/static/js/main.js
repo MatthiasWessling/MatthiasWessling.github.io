@@ -607,6 +607,222 @@ class NewsDirectory {
     }
 }
 
+// Graduates list search and sorting
+class GraduatesDirectory {
+    constructor() {
+        this.list = document.getElementById('graduates-list');
+        this.searchInput = document.getElementById('graduates-search');
+        this.sortSelect = document.getElementById('graduates-sort');
+        this.resultsCount = document.getElementById('graduates-results-count');
+        this.entries = [];
+
+        this.init();
+    }
+
+    init() {
+        if (!this.list || !this.searchInput || !this.sortSelect) {
+            return;
+        }
+
+        this.entries = Array.from(this.list.querySelectorAll('.graduates-entry'));
+        if (!this.entries.length) {
+            return;
+        }
+
+        this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        this.sortSelect.addEventListener('change', () => this.render());
+        this.render();
+    }
+
+    render() {
+        const query = this.searchInput.value.trim().toLowerCase();
+        const sortMode = this.sortSelect.value;
+
+        const filtered = this.entries.filter((entry) => {
+            const title = entry.dataset.title || '';
+            const summary = entry.dataset.summary || '';
+            return !query || title.includes(query) || summary.includes(query);
+        });
+
+        filtered.sort((a, b) => {
+            const dateA = Number(a.dataset.date || 0);
+            const dateB = Number(b.dataset.date || 0);
+            const titleA = (a.dataset.title || '').toLowerCase();
+            const titleB = (b.dataset.title || '').toLowerCase();
+
+            if (sortMode === 'oldest') {
+                return dateA - dateB;
+            }
+            if (sortMode === 'title-asc') {
+                return titleA.localeCompare(titleB);
+            }
+            if (sortMode === 'title-desc') {
+                return titleB.localeCompare(titleA);
+            }
+            // default: newest first
+            return dateB - dateA;
+        });
+
+        this.entries.forEach((entry) => {
+            entry.style.display = 'none';
+        });
+        filtered.forEach((entry) => {
+            entry.style.display = '';
+            this.list.appendChild(entry);
+        });
+
+        if (this.resultsCount) {
+            const total = this.entries.length;
+            const visible = filtered.length;
+            this.resultsCount.textContent = `${visible} of ${total} graduates`;
+        }
+    }
+}
+
+// Patents & products list search and sorting
+class PatentsProductsDirectory {
+    constructor() {
+        this.list = document.getElementById('patents-products-list');
+        this.searchInput = document.getElementById('patents-products-search');
+        this.sortSelect = document.getElementById('patents-products-sort');
+        this.resultsCount = document.getElementById('patents-products-results-count');
+        this.entries = [];
+
+        this.init();
+    }
+
+    init() {
+        if (!this.list || !this.searchInput || !this.sortSelect) {
+            return;
+        }
+
+        this.entries = Array.from(this.list.querySelectorAll('.patents-products-entry'));
+        if (!this.entries.length) {
+            return;
+        }
+
+        this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        this.sortSelect.addEventListener('change', () => this.render());
+        this.render();
+    }
+
+    render() {
+        const query = this.searchInput.value.trim().toLowerCase();
+        const sortMode = this.sortSelect.value;
+
+        const filtered = this.entries.filter((entry) => {
+            const title = entry.dataset.title || '';
+            const summary = entry.dataset.summary || '';
+            return !query || title.includes(query) || summary.includes(query);
+        });
+
+        filtered.sort((a, b) => {
+            const dateA = Number(a.dataset.date || 0);
+            const dateB = Number(b.dataset.date || 0);
+            const titleA = (a.dataset.title || '').toLowerCase();
+            const titleB = (b.dataset.title || '').toLowerCase();
+
+            if (sortMode === 'oldest') {
+                return dateA - dateB;
+            }
+            if (sortMode === 'title-asc') {
+                return titleA.localeCompare(titleB);
+            }
+            if (sortMode === 'title-desc') {
+                return titleB.localeCompare(titleA);
+            }
+            // default: newest first
+            return dateB - dateA;
+        });
+
+        this.entries.forEach((entry) => {
+            entry.style.display = 'none';
+        });
+        filtered.forEach((entry) => {
+            entry.style.display = '';
+            this.list.appendChild(entry);
+        });
+
+        if (this.resultsCount) {
+            const total = this.entries.length;
+            const visible = filtered.length;
+            this.resultsCount.textContent = `${visible} of ${total} patents/products`;
+        }
+    }
+}
+
+// Startup list search and sorting
+class StartupsDirectory {
+    constructor() {
+        this.list = document.getElementById('startups-list');
+        this.searchInput = document.getElementById('startups-search');
+        this.sortSelect = document.getElementById('startups-sort');
+        this.resultsCount = document.getElementById('startups-results-count');
+        this.entries = [];
+
+        this.init();
+    }
+
+    init() {
+        if (!this.list || !this.searchInput || !this.sortSelect) {
+            return;
+        }
+
+        this.entries = Array.from(this.list.querySelectorAll('.startups-entry'));
+        if (!this.entries.length) {
+            return;
+        }
+
+        this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        this.sortSelect.addEventListener('change', () => this.render());
+        this.render();
+    }
+
+    render() {
+        const query = this.searchInput.value.trim().toLowerCase();
+        const sortMode = this.sortSelect.value;
+
+        const filtered = this.entries.filter((entry) => {
+            const title = entry.dataset.title || '';
+            const summary = entry.dataset.summary || '';
+            return !query || title.includes(query) || summary.includes(query);
+        });
+
+        filtered.sort((a, b) => {
+            const dateA = Number(a.dataset.date || 0);
+            const dateB = Number(b.dataset.date || 0);
+            const titleA = (a.dataset.title || '').toLowerCase();
+            const titleB = (b.dataset.title || '').toLowerCase();
+
+            if (sortMode === 'oldest') {
+                return dateA - dateB;
+            }
+            if (sortMode === 'title-asc') {
+                return titleA.localeCompare(titleB);
+            }
+            if (sortMode === 'title-desc') {
+                return titleB.localeCompare(titleA);
+            }
+            // default: newest first
+            return dateB - dateA;
+        });
+
+        this.entries.forEach((entry) => {
+            entry.style.display = 'none';
+        });
+        filtered.forEach((entry) => {
+            entry.style.display = '';
+            this.list.appendChild(entry);
+        });
+
+        if (this.resultsCount) {
+            const total = this.entries.length;
+            const visible = filtered.length;
+            this.resultsCount.textContent = `${visible} of ${total} startups`;
+        }
+    }
+}
+
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize core functionality
@@ -620,6 +836,9 @@ document.addEventListener('DOMContentLoaded', () => {
     new GifSynchronizer();
     new NotebookDirectory();
     new NewsDirectory();
+    new GraduatesDirectory();
+    new PatentsProductsDirectory();
+    new StartupsDirectory();
 
     // Add any additional initialization here
     console.log('Personal website initialized successfully!');
