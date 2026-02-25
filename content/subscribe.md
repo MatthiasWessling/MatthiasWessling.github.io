@@ -9,7 +9,7 @@ Follow updates from this site using any RSS reader.
 
 ## One-click subscription
 
-- [Subscribe in Feedly](https://feedly.com/i/subscription/feed/https://matthiaswessling.github.io/index.xml)
+- [Subscribe in Feedly](https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fmatthiaswessling.github.io%2Findex.xml)
 - [Subscribe in Inoreader](https://www.inoreader.com/?add_feed=https://matthiaswessling.github.io/index.xml)
 - [Subscribe in NewsBlur](https://www.newsblur.com/?url=https://matthiaswessling.github.io/index.xml)
 
