@@ -201,13 +201,15 @@ class SmoothScroll {
             link.addEventListener('click', (e) => {
                 const href = link.getAttribute('href');
                 if (href && href !== '#') {
-                    const target = document.querySelector(href);
+                    const targetId = decodeURIComponent(href.slice(1));
+                    const target = document.getElementById(targetId);
                     if (target) {
                         e.preventDefault();
                         target.scrollIntoView({
                             behavior: 'smooth',
                             block: 'start'
                         });
+                        window.history.replaceState(null, '', href);
                     }
                 }
             });
