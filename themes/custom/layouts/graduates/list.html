@@ -9,10 +9,14 @@
         {{ end }}
     </header>
 
-    <div class="news-controls">
+    <div class="news-controls graduates-controls">
         <div class="news-search-wrap">
             <label for="graduates-search" class="news-control-label">Search</label>
-            <input id="graduates-search" type="search" placeholder="Search graduates by title or content" autocomplete="off">
+            <input id="graduates-search" type="search" placeholder="Search by graduate name or thesis title" autocomplete="off">
+        </div>
+        <div class="news-search-wrap">
+            <label for="graduates-topics-search" class="news-control-label">Topics</label>
+            <input id="graduates-topics-search" type="search" placeholder="Search thesis topics and keywords" autocomplete="off">
         </div>
         <div class="news-sort-wrap">
             <label for="graduates-sort" class="news-control-label">Sort</label>
@@ -29,10 +33,18 @@
 
     <div id="graduates-list" class="news-list">
         {{ range .Pages.ByDate.Reverse }}
+        {{ .Scratch.Set "thesisTitle" (.Params.thesis_title | default "") }}
+        {{ if eq (.Scratch.Get "thesisTitle") "" }}
+        {{ with findRE "(?m)^- Title: (.+)$" .RawContent 1 }}
+        {{ .Scratch.Set "thesisTitle" (replaceRE "(?m)^- Title:\\s*" "" (index . 0)) }}
+        {{ end }}
+        {{ end }}
         <article
             class="news-item graduates-entry"
             data-title="{{ .Title | lower }}"
+            data-thesis-title="{{ (.Scratch.Get "thesisTitle") | lower }}"
             data-summary="{{ (printf "%s %s" (.Params.summary | default "") (.Plain | default "")) | lower }}"
+            data-topics="{{ .Plain | lower }}"
             data-date="{{ .Date.Unix }}"
         >
             <div class="news-entry-layout">
@@ -45,6 +57,9 @@
                         {{ end }}
                     </div>
                     <h2 class="news-title">{{ .Title }}</h2>
+                    {{ if ne (.Scratch.Get "thesisTitle") "" }}
+                    <p class="news-summary"><strong>Thesis:</strong> {{ .Scratch.Get "thesisTitle" }}</p>
+                    {{ end }}
                     {{ if .Params.summary }}
                     <p class="news-summary">{{ .Params.summary }}</p>
                     {{ end }}

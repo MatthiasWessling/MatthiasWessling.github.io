@@ -755,6 +755,10 @@ a:hover {
     align-items: end;
 }
 
+.graduates-controls {
+    grid-template-columns: 1fr 1fr auto;
+}
+
 .news-control-label {
     display: block;
     font-size: 0.85rem;

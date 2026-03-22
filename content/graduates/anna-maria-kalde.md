@@ -2,9 +2,10 @@
 title = 'Anna Maria Kalde'
 date = '2022-07-07'
 graduate_date = '2022-07-07'
+thesis_title = 'Interactive porous networks for immiscible fluid-fluid displacement'
 draft = false
 summary = 'Graduate profile with thesis, date, links, and summary.'
-image = ''
+image = '/images/graduates/anna-maria-kalde.jpg'
 image_alt = 'Portrait of Anna Maria Kalde'
 featured = false
 +++

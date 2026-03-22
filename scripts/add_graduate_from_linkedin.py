@@ -231,6 +231,7 @@ def build_markdown(
     safe_image = (image_url or "").replace("'", "\\'")
     safe_image_alt = image_alt.replace("'", "\\'")
     safe_graduate_date = (graduate_date or "").replace("'", "\\'")
+    safe_thesis_title = (thesis_title or "").replace("'", "\\'")
 
     thesis_line = (
         f"- Thesis: [{thesis_url}]({thesis_url})"
@@ -265,6 +266,7 @@ def build_markdown(
         f"title = '{safe_title}'\n"
         f"date = '{date_str}'\n"
         f"graduate_date = '{safe_graduate_date}'\n"
+        f"thesis_title = '{safe_thesis_title}'\n"
         "draft = false\n"
         f"summary = '{safe_summary}'\n"
         f"image = '{safe_image}'\n"

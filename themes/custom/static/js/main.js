@@ -625,6 +625,7 @@ class GraduatesDirectory {
     constructor() {
         this.list = document.getElementById('graduates-list');
         this.searchInput = document.getElementById('graduates-search');
+        this.topicsInput = document.getElementById('graduates-topics-search');
         this.sortSelect = document.getElementById('graduates-sort');
         this.resultsCount = document.getElementById('graduates-results-count');
         this.entries = [];
@@ -643,18 +644,26 @@ class GraduatesDirectory {
         }
 
         this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        if (this.topicsInput) {
+            this.topicsInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        }
         this.sortSelect.addEventListener('change', () => this.render());
         this.render();
     }
 
     render() {
         const query = this.searchInput.value.trim().toLowerCase();
+        const topicsQuery = (this.topicsInput?.value || '').trim().toLowerCase();
         const sortMode = this.sortSelect.value;
 
         const filtered = this.entries.filter((entry) => {
             const title = entry.dataset.title || '';
+            const thesisTitle = entry.dataset.thesisTitle || '';
             const summary = entry.dataset.summary || '';
-            return !query || title.includes(query) || summary.includes(query);
+            const topics = entry.dataset.topics || '';
+            const matchesText = !query || title.includes(query) || thesisTitle.includes(query) || summary.includes(query);
+            const matchesTopics = !topicsQuery || topics.includes(topicsQuery);
+            return matchesText && matchesTopics;
         });
 
         filtered.sort((a, b) => {
