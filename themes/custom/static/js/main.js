@@ -470,6 +470,7 @@ class NotebookDirectory {
     constructor() {
         this.list = document.getElementById('notebooks-list');
         this.searchInput = document.getElementById('notebooks-search');
+        this.categorySelect = document.getElementById('notebooks-category');
         this.sortSelect = document.getElementById('notebooks-sort');
         this.resultsCount = document.getElementById('notebooks-results-count');
         this.entries = [];
@@ -488,18 +489,28 @@ class NotebookDirectory {
         }
 
         this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        if (this.categorySelect) {
+            this.categorySelect.addEventListener('change', () => this.render());
+        }
         this.sortSelect.addEventListener('change', () => this.render());
         this.render();
     }
 
     render() {
         const query = this.searchInput.value.trim().toLowerCase();
+        const selectedCategory = (this.categorySelect?.value || 'all').toLowerCase();
         const sortMode = this.sortSelect.value;
 
         const filtered = this.entries.filter((entry) => {
             const title = entry.dataset.title || '';
             const summary = entry.dataset.summary || '';
-            return !query || title.includes(query) || summary.includes(query);
+            const categories = (entry.dataset.categories || '')
+                .split(',')
+                .map((category) => category.trim().toLowerCase())
+                .filter(Boolean);
+            const matchesText = !query || title.includes(query) || summary.includes(query);
+            const matchesCategory = selectedCategory === 'all' || categories.includes(selectedCategory);
+            return matchesText && matchesCategory;
         });
 
         filtered.sort((a, b) => {

@@ -824,7 +824,7 @@ a:hover {
 /* Notebooks controls */
 .notebooks-controls {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr auto auto;
     gap: 1rem;
     max-width: 800px;
     margin: 0 auto 1rem auto;
@@ -839,6 +839,7 @@ a:hover {
 }
 
 .notebooks-search-wrap input,
+.notebooks-category-wrap select,
 .notebooks-sort-wrap select {
     width: 100%;
     min-height: 2.5rem;
@@ -851,6 +852,10 @@ a:hover {
 }
 
 .notebooks-sort-wrap select {
+    min-width: 180px;
+}
+
+.notebooks-category-wrap select {
     min-width: 180px;
 }
 
@@ -886,6 +891,24 @@ a:hover {
 .notebook-single-media {
     max-width: 560px;
     margin: 0 0 1rem 0;
+}
+
+.notebook-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.notebook-category {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    background-color: var(--code-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
 }
 
 /* Single Page Styles */
@@ -1293,6 +1316,10 @@ code {
     }
 
     .notebooks-sort-wrap select {
+        min-width: 0;
+    }
+
+    .notebooks-category-wrap select {
         min-width: 0;
     }
 

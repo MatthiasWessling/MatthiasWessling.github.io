@@ -5,6 +5,13 @@
             <h1>{{ .Title }}</h1>
             <div class="content-meta">
                 <time>{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.categories }}
+                <div class="notebook-categories">
+                    {{ range .Params.categories }}
+                    <span class="notebook-category">{{ . | title }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
             </div>
         </header>
 

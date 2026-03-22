@@ -14,6 +14,24 @@
             <label for="notebooks-search" class="notebooks-control-label">Search</label>
             <input id="notebooks-search" type="search" placeholder="Search notebooks by title or summary" autocomplete="off">
         </div>
+        <div class="notebooks-category-wrap">
+            <label for="notebooks-category" class="notebooks-control-label">Category</label>
+            {{ $allCategories := slice }}
+            {{ range .Pages }}
+                {{ with .Params.categories }}
+                    {{ range . }}
+                        {{ $allCategories = $allCategories | append (lower .) }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ $allCategories = $allCategories | uniq | sort }}
+            <select id="notebooks-category">
+                <option value="all">All categories</option>
+                {{ range $allCategories }}
+                <option value="{{ . }}">{{ . | title }}</option>
+                {{ end }}
+            </select>
+        </div>
         <div class="notebooks-sort-wrap">
             <label for="notebooks-sort" class="notebooks-control-label">Sort</label>
             <select id="notebooks-sort">
@@ -29,11 +47,18 @@
 
     <div id="notebooks-list" class="news-list">
         {{ range .Pages.ByDate.Reverse }}
+        {{ $entryCategories := slice }}
+        {{ with .Params.categories }}
+            {{ range . }}
+                {{ $entryCategories = $entryCategories | append (lower .) }}
+            {{ end }}
+        {{ end }}
         <article
             class="news-item notebook-entry"
             data-title="{{ .Title | lower }}"
             data-summary="{{ .Params.summary | default "" | lower }}"
             data-date="{{ .Date.Unix }}"
+            data-categories="{{ delimit $entryCategories "," }}"
         >
             <div class="notebook-entry-layout">
                 {{ if .Params.image }}
@@ -57,6 +82,13 @@
                     <h2 class="news-title">{{ .Title }}</h2>
                     {{ if .Params.summary }}
                     <p class="news-summary">{{ .Params.summary }}</p>
+                    {{ end }}
+                    {{ if gt (len $entryCategories) 0 }}
+                    <div class="notebook-categories">
+                        {{ range $entryCategories }}
+                        <span class="notebook-category">{{ . | title }}</span>
+                        {{ end }}
+                    </div>
                     {{ end }}
                     <div class="project-links">
                         {{ if .Params.notebooklm_url }}
