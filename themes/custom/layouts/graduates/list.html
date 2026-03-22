@@ -49,6 +49,24 @@
         >
             <div class="news-entry-layout">
                 <div class="news-main">
+                    <div class="graduates-entry-header">
+                        <div class="graduates-entry-header-text">
+                            <h2 class="news-title">{{ .Title }}</h2>
+                            {{ if ne (.Scratch.Get "thesisTitle") "" }}
+                            <p class="news-summary"><strong>Thesis:</strong> {{ .Scratch.Get "thesisTitle" }}</p>
+                            {{ else if .Params.summary }}
+                            <p class="news-summary">{{ .Params.summary }}</p>
+                            {{ end }}
+                        </div>
+                        {{ if .Params.image }}
+                        <img
+                            src="{{ .Params.image }}"
+                            alt="{{ .Params.image_alt | default .Title }}"
+                            class="graduates-list-avatar clickable-image"
+                        >
+                        {{ end }}
+                    </div>
+
                     <div class="news-meta">
                         {{ if .Params.graduate_date }}
                         <time class="news-date">Graduation Date: {{ .Params.graduate_date }}</time>
@@ -56,13 +74,6 @@
                         <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
                         {{ end }}
                     </div>
-                    <h2 class="news-title">{{ .Title }}</h2>
-                    {{ if ne (.Scratch.Get "thesisTitle") "" }}
-                    <p class="news-summary"><strong>Thesis:</strong> {{ .Scratch.Get "thesisTitle" }}</p>
-                    {{ end }}
-                    {{ if .Params.summary }}
-                    <p class="news-summary">{{ .Params.summary }}</p>
-                    {{ end }}
                     <a href="{{ .Permalink }}" class="read-more">Details →</a>
                 </div>
             </div>
