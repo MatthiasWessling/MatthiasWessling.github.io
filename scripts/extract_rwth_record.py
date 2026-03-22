@@ -17,10 +17,11 @@ import argparse
 import html
 import json
 import re
+import textwrap
 import urllib.parse
 import urllib.request
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 
 USER_AGENT = (
@@ -198,22 +199,117 @@ def extract_advisors(page_text: str) -> Optional[str]:
     return advisors
 
 
+def extract_graduate_date(page_text: str) -> Optional[str]:
+    return first_match(
+        r"Tag der mündlichen Prüfung/Habilitation\s+(\d{4}-\d{2}-\d{2})",
+        page_text,
+        re.I,
+    )
+
+
+def split_sentences(text: str) -> List[str]:
+    items = re.split(r"(?<=[.!?])\s+", text)
+    cleaned: List[str] = []
+    for item in items:
+        sentence = re.sub(r"\s+", " ", item).strip()
+        if sentence:
+            cleaned.append(sentence)
+    return cleaned
+
+
+def shorten_sentence(sentence: str, width: int = 170) -> str:
+    sentence = sentence.strip()
+    if len(sentence) <= width:
+        return sentence
+    return textwrap.shorten(sentence, width=width, placeholder="...")
+
+
+def extract_abstract_text(page_text: str) -> Optional[str]:
+    # Capture the abstract block between "Kurzfassung" and "OpenAccess".
+    block = first_match(r"Kurzfassung\s+(.+?)\s+OpenAccess:", page_text, flags=re.I)
+    if not block:
+        return None
+
+    # Prefer English abstract if available.
+    english_anchor = re.search(r"Porous media plays a significant role", block, flags=re.I)
+    if english_anchor:
+        block = block[english_anchor.start() :]
+    return re.sub(r"\s+", " ", block).strip()
+
+
+def condense_abstract_to_bullets(abstract_text: Optional[str], max_points: int = 5) -> List[str]:
+    if not abstract_text:
+        return []
+
+    sentences = split_sentences(abstract_text)
+    if not sentences:
+        return []
+
+    useful_sentences: List[str] = []
+    for sentence in sentences:
+        lower = sentence.lower()
+        if len(sentence) < 45:
+            continue
+        if lower.startswith(("go ", "rate this document", "record created")):
+            continue
+        useful_sentences.append(sentence)
+
+    if not useful_sentences:
+        return []
+
+    keyword_groups = [
+        ("scope", ["porous media", "electrochemical co2 reduction", "ecco2rr"]),
+        ("challenge", ["unclear", "hypothesized", "triple-phase boundary", "tpb"]),
+        ("method", ["microfluidics", "clsm", "flim", "developed"]),
+        ("result", ["overall, it could be shown", "it was shown", "measurements showed"]),
+        ("impact", ["tailor-made design", "optimize", "efficiency", "selectivity"]),
+    ]
+
+    selected: List[str] = []
+    for _, keys in keyword_groups:
+        for sentence in useful_sentences:
+            lower = sentence.lower()
+            if any(key in lower for key in keys):
+                compact = shorten_sentence(sentence)
+                if compact not in selected:
+                    selected.append(compact)
+                break
+        if len(selected) >= max_points:
+            return selected[:max_points]
+
+    for sentence in useful_sentences:
+        compact = shorten_sentence(sentence)
+        if compact not in selected:
+            selected.append(compact)
+        if len(selected) >= max_points:
+            break
+
+    return selected[:max_points]
+
+
 def extract_rwth_metadata(url: str) -> Dict[str, Any]:
     validated_url = validate_rwth_record_url(url)
     raw_html = fetch_html(validated_url)
     text = strip_tags(raw_html)
 
+    thesis_title = extract_title(raw_html, text)
+    abstract_text = extract_abstract_text(text)
+    summary_bullets = condense_abstract_to_bullets(abstract_text, max_points=5)
+
     result: Dict[str, Any] = {
         "source_url": validated_url,
         "record_id": extract_record_id(validated_url, text),
-        "title": extract_title(raw_html, text),
+        "title": thesis_title,
+        "thesis_title": thesis_title,
         "author": extract_author(text),
         "year": extract_year(text),
+        "graduate_date": extract_graduate_date(text),
         "thesis_type": extract_thesis_type(text),
         "doi": extract_doi(text),
         "pdf_url": extract_pdf_url(raw_html, text),
         "language": extract_language(text),
         "advisors": extract_advisors(text),
+        "summary_bullets": summary_bullets,
     }
     return result
 
@@ -225,6 +321,7 @@ def to_markdown(data: Dict[str, Any]) -> str:
         ("Title", data.get("title")),
         ("Author", data.get("author")),
         ("Year", data.get("year")),
+        ("Graduate Date", data.get("graduate_date")),
         ("Thesis Type", data.get("thesis_type")),
         ("DOI", data.get("doi")),
         ("PDF URL", data.get("pdf_url")),
@@ -236,6 +333,11 @@ def to_markdown(data: Dict[str, Any]) -> str:
     for key, value in rows:
         if value:
             lines.append(f"- **{key}:** {value}")
+    bullets = data.get("summary_bullets") or []
+    if bullets:
+        lines.append("- **Summary (condensed):**")
+        for item in bullets:
+            lines.append(f"  - {item}")
     return "\n".join(lines)
 
 

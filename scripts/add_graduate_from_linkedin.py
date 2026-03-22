@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import html
+import mimetypes
 import re
 import urllib.parse
 import urllib.request
@@ -32,6 +33,7 @@ from extract_rwth_record import extract_rwth_metadata
 
 
 DEFAULT_OUTPUT_DIR = "content/graduates"
+DEFAULT_IMAGE_DIR = "static/images/graduates"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -152,27 +154,102 @@ def discover_thesis_url(person_name: str) -> Optional[str]:
     return best_url
 
 
+def extract_linkedin_photo_url(linkedin_url: str) -> Optional[str]:
+    """
+    Best-effort extraction of public profile image from LinkedIn metadata tags.
+    """
+    try:
+        page = fetch_html(linkedin_url)
+    except Exception:
+        return None
+
+    for pattern in [
+        r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"',
+        r'<meta[^>]+name="twitter:image"[^>]+content="([^"]+)"',
+    ]:
+        match = re.search(pattern, page, flags=re.I)
+        if match:
+            url = html.unescape(match.group(1).strip())
+            if url.startswith("http://") or url.startswith("https://"):
+                return url
+    return None
+
+
+def _image_extension_from_url_or_type(image_url: str, content_type: str) -> str:
+    path = urllib.parse.urlparse(image_url).path
+    ext = Path(path).suffix.lower()
+    if ext in {".jpg", ".jpeg", ".png", ".webp", ".gif"}:
+        return ext
+    guessed = mimetypes.guess_extension(content_type.split(";")[0].strip()) if content_type else None
+    if guessed in {".jpg", ".jpeg", ".png", ".webp", ".gif"}:
+        return guessed
+    return ".jpg"
+
+
+def download_profile_image(
+    image_url: str,
+    slug: str,
+    image_dir: Path,
+    dry_run: bool,
+) -> Optional[str]:
+    """
+    Download profile image and return website path (e.g. /images/graduates/name.jpg).
+    """
+    if dry_run:
+        # In dry-run we do not write files.
+        ext = Path(urllib.parse.urlparse(image_url).path).suffix.lower() or ".jpg"
+        return f"/images/graduates/{slug}{ext}"
+
+    image_dir.mkdir(parents=True, exist_ok=True)
+    req = urllib.request.Request(image_url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        content_type = resp.headers.get("Content-Type", "")
+        ext = _image_extension_from_url_or_type(image_url, content_type)
+        image_bytes = resp.read()
+
+    target = image_dir / f"{slug}{ext}"
+    target.write_bytes(image_bytes)
+    return f"/images/graduates/{target.name}"
+
+
 def build_markdown(
     title: str,
     linkedin_url: str,
     thesis_url: Optional[str],
+    thesis_title: Optional[str],
+    graduate_date: Optional[str],
+    thesis_summary_bullets: List[str],
     summary: str,
+    image_url: Optional[str],
+    image_alt: str,
     rwth_data: Optional[Dict[str, Any]] = None,
 ) -> str:
     date_str = dt.date.today().isoformat()
     safe_title = title.replace("'", "\\'")
     safe_summary = summary.replace("'", "\\'")
+    safe_image = (image_url or "").replace("'", "\\'")
+    safe_image_alt = image_alt.replace("'", "\\'")
 
     thesis_line = (
         f"- Thesis: [{thesis_url}]({thesis_url})"
         if thesis_url
         else "- Thesis: _Not found automatically. Add manually._"
     )
-    body = (
-        "## Links\n\n"
-        f"{thesis_line}\n"
-        f"- LinkedIn: [{linkedin_url}]({linkedin_url})\n"
-    )
+    body = "## Thesis\n\n"
+    if thesis_title:
+        body += f"- Title: {thesis_title}\n"
+    if graduate_date:
+        body += f"- Graduate Date: {graduate_date}\n"
+    body += "\n"
+    if thesis_summary_bullets:
+        body += "### Condensed Summary\n\n"
+        for bullet in thesis_summary_bullets:
+            body += f"- {bullet}\n"
+        body += "\n"
+
+    body += "## Links\n\n"
+    body += f"{thesis_line}\n"
+    body += f"- LinkedIn: [{linkedin_url}]({linkedin_url})\n"
     if rwth_data:
         record_url = rwth_data.get("source_url")
         doi = rwth_data.get("doi")
@@ -187,8 +264,8 @@ def build_markdown(
         f"date = '{date_str}'\n"
         "draft = false\n"
         f"summary = '{safe_summary}'\n"
-        "image = ''\n"
-        "image_alt = ''\n"
+        f"image = '{safe_image}'\n"
+        f"image_alt = '{safe_image_alt}'\n"
         "featured = false\n"
         "+++\n\n"
         f"{body}"
@@ -200,6 +277,10 @@ def write_graduate_entry(
     name: str,
     linkedin_url: str,
     thesis_url: Optional[str],
+    thesis_title: Optional[str],
+    graduate_date: Optional[str],
+    thesis_summary_bullets: List[str],
+    image_url: Optional[str],
     rwth_data: Optional[Dict[str, Any]],
     overwrite: bool,
     dry_run: bool,
@@ -208,8 +289,19 @@ def write_graduate_entry(
     filename = slugify(name) + ".md"
     out_file = output_dir / filename
 
-    summary = "Graduate profile with thesis and LinkedIn references."
-    content = build_markdown(name, linkedin_url, thesis_url, summary, rwth_data)
+    summary = "Graduate profile with thesis, date, links, and summary."
+    content = build_markdown(
+        title=name,
+        linkedin_url=linkedin_url,
+        thesis_url=thesis_url,
+        thesis_title=thesis_title,
+        graduate_date=graduate_date,
+        thesis_summary_bullets=thesis_summary_bullets,
+        summary=summary,
+        image_url=image_url,
+        image_alt=f"Portrait of {name}",
+        rwth_data=rwth_data,
+    )
 
     if out_file.exists() and not overwrite:
         raise FileExistsError(
@@ -262,6 +354,16 @@ def parse_args() -> argparse.Namespace:
         help="RWTH Publications record URL (optional; used to extract thesis/PDF metadata)",
     )
     parser.add_argument(
+        "--image-dir",
+        default=DEFAULT_IMAGE_DIR,
+        help=f"Where to save downloaded profile photos (default: {DEFAULT_IMAGE_DIR})",
+    )
+    parser.add_argument(
+        "--photo-url",
+        default="",
+        help="Optional direct profile image URL (used if LinkedIn metadata does not expose one)",
+    )
+    parser.add_argument(
         "--out-dir",
         default=DEFAULT_OUTPUT_DIR,
         help=f"Output directory (default: {DEFAULT_OUTPUT_DIR})",
@@ -297,6 +399,10 @@ def main() -> int:
 
     name = args.name.strip() or extract_name_from_linkedin(args.linkedin)
     thesis_url = args.thesis.strip() or None
+    thesis_title: Optional[str] = None
+    graduate_date: Optional[str] = None
+    thesis_summary_bullets: List[str] = []
+    image_url: Optional[str] = None
     rwth_data: Optional[Dict[str, Any]] = None
 
     if args.rwth_url.strip():
@@ -314,6 +420,9 @@ def main() -> int:
                 thesis_url = rwth_data.get("pdf_url") or rwth_data.get("source_url")
                 if thesis_url:
                     print(f"Using thesis URL from RWTH metadata: {thesis_url}")
+            thesis_title = (rwth_data.get("thesis_title") or rwth_data.get("title") or "").strip() or None
+            graduate_date = (rwth_data.get("graduate_date") or "").strip() or None
+            thesis_summary_bullets = list(rwth_data.get("summary_bullets") or [])
 
     if not thesis_url:
         print("Searching for thesis URL from public web results...")
@@ -323,6 +432,23 @@ def main() -> int:
         else:
             print("No thesis URL found automatically.")
 
+    print("Extracting profile photo from LinkedIn metadata...")
+    linkedin_photo_url = args.photo_url.strip() or extract_linkedin_photo_url(args.linkedin)
+    if linkedin_photo_url:
+        try:
+            image_url = download_profile_image(
+                image_url=linkedin_photo_url,
+                slug=slugify(name),
+                image_dir=Path(args.image_dir),
+                dry_run=args.dry_run,
+            )
+            if image_url:
+                print(f"Saved profile image: {image_url}")
+        except Exception as exc:
+            print(f"Warning: could not download LinkedIn photo ({exc}).")
+    else:
+        print("No public LinkedIn profile image found.")
+
     out_dir = Path(args.out_dir)
     try:
         out_file = write_graduate_entry(
@@ -330,6 +456,10 @@ def main() -> int:
             name=name,
             linkedin_url=args.linkedin,
             thesis_url=thesis_url,
+            thesis_title=thesis_title,
+            graduate_date=graduate_date,
+            thesis_summary_bullets=thesis_summary_bullets,
+            image_url=image_url,
             rwth_data=rwth_data,
             overwrite=args.overwrite,
             dry_run=args.dry_run,
