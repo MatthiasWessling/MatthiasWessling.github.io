@@ -1,6 +1,6 @@
 +++
 title = "News"
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+description = "Here you will find some news and developments I am working on"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+

@@ -1,6 +1,5 @@
 +++
 title = "Blog"
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+description = "On our papers"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
