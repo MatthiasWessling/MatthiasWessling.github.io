@@ -821,6 +821,29 @@ a:hover {
     object-fit: contain;
 }
 
+/* Graduates single page header */
+.graduates-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.graduates-header-main {
+    flex: 1;
+    min-width: 0;
+}
+
+.graduates-profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid var(--accent-color);
+    flex-shrink: 0;
+}
+
 /* Notebooks controls */
 .notebooks-controls {
     display: grid;
@@ -1304,6 +1327,16 @@ code {
 
     .news-entry-layout {
         grid-template-columns: 1fr;
+    }
+
+    .graduates-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .graduates-profile-photo {
+        width: 100px;
+        height: 100px;
     }
 
     .news-media img,

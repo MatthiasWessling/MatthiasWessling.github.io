@@ -1,6 +1,7 @@
 +++
 title = 'Sebastian Brosch'
 date = '2026-03-22'
+graduate_date = '2026-02-03'
 draft = false
 summary = 'Graduate profile with thesis, date, links, and summary.'
 image = '/images/graduates/sebastian-brosch.jpg'

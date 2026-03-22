@@ -1,24 +1,32 @@
 {{ define "main" }}
 <div class="container">
-    <article class="news-single">
-        <header class="news-header">
-            <h1>{{ .Title }}</h1>
-            <div class="news-meta">
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
+    <article class="news-single graduates-single">
+        {{ $media := lower (.Params.image | default "") }}
+        {{ $isVideo := or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
+
+        <header class="news-header graduates-header">
+            <div class="graduates-header-main">
+                <h1>{{ .Title }}</h1>
+                <div class="news-meta graduates-meta">
+                    {{ if .Params.graduate_date }}
+                    <time>Graduation Date: {{ .Params.graduate_date }}</time>
+                    {{ else }}
+                    <time>{{ .Date.Format "January 2, 2006" }}</time>
+                    {{ end }}
+                </div>
             </div>
+
+            {{ if and .Params.image (not $isVideo) }}
+            <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="graduates-profile-photo clickable-image">
+            {{ end }}
         </header>
 
-        {{ if .Params.image }}
-        {{ $media := lower (.Params.image | default "") }}
+        {{ if and .Params.image $isVideo }}
         <div class="news-single-media {{ if .Params.image_full_width }}news-single-media-full{{ end }}">
-            {{ if or (strings.HasSuffix $media ".mp4") (strings.HasSuffix $media ".webm") (strings.HasSuffix $media ".ogg") }}
             <video controls class="news-video">
                 <source src="{{ .Params.image }}">
                 Your browser does not support the video tag.
             </video>
-            {{ else }}
-            <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
-            {{ end }}
         </div>
         {{ end }}
 
