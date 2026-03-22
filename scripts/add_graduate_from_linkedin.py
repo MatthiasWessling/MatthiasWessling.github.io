@@ -224,7 +224,8 @@ def build_markdown(
     image_alt: str,
     rwth_data: Optional[Dict[str, Any]] = None,
 ) -> str:
-    date_str = dt.date.today().isoformat()
+    # Prefer graduation date as the content date to avoid storing generation date.
+    date_str = graduate_date or dt.date.today().isoformat()
     safe_title = title.replace("'", "\\'")
     safe_summary = summary.replace("'", "\\'")
     safe_image = (image_url or "").replace("'", "\\'")
