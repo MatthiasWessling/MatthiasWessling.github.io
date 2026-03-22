@@ -6,7 +6,12 @@
 
         <header class="news-header graduates-header">
             <div class="graduates-header-main">
-                <h1>{{ .Title }}</h1>
+                <div class="graduates-title-row">
+                    <h1>{{ .Title }}</h1>
+                    {{ if and .Params.image (not $isVideo) }}
+                    <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="graduates-profile-photo clickable-image">
+                    {{ end }}
+                </div>
                 <div class="news-meta graduates-meta">
                     {{ if .Params.graduate_date }}
                     <time>Graduation Date: {{ .Params.graduate_date }}</time>
@@ -15,10 +20,6 @@
                     {{ end }}
                 </div>
             </div>
-
-            {{ if and .Params.image (not $isVideo) }}
-            <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="graduates-profile-photo clickable-image">
-            {{ end }}
         </header>
 
         {{ if and .Params.image $isVideo }}

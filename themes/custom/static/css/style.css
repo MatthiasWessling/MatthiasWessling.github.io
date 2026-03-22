@@ -823,24 +823,31 @@ a:hover {
 
 /* Graduates single page header */
 .graduates-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
+    display: block;
 }
 
 .graduates-header-main {
-    flex: 1;
     min-width: 0;
 }
 
+.graduates-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.graduates-title-row h1 {
+    margin-bottom: 0;
+}
+
 .graduates-profile-photo {
-    width: 120px;
-    height: 120px;
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: 3px solid var(--accent-color);
+    border: 2px solid var(--accent-color);
     flex-shrink: 0;
 }
 
@@ -1329,14 +1336,9 @@ code {
         grid-template-columns: 1fr;
     }
 
-    .graduates-header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     .graduates-profile-photo {
-        width: 100px;
-        height: 100px;
+        width: 56px;
+        height: 56px;
     }
 
     .news-media img,
