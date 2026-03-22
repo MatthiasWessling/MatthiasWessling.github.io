@@ -3,8 +3,9 @@ title = "Wetting"
 date = "2026-02-23"
 draft = false
 summary = "On the wetting phenomena in membrane processes and electrochemical membrane reactors"
-notebooklm_url = "https://notebooklm.google.com/notebook/f40d3058-f252-41c1-ab51-8baa32908cdc?authuser=1&hl=en"
+notebooklm_url = "https://notebooklm.google.com/notebook/f40d3058-f252-41c1-ab51-8baa32908cdc/preview"
 image = '/images/notebooks/wetting.png'
+categories = ["science"]
 +++
 
 
