@@ -230,11 +230,52 @@ def extract_abstract_text(page_text: str) -> Optional[str]:
     if not block:
         return None
 
-    # Prefer English abstract if available.
-    english_anchor = re.search(r"Porous media plays a significant role", block, flags=re.I)
-    if english_anchor:
-        block = block[english_anchor.start() :]
-    return re.sub(r"\s+", " ", block).strip()
+    block = re.sub(r"\s+", " ", block).strip()
+    sentences = split_sentences(block)
+    if not sentences:
+        return block
+
+    # Known starts observed in RWTH bilingual abstracts.
+    english_starts = [
+        "Porous media plays a significant role",
+        "Immiscible fluid-fluid displacement",
+        "Gas diffusion electrodes",
+        "This thesis",
+    ]
+    for marker in english_starts:
+        marker_match = re.search(re.escape(marker), block, flags=re.I)
+        if marker_match:
+            return block[marker_match.start() :].strip()
+
+    english_stopwords = {
+        "the", "and", "of", "to", "in", "is", "for", "with", "this", "that",
+        "from", "are", "as", "by", "on", "was", "were", "be", "or", "at",
+    }
+    german_markers = {
+        "und", "der", "die", "das", "mit", "von", "für", "wird", "durch",
+        "diese", "arbeit", "nicht", "sowie", "zeigt", "werden", "einer",
+    }
+
+    def sentence_score(sentence: str) -> int:
+        words = re.findall(r"[a-zA-Z]+", sentence.lower())
+        english_hits = sum(1 for word in words if word in english_stopwords)
+        german_hits = sum(1 for word in words if word in german_markers)
+        umlaut_penalty = 1 if re.search(r"[äöüÄÖÜß]", sentence) else 0
+        return english_hits - german_hits - umlaut_penalty
+
+    # Score sentence windows and cut to the most likely English start.
+    best_idx = 0
+    best_score = -10_000
+    for idx in range(len(sentences)):
+        window = sentences[idx : idx + 3]
+        score = sum(sentence_score(item) for item in window)
+        if score > best_score:
+            best_score = score
+            best_idx = idx
+
+    if best_score > 0:
+        return " ".join(sentences[best_idx:]).strip()
+    return block
 
 
 def condense_abstract_to_bullets(abstract_text: Optional[str], max_points: int = 5) -> List[str]:
@@ -258,11 +299,11 @@ def condense_abstract_to_bullets(abstract_text: Optional[str], max_points: int =
         return []
 
     keyword_groups = [
-        ("scope", ["porous media", "electrochemical co2 reduction", "ecco2rr"]),
-        ("challenge", ["unclear", "hypothesized", "triple-phase boundary", "tpb"]),
-        ("method", ["microfluidics", "clsm", "flim", "developed"]),
+        ("scope", ["porous media", "electrochemical co2 reduction", "gas diffusion electrodes", "two-phase flow"]),
+        ("challenge", ["unclear", "hypothesized", "triple-phase boundary", "tpb", "challenge"]),
+        ("method", ["microfluidics", "clsm", "flim", "developed", "transformer", "simulations"]),
         ("result", ["overall, it could be shown", "it was shown", "measurements showed"]),
-        ("impact", ["tailor-made design", "optimize", "efficiency", "selectivity"]),
+        ("impact", ["tailor-made design", "optimize", "efficiency", "selectivity", "fundamentally shifting"]),
     ]
 
     selected: List[str] = []

@@ -19,9 +19,9 @@ featured = false
 
 - Immiscible fluid-fluid displacement in porous media is omnipresent in natural and technological processes, ranging from rain percolation over oil recovery to...
 - However, short-cut pathways arise when a fluid displaces a more viscous one, limiting the process efficiency.
-- Fluid-Fluid Verdrängung in porösen Medien findet sich in zahlreichen natürlichen und industriellen Prozessen, wie Regenwasserversickerung, Ölförderung, oder...
-- Wenn dabei ein höherviskoseres Fluid von einem Niedrigviskoseren verdrängt wird entstehen Kurzschlussströmungen, die die Effizienz dieser Prozesse mindern.
-- Bisher hat sich die Forschung vornehmlich auf Benetzbarkeit, Porengröße und Zugabe von Tensiden konzentriert um Instabilitäten zu minimieren.
+- Until now, research has been mainly focusing on the influence of wettability, pore size, and the addition of surfactants to stabilize displacement processes.
+- Numerous studies have been presented on either a macroscopic scale with natural porous media or a microscopic scale focusing on fluids on flat surfaces and in single...
+- Yet, few studies have been presented to understand the mechanisms at the pore scale in an interconnected pore network structure.
 
 ## Links
 
