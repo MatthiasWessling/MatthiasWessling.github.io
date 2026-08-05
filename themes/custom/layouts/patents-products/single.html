@@ -28,9 +28,35 @@
         </section>
         {{ end }}
 
+        {{ if or .Params.publication_number .Params.application_number .Params.priority_number .Params.filing_date .Params.publication_date .Params.status .Params.assignee .Params.inventors }}
+        <section class="patent-meta-card">
+            {{ with .Params.publication_number }}<p><strong>Publication:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.application_number }}<p><strong>Application:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.priority_number }}<p><strong>Priority:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.filing_date }}<p><strong>Filing date:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.publication_date }}<p><strong>Publication date:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.status }}<p><strong>Status:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.assignee }}<p><strong>Applicant / Assignee:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.inventors }}<p><strong>Inventors:</strong> {{ delimit . ", " }}</p>{{ end }}
+        </section>
+        {{ end }}
+
         <div class="news-content">
             {{ .Content }}
         </div>
+
+        {{ with .Params.thumbnails }}
+        <section class="patent-thumbnails">
+            <h2>Drawings</h2>
+            <div class="patent-thumbnail-grid">
+                {{ range . }}
+                <a href="{{ . }}" class="patent-thumbnail-link">
+                    <img src="{{ . }}" alt="Patent drawing thumbnail" class="clickable-image">
+                </a>
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
 
         <footer class="news-footer">
             {{ if or .Prev .Next }}

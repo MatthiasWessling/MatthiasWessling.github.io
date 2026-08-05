@@ -58,6 +58,14 @@
                     {{ if .Params.summary }}
                     <p class="news-summary">{{ .Params.summary }}</p>
                     {{ end }}
+                    {{ if or .Params.publication_number .Params.application_number .Params.priority_number .Params.status }}
+                    <p class="patent-index-entry">
+                        {{ with .Params.publication_number }}<span>{{ . }}</span>{{ end }}
+                        {{ with .Params.application_number }}<span>Application: {{ . }}</span>{{ end }}
+                        {{ with .Params.priority_number }}<span>Priority: {{ . }}</span>{{ end }}
+                        {{ with .Params.status }}<span>Status: {{ . }}</span>{{ end }}
+                    </p>
+                    {{ end }}
                     <a href="{{ .Permalink }}" class="read-more">Details →</a>
                 </div>
             </div>

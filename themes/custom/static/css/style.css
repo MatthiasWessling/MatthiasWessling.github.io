@@ -11,37 +11,37 @@ html {
 
 /* CSS Custom Properties for Theming */
 :root {
-    /* Light Mode Colors */
-    --bg-color: #ffffff;
-    --text-color: #000000;
-    --header-bg: #4a5568;
-    --header-text: #ffffff;
-    --accent-color: #3182ce;
-    --accent-hover: #2c5aa0;
-    --border-color: #e2e8f0;
-    --shadow-color: rgba(0, 0, 0, 0.1);
-    --code-bg: #f7fafc;
-    --card-bg: #ffffff;
-    --card-border: #e2e8f0;
-    --nav-hover: rgba(255, 255, 255, 0.1);
-    --footer-bg: #f7fafc;
+    /* Light Mode — warm paper + deep teal (materials / lab) */
+    --bg-color: #faf8f5;
+    --text-color: #1c1917;
+    --header-bg: #3f3a36;
+    --header-text: #faf8f5;
+    --accent-color: #0f766e;
+    --accent-hover: #0d5f59;
+    --border-color: #e8e2da;
+    --shadow-color: rgba(28, 25, 23, 0.08);
+    --code-bg: #f3efe9;
+    --card-bg: #fffcf9;
+    --card-border: #e8e2da;
+    --nav-hover: rgba(250, 248, 245, 0.12);
+    --footer-bg: #f3efe9;
 }
 
 [data-theme="dark"] {
-    /* Dark Mode Colors */
-    --bg-color: #1a202c;
-    --text-color: #e2e8f0;
-    --header-bg: #2d3748;
-    --header-text: #e2e8f0;
-    --accent-color: #63b3ed;
-    --accent-hover: #4299e1;
-    --border-color: #4a5568;
-    --shadow-color: rgba(0, 0, 0, 0.3);
-    --code-bg: #2d3748;
-    --card-bg: #2d3748;
-    --card-border: #4a5568;
+    /* Dark Mode — warm charcoal + lighter teal */
+    --bg-color: #1c1917;
+    --text-color: #e7e5e4;
+    --header-bg: #292524;
+    --header-text: #e7e5e4;
+    --accent-color: #2dd4bf;
+    --accent-hover: #5eead4;
+    --border-color: #44403c;
+    --shadow-color: rgba(0, 0, 0, 0.35);
+    --code-bg: #292524;
+    --card-bg: #292524;
+    --card-border: #44403c;
     --nav-hover: rgba(255, 255, 255, 0.1);
-    --footer-bg: #2d3748;
+    --footer-bg: #292524;
 }
 
 /* Base Typography */
@@ -745,6 +745,21 @@ a:hover {
     opacity: 0.8;
 }
 
+.patent-index-entry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.65rem;
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+.patent-index-entry span:not(:last-child)::after {
+    content: "·";
+    margin-left: 0.65rem;
+    opacity: 0.55;
+}
+
 /* News controls */
 .news-controls {
     display: grid;
@@ -876,8 +891,8 @@ a:hover {
 }
 
 .graduates-profile-photo {
-    width: 64px;
-    height: 64px;
+    width: 128px;
+    height: 128px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
@@ -1083,6 +1098,38 @@ a:hover {
 
 .back-to-list a {
     color: var(--accent-color);
+}
+
+.patent-meta-card {
+    background-color: var(--code-bg);
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.patent-meta-card p {
+    margin: 0.35rem 0;
+}
+
+.patent-thumbnails {
+    margin-top: 2rem;
+}
+
+.patent-thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+}
+
+.patent-thumbnail-link {
+    display: block;
+}
+
+.patent-thumbnail-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
 }
 
 /* Footer */
@@ -1376,8 +1423,8 @@ code {
     }
 
     .graduates-profile-photo {
-        width: 56px;
-        height: 56px;
+        width: 96px;
+        height: 96px;
     }
 
     .news-media img,

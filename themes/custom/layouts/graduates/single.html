@@ -42,21 +42,6 @@
         </div>
 
         <footer class="news-footer">
-            {{ if or .Prev .Next }}
-            <nav class="news-nav">
-                {{ if .Prev }}
-                <a href="{{ .Prev.Permalink }}" class="nav-prev">
-                    ← {{ .Prev.Title }}
-                </a>
-                {{ end }}
-                {{ if .Next }}
-                <a href="{{ .Next.Permalink }}" class="nav-next">
-                    {{ .Next.Title }} →
-                </a>
-                {{ end }}
-            </nav>
-            {{ end }}
-
             <div class="back-to-list">
                 <a href="/graduates/">← Back to all graduates</a>
             </div>

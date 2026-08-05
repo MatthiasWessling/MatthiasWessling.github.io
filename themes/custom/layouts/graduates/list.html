@@ -33,16 +33,16 @@
 
     <div id="graduates-list" class="news-list">
         {{ range .Pages.ByDate.Reverse }}
-        {{ .Scratch.Set "thesisTitle" (.Params.thesis_title | default "") }}
-        {{ if eq (.Scratch.Get "thesisTitle") "" }}
+        {{ $thesisTitle := (.Params.thesis_title | default "") }}
+        {{ if eq $thesisTitle "" }}
         {{ with findRE "(?m)^- Title: (.+)$" .RawContent 1 }}
-        {{ .Scratch.Set "thesisTitle" (replaceRE "(?m)^- Title:\\s*" "" (index . 0)) }}
+        {{ $thesisTitle = (replaceRE "(?m)^- Title:\\s*" "" (index . 0)) }}
         {{ end }}
         {{ end }}
         <article
             class="news-item graduates-entry"
             data-title="{{ .Title | lower }}"
-            data-thesis-title="{{ (.Scratch.Get "thesisTitle") | lower }}"
+            data-thesis-title="{{ $thesisTitle | lower }}"
             data-summary="{{ (printf "%s %s" (.Params.summary | default "") (.Plain | default "")) | lower }}"
             data-topics="{{ .Plain | lower }}"
             data-date="{{ .Date.Unix }}"
@@ -52,8 +52,8 @@
                     <div class="graduates-entry-header">
                         <div class="graduates-entry-header-text">
                             <h2 class="news-title">{{ .Title }}</h2>
-                            {{ if ne (.Scratch.Get "thesisTitle") "" }}
-                            <p class="news-summary"><strong>Thesis:</strong> {{ .Scratch.Get "thesisTitle" }}</p>
+                            {{ if ne $thesisTitle "" }}
+                            <p class="news-summary"><strong>Thesis:</strong> {{ $thesisTitle }}</p>
                             {{ else if .Params.summary }}
                             <p class="news-summary">{{ .Params.summary }}</p>
                             {{ end }}
