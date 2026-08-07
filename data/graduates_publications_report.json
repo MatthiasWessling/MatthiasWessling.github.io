@@ -12,7 +12,7 @@
       "score": 19
     }
   ],
-  "ambiguous_title_resolved": 21,
+  "ambiguous_title_resolved": 15,
   "ambiguous_title_unresolved": 1,
   "per_graduate_counts": {
     "aaltje-bos": {
@@ -557,8 +557,8 @@
       "name": "L. de Geeter",
       "initials": "",
       "surname_keys": [
-        "de geeter",
-        "geeter"
+        "geeter",
+        "de geeter"
       ],
       "count": 2
     },
@@ -654,8 +654,8 @@
       "name": "Maria Adelaida Restrepo Toro",
       "initials": "MA",
       "surname_keys": [
-        "restrepo toro",
-        "toro"
+        "toro",
+        "restrepo toro"
       ],
       "count": 1
     },
@@ -807,8 +807,8 @@
       "name": "Nico F.A. van der Vegt",
       "initials": "NFA",
       "surname_keys": [
-        "van der vegt",
-        "vegt"
+        "vegt",
+        "van der vegt"
       ],
       "count": 27
     },
@@ -840,8 +840,8 @@
       "name": "Petrus Cornelis van der Heijden",
       "initials": "PC",
       "surname_keys": [
-        "heijden",
-        "van der heijden"
+        "van der heijden",
+        "heijden"
       ],
       "count": 2
     },
@@ -1027,7 +1027,7 @@
       "surname_keys": [
         "lohaus"
       ],
-      "count": 6
+      "count": 9
     },
     "sven-lyko": {
       "name": "Sven Lyko",

@@ -83,24 +83,8 @@ AMBIGUOUS_TITLE_RULES: Dict[str, List[Tuple[str, Tuple[str, ...]]]] = {
             ),
         ),
     ],
-    # Scopus lists tissue-engineering / microgel work as Lohaus, T. (not S.)
-    "Lohaus, T.": [
-        (
-            "suzana-lohaus",
-            (
-                "tissue",
-                "mini-tissue",
-                "microgel",
-                "cell adhesion",
-                "scaffold-free",
-                "bioreactor",
-                "fouling prevention",
-                "direct membrane heating",
-                "rayleigh",
-                "mobility and molecular",
-            ),
-        ),
-    ],
+    # Note: "Lohaus, T." is Theresa Lohaus (collaborator), not Suzana.
+    # Suzana Lohaus published as Djeljadini, S. — see author_aliases on her page.
 }
 
 # Manual surname / AU overrides when automatic parsing is insufficient.
