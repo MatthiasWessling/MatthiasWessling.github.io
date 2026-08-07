@@ -132,13 +132,14 @@ class SiteSearch {
             minMatchCharLength: 2,
             useExtendedSearch: true,
             keys: [
-                { name: 'title', weight: 0.38 },
-                { name: 'authors', weight: 0.18 },
-                { name: 'extra', weight: 0.16 },
-                { name: 'journal', weight: 0.1 },
-                { name: 'summary', weight: 0.08 },
-                { name: 'doi', weight: 0.05 },
-                { name: 'content', weight: 0.03 },
+                { name: 'title', weight: 0.34 },
+                { name: 'keywords', weight: 0.18 },
+                { name: 'authors', weight: 0.14 },
+                { name: 'extra', weight: 0.12 },
+                { name: 'journal', weight: 0.08 },
+                { name: 'summary', weight: 0.06 },
+                { name: 'doi', weight: 0.04 },
+                { name: 'content', weight: 0.02 },
                 { name: 'sectionLabel', weight: 0.02 }
             ]
         });
@@ -218,9 +219,19 @@ class SiteSearch {
             const item = hit.item;
             const isPaper = item.kind === 'paper';
             const isExternal = /^https?:\/\//i.test(item.permalink || '');
-            const snippet = isPaper
-                ? this.escapeHtml([item.journal, item.year, item.authors].filter(Boolean).join(' · '))
-                : this.snippet(item.summary || item.content || '', q);
+            let snippet = '';
+            if (isPaper) {
+                const meta = [item.journal, item.year, item.authors].filter(Boolean).join(' · ');
+                const kw = String(item.keywords || '')
+                    .split(';')
+                    .map((s) => s.trim())
+                    .filter(Boolean)
+                    .slice(0, 6)
+                    .join('; ');
+                snippet = this.escapeHtml([meta, kw].filter(Boolean).join(' · '));
+            } else {
+                snippet = this.snippet(item.summary || item.content || '', q);
+            }
             const source = isPaper && item.sourceTitle
                 ? `<span class="site-search-result-source">via <span class="site-search-result-source-name">${this.escapeHtml(item.sourceTitle)}</span></span>`
                 : '';

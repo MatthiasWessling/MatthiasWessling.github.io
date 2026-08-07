@@ -1,6 +1,12 @@
 {{- $pages := where .Site.RegularPages "Draft" false -}}
 {{- $entries := slice -}}
 {{- $seenDois := dict -}}
+{{- $kwByDoi := dict -}}
+{{- $kwByTitle := dict -}}
+{{- with .Site.Data.scopus_keywords -}}
+  {{- with .by_doi -}}{{- $kwByDoi = . -}}{{- end -}}
+  {{- with .by_title_simple -}}{{- $kwByTitle = . -}}{{- end -}}
+{{- end -}}
 
 {{- range $pages -}}
   {{- $p := . -}}
@@ -51,6 +57,7 @@
     "summary" $summary
     "content" ($p.Plain | truncate 1200)
     "extra" (delimit $extra " ")
+    "keywords" ""
     "kind" "page"
   ) -}}
 
@@ -76,11 +83,33 @@
         {{- with $pub.year -}}{{- $metaParts = $metaParts | append . -}}{{- end -}}
         {{- with $pub.journal -}}{{- $metaParts = $metaParts | append . -}}{{- end -}}
         {{- with $pub.doi -}}{{- $metaParts = $metaParts | append (printf "DOI: %s" .) -}}{{- end -}}
+
+        {{- /* Scopus / literature-database keywords by DOI, then title. */ -}}
+        {{- $keywords := slice -}}
+        {{- if $doiKey -}}
+          {{- with index $kwByDoi $doiKey -}}
+            {{- $keywords = . -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if not $keywords -}}
+          {{- $titleKey := $pub.title | lower | replaceRE "[^a-z0-9]+" " " | replaceRE "\\s+" " " | strings.TrimSpace -}}
+          {{- with index $kwByTitle $titleKey -}}
+            {{- $keywords = . -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $keywordsText := "" -}}
+        {{- if $keywords -}}
+          {{- $keywordsText = delimit $keywords "; " -}}
+          {{- $metaParts = $metaParts | append $keywordsText -}}
+        {{- end -}}
+
         {{- $extraParts := slice $p.Title -}}
         {{- with $pub.authors -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
         {{- with $pub.journal -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
         {{- with $pub.doi -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
         {{- with $pub.year -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
+        {{- if $keywordsText -}}{{- $extraParts = $extraParts | append $keywordsText -}}{{- end -}}
+
         {{- $entries = $entries | append (dict
           "title" $pub.title
           "permalink" $permalink
@@ -89,6 +118,7 @@
           "summary" (delimit $metaParts " · ")
           "content" (printf "%s. %s" $pub.title (or $pub.authors ""))
           "extra" (delimit $extraParts " ")
+          "keywords" $keywordsText
           "kind" "paper"
           "authors" (or $pub.authors "")
           "journal" (or $pub.journal "")
