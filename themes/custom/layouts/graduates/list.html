@@ -154,6 +154,9 @@
                         {{ else }}
                         <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
                         {{ end }}
+                        {{ with .Params.publications }}
+                        <span class="graduates-pub-count">{{ len . }} publication{{ if ne (len .) 1 }}s{{ end }}</span>
+                        {{ end }}
                     </div>
                     <a href="{{ .Permalink }}" class="read-more">Details →</a>
                 </div>

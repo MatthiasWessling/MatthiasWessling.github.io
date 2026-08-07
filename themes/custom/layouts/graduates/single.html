@@ -37,18 +37,14 @@
         </section>
         {{ end }}
 
-        <div class="news-content">
-            {{ .Content }}
-        </div>
-
         {{ with .Params.publications }}
         <section class="graduates-publications" aria-labelledby="graduates-publications-heading">
-            <h2 id="graduates-publications-heading">Publications</h2>
+            <h2 id="graduates-publications-heading">Publications <span class="graduates-publications-count">({{ len . }})</span></h2>
             <ol class="graduates-publications-list">
                 {{ range . }}
                 <li class="graduates-publication">
                     {{ if .url }}
-                    <a class="graduates-publication-title" href="{{ .url }}" rel="noopener noreferrer">{{ .title }}</a>
+                    <a class="graduates-publication-title" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
                     {{ else }}
                     <span class="graduates-publication-title">{{ .title }}</span>
                     {{ end }}
@@ -65,6 +61,10 @@
             </ol>
         </section>
         {{ end }}
+
+        <div class="news-content">
+            {{ .Content }}
+        </div>
 
         <footer class="news-footer">
             <div class="back-to-list">
