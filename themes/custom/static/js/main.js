@@ -77,7 +77,7 @@ class ImageModal {
 
         // Close modal with Escape key
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && this.modal?.style.display === 'block') {
+            if (e.key === 'Escape' && this.modal?.style.display === 'block' && !document.body.classList.contains('site-search-open')) {
                 this.closeModal();
             }
         });

@@ -38,6 +38,9 @@
     <!-- Footer -->
     {{ partial "footer.html" . }}
 
+    <!-- Site search -->
+    {{ partial "search.html" . }}
+
     <!-- Image Modal -->
     <div id="imageModal" class="modal">
         <div class="modal-content">
@@ -64,6 +67,7 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <!-- JavaScript -->
-    <script src="/js/main.js"></script>
+    <script src="{{ "js/main.js" | relURL }}"></script>
+    <script src="{{ "js/search.js" | relURL }}"></script>
 </body>
 </html>

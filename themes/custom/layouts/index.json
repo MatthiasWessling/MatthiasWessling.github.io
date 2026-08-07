@@ -1,0 +1,110 @@
+{{- $pages := where .Site.RegularPages "Draft" false -}}
+{{- $entries := slice -}}
+{{- $seenDois := dict -}}
+
+{{- range $pages -}}
+  {{- $p := . -}}
+  {{- $summary := "" -}}
+  {{- with $p.Params.summary -}}
+    {{- $summary = . | plainify -}}
+  {{- else -}}
+    {{- with $p.Description -}}
+      {{- $summary = . | plainify -}}
+    {{- else -}}
+      {{- $summary = $p.Summary | plainify -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $extra := slice -}}
+  {{- with $p.Params.thesis_title -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- with $p.Params.institution -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- with $p.Params.publication_number -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- with $p.Params.assignee -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- with $p.Params.organization -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- with $p.Params.inventors -}}
+    {{- range . -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- end -}}
+  {{- with $p.Params.topics -}}
+    {{- range . -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- end -}}
+  {{- with $p.Params.tags -}}
+    {{- range . -}}{{- $extra = $extra | append . -}}{{- end -}}
+  {{- end -}}
+
+  {{- $sectionLabel := $p.Section -}}
+  {{- if eq $p.Section "patents-products" -}}{{- $sectionLabel = "Patents" -}}
+  {{- else if eq $p.Section "graduates" -}}{{- $sectionLabel = "Graduates" -}}
+  {{- else if eq $p.Section "research" -}}{{- $sectionLabel = "Research" -}}
+  {{- else if eq $p.Section "blog" -}}{{- $sectionLabel = "Blog" -}}
+  {{- else if eq $p.Section "news" -}}{{- $sectionLabel = "News" -}}
+  {{- else if eq $p.Section "notebooks" -}}{{- $sectionLabel = "Notebooks" -}}
+  {{- else if eq $p.Section "startups" -}}{{- $sectionLabel = "Startups" -}}
+  {{- else if eq $p.Section "" -}}{{- $sectionLabel = "Page" -}}
+  {{- else -}}{{- $sectionLabel = title $p.Section -}}
+  {{- end -}}
+
+  {{- $entries = $entries | append (dict
+    "title" $p.Title
+    "permalink" $p.RelPermalink
+    "section" $p.Section
+    "sectionLabel" $sectionLabel
+    "summary" $summary
+    "content" ($p.Plain | truncate 1200)
+    "extra" (delimit $extra " ")
+    "kind" "page"
+  ) -}}
+
+  {{- /* Index each listed publication as its own searchable paper result. */ -}}
+  {{- with $p.Params.publications -}}
+    {{- range . -}}
+      {{- $pub := . -}}
+      {{- $doiKey := "" -}}
+      {{- with $pub.doi -}}{{- $doiKey = lower . -}}{{- end -}}
+      {{- $already := false -}}
+      {{- if and $doiKey (index $seenDois $doiKey) -}}
+        {{- $already = true -}}
+      {{- end -}}
+      {{- if and $pub.title (not $already) -}}
+        {{- if $doiKey -}}
+          {{- $seenDois = merge $seenDois (dict $doiKey true) -}}
+        {{- end -}}
+        {{- $permalink := $p.RelPermalink -}}
+        {{- with $pub.url -}}{{- $permalink = . -}}{{- else -}}
+          {{- with $pub.doi -}}{{- $permalink = printf "https://doi.org/%s" . -}}{{- end -}}
+        {{- end -}}
+        {{- $metaParts := slice -}}
+        {{- with $pub.year -}}{{- $metaParts = $metaParts | append . -}}{{- end -}}
+        {{- with $pub.journal -}}{{- $metaParts = $metaParts | append . -}}{{- end -}}
+        {{- with $pub.doi -}}{{- $metaParts = $metaParts | append (printf "DOI: %s" .) -}}{{- end -}}
+        {{- $extraParts := slice $p.Title -}}
+        {{- with $pub.authors -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
+        {{- with $pub.journal -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
+        {{- with $pub.doi -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
+        {{- with $pub.year -}}{{- $extraParts = $extraParts | append . -}}{{- end -}}
+        {{- $entries = $entries | append (dict
+          "title" $pub.title
+          "permalink" $permalink
+          "section" "publications"
+          "sectionLabel" "Paper"
+          "summary" (delimit $metaParts " · ")
+          "content" (printf "%s. %s" $pub.title (or $pub.authors ""))
+          "extra" (delimit $extraParts " ")
+          "kind" "paper"
+          "authors" (or $pub.authors "")
+          "journal" (or $pub.journal "")
+          "year" (printf "%v" (or $pub.year ""))
+          "doi" (or $pub.doi "")
+          "sourceTitle" $p.Title
+          "sourcePermalink" $p.RelPermalink
+        ) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+[
+{{- range $i, $entry := $entries -}}
+{{- if $i }},{{ end }}
+{{ $entry | jsonify }}
+{{- end }}
+]

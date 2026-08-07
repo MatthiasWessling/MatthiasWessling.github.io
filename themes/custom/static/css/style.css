@@ -234,6 +234,211 @@ a:hover {
     background-color: var(--nav-hover);
 }
 
+.search-toggle {
+    background: none;
+    border: none;
+    color: var(--header-text);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-toggle:hover,
+.search-toggle:focus-visible {
+    background-color: var(--nav-hover);
+    outline: none;
+}
+
+/* Site-wide search overlay */
+body.site-search-open {
+    overflow: hidden;
+}
+
+.site-search {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 12vh 1rem 2rem;
+}
+
+.site-search[hidden] {
+    display: none;
+}
+
+.site-search-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.site-search-dialog {
+    position: relative;
+    width: min(640px, 100%);
+    max-height: min(70vh, 640px);
+    display: flex;
+    flex-direction: column;
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    box-shadow: 0 24px 64px var(--shadow-color);
+    overflow: hidden;
+}
+
+.site-search-header {
+    padding: 1rem 1rem 0.75rem;
+    border-bottom: 1px solid var(--hairline);
+}
+
+.site-search-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.site-search-input-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    padding: 0.65rem 0.85rem;
+}
+
+.site-search-icon {
+    flex-shrink: 0;
+    color: var(--text-mute);
+}
+
+.site-search-input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+    font: inherit;
+    font-size: 1.05rem;
+    outline: none;
+}
+
+.site-search-input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.site-search-kbd {
+    flex-shrink: 0;
+    font-family: inherit;
+    font-size: 0.7rem;
+    color: var(--text-mute);
+    border: 1px solid var(--border-color);
+    border-radius: 0.35rem;
+    padding: 0.15rem 0.4rem;
+    background: var(--card-bg);
+    cursor: pointer;
+}
+
+.site-search-status {
+    padding: 0.65rem 1.1rem 0.35rem;
+    font-size: 0.8rem;
+    color: var(--text-mute);
+}
+
+.site-search-results {
+    list-style: none;
+    margin: 0;
+    padding: 0.25rem 0.5rem 0.75rem;
+    overflow-y: auto;
+}
+
+.site-search-result {
+    margin: 0;
+    padding: 0;
+    border-radius: 0.65rem;
+}
+
+.site-search-result.is-active,
+.site-search-result:hover {
+    background: var(--nav-hover);
+}
+
+.site-search-result-link {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 0.75rem;
+    row-gap: 0.15rem;
+    padding: 0.7rem 0.75rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-search-result-section {
+    grid-row: 1 / span 2;
+    align-self: start;
+    margin-top: 0.15rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    background: color-mix(in srgb, var(--accent-color) 12%, transparent);
+    border-radius: 999px;
+    padding: 0.2rem 0.5rem;
+    white-space: nowrap;
+}
+
+.site-search-result-title {
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 1.3;
+}
+
+.site-search-result-snippet {
+    grid-column: 2;
+    font-size: 0.85rem;
+    color: var(--text-mute);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.site-search-result-source {
+    grid-column: 2;
+    font-size: 0.78rem;
+    color: var(--text-mute);
+}
+
+.site-search-result-source-name {
+    color: var(--text-color);
+}
+
+.site-search-result.is-paper .site-search-result-section {
+    background: color-mix(in srgb, var(--text-mute) 16%, transparent);
+    color: var(--text-mute);
+}
+
+.site-search-result-link:hover {
+    color: inherit;
+}
+
 /* Mobile Navigation - Hidden on Desktop */
 .mobile-nav-dropdown {
     display: none;

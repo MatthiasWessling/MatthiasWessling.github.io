@@ -12,6 +12,9 @@ theme = 'custom'
   googlescholar = 'https://scholar.google.com/citations?hl=de&user=ldEjzsgAAAAJ&view_op=list_works&sortby=pubdate'
  
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
