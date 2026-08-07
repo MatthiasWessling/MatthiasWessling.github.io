@@ -3,11 +3,13 @@ title = "Jan Vehrenberg"
 date = "2024-09-05"
 graduate_date = "2024-09-05"
 thesis_title = "Value added anode reactions for paired electrochemical CO$_{2}$ reduction processes"
-topics = ["electrochemistry"]
+topics = ["CO2 reduction", "electrochemistry"]
 draft = false
 summary = "This thesis underlines the great potential of value added anode reactions such as GOR and CER to push eCO2R towards economical feasibility at industrial scale. Benefits over OER are assessed with respect to direct advantages such as generation of value added products at the anode and reduction of cell voltage as well as indirect…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/995136"
 rwth_url = "https://publications.rwth-aachen.de/record/995136"
 doi = "10.18154/RWTH-2024-09738"
 thesis_pdf = "https://publications.rwth-aachen.de/record/995136/files/995136.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Value added anode reactions for paired electrochemical CO$_{2}$ reduction processes
 - Graduate Date: 2024-09-05
-- Topics: electrochemistry
+- Institution: RWTH
+- Topics: CO2 reduction, electrochemistry
 
 ## Links
 

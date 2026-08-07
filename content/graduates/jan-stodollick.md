@@ -8,6 +8,8 @@ draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/687814"
 rwth_url = "https://publications.rwth-aachen.de/record/687814"
 doi = ""
 thesis_pdf = ""
@@ -20,6 +22,7 @@ featured = false
 
 - Title: Hybrid membrane separation process for the continuous production of itaconic acid
 - Graduate Date: 2016-01-01
+- Institution: RWTH
 - Topics: membranes
 
 ## Links

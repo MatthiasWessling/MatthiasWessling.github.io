@@ -3,11 +3,13 @@ title = "Christian Jürgen Linnartz"
 date = "2021-12-17"
 graduate_date = "2021-12-17"
 thesis_title = "From fundamentals of transport in flow electrodes at membrane interfaces to application"
-topics = ["membranes"]
+topics = ["membranes", "electrochemistry", "capacitive deionization", "ion-exchange membranes"]
 draft = false
 summary = "Facing that global challenge, essential aspects to be tackled are recycling water-soluble compounds, degradation of harmful contaminates, and new pathways for the electrification of the chemical industry. Results showed that charge transport within the flow electrodes is fostered by creating particle percolation networks, yet the used…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/850752"
 rwth_url = "https://publications.rwth-aachen.de/record/850752"
 doi = ""
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: From fundamentals of transport in flow electrodes at membrane interfaces to application
 - Graduate Date: 2021-12-17
-- Topics: membranes
+- Institution: RWTH
+- Topics: membranes, electrochemistry, capacitive deionization, ion-exchange membranes
 
 ## Links
 

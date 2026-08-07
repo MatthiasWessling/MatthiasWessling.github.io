@@ -1,0 +1,9 @@
+# Transport phenomena during nanofiltration of concentrated solutions
+
+Author: Gerrald Bargeman
+Record: https://research.utwente.nl/en/publications/transport-phenomena-during-nanofiltration-of-concentrated-solutio/
+DOI: 10.3990/1.9789036541954
+
+## Abstract
+
+In most scientific studies on nanofiltration either the development of new membrane materials or the characterization of membranes is reported. In the latter case most studies use single solute salt or sugar solutions and/or investigate nanofiltration of solutions with mixtures of ions at low concentrations relative to solution concentrations often used in industrial applications. Furthermore, several of these studies have tried to predict retention performance of nanofiltration membranes for salt solutions containing two different salts, on the basis of these characterization experiments and derived model parameters, often with limited success. Only limited knowledge is available in open literature on the effect of salt ions in an aqueous feed solution on retention of neutral solutes such as glucose and vice versa. A better insight in these phenomena is needed, since several nanofiltration applications treat solutions containing a combination of salts and (neutral) components such as sugars, amino acids, peptides or proteins. In addition, there has been limited attention in open literature for nanofiltration membrane performance during treatment of more concentrated salt solutions, such as depleted brine in chlor/alkali production and saturated brines in the production of salt crystals, despite the fact that a substantial amount of (potential) nanofiltration applications deals with these types of solutions. A better understanding of the phenomena occurring during nanofiltration of these types of solutions is a pre-requisite for proper design of membrane units for these types of applications. These research questions form the basis for the work presented in this thesis.

@@ -3,11 +3,13 @@ title = "Axel Böcking"
 date = "2020-01-01"
 graduate_date = "2020-01-01"
 thesis_title = "Membrane transport properties and process design in nanofiltration with organic solvents and aqueous solvent mixtures"
-topics = ["membranes", "filtration"]
+topics = ["membranes", "filtration", "organic solvent nanofiltration"]
 draft = false
 summary = "This thesis proves the quality of retention and flow data from the standardized method. Such effects have been demonstrated in experiments, e.g., cononsolvency or preferential solvation."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/788632"
 rwth_url = "https://publications.rwth-aachen.de/record/788632"
 doi = "10.18154/RWTH-2020-04678"
 thesis_pdf = "https://publications.rwth-aachen.de/record/788632/files/788632.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Membrane transport properties and process design in nanofiltration with organic solvents and aqueous solvent mixtures
 - Graduate Date: 2020-01-01
-- Topics: membranes, filtration
+- Institution: RWTH
+- Topics: membranes, filtration, organic solvent nanofiltration
 
 ## Links
 

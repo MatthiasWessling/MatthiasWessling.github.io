@@ -8,6 +8,8 @@ draft = false
 summary = "Within the cell-sorting device, whole blood with a clinical relevant hematocrit is sorted based on the joint effects of flow focusing and inertial lift forces resulting in lateral cell migration."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/813718"
 rwth_url = "https://publications.rwth-aachen.de/record/813718"
 doi = ""
 thesis_pdf = ""
@@ -20,6 +22,7 @@ featured = false
 
 - Title: Rapid prototyping of microfluidic systems using two-photon lithography
 - Graduate Date: 2020-01-01
+- Institution: RWTH
 - Topics: microfluidics
 
 ## Links

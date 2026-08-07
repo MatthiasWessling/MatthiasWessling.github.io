@@ -3,11 +3,13 @@ title = "Marina Lazar"
 date = "2015-01-01"
 graduate_date = "2015-01-01"
 thesis_title = "Silicone based membranes for organic solvent nanofiltration"
-topics = ["membranes", "filtration"]
+topics = ["membranes", "filtration", "organic solvent nanofiltration", "polymers"]
 draft = false
 summary = "This thesis includes a study on silicone based membranes, as to their chemistry, their separation performance in organic solvents and influence of introduced functional groups. The measured results were used together with modelling approach to determine membrane specific parameters and their relevance in accurate predicting of the…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/571750"
 rwth_url = "https://publications.rwth-aachen.de/record/571750"
 doi = ""
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Silicone based membranes for organic solvent nanofiltration
 - Graduate Date: 2015-01-01
-- Topics: membranes, filtration
+- Institution: RWTH
+- Topics: membranes, filtration, organic solvent nanofiltration, polymers
 
 ## Links
 

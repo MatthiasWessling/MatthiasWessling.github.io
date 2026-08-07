@@ -3,11 +3,13 @@ title = "Tobias Harhues"
 date = "2024-06-13"
 graduate_date = "2024-06-13"
 thesis_title = "Process integration and intensification of electrochemical reactions for biomass valorization"
-topics = ["electrochemistry"]
+topics = ["biomass valorization", "electrochemistry", "membranes", "bioreactors"]
 draft = false
 summary = "This work aims to integrate electrochemical processes into two process chains to yield 2,5-furandicarboxylic acid (FDCA) and 2-butanone. It reveals the possibility of eradicating intermediate purification steps when integrating electrochemical conversion with the preceding chemocatalytic or microbial processes."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/988599"
 rwth_url = "https://publications.rwth-aachen.de/record/988599"
 doi = "10.18154/RWTH-2024-06302"
 thesis_pdf = "https://publications.rwth-aachen.de/record/988599/files/988599.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Process integration and intensification of electrochemical reactions for biomass valorization
 - Graduate Date: 2024-06-13
-- Topics: electrochemistry
+- Institution: RWTH
+- Topics: biomass valorization, electrochemistry, membranes, bioreactors
 
 ## Links
 

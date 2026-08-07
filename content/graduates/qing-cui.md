@@ -3,11 +3,13 @@ title = "Qing Cui"
 date = "2021-10-01"
 graduate_date = "2021-10-01"
 thesis_title = "Wet spinning of core-shell and hollow polyelectrolyte fibers"
-topics = ["fibers", "polyelectrolytes"]
+topics = ["polyelectrolytes", "microfluidics", "hollow fiber membranes", "membranes"]
 draft = false
 summary = "This thesis aims at utilizing wet spinning technology to achieve fabrication of polymeric fibers with different structures, and making full use of the spun functional fiber materials in tissue engineering and electrochemical reactions. The composite demonstrated the highest conductivity of 484 S/cm and an optimum capacitance of 82.59 F/g."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/834117"
 rwth_url = "https://publications.rwth-aachen.de/record/834117"
 doi = "10.18154/RWTH-2021-09667"
 thesis_pdf = "https://publications.rwth-aachen.de/record/834117/files/834117.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Wet spinning of core-shell and hollow polyelectrolyte fibers
 - Graduate Date: 2021-10-01
-- Topics: fibers, polyelectrolytes
+- Institution: RWTH
+- Topics: polyelectrolytes, microfluidics, hollow fiber membranes, membranes
 
 ## Links
 

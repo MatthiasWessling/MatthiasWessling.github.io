@@ -60,10 +60,8 @@ theme = 'custom'
 
 [[menu.main]]
   name = 'CV'
-  url = '/files/cv.pdf'
+  url = '/cv/'
   weight = 9
-  [menu.main.params]
-    download = true
 
 [[menu.main]]
   name = 'RSS'

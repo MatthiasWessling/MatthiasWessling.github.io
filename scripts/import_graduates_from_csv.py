@@ -3,8 +3,13 @@
 Bulk-import Graduates entries from data/graduates.csv into content/graduates/.
 
 CSV columns (header required):
-  name, graduate_date, thesis_title, topics, rwth_url, doi, thesis_pdf,
-  linkedin, image, summary
+  name, graduate_date, thesis_title, topics, institution, record_url, doi,
+  thesis_pdf, linkedin, orcid, image, summary
+
+Backward compatible:
+  - `rwth_url` is accepted as an alias for `record_url`
+  - missing `institution` defaults to RWTH when record_url is an RWTH host,
+    Twente when it is research.utwente.nl, else empty
 
 topics: semicolon-separated keywords, e.g. "membranes; CO2 reduction"
 
@@ -79,6 +84,31 @@ def topics_toml(topics: List[str]) -> str:
     return f"topics = [{quoted}]"
 
 
+def resolve_record_url(row: dict) -> str:
+    return (row.get("record_url") or row.get("rwth_url") or "").strip()
+
+
+def resolve_institution(row: dict, record_url: str) -> str:
+    explicit = (row.get("institution") or "").strip()
+    if explicit:
+        return explicit
+    host = record_url.lower()
+    if "publications.rwth-aachen.de" in host:
+        return "RWTH"
+    if "research.utwente.nl" in host or "ris.utwente.nl" in host:
+        return "Twente"
+    return ""
+
+
+def record_label(institution: str) -> str:
+    inst = institution.strip().lower()
+    if inst == "twente":
+        return "UT Record"
+    if inst == "rwth":
+        return "RWTH Record"
+    return "Repository Record"
+
+
 def build_markdown(row: dict) -> str:
     name = (row.get("name") or "").strip()
     if not name:
@@ -87,7 +117,8 @@ def build_markdown(row: dict) -> str:
     graduate_date = (row.get("graduate_date") or "").strip()
     thesis_title = (row.get("thesis_title") or "").strip()
     topics = parse_topics(row.get("topics") or "")
-    rwth_url = (row.get("rwth_url") or "").strip()
+    record_url = resolve_record_url(row)
+    institution = resolve_institution(row, record_url)
     doi = (row.get("doi") or "").strip()
     thesis_pdf = (row.get("thesis_pdf") or "").strip()
     linkedin = (row.get("linkedin") or "").strip()
@@ -110,7 +141,10 @@ def build_markdown(row: dict) -> str:
         f"summary = {toml_string(summary)}",
         f"image = {toml_string(image)}",
         f"image_alt = {toml_string(image_alt)}",
-        f"rwth_url = {toml_string(rwth_url)}",
+        f"institution = {toml_string(institution)}",
+        f"record_url = {toml_string(record_url)}",
+        # Keep rwth_url for older templates/scripts that still read it.
+        f"rwth_url = {toml_string(record_url if institution == 'RWTH' else '')}",
         f"doi = {toml_string(doi)}",
         f"thesis_pdf = {toml_string(thesis_pdf)}",
         f"linkedin = {toml_string(linkedin)}",
@@ -125,6 +159,8 @@ def build_markdown(row: dict) -> str:
         body.append(f"- Title: {thesis_title}")
     if graduate_date:
         body.append(f"- Graduate Date: {graduate_date}")
+    if institution:
+        body.append(f"- Institution: {institution}")
     if topics:
         body.append(f"- Topics: {', '.join(topics)}")
     body.append("")
@@ -136,12 +172,15 @@ def build_markdown(row: dict) -> str:
         body.append(f"- LinkedIn: [{linkedin}]({linkedin})")
     if orcid:
         body.append(f"- ORCID: [{orcid}]({orcid})")
-    if rwth_url:
-        body.append(f"- RWTH Record: [{rwth_url}]({rwth_url})")
+    if record_url:
+        label = record_label(institution)
+        body.append(f"- {label}: [{record_url}]({record_url})")
     if doi:
         body.append(f"- DOI: `{doi}`")
-    if not any([thesis_pdf, linkedin, orcid, rwth_url, doi]):
-        body.append("- _Add thesis, RWTH, DOI, LinkedIn, or ORCID links when available._")
+    if not any([thesis_pdf, linkedin, orcid, record_url, doi]):
+        body.append(
+            "- _Add thesis, repository, DOI, LinkedIn, or ORCID links when available._"
+        )
     body.append("")
 
     return "\n".join(front + body)

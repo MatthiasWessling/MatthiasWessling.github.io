@@ -3,11 +3,13 @@ title = "Jens Rubner"
 date = "2023-06-26"
 graduate_date = "2023-06-26"
 thesis_title = "Plasma-coated membranes for gas separation"
-topics = ["membranes"]
+topics = ["membranes", "gas separation", "plasma", "porous media"]
 draft = false
 summary = "This thesis aims to utilize PECVD to produce organosilica films with tailored chemical and permeation properties."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/969876"
 rwth_url = "https://publications.rwth-aachen.de/record/969876"
 doi = "10.18154/RWTH-2023-09417"
 thesis_pdf = "https://publications.rwth-aachen.de/record/969876/files/969876.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Plasma-coated membranes for gas separation
 - Graduate Date: 2023-06-26
-- Topics: membranes
+- Institution: RWTH
+- Topics: membranes, gas separation, plasma, porous media
 
 ## Links
 

@@ -274,11 +274,17 @@ def shorten_sentence(sentence: str, width: int = 170) -> str:
 
 def extract_abstract_text(page_text: str) -> Optional[str]:
     # Capture the abstract block between "Kurzfassung" and "OpenAccess".
-    block = first_match(r"Kurzfassung\s+(.+?)\s+OpenAccess:", page_text, flags=re.I)
+    # RWTH HTML usually has whitespace after Kurzfassung; markdown dumps
+    # sometimes concatenate as "KurzfassungGasdiffusionselektroden…".
+    block = first_match(
+        r"Kurzfassung\s*(.+?)\s+OpenAccess\s*:",
+        page_text,
+        flags=re.I | re.S,
+    )
     if not block:
         # WebFetch / markdown fallbacks
         block = first_match(
-            r"Kurzfassung\s+(.+?)(?:\nOpenAccess|\nDokumenttyp|\nFormat\b)",
+            r"Kurzfassung\s*(.+?)(?:\n+\s*OpenAccess|\n+\s*Dokumenttyp|\n+\s*Format\b)",
             page_text,
             flags=re.I | re.S,
         )

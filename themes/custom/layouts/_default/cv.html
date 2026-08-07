@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="container">
+    <article class="single-content cv-page">
+        <header class="content-header cv-header">
+            <h1>{{ .Title }}</h1>
+            {{ with .Date }}
+            <p class="cv-updated">Updated {{ .Format "January 2, 2006" }}</p>
+            {{ end }}
+        </header>
+
+        <div class="content-body cv-body">
+            {{ .Content }}
+        </div>
+    </article>
+</div>
+{{ end }}

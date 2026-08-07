@@ -3,11 +3,13 @@ title = "Felix Stockmeier"
 date = "2022-06-27"
 graduate_date = "2022-06-27"
 thesis_title = "Flow fields in the overlimiting current regime in electrically-driven membrane processes"
-topics = ["membranes"]
+topics = ["membranes", "electrochemistry", "visualization", "ion-exchange membranes"]
 draft = false
 summary = "Until now, experimental studies were limited to 2D measurement techniques and 3D simulations which are restricted to small scales due to computational costs.This thesis surpasses this limitation and presents an experimental method for quantification of the 3D velocity field of electroconvection with high temporal and spatial resolution."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/856875"
 rwth_url = "https://publications.rwth-aachen.de/record/856875"
 doi = "10.18154/RWTH-2022-11194"
 thesis_pdf = "https://publications.rwth-aachen.de/record/856875/files/856875.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Flow fields in the overlimiting current regime in electrically-driven membrane processes
 - Graduate Date: 2022-06-27
-- Topics: membranes
+- Institution: RWTH
+- Topics: membranes, electrochemistry, visualization, ion-exchange membranes
 
 ## Links
 

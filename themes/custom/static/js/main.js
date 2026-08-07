@@ -627,6 +627,7 @@ class GraduatesDirectory {
         this.searchInput = document.getElementById('graduates-search');
         this.topicsInput = document.getElementById('graduates-topics-search');
         this.yearSelect = document.getElementById('graduates-year');
+        this.institutionSelect = document.getElementById('graduates-institution');
         this.sortSelect = document.getElementById('graduates-sort');
         this.resultsCount = document.getElementById('graduates-results-count');
         this.entries = [];
@@ -651,6 +652,9 @@ class GraduatesDirectory {
         }
         if (this.yearSelect) {
             this.yearSelect.addEventListener('change', () => this.render());
+        }
+        if (this.institutionSelect) {
+            this.institutionSelect.addEventListener('change', () => this.render());
         }
         this.sortSelect.addEventListener('change', () => this.render());
         this.render();
@@ -688,6 +692,7 @@ class GraduatesDirectory {
         const query = this.searchInput.value.trim().toLowerCase();
         const topicsQuery = (this.topicsInput?.value || '').trim().toLowerCase();
         const yearFilter = (this.yearSelect?.value || '').trim();
+        const institutionFilter = (this.institutionSelect?.value || '').trim().toLowerCase();
         const sortMode = this.sortSelect.value;
 
         const filtered = this.entries.filter((entry) => {
@@ -695,11 +700,13 @@ class GraduatesDirectory {
             const thesisTitle = entry.dataset.thesisTitle || '';
             const topics = entry.dataset.topics || '';
             const year = entry.dataset.year || '';
+            const institution = entry.dataset.institution || '';
             const haystack = `${title} ${thesisTitle} ${topics}`;
             const matchesSearch = !query || haystack.includes(query);
             const matchesTopics = !topicsQuery || topics.includes(topicsQuery);
             const matchesYear = !yearFilter || year === yearFilter;
-            return matchesSearch && matchesTopics && matchesYear;
+            const matchesInstitution = !institutionFilter || institution === institutionFilter;
+            return matchesSearch && matchesTopics && matchesYear && matchesInstitution;
         });
 
         const groupByYear = sortMode === 'newest' || sortMode === 'oldest';

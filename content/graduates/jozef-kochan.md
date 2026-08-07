@@ -3,11 +3,13 @@ title = "Jozef Kochan"
 date = "2013-01-01"
 graduate_date = "2013-01-01"
 thesis_title = "Layer by layer engineering of ultrafiltration membranes"
-topics = ["membranes", "filtration"]
+topics = ["filtration", "membranes", "layer-by-layer"]
 draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/211238"
 rwth_url = "https://publications.rwth-aachen.de/record/211238"
 doi = ""
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Layer by layer engineering of ultrafiltration membranes
 - Graduate Date: 2013-01-01
-- Topics: membranes, filtration
+- Institution: RWTH
+- Topics: filtration, membranes, layer-by-layer
 
 ## Links
 

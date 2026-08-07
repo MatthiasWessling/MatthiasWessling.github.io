@@ -3,11 +3,13 @@ title = "Johannes Lohaus"
 date = "2021-11-25"
 graduate_date = "2021-11-25"
 thesis_title = "Multiphase dynamics of colloidal deposition and resuspension at membranes"
-topics = ["membranes"]
+topics = ["membranes", "filtration", "fouling", "microfluidics"]
 draft = false
 summary = "This thesis used coupled computational fluid dynamics - discrete element methods (CFD-DEM) simulations to examine pore-scale mechanisms during membrane fouling and membrane backwashing. The simulations revealed a dominant role of the inner pore structure, which is consistent with experimental observations from literature."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/843415"
 rwth_url = "https://publications.rwth-aachen.de/record/843415"
 doi = "10.18154/RWTH-2022-03122"
 thesis_pdf = "https://publications.rwth-aachen.de/record/843415/files/843415.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Multiphase dynamics of colloidal deposition and resuspension at membranes
 - Graduate Date: 2021-11-25
-- Topics: membranes
+- Institution: RWTH
+- Topics: membranes, filtration, fouling, microfluidics
 
 ## Links
 

@@ -8,6 +8,8 @@ draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/749893"
 rwth_url = "https://publications.rwth-aachen.de/record/749893"
 doi = ""
 thesis_pdf = ""
@@ -20,6 +22,7 @@ featured = false
 
 - Title: Mechanistic analysis of soft colloid filtration
 - Graduate Date: 2018-01-01
+- Institution: RWTH
 - Topics: filtration
 
 ## Links

@@ -3,11 +3,13 @@ title = "Maik Tepper"
 date = "2023-04-13"
 graduate_date = "2023-04-13"
 thesis_title = "Turbulence promoting microstructures inside hollow fiber membranes by a rotation-in-a-spinneret process"
-topics = ["membranes", "hollow fiber membranes"]
+topics = ["hollow fiber membranes", "membranes", "filtration", "polymers"]
 draft = false
 summary = "In particular, this thesis presents three approaches to implement rotation in a spinneret."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/960356"
 rwth_url = "https://publications.rwth-aachen.de/record/960356"
 doi = "10.18154/RWTH-2023-06200"
 thesis_pdf = "https://publications.rwth-aachen.de/record/960356/files/960356.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Turbulence promoting microstructures inside hollow fiber membranes by a rotation-in-a-spinneret process
 - Graduate Date: 2023-04-13
-- Topics: membranes, hollow fiber membranes
+- Institution: RWTH
+- Topics: hollow fiber membranes, membranes, filtration, polymers
 
 ## Links
 

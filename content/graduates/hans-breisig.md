@@ -8,6 +8,8 @@ draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/698588"
 rwth_url = "https://publications.rwth-aachen.de/record/698588"
 doi = ""
 thesis_pdf = ""
@@ -20,6 +22,7 @@ featured = false
 
 - Title: Principles and applications of droplet formation in porous-wall channels
 - Graduate Date: 2016-01-01
+- Institution: RWTH
 - Topics: porous media
 
 ## Links

@@ -8,6 +8,8 @@ draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/803875"
 rwth_url = "https://publications.rwth-aachen.de/record/803875"
 doi = ""
 thesis_pdf = ""
@@ -20,6 +22,7 @@ featured = false
 
 - Title: Synthetic membranes with responsive and enzymatically active properties
 - Graduate Date: 2020-01-01
+- Institution: RWTH
 - Topics: membranes
 
 ## Links

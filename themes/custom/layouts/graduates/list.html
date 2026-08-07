@@ -57,6 +57,14 @@
             </select>
         </div>
         <div class="news-sort-wrap">
+            <label for="graduates-institution" class="news-control-label">Institution</label>
+            <select id="graduates-institution">
+                <option value="">All institutions</option>
+                <option value="rwth">RWTH</option>
+                <option value="twente">Twente</option>
+            </select>
+        </div>
+        <div class="news-sort-wrap">
             <label for="graduates-sort" class="news-control-label">Sort</label>
             <select id="graduates-sort">
                 <option value="newest">Newest first</option>
@@ -95,12 +103,20 @@
             {{ $topicTags = delimit . " " | lower }}
         {{ end }}
         {{ $topicsSearch := trim (printf "%s %s %s" $topicTags ($thesisTitle | lower) (.Params.summary | default "" | lower)) " " }}
+        {{ $institution := .Params.institution | default "" }}
+        {{ if eq $institution "" }}
+            {{ with .Params.record_url }}
+                {{ if in . "utwente.nl" }}{{ $institution = "Twente" }}{{ else if in . "rwth-aachen.de" }}{{ $institution = "RWTH" }}{{ end }}
+            {{ end }}
+        {{ end }}
+        {{ if and (eq $institution "") .Params.rwth_url }}{{ $institution = "RWTH" }}{{ end }}
         <article
             class="news-item graduates-entry"
             data-title="{{ .Title | lower | htmlEscape }}"
             data-thesis-title="{{ $thesisTitle | lower | htmlEscape }}"
             data-topics="{{ $topicsSearch | htmlEscape }}"
             data-year="{{ $graduateYear | htmlEscape }}"
+            data-institution="{{ $institution | lower | htmlEscape }}"
             data-date="{{ $sortDate }}"
         >
             <div class="news-entry-layout">
@@ -130,6 +146,9 @@
                     </div>
 
                     <div class="news-meta">
+                        {{ if $institution }}
+                        <span class="graduates-institution">{{ $institution }}</span>
+                        {{ end }}
                         {{ if .Params.graduate_date }}
                         <time class="news-date">Graduation Date: {{ .Params.graduate_date }}</time>
                         {{ else }}

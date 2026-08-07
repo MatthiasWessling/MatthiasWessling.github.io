@@ -3,11 +3,13 @@ title = "Alexandra K. E. Rommerskirchen"
 date = "2021-01-01"
 graduate_date = "2021-01-01"
 thesis_title = "Continuous flow-electrode capacitive deionization"
-topics = ["capacitive deionization"]
+topics = ["capacitive deionization", "electrochemistry", "membranes"]
 draft = false
 summary = "This thesis discusses the state of the art of FCDI and related technologies and, based on this, presents experimental and theoretical studies, which advance the field of FCDI. The overall focus of this thesis lies on the application of FCDI for the treatment of high salinity solutions."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/814181"
 rwth_url = "https://publications.rwth-aachen.de/record/814181"
 doi = "10.18154/RWTH-2021-02093"
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Continuous flow-electrode capacitive deionization
 - Graduate Date: 2021-01-01
-- Topics: capacitive deionization
+- Institution: RWTH
+- Topics: capacitive deionization, electrochemistry, membranes
 
 ## Links
 

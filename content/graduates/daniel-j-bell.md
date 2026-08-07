@@ -8,6 +8,8 @@ draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/824265"
 rwth_url = "https://publications.rwth-aachen.de/record/824265"
 doi = ""
 thesis_pdf = ""
@@ -20,6 +22,7 @@ featured = false
 
 - Title: Artificial oscillating membrane systems
 - Graduate Date: 2021-01-01
+- Institution: RWTH
 - Topics: membranes
 
 ## Links

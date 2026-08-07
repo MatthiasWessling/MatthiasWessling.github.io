@@ -3,11 +3,13 @@ title = "Sven Lyko"
 date = "2012-01-01"
 graduate_date = "2012-01-01"
 thesis_title = "Zeit- und anlagengrößenabhängiges Foulingverhalten in kommunalen Membranbelebungsanlagen"
-topics = ["fouling"]
+topics = ["fouling", "membranes"]
 draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/210527"
 rwth_url = "https://publications.rwth-aachen.de/record/210527"
 doi = ""
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Zeit- und anlagengrößenabhängiges Foulingverhalten in kommunalen Membranbelebungsanlagen
 - Graduate Date: 2012-01-01
-- Topics: fouling
+- Institution: RWTH
+- Topics: fouling, membranes
 
 ## Links
 

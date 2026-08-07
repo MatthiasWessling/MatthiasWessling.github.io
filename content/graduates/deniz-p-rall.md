@@ -3,11 +3,13 @@ title = "Deniz P. Rall"
 date = "2020-01-01"
 graduate_date = "2020-01-01"
 thesis_title = "Data-Driven development of layer-by-layer nanofiltration membranes and processes"
-topics = ["membranes", "filtration"]
+topics = ["filtration", "membranes", "layer-by-layer", "modeling"]
 draft = false
 summary = "This thesis offers a novel data-driven methodology using artificial neural networks (ANNs) for the development of layer-by-layer nanofiltration membranes in contrast to established screening pathways. Furthermore, machine learning enables a well-founded physical analysis of the performance spectrum, creating an interface between the…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/804603"
 rwth_url = "https://publications.rwth-aachen.de/record/804603"
 doi = "10.18154/RWTH-2020-10408"
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Data-Driven development of layer-by-layer nanofiltration membranes and processes
 - Graduate Date: 2020-01-01
-- Topics: membranes, filtration
+- Institution: RWTH
+- Topics: filtration, membranes, layer-by-layer, modeling
 
 ## Links
 

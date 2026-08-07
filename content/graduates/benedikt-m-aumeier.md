@@ -3,11 +3,13 @@ title = "Benedikt M. Aumeier"
 date = "2020-01-01"
 graduate_date = "2020-01-01"
 thesis_title = "The hydrothermal solution for decentralized drinking water purification"
-topics = ["hydrothermal", "drinking water"]
+topics = ["water treatment", "filtration", "membranes"]
 draft = false
 summary = "The main objective of this thesis was to develop a water treatment process that fulfills the above-mentioned requirements, and to demonstrate its technical feasibility in order to assure self-sustaining operation at household level.The developed process consisted of two steps: water purification and process regeneration."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/801868"
 rwth_url = "https://publications.rwth-aachen.de/record/801868"
 doi = "10.18154/RWTH-2020-09122"
 thesis_pdf = "https://publications.rwth-aachen.de/record/801868/files/801868.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: The hydrothermal solution for decentralized drinking water purification
 - Graduate Date: 2020-01-01
-- Topics: hydrothermal, drinking water
+- Institution: RWTH
+- Topics: water treatment, filtration, membranes
 
 ## Links
 

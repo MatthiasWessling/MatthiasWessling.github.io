@@ -49,10 +49,12 @@ CSV_FIELDS = [
     "graduate_date",
     "thesis_title",
     "topics",
-    "rwth_url",
+    "institution",
+    "record_url",
     "doi",
     "thesis_pdf",
     "linkedin",
+    "orcid",
     "image",
     "summary",
 ]
@@ -284,10 +286,12 @@ def to_csv_row(row: Dict[str, Any]) -> Dict[str, str]:
         "graduate_date": graduate_date,
         "thesis_title": thesis_title,
         "topics": (row.get("topics") or topics_from_title(thesis_title)).strip(),
-        "rwth_url": (row.get("rwth_url") or "").strip(),
+        "institution": "RWTH",
+        "record_url": (row.get("record_url") or row.get("rwth_url") or "").strip(),
         "doi": (row.get("doi") or "").strip(),
         "thesis_pdf": (row.get("thesis_pdf") or "").strip(),
         "linkedin": (row.get("linkedin") or "").strip(),
+        "orcid": (row.get("orcid") or "").strip(),
         "image": (row.get("image") or "").strip(),
         "summary": (row.get("summary") or "").strip(),
     }
@@ -416,8 +420,10 @@ def main() -> None:
         # Also try matching abbreviated existing names by record URL
         matched = existing.get(slug)
         if not matched:
+            target = (csv_row.get("record_url") or "").rstrip("/")
             for ex in existing.values():
-                if (ex.get("rwth_url") or "").rstrip("/") == csv_row["rwth_url"].rstrip("/"):
+                ex_url = (ex.get("record_url") or ex.get("rwth_url") or "").rstrip("/")
+                if target and ex_url == target:
                     matched = ex
                     break
         csv_row = merge_preserve(csv_row, matched)

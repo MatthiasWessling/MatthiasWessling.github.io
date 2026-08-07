@@ -3,11 +3,13 @@ title = "Lucas Maximilian Stüwe"
 date = "2025-03-19"
 graduate_date = "2025-03-19"
 thesis_title = "Fabrication of polymer particles as model colloids in soft matter filtration"
-topics = ["filtration", "polymers"]
+topics = ["filtration", "polymers", "membranes", "fouling"]
 draft = false
 summary = "The present thesis provides two experimental approaches for filtration investigations in simplified environments on different size scales, starting with microfluidic investigations of particle properties on the hydraulic resistance of a filter cake by precisely controlling particle softness, shape, porosity, quantity and dispersity.…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/1009830"
 rwth_url = "https://publications.rwth-aachen.de/record/1009830"
 doi = "10.18154/RWTH-2025-03701"
 thesis_pdf = "https://publications.rwth-aachen.de/record/1009830/files/1009830.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Fabrication of polymer particles as model colloids in soft matter filtration
 - Graduate Date: 2025-03-19
-- Topics: filtration, polymers
+- Institution: RWTH
+- Topics: filtration, polymers, membranes, fouling
 
 ## Links
 

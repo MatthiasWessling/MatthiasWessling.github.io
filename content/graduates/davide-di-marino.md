@@ -3,11 +3,13 @@ title = "Davide Di Marino"
 date = "2019-01-01"
 graduate_date = "2019-01-01"
 thesis_title = "Extraction and electrochemical valorization of lignin in novel electrolytes"
-topics = ["electrochemistry"]
+topics = ["biomass valorization", "electrochemistry"]
 draft = false
 summary = "In this thesis, electrochemical processes are applied to valorize lignin, with a particular focus on the role of the electrolyte. Main results regarded the successful depolymerization in the deep eutectic solvent and the formation of aromatic compounds with a high selectivity for guaiacol and vanillin."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/771046"
 rwth_url = "https://publications.rwth-aachen.de/record/771046"
 doi = "10.18154/RWTH-2019-09911"
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Extraction and electrochemical valorization of lignin in novel electrolytes
 - Graduate Date: 2019-01-01
-- Topics: electrochemistry
+- Institution: RWTH
+- Topics: biomass valorization, electrochemistry
 
 ## Links
 

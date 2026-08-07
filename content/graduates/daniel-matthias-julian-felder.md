@@ -3,11 +3,13 @@ title = "Daniel Matthias Julian Felder"
 date = "2023-08-16"
 graduate_date = "2023-08-16"
 thesis_title = "Electrochemical charge transport in organic neuromorphic device networks"
-topics = ["electrochemistry"]
+topics = ["electrochemistry", "simulation"]
 draft = false
 summary = "This thesis employs high-resolution charge transport models to explain the electrochemical processes in organic synapses and identify the non-ideal behavior's root causes. Simulations of artificial neural networks show that self-discharge can significantly degrade network performance over single-digit minutes."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/964209"
 rwth_url = "https://publications.rwth-aachen.de/record/964209"
 doi = "10.18154/RWTH-2023-08179"
 thesis_pdf = "https://publications.rwth-aachen.de/record/964209/files/964209.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Electrochemical charge transport in organic neuromorphic device networks
 - Graduate Date: 2023-08-16
-- Topics: electrochemistry
+- Institution: RWTH
+- Topics: electrochemistry, simulation
 
 ## Links
 

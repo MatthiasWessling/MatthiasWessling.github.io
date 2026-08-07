@@ -1,0 +1,1825 @@
+{
+  "total": 47,
+  "matched": 29,
+  "imported_from_pdf_only": 17,
+  "needs_manual": 1,
+  "with_pdf_link": 29,
+  "with_doi": 40,
+  "items": [
+    {
+      "stem": "1996_Bos",
+      "filename": "1996_Bos.pdf",
+      "year": "1996",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/high-pressure-cosub2subchsub4sub-separation-with-glassy-polymer-m/",
+      "doi": "10.3990/1.9789036509053",
+      "notes": [
+        "crossref_score:25",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "HIGH PRESSURE CO2/CH4 SEPARATION WITH GLASSY POLYMER MEMBRANES Aspects of CO2-induced plasticization",
+        "author": "Aaltje Bos",
+        "graduate_date": "1996-12-13",
+        "isbn": "903650905",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "High pressure CO2/CH4 separation with glassy polymer membranes: aspects of CO2-induced plasticization",
+        "author": "Aaltje Bos",
+        "graduate_date": "1996-12-13",
+        "thesis_pdf": "https://research.utwente.nl/files/255319481/thesis_A_Bos.pdf",
+        "has_abstract": false
+      },
+      "csv_row": {
+        "name": "Aaltje Bos",
+        "graduate_date": "1996-12-13",
+        "thesis_title": "High pressure CO2/CH4 separation with glassy polymer membranes: aspects of CO2-induced plasticization",
+        "topics": "CO2 reduction; membranes; gas separation; polymers",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/high-pressure-cosub2subchsub4sub-separation-with-glassy-polymer-m/",
+        "doi": "10.3990/1.9789036509053",
+        "thesis_pdf": "https://research.utwente.nl/files/255319481/thesis_A_Bos.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      },
+      "abstract_chars": 0
+    },
+    {
+      "stem": "1996_Wijers",
+      "filename": "1996_Wijers.pdf",
+      "year": "1996",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "title_override",
+        "name_override",
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "Supported liquid membranes for removal of heavy metals: permeability, selectivity and stability",
+        "author": "Marie Christiana Wijers",
+        "graduate_date": "1996-12-06",
+        "isbn": "9036508940",
+        "doi_guess": "10.3990/1.9789036508940",
+        "mentions_wessling": false
+      },
+      "csv_row": {
+        "name": "Marie Christiana Wijers",
+        "graduate_date": "1996-12-06",
+        "thesis_title": "Supported liquid membranes for removal of heavy metals: permeability, selectivity and stability",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036508940",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "1997_Krol",
+      "filename": "1997_Krol.pdf",
+      "year": "1997",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/monopolar-and-bipolar-ion-exchange-membranes/",
+      "doi": "10.3990/1.9789036509862",
+      "notes": [
+        "isbn_doi_miss",
+        "crossref_score:21",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "MONOPOLAR AND BIPOLAR ION EXCHANGE MEMBRANES Mass Transport Limitations",
+        "author": "John Jacco Krol",
+        "graduate_date": "1969-08-25",
+        "isbn": "9036509866",
+        "doi_guess": "10.3990/1.9789036509866",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Monopolar and bipolar ion exchange membranes",
+        "author": "J.J. Krol",
+        "graduate_date": "1997-08-29",
+        "thesis_pdf": "https://research.utwente.nl/files/6077476/t0000002.pdf",
+        "has_abstract": false
+      },
+      "csv_row": {
+        "name": "J.J. Krol",
+        "graduate_date": "1997-08-29",
+        "thesis_title": "Monopolar and bipolar ion exchange membranes",
+        "topics": "membranes; ion-exchange membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/monopolar-and-bipolar-ion-exchange-membranes/",
+        "doi": "10.3990/1.9789036509862",
+        "thesis_pdf": "https://research.utwente.nl/files/6077476/t0000002.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      },
+      "abstract_chars": 0
+    },
+    {
+      "stem": "1998_Vegt van der",
+      "filename": "1998_Vegt van der.pdf",
+      "year": "1998",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "title_override",
+        "name_override",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "Molecular dynamics simulations of sorption and diffusion in rubbery and glassy polymers",
+        "author": "Nico F.A. van der Vegt",
+        "graduate_date": "",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": false
+      },
+      "csv_row": {
+        "name": "Nico F.A. van der Vegt",
+        "graduate_date": "1998-01-01",
+        "thesis_title": "Molecular dynamics simulations of sorption and diffusion in rubbery and glassy polymers",
+        "topics": "polymers",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2000_Nauta",
+      "filename": "2000_Nauta.pdf",
+      "year": "2000",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/stabilisation-of-low-density-closed-cell-polyethylene-foam/",
+      "doi": "10.3990/1.9789036514637",
+      "notes": [
+        "isbn_doi_miss",
+        "crossref_score:25",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "STABILISATION OF LOW DENSITY, CLOSED CELL POLYETHYLENE FOAM",
+        "author": "Warner Jan Nauta",
+        "graduate_date": "2000-06-09",
+        "isbn": "9036514630",
+        "doi_guess": "10.3990/1.9789036514630",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Stabilisation of low density, closed cell polyethylene foam",
+        "author": "Warner J. Nauta",
+        "graduate_date": "2000-06-09",
+        "thesis_pdf": "https://research.utwente.nl/files/6077407/t000001c.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Warner J. Nauta",
+        "graduate_date": "2000-06-09",
+        "thesis_title": "Stabilisation of low density, closed cell polyethylene foam",
+        "topics": "",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/stabilisation-of-low-density-closed-cell-polyethylene-foam/",
+        "doi": "10.3990/1.9789036514637",
+        "thesis_pdf": "https://research.utwente.nl/files/6077407/t000001c.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "Low density, closed cell polyethylene foams show severe post-extrusion collapse when isobutane or carbon dioxide are used as physical blowing agents. The crystalline character of this layer was revealed by X-ray diffraction."
+      },
+      "abstract_chars": 1211
+    },
+    {
+      "stem": "2001_Figoli",
+      "filename": "2001_Figoli.pdf",
+      "year": "2001",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "Synthesis of nanostructured mixed matrix membrane for facilitated gas separation Alberto Figoli The Dutch Science Organisation (NWO) is gratefully acknowledged for its financial support. Synthesis of nanostructured",
+        "author": "Alberto Figoli",
+        "graduate_date": "2001-10-26",
+        "isbn": "9036516730",
+        "doi_guess": "10.3990/1.9789036516730",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Alberto Figoli",
+        "graduate_date": "2001-10-26",
+        "thesis_title": "Synthesis of nanostructured mixed matrix membrane for facilitated gas separation Alberto Figoli The Dutch Science Organisation (NWO) is gratefully acknowledged for its financial support. Synthesis of nanostructured",
+        "topics": "membranes; gas separation",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036516730",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2001_He",
+      "filename": "2001_He.pdf",
+      "year": "2001",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "Composite hollow fiber membranes for ion separation and removal Composite hollow fiber membranes for ion separation and removal",
+        "author": "Tao He",
+        "graduate_date": "2001-09-14",
+        "isbn": "9036516242",
+        "doi_guess": "10.3990/1.9789036516242",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Tao He",
+        "graduate_date": "2001-09-14",
+        "thesis_title": "Composite hollow fiber membranes for ion separation and removal",
+        "topics": "membranes; hollow fiber membranes",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036516242",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2001_Heijden van der",
+      "filename": "2001_Heijden van der.pdf",
+      "year": "2001",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "A DSC-study on the demixing of binary polymer solutions Peter van der Heijden A DSC-STUDY ON THE DEMIXING OF BINARY POLYMER SOLUTIONS",
+        "author": "Petrus Cornelis van der Heijden",
+        "graduate_date": "1973-08-16",
+        "isbn": "9036516463",
+        "doi_guess": "10.3990/1.9789036516463",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Petrus Cornelis van der Heijden",
+        "graduate_date": "1973-08-16",
+        "thesis_title": "A DSC-study on the demixing of binary polymer solutions Peter van der Heijden A DSC-STUDY ON THE DEMIXING OF BINARY POLYMER SOLUTIONS",
+        "topics": "polymers",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036516463",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2001_Krause",
+      "filename": "2001_Krause.pdf",
+      "year": "2001",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/polymer-nanofoams/",
+      "doi": "10.3990/1.9789036516471",
+      "notes": [
+        "seed_url"
+      ],
+      "pdf": {
+        "title": "POLYMER NANOFOAMS POLYMER NANOFOAMS",
+        "author": "Bernd Krause",
+        "graduate_date": "2001-11-09",
+        "isbn": "9036516471",
+        "doi_guess": "10.3990/1.9789036516471",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Polymer nanofoams",
+        "author": "Bernd Krause",
+        "graduate_date": "2001-11-09",
+        "thesis_pdf": "https://research.utwente.nl/files/280589117/thesis_B_Krause.pdf",
+        "has_abstract": false
+      },
+      "csv_row": {
+        "name": "Bernd Krause",
+        "graduate_date": "2001-11-09",
+        "thesis_title": "Polymer nanofoams",
+        "topics": "polymers",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/polymer-nanofoams/",
+        "doi": "10.3990/1.9789036516471",
+        "thesis_pdf": "https://research.utwente.nl/files/280589117/thesis_B_Krause.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      },
+      "abstract_chars": 0
+    },
+    {
+      "stem": "2001_Wilhelm",
+      "filename": "2001_Wilhelm.pdf",
+      "year": "2001",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "Bipolar Membrane Electrodialysis Friedrich Georg Wilhelm Membrane Development and Transport Characteristics Twente University Press BIPOLAR MEMBRANE ELECTRODIALYSIS Publisher: Twente University Press, P.O. Box 217, 7500",
+        "author": "Friedrich Georg Wilhelm",
+        "graduate_date": "2001-01-19",
+        "isbn": "9036515270",
+        "doi_guess": "10.3990/1.9789036515270",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Friedrich Georg Wilhelm",
+        "graduate_date": "2001-01-19",
+        "thesis_title": "Bipolar Membrane Electrodialysis Friedrich Georg Wilhelm Membrane Development and Transport Characteristics Twente University Press BIPOLAR MEMBRANE ELECTRODIALYSIS Publisher: Twente University Press, P.O. Box 217, 7500",
+        "topics": "membranes; ion-exchange membranes",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036515270",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2002_Avramescu",
+      "filename": "2002_Avramescu.pdf",
+      "year": "2002",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/membrane-adsorbers-development-and-applications/",
+      "doi": "10.3990/1.9789036518383",
+      "notes": [
+        "isbn_doi_miss",
+        "crossref_score:25",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "I MEMBRANE ADSORBERS DEVELOPMENT AND APPLICATIONS Contents - 2 - Maria Elena AVRAMESCU MEMBRANE ADSORBERS − Development and applications Ph.D. thesis, University of Twente, The Netherlands. ISBN 90-365-1838-5 © M.E.",
+        "author": "Maria Elena AVRAMESCU",
+        "graduate_date": "2002-12-19",
+        "isbn": "9036518385",
+        "doi_guess": "10.3990/1.9789036518385",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Membrane adsorbers: development and applications",
+        "author": "Maria Elena Avramescu",
+        "graduate_date": "2002-12-19",
+        "thesis_pdf": "https://research.utwente.nl/files/6080973/2002_Avramescu.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Maria Elena Avramescu",
+        "graduate_date": "2002-12-19",
+        "thesis_title": "Membrane adsorbers: development and applications",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/membrane-adsorbers-development-and-applications/",
+        "doi": "10.3990/1.9789036518383",
+        "thesis_pdf": "https://research.utwente.nl/files/6080973/2002_Avramescu.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "Bioaffinity separation principally asks for membranes that show a good compatibility to the targeted biological fluids, provide coupling sites for (bio)ligands and posses a hydrophilic surface to reduce non-specific adsorption caused by hydrophobic atraction. Due to its good blood compatibility and very low water solubility, ethylene…"
+      },
+      "abstract_chars": 671
+    },
+    {
+      "stem": "2002_Geeter de",
+      "filename": "2002_Geeter de.pdf",
+      "year": "2002",
+      "status": "needs_manual",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "name_override"
+      ],
+      "pdf": {
+        "title": "",
+        "author": "L. de Geeter",
+        "graduate_date": "",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": false
+      },
+      "csv_row": {
+        "name": "L. de Geeter",
+        "graduate_date": "2002-01-01",
+        "thesis_title": "",
+        "topics": "",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2003_Hermsen",
+      "filename": "2003_Hermsen.pdf",
+      "year": "2003",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "CONFORMATIONAL PROPERTIES OF LINEAR POLYMERS AT A POROUS INTERFACE: A MONTE CARLO SIMULATION STUDY",
+        "author": "Gerard Frank Hermsen",
+        "graduate_date": "2003-09-05",
+        "isbn": "9036519586",
+        "doi_guess": "10.3990/1.9789036519586",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Gerard Frank Hermsen",
+        "graduate_date": "2003-09-05",
+        "thesis_title": "Conformational Properties Of Linear Polymers At A Porous Interface: A Monte Carlo Simulation Study",
+        "topics": "porous media; polymers",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036519586",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2003_Metz",
+      "filename": "2003_Metz.pdf",
+      "year": "2003",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "WATER VAPOR AND GAS TRANSPORT THROUGH POLYMERIC MEMBRANES WATER VAPOR AND GAS TRANSPORT THROUGH POLYMERIC MEMBRANES",
+        "author": "Sybrandus Jacob Metz",
+        "graduate_date": "2003-11-21",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Sybrandus Jacob Metz",
+        "graduate_date": "2003-11-21",
+        "thesis_title": "Water Vapor And Gas Transport Through Polymeric Membranes",
+        "topics": "membranes; polymers",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2003_Nijmeijer",
+      "filename": "2003_Nijmeijer.pdf",
+      "year": "2003",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "GAS-LIQUID MEMBRANE CONTACTORS FOR OLEFIN/PARAFFIN SEPARATION GAS-LIQUID MEMBRANE CONTACTORS FOR OLEFIN/PARAFFIN SEPARATION",
+        "author": "Dorothea Catharina Nymeijer",
+        "graduate_date": "2003-05-09",
+        "isbn": "9036518784",
+        "doi_guess": "10.3990/1.9789036518784",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Dorothea Catharina Nymeijer",
+        "graduate_date": "2003-05-09",
+        "thesis_title": "Gas-Liquid Membrane Contactors For Olefin/Paraffin Separation",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036518784",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2004_Barsema",
+      "filename": "2004_Barsema.pdf",
+      "year": "2004",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "CARBON MEMBRANES PRECURSOR, PREPARATION AND FUNCTIONALIZATION",
+        "author": "Jonathan Nathaniel Barsema",
+        "graduate_date": "1972-06-20",
+        "isbn": "903652007",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Jonathan Nathaniel Barsema",
+        "graduate_date": "1972-06-20",
+        "thesis_title": "Carbon Membranes Precursor, Preparation And Functionalization",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2004_Stafie",
+      "filename": "2004_Stafie.pdf",
+      "year": "2004",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "POLY(DIMETHYL SILOXANE) – BASED COMPOSITE NANOFILTRATION MEMBRANES FOR NON-AQUEOUS APPLICATIONS",
+        "author": "Nela Stafie",
+        "graduate_date": "2004-11-24",
+        "isbn": "9036521122",
+        "doi_guess": "10.3990/1.9789036521122",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Nela Stafie",
+        "graduate_date": "2004-11-24",
+        "thesis_title": "Poly(Dimethyl Siloxane) – Based Composite Nanofiltration Membranes For Non-Aqueous Applications",
+        "topics": "membranes; filtration",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036521122",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2005_Frenzel",
+      "filename": "2005_Frenzel.pdf",
+      "year": "2005",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/waste-minimization-in-chromium-plating-industry-2/",
+      "doi": "10.3990/1.9789036522090",
+      "notes": [
+        "isbn_doi_miss",
+        "crossref_score:25",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "WASTE MINIMIZATION IN CHROMIUM PLATING INDUSTRY WASTE MINIMIZATION IN CHROMIUM PLATING INDUSTRY",
+        "author": "Ines Frenzel",
+        "graduate_date": "2005-06-03",
+        "isbn": "9036522099",
+        "doi_guess": "10.3990/1.9789036522099",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Waste minimization in chromium plating industry",
+        "author": "Ines Frenzel",
+        "graduate_date": "2005-01-01",
+        "thesis_pdf": "https://research.utwente.nl/files/6119857/thesis_Frenzel.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Ines Frenzel",
+        "graduate_date": "2005-01-01",
+        "thesis_title": "Waste minimization in chromium plating industry",
+        "topics": "",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/waste-minimization-in-chromium-plating-industry-2/",
+        "doi": "10.3990/1.9789036522090",
+        "thesis_pdf": "https://research.utwente.nl/files/6119857/thesis_Frenzel.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis investigates three technologies for the treatment of chromic acid solutions, which could combine economical and practical aspects with conservation of nature and natural resources."
+      },
+      "abstract_chars": 616
+    },
+    {
+      "stem": "2005_Girones",
+      "filename": "2005_Girones.pdf",
+      "year": "2005",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "INORGANIC AND POLYMERIC MICROSIEVES STRATEGIES TO REDUCE FOULING",
+        "author": "Míriam Gironès i Nogué",
+        "graduate_date": "2005-12-09",
+        "isbn": "9036522897",
+        "doi_guess": "10.3990/1.9789036522897",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Míriam Gironès i Nogué",
+        "graduate_date": "2005-12-09",
+        "thesis_title": "Inorganic And Polymeric Microsieves Strategies To Reduce Fouling",
+        "topics": "polymers; fouling",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036522897",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2005_Jansen",
+      "filename": "2005_Jansen.pdf",
+      "year": "2005",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/ozonation-of-humic-substances-in-a-membrane-contactor-mass-transf-2/",
+      "doi": "10.3990/1.9789036521987",
+      "notes": [
+        "crossref_score:23",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "OZONATION OF HUMIC SUBSTANCES IN A MEMBRANE CONTACTOR MASS TRANSFER, PRODUCT CHARACTERIZATION AND BIODEGRADABILITY Ronald Jansen The research described in this thesis was carried out at Van Hall Institute , Leeuwarden,",
+        "author": "Ronald Herman Sebastiaan Jansen",
+        "graduate_date": "2005-05-20",
+        "isbn": "903652198",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Ozonation of humic substances in a membrane contactor: mass transfer, product characterization and biodegradability",
+        "author": "Ronald H.S. Jansen",
+        "graduate_date": "2005-01-01",
+        "thesis_pdf": "https://research.utwente.nl/files/6120122/thesis_Jansen.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Ronald H.S. Jansen",
+        "graduate_date": "2005-01-01",
+        "thesis_title": "Ozonation of humic substances in a membrane contactor: mass transfer, product characterization and biodegradability",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/ozonation-of-humic-substances-in-a-membrane-contactor-mass-transf-2/",
+        "doi": "10.3990/1.9789036521987",
+        "thesis_pdf": "https://research.utwente.nl/files/6120122/thesis_Jansen.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "The goal of the research was to investigate the degradation of concentrated humic substances by an ozonation/biofiltation system in a side-stream process. The humic substances were concentrated by ion-exchange adsorption and the research was mainly focused on the ozonation of humic substances."
+      },
+      "abstract_chars": 437
+    },
+    {
+      "stem": "2005_Vogelaar",
+      "filename": "2005_Vogelaar.pdf",
+      "year": "2005",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "phase separation micro molding laura vogelaar © Laura Vogelaar, 2005 Phase Separation Micro Molding Laura Vogelaar Ph.D. Thesis, University of Twente, The Netherlands ISBN 90-365-2221-8 Printed by PrintPartners Ipskamp",
+        "author": "Laura Vogelaar",
+        "graduate_date": "2005-07-08",
+        "isbn": "9036522218",
+        "doi_guess": "10.3990/1.9789036522218",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Laura Vogelaar",
+        "graduate_date": "2005-07-08",
+        "thesis_title": "phase separation micro molding laura vogelaar © Laura Vogelaar, 2005 Phase Separation Micro Molding Laura Vogelaar Ph.D. Thesis, University of Twente, The Netherlands ISBN 90-365-2221-8 Printed by PrintPartners Ipskamp",
+        "topics": "",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036522218",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2006_Balster",
+      "filename": "2006_Balster.pdf",
+      "year": "2006",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/membrane-module-and-process-development-for-monopolar-and-bipolar/",
+      "doi": "10.3990/1.9789036524520",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "Membrane module and process development for monopolar and bipolar membrane electrodialysis The research described in this thesis was supported by the Dutch Technology Foundation STW, applied science division of NWO.",
+        "author": "Jörg Henning Balster",
+        "graduate_date": "2006-12-13",
+        "isbn": "9036524520",
+        "doi_guess": "10.3990/1.9789036524520",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Membrane module and process development for monopolar and bipolar membrane electrodialysis",
+        "author": "Jörg H. Balster",
+        "graduate_date": "2006-12-13",
+        "thesis_pdf": "https://research.utwente.nl/files/6070210/thesis_Balster.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Jörg H. Balster",
+        "graduate_date": "2006-12-13",
+        "thesis_title": "Membrane module and process development for monopolar and bipolar membrane electrodialysis",
+        "topics": "membranes; ion-exchange membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/membrane-module-and-process-development-for-monopolar-and-bipolar/",
+        "doi": "10.3990/1.9789036524520",
+        "thesis_pdf": "https://research.utwente.nl/files/6070210/thesis_Balster.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis aims to develop more efficient monopolar and bipolar membrane electrodialysis processes."
+      },
+      "abstract_chars": 228
+    },
+    {
+      "stem": "2006_Borneman",
+      "filename": "2006_Borneman.pdf",
+      "year": "2006",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/particle-loaded-membrane-chromatography-2/",
+      "doi": "10.3990/1.9789036524339",
+      "notes": [
+        "isbn_doi_miss",
+        "crossref_score:25",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "PARTICLE LOADED MEMBRANE CHROMATOGRAPHY Cover Het kleurenpalet dat je krijgt wanneer een zwarte oplosbare inkt uitvloeit op filtreerpapier. Dit proces heet chromatografie (= schrijven met kleuren). De tekeningen zijn",
+        "author": "Zandrie Borneman",
+        "graduate_date": "2006-11-15",
+        "isbn": "9036524334",
+        "doi_guess": "10.3990/1.9789036524334",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Particle loaded membrane chromatography",
+        "author": "Zandrie Borneman",
+        "graduate_date": "2006-11-15",
+        "thesis_pdf": "https://research.utwente.nl/files/6086979/thesis_Borneman.pdf",
+        "has_abstract": false
+      },
+      "csv_row": {
+        "name": "Zandrie Borneman",
+        "graduate_date": "2006-11-15",
+        "thesis_title": "Particle loaded membrane chromatography",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/particle-loaded-membrane-chromatography-2/",
+        "doi": "10.3990/1.9789036524339",
+        "thesis_pdf": "https://research.utwente.nl/files/6086979/thesis_Borneman.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      },
+      "abstract_chars": 0
+    },
+    {
+      "stem": "2006_Geerken",
+      "filename": "2006_Geerken.pdf",
+      "year": "2006",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_miss",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "EMULSIFICATION WITH MICRO- ENGINEERED DEVICES",
+        "author": "Maik Jörn Geerken",
+        "graduate_date": "2006-11-09",
+        "isbn": "9036524326",
+        "doi_guess": "10.3990/1.9789036524326",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Maik Jörn Geerken",
+        "graduate_date": "2006-11-09",
+        "thesis_title": "Emulsification With Micro- Engineered Devices",
+        "topics": "",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036524326",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2006_Schrader",
+      "filename": "2006_Schrader.pdf",
+      "year": "2006",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/direct-nanofiltration-of-waste-water-treatment-plant-effluent/",
+      "doi": "10.3990/1.9789036523325",
+      "notes": [
+        "crossref_score:22",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "DIRECT NANOFILTRATION OF WASTE WATER TREATMENT PLANT EFFLUENT GѢіљљќ Aљђѥюћёђџ Sѐѕџюёђџ Sѡђљљіћєђћ яђѕќџђћёђ яӒ ѕђѡ ѝџќђѓѠѐѕџіѓѡ: “Dіџђѐѡ Nюћќѓіљѡџюѡіќћ ќѓ WюѠѡђ Wюѡђџ Tџђюѡњђћѡ Pљюћѡ EѓѓљѢђћѡ” ёќќџ GѢіљљќ Sѐѕџюёђџ. 1.",
+        "author": "Guillo Alexander Schrader",
+        "graduate_date": "1974-06-10",
+        "isbn": "903652332",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Direct nanofiltration of wastewater treatment plant effluent",
+        "author": "Guillo Alexander Schrader",
+        "graduate_date": "2006-03-31",
+        "thesis_pdf": "https://research.utwente.nl/files/279528405/thesis_Schrader.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Guillo Alexander Schrader",
+        "graduate_date": "2006-03-31",
+        "thesis_title": "Direct nanofiltration of wastewater treatment plant effluent",
+        "topics": "filtration",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/direct-nanofiltration-of-waste-water-treatment-plant-effluent/",
+        "doi": "10.3990/1.9789036523325",
+        "thesis_pdf": "https://research.utwente.nl/files/279528405/thesis_Schrader.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "Membrane technology, especially nanofiltration, is seen as a suitable technology to polish WWTP effluent to EU WFD standards and consequently produce an effluent quality suitable for agricultural or (in)direct potable usage. The objective of this study was to assess the potential of direct nanofiltration as technique for effluent…"
+      },
+      "abstract_chars": 344
+    },
+    {
+      "stem": "2006_Visser",
+      "filename": "2006_Visser.pdf",
+      "year": "2006",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/mixed-gas-plasticization-phenomena-in-asymmetric-membranes-2/",
+      "doi": "",
+      "notes": [
+        "seed_url"
+      ],
+      "pdf": {
+        "title": "MIXED GAS PLASTICIZATION PHENOMENA IN ASYMMETRIC MEMBRANES The research described in this thesis was supported by the Dutch Technology Foundation STW, applied science division of NWO and the Technology Program of the",
+        "author": "Tymen Visser",
+        "graduate_date": "2006-11-24",
+        "isbn": "9036524180",
+        "doi_guess": "10.3990/1.9789036524180",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Mixed gas plasticization phenomena in asymmetric membranes",
+        "author": "Tymen Visser",
+        "graduate_date": "2006-01-01",
+        "thesis_pdf": "https://research.utwente.nl/files/6086964/thesis_Visser.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Tymen Visser",
+        "graduate_date": "2006-01-01",
+        "thesis_title": "Mixed gas plasticization phenomena in asymmetric membranes",
+        "topics": "membranes; gas separation",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/mixed-gas-plasticization-phenomena-in-asymmetric-membranes-2/",
+        "doi": "",
+        "thesis_pdf": "https://research.utwente.nl/files/6086964/thesis_Visser.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis describes the thorough investigation of mixed gas transport behavior of asymmetric membranes in the separation of feed streams containing plasticizing gases in order to gain more insights into the complicated behavior of plasticization."
+      },
+      "abstract_chars": 589
+    },
+    {
+      "stem": "2007_Saiful",
+      "filename": "2007_Saiful.pdf",
+      "year": "2007",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/mixed-matrix-membrane-adsorbers-for-protein-and-blood-purificatio-2/",
+      "doi": "10.3990/1.9789036525077",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "MIXED MATRIX MEMBRANE ADSORBERS FOR PROTEIN AND BLOOD PURIFICATION This work was financially supported by the Indonesian Ministry of Education and Culture and the Membrane Technology Group of The University of Twente,",
+        "author": "Saiful",
+        "graduate_date": "2007-05-24",
+        "isbn": "9789036525077",
+        "doi_guess": "10.3990/1.9789036525077",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Mixed matrix membrane adsorbers for protein and blood purification",
+        "author": "Saiful",
+        "graduate_date": "2007-05-24",
+        "thesis_pdf": "https://research.utwente.nl/files/6086565/thesis_Saiful.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Saiful",
+        "graduate_date": "2007-05-24",
+        "thesis_title": "Mixed matrix membrane adsorbers for protein and blood purification",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/mixed-matrix-membrane-adsorbers-for-protein-and-blood-purificatio-2/",
+        "doi": "10.3990/1.9789036525077",
+        "thesis_pdf": "https://research.utwente.nl/files/6086565/thesis_Saiful.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "Biotechnology and bio-manufacturing markets are continuously growing, generating new sources of many valuable healthcare and life science products including therapeutic proteins and polysaccharides, monoclonals, vaccines, diagnostics, pharmaceutical chemicals and enzymes. These bioproducts have to be isolated and purified from complex…"
+      },
+      "abstract_chars": 1039
+    },
+    {
+      "stem": "2007_Sterescu",
+      "filename": "2007_Sterescu.pdf",
+      "year": "2007",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/fullerene-and-dendrimer-based-nano-composite-gas-separation-membr-2/",
+      "doi": "10.3990/1.9789036525619",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "FULLERENE AND DENDRIMER BASED NANO-COMPOSITE GAS SEPARATION MEMBRANES The research described in this thesis was supported by the Dutch Technology Foundation STW, applied science division of NWO. Fullerene and dendrimer",
+        "author": "Dana Manuela Sterescu",
+        "graduate_date": "2007-09-20",
+        "isbn": "9789036525619",
+        "doi_guess": "10.3990/1.9789036525619",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Fullerene and dendrimer based nano-composite gas separation membranes",
+        "author": "Dana Manuela Sterescu",
+        "graduate_date": "2007-09-20",
+        "thesis_pdf": "https://research.utwente.nl/files/6086519/thesis_Sterescu.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Dana Manuela Sterescu",
+        "graduate_date": "2007-09-20",
+        "thesis_title": "Fullerene and dendrimer based nano-composite gas separation membranes",
+        "topics": "membranes; gas separation",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/fullerene-and-dendrimer-based-nano-composite-gas-separation-membr-2/",
+        "doi": "10.3990/1.9789036525619",
+        "thesis_pdf": "https://research.utwente.nl/files/6086519/thesis_Sterescu.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis describes the development of new materials for membrane based gas separation processes."
+      },
+      "abstract_chars": 371
+    },
+    {
+      "stem": "2008_Jong de",
+      "filename": "2008_Jong de.pdf",
+      "year": "2008",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "APPLICATION OF MEMBRANE TECHNOLOGY IN MICROFLUIDIC DEVICES Jorrit de Jong Membrane Technology Group Faculty of Science and Technology University of Twente P.O. Box 217 7500AE Enschede, The Netherlands",
+        "author": "Jorrit de Jong",
+        "graduate_date": "2008-04-18",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Jorrit de Jong",
+        "graduate_date": "2008-04-18",
+        "thesis_title": "APPLICATION OF MEMBRANE TECHNOLOGY IN MICROFLUIDIC DEVICES Jorrit de Jong Membrane Technology Group Faculty of Science and Technology University of Twente P.O. Box 217 7500AE Enschede, The Netherlands",
+        "topics": "membranes; microfluidics",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2008_Ven van de",
+      "filename": "2008_Ven van de.pdf",
+      "year": "2008",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/towards-optimal-saving-in-membrane-operation/",
+      "doi": "10.3990/1.9789090229928",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "TOWARDS OPTIMAL SAVING IN MEMBRANE OPERATION The development of process inspection and feedwater characterization tools. ii This work was financially supported by the Dutch Science Foundation, STW, project 6115, Optimal",
+        "author": "Wilhelmus Johannes Cornelis van de Ven",
+        "graduate_date": "1977-05-14",
+        "isbn": "9789090229928",
+        "doi_guess": "10.3990/1.9789090229928",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Towards optimal saving in membrane operation",
+        "author": "Wilbert J.C. van de Ven",
+        "graduate_date": "2008-04-24",
+        "thesis_pdf": "https://research.utwente.nl/files/456147330/thesis_WJC_van_de_Ven.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Wilbert J.C. van de Ven",
+        "graduate_date": "2008-04-24",
+        "thesis_title": "Towards optimal saving in membrane operation",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/towards-optimal-saving-in-membrane-operation/",
+        "doi": "10.3990/1.9789090229928",
+        "thesis_pdf": "https://research.utwente.nl/files/456147330/thesis_WJC_van_de_Ven.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This work aims at the development of methods for fingerprinting filtration processes. The use of light scattering enabled not only the determination of particle size, but also the confrontation of the polymers and their interaction with the membrane."
+      },
+      "abstract_chars": 2298
+    },
+    {
+      "stem": "2009_Bikel",
+      "filename": "2009_Bikel.pdf",
+      "year": "2009",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/fundamental-aspects-of-phase-separation-microfabrication/",
+      "doi": "10.3990/1.9789090248516",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "“After years of stormy sailing, have I finally found the bay?” —Penny A mi ma, por volver (siempre) a levantarse... The research featured in this thesis has been financed by MicroNed, one of the Dutch BSIK research",
+        "author": "Matías Bikel",
+        "graduate_date": "2009-12-18",
+        "isbn": "9789090248516",
+        "doi_guess": "10.3990/1.9789090248516",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Fundamental aspects of phase separation microfabrication",
+        "author": "Matías Bikel",
+        "graduate_date": "2009-12-18",
+        "thesis_pdf": "https://research.utwente.nl/files/6082883/thesis_M_Bikel.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Matías Bikel",
+        "graduate_date": "2009-12-18",
+        "thesis_title": "Fundamental aspects of phase separation microfabrication",
+        "topics": "",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/fundamental-aspects-of-phase-separation-microfabrication/",
+        "doi": "10.3990/1.9789090248516",
+        "thesis_pdf": "https://research.utwente.nl/files/6082883/thesis_M_Bikel.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "In the research featured in this PhD thesis, the fundamental aspects of Phase Separation MicroFabrication (PSµF) were studied. This is achieved by phase separation of polymer solutions that are in contact with microstructured molds."
+      },
+      "abstract_chars": 794
+    },
+    {
+      "stem": "2009_Dlugolecki",
+      "filename": "2009_Dlugolecki.pdf",
+      "year": "2009",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/mass-transport-in-reverse-electrodialysis-for-sustainable-energy-/",
+      "doi": "10.3990/1.9789036529280",
+      "notes": [
+        "crossref_score:21",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "MASS TRANSPORT IN REVERSE ELECTRODIALYSIS FOR SUSTAINABLE ENERGY GENERATION Piotr Edward Długołęcki",
+        "author": "Piotr Edward Długołęcki",
+        "graduate_date": "2009-11-18",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Mass transport in reverse electrodialysis for sustainable energy generation",
+        "author": "Piotr Edward Dlugolecki",
+        "graduate_date": "2009-11-18",
+        "thesis_pdf": "https://research.utwente.nl/files/6082816/Thesis_P_Dlugolecki.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Piotr Edward Dlugolecki",
+        "graduate_date": "2009-11-18",
+        "thesis_title": "Mass transport in reverse electrodialysis for sustainable energy generation",
+        "topics": "ion-exchange membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/mass-transport-in-reverse-electrodialysis-for-sustainable-energy-/",
+        "doi": "10.3990/1.9789036529280",
+        "thesis_pdf": "https://research.utwente.nl/files/6082816/Thesis_P_Dlugolecki.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "Reverse electrodialysis (RED) is a promising and potentially attractive technology for the generation of sustainable energy from the mixing of salt and fresh water. The results of this work show the high potential of RED as renewable energy source and it also brings RED closer to practical implementation."
+      },
+      "abstract_chars": 1480
+    },
+    {
+      "stem": "2009_Papenburg",
+      "filename": "2009_Papenburg.pdf",
+      "year": "2009",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/design-strategies-for-tissue-engineering-scaffolds/",
+      "doi": "10.3990/1.9789490122393",
+      "notes": [
+        "seed_url"
+      ],
+      "pdf": {
+        "title": "DESIGN STRATEGIES FOR TISSUE ENGINEERING SCAFFOLDS This work was financially supported by the Spearhead program: ‘Advanced Polymeric Microstructures for Tissue Engineering’ of the University of Twente, Institute for",
+        "author": "Berendien Jacoba Papenburg",
+        "graduate_date": "2009-06-19",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Design Strategies for Tissue Engineering Scaffolds",
+        "author": "Bernke J. Papenburg",
+        "graduate_date": "2009-06-19",
+        "thesis_pdf": "https://research.utwente.nl/files/6068752/thesis_B_Papenburg.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Bernke J. Papenburg",
+        "graduate_date": "2009-06-19",
+        "thesis_title": "Design Strategies for Tissue Engineering Scaffolds",
+        "topics": "tissue engineering",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/design-strategies-for-tissue-engineering-scaffolds/",
+        "doi": "10.3990/1.9789490122393",
+        "thesis_pdf": "https://research.utwente.nl/files/6068752/thesis_B_Papenburg.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis focuses on various aspects involved in scaffold design and the cell-scaffold interaction. Subsequent stacking of these sheets results in 3D scaffolds where the microchannels also provide space for nutrient perfusion throughout the complete scaffold."
+      },
+      "abstract_chars": 2510
+    },
+    {
+      "stem": "2009_Peters",
+      "filename": "2009_Peters.pdf",
+      "year": "2009",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/micro-patterned-interfaces-affecting-transport-through-and-along-/",
+      "doi": "10.3990/1.9789036527583",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "MICRO-PATTERNED INTERFACES AFFECTING TRANSPORT THROUGH AND ALONG MEMBRANES Ik hoor en vergeet Ik zie en onthoud Ik doe en begrijp (Chinese zegswijze uit het Twents Techniek Museum HEIM) Leden promotiecommissie Prof. dr.",
+        "author": "Alisia Mariska Peters",
+        "graduate_date": "2009-01-09",
+        "isbn": "9789036527583",
+        "doi_guess": "10.3990/1.9789036527583",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Micro-patterned interfaces affecting transport through and along membranes",
+        "author": "Alisia Mariska Peters",
+        "graduate_date": "2008-01-09",
+        "thesis_pdf": "https://research.utwente.nl/files/6084524/thesis_A_Peters.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Alisia Mariska Peters",
+        "graduate_date": "2008-01-09",
+        "thesis_title": "Micro-patterned interfaces affecting transport through and along membranes",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/micro-patterned-interfaces-affecting-transport-through-and-along-/",
+        "doi": "10.3990/1.9789036527583",
+        "thesis_pdf": "https://research.utwente.nl/files/6084524/thesis_A_Peters.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "It is the objective of this thesis to describe how micro-patterned polymeric surfaces can lead to enhanced transport through and along those surfaces. Lattice Boltzmann simulations have confirmed these results and gener-ated 2D and 3D flow profiles."
+      },
+      "abstract_chars": 1859
+    },
+    {
+      "stem": "2009_Potreck",
+      "filename": "2009_Potreck.pdf",
+      "year": "2009",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/membranes-for-flue-gas-treatment-transport-behavior-of-water-and-/",
+      "doi": "10.3990/1.9789036527859",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "MEMBRANES FOR FLUE GAS TREATMENT TRANSPORT BEHAVIOR OF WATER AND GAS IN HYDROPHILIC POLYMER MEMBRANES",
+        "author": "Jens Potreck",
+        "graduate_date": "",
+        "isbn": "9789036527859",
+        "doi_guess": "10.3990/1.9789036527859",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Membranes for Flue Gas Treatment: Transport behavior of water and gas in hydrophilic polymer membranes",
+        "author": "Jens Potreck",
+        "graduate_date": "2009-01-30",
+        "thesis_pdf": "https://research.utwente.nl/files/6068733/thesis_J_Potreck.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Jens Potreck",
+        "graduate_date": "2009-01-30",
+        "thesis_title": "Membranes for Flue Gas Treatment: Transport behavior of water and gas in hydrophilic polymer membranes",
+        "topics": "membranes; polymers",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/membranes-for-flue-gas-treatment-transport-behavior-of-water-and-/",
+        "doi": "10.3990/1.9789036527859",
+        "thesis_pdf": "https://research.utwente.nl/files/6068733/thesis_J_Potreck.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "Fossil fuel fired power plants produce electricity and in addition to that large volume flows of flue gas, which mainly contain N2, O2, and CO2, but also large quantities of water vapor. To prevent condensation of the water vapor present in this flue gas stream, water needs to be removed before emission to the atmosphere."
+      },
+      "abstract_chars": 1372
+    },
+    {
+      "stem": "2009_Sousa André de",
+      "filename": "2009_Sousa André de.pdf",
+      "year": "2009",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "MIXED MATRIX MEMBRANES A NEW PLATFORM FOR ENZYMATIC REACTIONS This work was financially supported by The Netherlands Organization for Scientific Research (NWO). Mixed Matrix Membranes. A new platform for enzymatic",
+        "author": "João Miguel de Sousa André",
+        "graduate_date": "2009-02-06",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "João Miguel de Sousa André",
+        "graduate_date": "2009-02-06",
+        "thesis_title": "Mixed Matrix Membranes A New Platform For Enzymatic Reactions",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2009_Yildirim",
+      "filename": "2009_Yildirim.pdf",
+      "year": "2009",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/development-of-new-membrane-materials-for-direct-methanol-fuel-ce/",
+      "doi": "10.3990/1.9789036528115",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "Development of new membrane materials for direct methanol fuel cells This research was financially supported by The Dutch Technology Founda- tion STW (project number: 5713). Development of new membrane materials for",
+        "author": "Mustafa Hakan Yildirim",
+        "graduate_date": "2009-03-20",
+        "isbn": "9789036528115",
+        "doi_guess": "10.3990/1.9789036528115",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Development of new membrane materials for direct methanol fuel cells",
+        "author": "Mustafa Hakan Yildirim",
+        "graduate_date": "2009-03-20",
+        "thesis_pdf": "https://research.utwente.nl/files/6084224/thesis_H_Yildirim.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Mustafa Hakan Yildirim",
+        "graduate_date": "2009-03-20",
+        "thesis_title": "Development of new membrane materials for direct methanol fuel cells",
+        "topics": "membranes; fuel cells",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/development-of-new-membrane-materials-for-direct-methanol-fuel-ce/",
+        "doi": "10.3990/1.9789036528115",
+        "thesis_pdf": "https://research.utwente.nl/files/6084224/thesis_H_Yildirim.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "Direct methanol fuel cells (DMFCs) can convert the chemical energy of a fuel directly into electrical energy with high efficiency and low emission of pollutants. In order to compete with Li-ion batteries for portable applications higher power densities must be achieved."
+      },
+      "abstract_chars": 2271
+    },
+    {
+      "stem": "2010_Reijerkerk",
+      "filename": "2010_Reijerkerk.pdf",
+      "year": "2010",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/polyether-based-block-copolymer-membranes-for-co2-separation-2/",
+      "doi": "10.3990/1.9789036529815",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "POLYETHER BASED BLOCK COPOLYMER MEMBRANES FOR CO2 SEPARATION The research presented in this thesis has been carried out in the Membrane Science & Technology research group, which participates in the Institute for",
+        "author": "Sander Rogier Reijerkerk",
+        "graduate_date": "2010-03-19",
+        "isbn": "9789036529815",
+        "doi_guess": "10.3990/1.9789036529815",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Polyether based block copolymer membranes for CO2 separation",
+        "author": "Sander Reijerkerk",
+        "graduate_date": "2010-03-19",
+        "thesis_pdf": "https://research.utwente.nl/files/62306369/thesis_S_Reijerkerk.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Sander Reijerkerk",
+        "graduate_date": "2010-03-19",
+        "thesis_title": "Polyether based block copolymer membranes for CO2 separation",
+        "topics": "CO2 reduction; membranes; polymers",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/polyether-based-block-copolymer-membranes-for-co2-separation-2/",
+        "doi": "10.3990/1.9789036529815",
+        "thesis_pdf": "https://research.utwente.nl/files/62306369/thesis_S_Reijerkerk.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "In this thesis two dierent design strategies to tune and signicantly increase the performance of polyether based multi-block copolymer membranes are investigated."
+      },
+      "abstract_chars": 927
+    },
+    {
+      "stem": "2011 Dalwani",
+      "filename": "2011 Dalwani.pdf",
+      "year": "2011",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/thin-film-composite-nanofiltration-membranes-for-extreme-conditio/",
+      "doi": "10.3990/1.9789036532761",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "Thin film composite nanofiltration membranes for extreme conditions Mayur Dalwani THIN FILM COMPOSITE NANOFILTRATION MEMBRANES FOR EXTREME CONDITIONS This is an Institute for Sustainable Process Technology (ISPT)",
+        "author": "Mayur Ramesh Dalwani",
+        "graduate_date": "",
+        "isbn": "9789036532761",
+        "doi_guess": "10.3990/1.9789036532761",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Thin film composite nanofiltration membranes for extreme conditions",
+        "author": "Mayur Ramesh Dalwani",
+        "graduate_date": "2011-11-11",
+        "thesis_pdf": "https://research.utwente.nl/files/6066496/thesis_M_Dalwani.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Mayur Ramesh Dalwani",
+        "graduate_date": "2011-11-11",
+        "thesis_title": "Thin film composite nanofiltration membranes for extreme conditions",
+        "topics": "membranes; filtration",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/thin-film-composite-nanofiltration-membranes-for-extreme-conditio/",
+        "doi": "10.3990/1.9789036532761",
+        "thesis_pdf": "https://research.utwente.nl/files/6066496/thesis_M_Dalwani.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "The research presented in this thesis focuses on development and performance evaluation of thin film composite (TFC) nanofiltration (NF) membranes, with special attention to extreme pH applications. Performance evaluation of a well-known commercial NF membrane (NF-270, Dow Filmtec™) via this method reveals reversible changes with respect…"
+      },
+      "abstract_chars": 2440
+    },
+    {
+      "stem": "2011 H Aran",
+      "filename": "2011 H Aran.pdf",
+      "year": "2011",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/porous-ceramic-and-metallic-microreactors-tuning-interfaces-for-m/",
+      "doi": "10.3990/1.9789036532686",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "POROUS CERAMIC AND METALLIC MICROREACTORS Tuning interfaces for multiphase processes The research presented in this thesis was ﬁnancially supported by Stichting voor de Technische Wetenschappen (STW, Project 07569).",
+        "author": "Halil Can Aran",
+        "graduate_date": "",
+        "isbn": "9789036532686",
+        "doi_guess": "10.3990/1.9789036532686",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Porous ceramic and metallic microreactors - tuning interfaces for multiphase processes",
+        "author": "H.C. Aran",
+        "graduate_date": "2011-11-04",
+        "thesis_pdf": "https://research.utwente.nl/files/6066985/thesis_H_Aran.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "H.C. Aran",
+        "graduate_date": "2011-11-04",
+        "thesis_title": "Porous ceramic and metallic microreactors - tuning interfaces for multiphase processes",
+        "topics": "porous media",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/porous-ceramic-and-metallic-microreactors-tuning-interfaces-for-m/",
+        "doi": "10.3990/1.9789036532686",
+        "thesis_pdf": "https://research.utwente.nl/files/6066985/thesis_H_Aran.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "The aim of this research is to explore new concepts for multiphase gas-liquid-solid reactions within microreactors, using membrane technology."
+      },
+      "abstract_chars": 142
+    },
+    {
+      "stem": "2011 Hosseiney",
+      "filename": "2011 Hosseiney.pdf",
+      "year": "2011",
+      "status": "imported_from_pdf_only",
+      "record_url": "",
+      "doi": "",
+      "notes": [
+        "isbn_doi_resolved",
+        "author_mismatch:Seyed Schwan Hosseiny!=Hosseiney",
+        "no_pure_record"
+      ],
+      "pdf": {
+        "title": "Vanadium / Air Redox Flow Battery This work was ﬁnancially supported by Agentschap NL. Committee Members Prof. Dr. G. van der Steenhoven (Chairman) University of Twente Prof. Dr.-Ing. M. Wessling (Promoter) University",
+        "author": "Seyed Schwan Hosseiny",
+        "graduate_date": "",
+        "isbn": "9789036532259",
+        "doi_guess": "10.3990/1.9789036532259",
+        "mentions_wessling": true
+      },
+      "csv_row": {
+        "name": "Seyed Schwan Hosseiny",
+        "graduate_date": "2011-01-01",
+        "thesis_title": "Vanadium / Air Redox Flow Battery",
+        "topics": "",
+        "institution": "Twente",
+        "record_url": "",
+        "doi": "10.3990/1.9789036532259",
+        "thesis_pdf": "",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": ""
+      }
+    },
+    {
+      "stem": "2011 Jani Thesis",
+      "filename": "2011 Jani Thesis.pdf",
+      "year": "2011",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/multiphase-membrane-contactors-and-reactors/",
+      "doi": "10.3990/1.9789036532952",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "MULTIPHASE MEMBRANE CONTACTORS AND REACTORS MODELING AND OPTIMIZATION STUDY The research presented in this thesis was ﬁnancially supported by Stichting voor de Technische Wetenschappen (STW, Project 07569). Committee",
+        "author": "Jigar Madhusudan Jani",
+        "graduate_date": "1980-09-21",
+        "isbn": "9789036532952",
+        "doi_guess": "10.3990/1.9789036532952",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Multiphase membrane contactors and reactors",
+        "author": "J.M. Jani",
+        "graduate_date": "2011-12-02",
+        "thesis_pdf": "https://research.utwente.nl/files/6066388/thesis_J_Jani.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "J.M. Jani",
+        "graduate_date": "2011-12-02",
+        "thesis_title": "Multiphase membrane contactors and reactors",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/multiphase-membrane-contactors-and-reactors/",
+        "doi": "10.3990/1.9789036532952",
+        "thesis_pdf": "https://research.utwente.nl/files/6066388/thesis_J_Jani.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis describes research work about multiphase contacting/reactions using porous membranes."
+      },
+      "abstract_chars": 433
+    },
+    {
+      "stem": "2011 S Dutczak",
+      "filename": "2011 S Dutczak.pdf",
+      "year": "2011",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/solvent-resistant-nanofiltration-membranes/",
+      "doi": "10.3990/1.9789036532778",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "SOLVENT RESISTANT NANOFILTRATION MEMBRANES This work was financially supported by Dutch Technology Foundation (STW) project no 07349.",
+        "author": "Szymon Maria Dutczak",
+        "graduate_date": "1982-06-02",
+        "isbn": "9789036532778",
+        "doi_guess": "10.3990/1.9789036532778",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Solvent resistant nanofiltration membranes",
+        "author": "Szymon Maria Dutczak",
+        "graduate_date": "2011-11-11",
+        "thesis_pdf": "https://research.utwente.nl/files/6066327/thesis_S_Dutczak.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Szymon Maria Dutczak",
+        "graduate_date": "2011-11-11",
+        "thesis_title": "Solvent resistant nanofiltration membranes",
+        "topics": "membranes; filtration",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/solvent-resistant-nanofiltration-membranes/",
+        "doi": "10.3990/1.9789036532778",
+        "thesis_pdf": "https://research.utwente.nl/files/6066327/thesis_S_Dutczak.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis describes preparation and characterization of membranes for organic solvent filtration (OSF)."
+      },
+      "abstract_chars": 236
+    },
+    {
+      "stem": "2013 Thesis M Tijink",
+      "filename": "2013 Thesis M Tijink.pdf",
+      "year": "2013",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/membrane-concepts-for-blood-purification-towards-improved-artific/",
+      "doi": "10.3990/1.9789036535472",
+      "notes": [
+        "crossref_score:25",
+        "crossref_doi_resolved"
+      ],
+      "pdf": {
+        "title": "MEMBRANE CONCEPTS FOR BLOOD PURIFICATION TOWARDS IMPROVED ARTIFICIAL KIDNEY DEVICES The research described in this thesis is financially supported by the Dutch Kidney Foundation Promotion Committee Prof. Dr. M. Wessling",
+        "author": "Marlon Susanne Liesbeth Tijink",
+        "graduate_date": "2013-05-24",
+        "isbn": "",
+        "doi_guess": "",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Membrane concepts for blood purification: towards improved artificial kidney devices",
+        "author": "Marlon Susanne Liesbeth Tijink",
+        "graduate_date": "2013-05-24",
+        "thesis_pdf": "https://research.utwente.nl/files/6061215/thesis_M_Tijink.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Marlon Susanne Liesbeth Tijink",
+        "graduate_date": "2013-05-24",
+        "thesis_title": "Membrane concepts for blood purification: towards improved artificial kidney devices",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/membrane-concepts-for-blood-purification-towards-improved-artific/",
+        "doi": "10.3990/1.9789036535472",
+        "thesis_pdf": "https://research.utwente.nl/files/6061215/thesis_M_Tijink.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "The research presented in this thesis is about the fabrication and characterization of new membranes for blood purification. We show that MMMs can combine diffusion and adsorption of a uremic retention solute in one step and the MMMs show great potential for clearance of difficult to remove protein-bound toxins."
+      },
+      "abstract_chars": 2167
+    },
+    {
+      "stem": "2014_Ogieglo",
+      "filename": "2014_Ogieglo.pdf",
+      "year": "2014",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/in-situ-spectroscopic-ellipsometry-for-studies-of-thin-films-and-/",
+      "doi": "10.3990/1.9789036536318",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "IN-SITU SPECTROSCOPIC ELLIPSOMETRY FOR STUDIES OF THIN FILMS AND MEMBRANES Promotion committee: Prof. Dr. Ir. Guus Rijnders (Chairman) University of Twente Prof. Dr.-Ing. Matthias Wessling (Promotor) RWTH Aachen",
+        "author": "Wojciech Ogieglo",
+        "graduate_date": "2014-03-21",
+        "isbn": "9789036536318",
+        "doi_guess": "10.3990/1.9789036536318",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "In-situ spectroscopic ellipsometry for studies of thin films and membranes",
+        "author": "Wojciech Ogieglo",
+        "graduate_date": "2014-03-21",
+        "thesis_pdf": "https://research.utwente.nl/files/6057993/thesis_W_Ogieglo.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Wojciech Ogieglo",
+        "graduate_date": "2014-03-21",
+        "thesis_title": "In-situ spectroscopic ellipsometry for studies of thin films and membranes",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/in-situ-spectroscopic-ellipsometry-for-studies-of-thin-films-and-/",
+        "doi": "10.3990/1.9789036536318",
+        "thesis_pdf": "https://research.utwente.nl/files/6057993/thesis_W_Ogieglo.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "This thesis explores the applicability of the technique to study fundamentals of various physical phenomena occurring in thin and ultra-thin polymer films in the presence of interacting penetrants."
+      },
+      "abstract_chars": 1444
+    },
+    {
+      "stem": "2016 A IJzer",
+      "filename": "2016 A IJzer.pdf",
+      "year": "2016",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/adsorption-materials-for-the-recovery-and-separation-of-biobased-/",
+      "doi": "10.3990/1.9789036541831",
+      "notes": [
+        "seed_url"
+      ],
+      "pdf": {
+        "title": "ADSORPTION MATERIALS FOR THE RECOVERY AND SEPARATION OF BIOBASED MOLECULES Promotion committee: Prof. Dr. Ir. J.W.M. Hilgenkamp (Chairman) University of Twente Prof. Dr.-Ing. M. Wessling (Promotor) RWTH Aachen",
+        "author": "Anne Corine IJzer",
+        "graduate_date": "1979-08-22",
+        "isbn": "9789036541831",
+        "doi_guess": "10.3990/1.9789036541831",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Adsorption materials for the recovery and separation of biobased molecules",
+        "author": "Anne Corine IJzer",
+        "graduate_date": "2016-09-02",
+        "thesis_pdf": "https://research.utwente.nl/files/6048101/thesis_A_IJzer.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Anne Corine IJzer",
+        "graduate_date": "2016-09-02",
+        "thesis_title": "Adsorption materials for the recovery and separation of biobased molecules",
+        "topics": "membranes",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/adsorption-materials-for-the-recovery-and-separation-of-biobased-/",
+        "doi": "10.3990/1.9789036541831",
+        "thesis_pdf": "https://research.utwente.nl/files/6048101/thesis_A_IJzer.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "In this thesis we studied several strategies to improve adsorption technology for the adsorption of biobased molecules. Furthermore this research shows that MMMs could be a good alternative for traditional packed beds for the adsorption of small molecules."
+      },
+      "abstract_chars": 1805
+    },
+    {
+      "stem": "2016 Bargeman Thesis",
+      "filename": "2016 Bargeman Thesis.pdf",
+      "year": "2016",
+      "status": "matched",
+      "record_url": "https://research.utwente.nl/en/publications/transport-phenomena-during-nanofiltration-of-concentrated-solutio/",
+      "doi": "10.3990/1.9789036541954",
+      "notes": [
+        "isbn_doi_resolved"
+      ],
+      "pdf": {
+        "title": "TRANSPORT PHENOMENA DURING NANOFILTRATION OF CONCENTRATED SOLUTIONS",
+        "author": "Gerrald Bargeman",
+        "graduate_date": "",
+        "isbn": "9789036541954",
+        "doi_guess": "10.3990/1.9789036541954",
+        "mentions_wessling": true
+      },
+      "extracted": {
+        "title": "Transport phenomena during nanofiltration of concentrated solutions",
+        "author": "Gerrald Bargeman",
+        "graduate_date": "2016-10-05",
+        "thesis_pdf": "https://research.utwente.nl/files/6047785/thesis_G_Bargeman.pdf",
+        "has_abstract": true
+      },
+      "csv_row": {
+        "name": "Gerrald Bargeman",
+        "graduate_date": "2016-10-05",
+        "thesis_title": "Transport phenomena during nanofiltration of concentrated solutions",
+        "topics": "filtration",
+        "institution": "Twente",
+        "record_url": "https://research.utwente.nl/en/publications/transport-phenomena-during-nanofiltration-of-concentrated-solutio/",
+        "doi": "10.3990/1.9789036541954",
+        "thesis_pdf": "https://research.utwente.nl/files/6047785/thesis_G_Bargeman.pdf",
+        "linkedin": "",
+        "orcid": "",
+        "image": "",
+        "summary": "In most scientific studies on nanofiltration either the development of new membrane materials or the characterization of membranes is reported. In the latter case most studies use single solute salt or sugar solutions and/or investigate nanofiltration of solutions with mixtures of ions at low concentrations relative to solution…"
+      },
+      "abstract_chars": 1698
+    }
+  ]
+}

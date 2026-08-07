@@ -21,3 +21,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Graduate metadata scrape caches
+data/ut_cache/
+data/rwth_cache/

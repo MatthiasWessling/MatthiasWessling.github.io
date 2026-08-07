@@ -3,11 +3,13 @@ title = "Johannes Kamp"
 date = "2022-05-30"
 graduate_date = "2022-05-30"
 thesis_title = "Tailoring polyelectrolyte multilayer membranes for advanced selectivities"
-topics = ["membranes"]
+topics = ["membranes", "layer-by-layer", "polyelectrolytes"]
 draft = false
 summary = "The results in this thesis prove that indeed, polyelectrolyte multilayer membranes with separation characteristics can be tailored to a specific applications."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/957990"
 rwth_url = "https://publications.rwth-aachen.de/record/957990"
 doi = "10.18154/RWTH-2023-05056"
 thesis_pdf = "https://publications.rwth-aachen.de/record/957990/files/957990.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Tailoring polyelectrolyte multilayer membranes for advanced selectivities
 - Graduate Date: 2022-05-30
-- Topics: membranes
+- Institution: RWTH
+- Topics: membranes, layer-by-layer, polyelectrolytes
 
 ## Links
 

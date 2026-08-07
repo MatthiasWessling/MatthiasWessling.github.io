@@ -3,11 +3,13 @@ title = "Matthias Christian Geiger"
 date = "2025-01-24"
 graduate_date = "2025-01-24"
 thesis_title = "Microfluidic systems for spinning fibrous scaffolds and investigating cellular behavior in neuroregeneration"
-topics = ["microfluidics"]
+topics = ["tissue engineering", "microfluidics", "electrochemistry", "layer-by-layer"]
 draft = false
 summary = "This thesis presents microfluidic spinning as a technology platform for the fabrication of microfibers, whose properties can be tailored to explore the role of the different cues guiding neuroregeneration. The spinning process was analyzed with regard to the parameterspace available for spinning and the fiber diameter resulting from each…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/1012765"
 rwth_url = "https://publications.rwth-aachen.de/record/1012765"
 doi = "10.18154/RWTH-2025-05157"
 thesis_pdf = "https://publications.rwth-aachen.de/record/1012765/files/1012765.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Microfluidic systems for spinning fibrous scaffolds and investigating cellular behavior in neuroregeneration
 - Graduate Date: 2025-01-24
-- Topics: microfluidics
+- Institution: RWTH
+- Topics: tissue engineering, microfluidics, electrochemistry, layer-by-layer
 
 ## Links
 

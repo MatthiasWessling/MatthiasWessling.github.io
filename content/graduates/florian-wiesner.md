@@ -3,11 +3,13 @@ title = "Florian Wiesner"
 date = "2026-02-18"
 graduate_date = "2026-02-18"
 thesis_title = "Two-phase flow simulations in gas diffusion electrodes"
-topics = ["gas diffusion electrodes", "simulation"]
+topics = ["electrochemistry", "simulation", "gas diffusion electrodes", "modeling"]
 draft = false
 summary = "This thesis advances the fundamental understanding and predictive modeling of two-phase flow phenomena in GDEs through the development of novel computational frameworks spanning from detailed morphological simulations to novel, generalizable machine learning approaches. Applied to both stochastically reconstructed and μ-CT scanned…"
 image = "/images/graduates/florian-wiesner.jpg"
 image_alt = "Portrait of Florian Wiesner"
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/1028896"
 rwth_url = "https://publications.rwth-aachen.de/record/1028896"
 doi = "10.18154/RWTH-2026-01948"
 thesis_pdf = "https://publications.rwth-aachen.de/record/1028896/files/1028896.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Two-phase flow simulations in gas diffusion electrodes
 - Graduate Date: 2026-02-18
-- Topics: gas diffusion electrodes, simulation
+- Institution: RWTH
+- Topics: electrochemistry, simulation, gas diffusion electrodes, modeling
 
 ## Links
 

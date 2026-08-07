@@ -3,11 +3,13 @@ title = "Jan Frauholz"
 date = "2025-03-12"
 graduate_date = "2025-03-12"
 thesis_title = "Thermoresponsive draw solutions for forward osmosis applications"
-topics = ["osmosis"]
+topics = ["forward osmosis", "membranes", "polyelectrolytes"]
 draft = false
 summary = "The thermodynamically unfavorable transfer of water into a second solution, which requires an additional continuous regeneration process, reduces the process' competitiveness or nullifies the possibility of treating highly osmotic feed streams. Overall, forward osmosis processes can be energy competitive with evaporation-based…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/1020930"
 rwth_url = "https://publications.rwth-aachen.de/record/1020930"
 doi = "10.18154/RWTH-2025-09338"
 thesis_pdf = "https://publications.rwth-aachen.de/record/1020930/files/1020930.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Thermoresponsive draw solutions for forward osmosis applications
 - Graduate Date: 2025-03-12
-- Topics: osmosis
+- Institution: RWTH
+- Topics: forward osmosis, membranes, polyelectrolytes
 
 ## Links
 

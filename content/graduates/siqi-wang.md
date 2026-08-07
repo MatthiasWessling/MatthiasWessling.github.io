@@ -3,11 +3,13 @@ title = "Siqi Wang"
 date = "2025-10-17"
 graduate_date = "2025-10-17"
 thesis_title = "Porous conductive polymer PEDOT:PSS for electrochemical applications"
-topics = ["electrochemistry", "porous media", "polymers"]
+topics = ["electrochemistry", "polyelectrolytes", "polymers", "porous media"]
 draft = false
 summary = "This thesis aims to design, fabricate, and apply the porous PEDOT:PSS structures as advanced electrode materials, focusing on enhancing ion transport, surface area, and overall device performance across diverse electrochemical systems. A systematic investigation of the interplay between pore architecture, ionic/electronic conductivity,…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/1021247"
 rwth_url = "https://publications.rwth-aachen.de/record/1021247"
 doi = "10.18154/RWTH-2025-09528"
 thesis_pdf = "https://publications.rwth-aachen.de/record/1021247/files/1021247.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Porous conductive polymer PEDOT:PSS for electrochemical applications
 - Graduate Date: 2025-10-17
-- Topics: electrochemistry, porous media, polymers
+- Institution: RWTH
+- Topics: electrochemistry, polyelectrolytes, polymers, porous media
 
 ## Links
 

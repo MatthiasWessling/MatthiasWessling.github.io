@@ -3,11 +3,13 @@ title = "Stefanie M. A. Kriescher"
 date = "2015-01-01"
 graduate_date = "2015-01-01"
 thesis_title = "Electrochemical CO2 reduction"
-topics = ["CO2 reduction", "electrochemistry"]
+topics = ["electrochemistry", "CO2 reduction", "membranes"]
 draft = false
 summary = "Membrane electrode assemblies (MEA) were applied when gaseous reactants were involved. The production of hydrocarbons with low current efficiency was achieved in both reactor types."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/571497"
 rwth_url = "https://publications.rwth-aachen.de/record/571497"
 doi = ""
 thesis_pdf = ""
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Electrochemical CO2 reduction
 - Graduate Date: 2015-01-01
-- Topics: CO2 reduction, electrochemistry
+- Institution: RWTH
+- Topics: electrochemistry, CO2 reduction, membranes
 
 ## Links
 

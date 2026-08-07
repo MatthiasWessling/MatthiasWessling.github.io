@@ -3,11 +3,13 @@ title = "Sebastian Brosch"
 date = "2026-02-03"
 graduate_date = "2026-02-03"
 thesis_title = "Wettability and reaction visualization of electrochemical CO₂ reduction at gas diffusion electrodes"
-topics = ["gas diffusion electrodes", "CO2 reduction", "electrochemistry", "wettability"]
+topics = ["electrochemistry", "visualization", "CO2 reduction", "gas diffusion electrodes"]
 draft = false
 summary = "The location and morphology of the TPB is defined by the wettability of the CL. Overall, it could be shown that the primary reaction location in ecCO2RR is in fact at the TPB, however, the active area for CO2 reduction is far larger than previously assumed for GDEs."
 image = "/images/graduates/sebastian-brosch.jpg"
 image_alt = "Portrait of Sebastian Brosch"
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/1028159"
 rwth_url = "https://publications.rwth-aachen.de/record/1028159"
 doi = "10.18154/RWTH-2026-01499"
 thesis_pdf = "https://publications.rwth-aachen.de/record/1028159/files/1028159.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Wettability and reaction visualization of electrochemical CO₂ reduction at gas diffusion electrodes
 - Graduate Date: 2026-02-03
-- Topics: gas diffusion electrodes, CO2 reduction, electrochemistry, wettability
+- Institution: RWTH
+- Topics: electrochemistry, visualization, CO2 reduction, gas diffusion electrodes
 
 ## Links
 

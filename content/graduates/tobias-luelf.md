@@ -8,6 +8,8 @@ draft = false
 summary = ""
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/765489"
 rwth_url = "https://publications.rwth-aachen.de/record/765489"
 doi = ""
 thesis_pdf = ""
@@ -20,6 +22,7 @@ featured = false
 
 - Title: Structured hollow fiber membranes for enhanced mass transfer
 - Graduate Date: 2019-01-01
+- Institution: RWTH
 - Topics: membranes, hollow fiber membranes
 
 ## Links

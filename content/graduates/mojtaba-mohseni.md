@@ -3,11 +3,13 @@ title = "Mojtaba Mohseni"
 date = "2022-03-31"
 graduate_date = "2022-03-31"
 thesis_title = "Novel freestanding carbons for micropollutants removal through sustainable processes"
-topics = ["carbons", "micropollutants"]
+topics = ["water treatment", "gas diffusion electrodes", "electrochemistry", "microfluidics"]
 draft = false
 summary = "This thesis introduces novel freestanding carbons that can serve as an adsorbent, an electrode, or both to remove OMPs via adsorption, (electro-)Fenton-based oxidation, or a combination of them in a so-called cyclic process, respectively."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/847266"
 rwth_url = "https://publications.rwth-aachen.de/record/847266"
 doi = "10.18154/RWTH-2022-05200"
 thesis_pdf = "https://publications.rwth-aachen.de/record/847266/files/847266.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Novel freestanding carbons for micropollutants removal through sustainable processes
 - Graduate Date: 2022-03-31
-- Topics: carbons, micropollutants
+- Institution: RWTH
+- Topics: water treatment, gas diffusion electrodes, electrochemistry, microfluidics
 
 ## Links
 

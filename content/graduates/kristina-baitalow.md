@@ -3,11 +3,13 @@ title = "Kristina Baitalow"
 date = "2023-11-02"
 graduate_date = "2023-11-02"
 thesis_title = "Switchable oxygen depolarized cathodes in flexible electrolysis operation"
-topics = ["electrolysis"]
+topics = ["electrochemistry", "simulation", "visualization"]
 draft = false
 summary = "This work aims to comprehend the interaction of both cathode reactions on a single switchable oxygen depolarized cathode and enable a safe switching operation. The electrochemical experiments revealed a significant correlation between the increase in cell potential and the undesired electrolyte breakthrough to the gas side of the oxygen…"
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/995130"
 rwth_url = "https://publications.rwth-aachen.de/record/995130"
 doi = "10.18154/RWTH-2024-09734"
 thesis_pdf = "https://publications.rwth-aachen.de/record/995130/files/995130.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Switchable oxygen depolarized cathodes in flexible electrolysis operation
 - Graduate Date: 2023-11-02
-- Topics: electrolysis
+- Institution: RWTH
+- Topics: electrochemistry, simulation, visualization
 
 ## Links
 

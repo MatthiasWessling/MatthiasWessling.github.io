@@ -8,6 +8,8 @@ draft = false
 summary = "Even though the focus of the study is on small scale electrochemical membrane reactors, a clear guideline for industrial scale up is given. Further catalyst and electrode design is necessary to be able to reduce CO2 with high selectivities to different C1 and C2 products."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/793058"
 rwth_url = "https://publications.rwth-aachen.de/record/793058"
 doi = "10.18154/RWTH-2020-06598"
 thesis_pdf = "https://publications.rwth-aachen.de/record/793058/files/793058.pdf"
@@ -20,6 +22,7 @@ featured = false
 
 - Title: $CO_{2}$ Reduction in Electrochemical Membrane Reactors
 - Graduate Date: 2020-01-01
+- Institution: RWTH
 - Topics: membranes, electrochemistry
 
 ## Links

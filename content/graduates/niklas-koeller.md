@@ -3,11 +3,13 @@ title = "Niklas Köller"
 date = "2024-12-16"
 graduate_date = "2024-12-16"
 thesis_title = "Scale-up of continuous capacitive deionization processes"
-topics = ["capacitive deionization"]
+topics = ["capacitive deionization", "membranes", "water treatment"]
 draft = false
 summary = "This thesis undertook the scale-up of FCDI technology and deployed it in real-world desalination and salt recycling scenarios while innovating new components and materials to enhance cost-effectiveness. Compared to Electrodialysis, FCDI requires more membrane area, resulting in a disadvantage in capital cost."
 image = ""
 image_alt = ""
+institution = "RWTH"
+record_url = "https://publications.rwth-aachen.de/record/1005953"
 rwth_url = "https://publications.rwth-aachen.de/record/1005953"
 doi = "10.18154/RWTH-2025-02126"
 thesis_pdf = "https://publications.rwth-aachen.de/record/1005953/files/1005953.pdf"
@@ -20,7 +22,8 @@ featured = false
 
 - Title: Scale-up of continuous capacitive deionization processes
 - Graduate Date: 2024-12-16
-- Topics: capacitive deionization
+- Institution: RWTH
+- Topics: capacitive deionization, membranes, water treatment
 
 ## Links
 
