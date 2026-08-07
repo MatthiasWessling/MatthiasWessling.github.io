@@ -73,16 +73,11 @@ disableKinds = ['sitemap']
   weight = 5
 
 [[menu.main]]
-  name = 'Notebooks'
-  url = '/notebooks/'
-  weight = 6
-
-[[menu.main]]
   name = 'CV'
   url = '/cv/'
-  weight = 7
+  weight = 6
 
 [[menu.main]]
   name = 'RSS'
   url = '/subscribe/'
-  weight = 8
+  weight = 7
