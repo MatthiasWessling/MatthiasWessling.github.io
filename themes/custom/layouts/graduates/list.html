@@ -40,12 +40,12 @@
 
     <div class="news-controls graduates-controls">
         <div class="news-search-wrap">
-            <label for="graduates-search" class="news-control-label">Name</label>
-            <input id="graduates-search" type="search" placeholder="Search by graduate name" autocomplete="off">
+            <label for="graduates-search" class="news-control-label">Search</label>
+            <input id="graduates-search" type="search" placeholder="Search by name or thesis title" autocomplete="off">
         </div>
         <div class="news-search-wrap">
             <label for="graduates-topics-search" class="news-control-label">Topics</label>
-            <input id="graduates-topics-search" type="search" placeholder="Search thesis topics and keywords" autocomplete="off">
+            <input id="graduates-topics-search" type="search" placeholder="Filter by topic keyword" autocomplete="off">
         </div>
         <div class="news-sort-wrap">
             <label for="graduates-year" class="news-control-label">Year</label>
@@ -97,10 +97,10 @@
         {{ $topicsSearch := trim (printf "%s %s %s" $topicTags ($thesisTitle | lower) (.Params.summary | default "" | lower)) " " }}
         <article
             class="news-item graduates-entry"
-            data-title="{{ .Title | lower }}"
-            data-thesis-title="{{ $thesisTitle | lower }}"
-            data-topics="{{ $topicsSearch }}"
-            data-year="{{ $graduateYear }}"
+            data-title="{{ .Title | lower | htmlEscape }}"
+            data-thesis-title="{{ $thesisTitle | lower | htmlEscape }}"
+            data-topics="{{ $topicsSearch | htmlEscape }}"
+            data-year="{{ $graduateYear | htmlEscape }}"
             data-date="{{ $sortDate }}"
         >
             <div class="news-entry-layout">

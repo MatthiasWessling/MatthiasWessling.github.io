@@ -670,6 +670,18 @@ class GraduatesDirectory {
 
     clearYearHeadings() {
         this.list.querySelectorAll('.graduates-year-heading').forEach((el) => el.remove());
+        this.yearHeadings.clear();
+    }
+
+    ensureEmptyState() {
+        let empty = this.list.querySelector('.graduates-empty-state');
+        if (!empty) {
+            empty = document.createElement('p');
+            empty.className = 'no-content graduates-empty-state';
+            empty.hidden = true;
+            this.list.appendChild(empty);
+        }
+        return empty;
     }
 
     render() {
@@ -680,13 +692,17 @@ class GraduatesDirectory {
 
         const filtered = this.entries.filter((entry) => {
             const title = entry.dataset.title || '';
+            const thesisTitle = entry.dataset.thesisTitle || '';
             const topics = entry.dataset.topics || '';
             const year = entry.dataset.year || '';
-            const matchesName = !query || title.includes(query);
+            const haystack = `${title} ${thesisTitle} ${topics}`;
+            const matchesSearch = !query || haystack.includes(query);
             const matchesTopics = !topicsQuery || topics.includes(topicsQuery);
             const matchesYear = !yearFilter || year === yearFilter;
-            return matchesName && matchesTopics && matchesYear;
+            return matchesSearch && matchesTopics && matchesYear;
         });
+
+        const groupByYear = sortMode === 'newest' || sortMode === 'oldest';
 
         filtered.sort((a, b) => {
             const dateA = Number(a.dataset.date || 0);
@@ -698,24 +714,22 @@ class GraduatesDirectory {
 
             if (sortMode === 'oldest') {
                 if (yearA !== yearB) {
+                    if (yearA === 'Undated') return 1;
+                    if (yearB === 'Undated') return -1;
                     return yearA.localeCompare(yearB);
                 }
                 return dateA - dateB;
             }
             if (sortMode === 'title-asc') {
-                if (yearA !== yearB) {
-                    return yearB.localeCompare(yearA);
-                }
                 return titleA.localeCompare(titleB);
             }
             if (sortMode === 'title-desc') {
-                if (yearA !== yearB) {
-                    return yearB.localeCompare(yearA);
-                }
                 return titleB.localeCompare(titleA);
             }
             // default: newest first — years descending, then date
             if (yearA !== yearB) {
+                if (yearA === 'Undated') return 1;
+                if (yearB === 'Undated') return -1;
                 return yearB.localeCompare(yearA);
             }
             return dateB - dateA;
@@ -726,14 +740,20 @@ class GraduatesDirectory {
             entry.style.display = 'none';
         });
 
+        const empty = this.ensureEmptyState();
+        empty.hidden = filtered.length > 0;
+        empty.textContent = filtered.length
+            ? ''
+            : 'No graduates match these filters. Clear Topics/Year or try another search.';
+
         let currentYear = null;
         filtered.forEach((entry) => {
-            const year = entry.dataset.year || 'Unknown';
-            if (year !== currentYear) {
-                currentYear = year;
-                const heading = this.getYearHeading(year);
-                heading.style.display = '';
-                this.list.appendChild(heading);
+            if (groupByYear) {
+                const year = entry.dataset.year || 'Undated';
+                if (year !== currentYear) {
+                    currentYear = year;
+                    this.list.appendChild(this.getYearHeading(year));
+                }
             }
             entry.style.display = '';
             this.list.appendChild(entry);
