@@ -275,19 +275,19 @@ date = "2026-03-09"
 <section class="cv-section">
   <h2>Scientific career support</h2>
   <ul class="cv-people">
-    <li>Prof.dr.ir. Nico van der Vegt — TU Darmstadt — Theoretical physical chemistry</li>
-    <li>Prof.dr.ir. Rob Lammertink — University of Twente — Soft Matter Fluidics and Interfaces</li>
-    <li>Prof.dr.ir. Nieck Benes — University of Twente — Thin films in fluids</li>
-    <li>Prof.dr.ir. Dimitrios Stamatialis — University of Twente — Biomedical Membrane Applications</li>
-    <li>Prof.dr.ir. Saiful — Universitas Syiah Kuala — Analytical Chemistry</li>
-    <li>Prof.dr.ir. Kitty Nijmeijer — Technical University of Eindhoven — Membrane Technology</li>
-    <li>Prof. Dr. Zeynep Culfaz — METU Ankara — Membrane Science — Associate Professor</li>
-    <li>Prof.dr.ir. Tao He — Shanghai Advanced Research Institute — Membrane technology</li>
-    <li>Dr.-Ing. Tao Luo — Sichuan University — Electrodialysis — Assist. Prof.</li>
-    <li>Dr. Youri Gendel — Technion Haifa — Electrochemical water treatment processes — Assist. Prof.</li>
-    <li>Dr. Oded Nir — Ben Gurion, Bersheba — Desalination processes — Assist. Prof.</li>
-    <li>Prof. Dr.-Ing. John Linkhorst — Technical University of Darmstadt — Electrochemical process engineering — Assist. Prof.</li>
-    <li>Prof. Dr.-Ing. Hanna Roth — University of Duisburg-Essen — Chemical Engineering — Full Prof.</li>
+    <li>Nico van der Vegt — TU Darmstadt</li>
+    <li>Rob Lammertink — University of Twente</li>
+    <li>Nieck Benes — University of Twente</li>
+    <li>Dimitrios Stamatialis — University of Twente</li>
+    <li>Saiful — Universitas Syiah Kuala</li>
+    <li>Kitty Nijmeijer — Technical University of Eindhoven</li>
+    <li>Zeynep Culfaz — METU Ankara</li>
+    <li>Tao He — Shanghai Advanced Research Institute</li>
+    <li>Tao Luo — Sichuan University</li>
+    <li>Youri Gendel — Technion Haifa</li>
+    <li>Oded Nir — Ben Gurion, Bersheba</li>
+    <li>John Linkhorst — Technical University of Darmstadt</li>
+    <li>Hanna Roth — University of Duisburg-Essen</li>
   </ul>
 </section>
 
