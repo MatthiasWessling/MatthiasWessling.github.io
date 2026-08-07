@@ -9,8 +9,8 @@ publication = 'Research note'
 publication_year = '2026'
 paper_url = ''
 featured = true
-image = '/images/blog/spatio-temporal-phenomena-visual.png'
-image_alt = 'Three-stage visual of spatio-temporal membrane science: multibore MRI wetting fronts, microfluidic colloidal deposition trails, and oscillating reaction zones in a gas diffusion electrode'
+image = '/images/blog/fluid-spatio-temporal-visual.png'
+image_alt = 'Cutaway of fluid spatio-temporal phenomena: Rayleigh–Bénard convection rolls, near-membrane electroconvective eddies, and an uneven wetting front in a porous channel'
 tags = ['spatio-temporal', 'visualization', 'MRI', 'microfluidics', 'fouling', 'GDE', 'wetting', 'Rayleigh-Bénard', 'electroconvection', 'overlimiting']
 +++
 

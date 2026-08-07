@@ -18,6 +18,38 @@ orcid = "https://orcid.org/0000-0001-7581-2802"
 featured = false
 
 [[publications]]
+title = "Fabrication of low-fouling hollow fiber membranes through the immobilization of amine-functionalized microgels on a blended PES-SMA support"
+year = "2025"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2025.124493"
+url = "https://doi.org/10.1016/j.memsci.2025.124493"
+authors = "Restrepo, M.A.; Horn, M.; Waterkamp, L.; Mendes, F.B.D.S.; Schiszler, F.; Wessling, M."
+
+[[publications]]
+title = "Self-supporting biocatalytic polyelectrolyte complex hollow fiber membranes via salt-dilution induced phase separation"
+year = "2024"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2023.122157"
+url = "https://doi.org/10.1016/j.memsci.2023.122157"
+authors = "Restrepo, M.A.; Emonds, S.; Zhao, A.; Karakas, F.; Kamp, J.; Roth, H.; Wessling, M."
+
+[[publications]]
+title = "Incorporation of an Intermediate Polyelectrolyte Layer for Improved Interfacial Polymerization on PAI Hollow Fiber Membranes"
+year = "2023"
+journal = "Membranes"
+doi = "10.3390/membranes13080741"
+url = "https://doi.org/10.3390/membranes13080741"
+authors = "Restrepo, M.A.; Mohammadifakhr, M.; Kamp, J.; Trzaskus, K.; Kemperman, A.J.B.; de Grooth, J.; Roesink, H.D.W.; Roth, H.; Wessling, M."
+
+[[publications]]
+title = "Single-step polyelectrolyte complex coating on hollow fibers yields nanofiltration or biocatalytic properties"
+year = "2023"
+journal = "Journal of Membrane Science Letters"
+doi = "10.1016/j.memlet.2023.100039"
+url = "https://doi.org/10.1016/j.memlet.2023.100039"
+authors = "Restrepo, M.A.; Kamp, J.; Guericke, L.; Schnichels, R.; Roth, H.; Wessling, M."
+
+[[publications]]
 title = "On the organic solvent free preparation of ultrafiltration and nanofiltration membranes using polyelectrolyte complexation in an all aqueous phase inversion process"
 year = "2021"
 journal = "Journal of Membrane Science"
