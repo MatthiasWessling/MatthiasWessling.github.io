@@ -243,11 +243,11 @@ class LoadingAnimations {
             });
         }, observerOptions);
 
-        // Observe content sections. Skip filterable directory entries
-        // (.graduates-entry, .news-entry, etc.) — opacity:0 + display toggling
-        // leaves filtered-in items invisible after selector changes.
+        // Observe content sections. Do not animate filterable directory cards
+        // (.news-item lists): opacity:0 + display toggling leaves matched
+        // entries invisible after search/sort/filter changes.
         const sections = document.querySelectorAll(
-            '.content-box, .blog-item, .research-item, .project-item, .hobby-item, .news-item:not(.graduates-entry):not(.news-entry):not(.patents-products-entry):not(.startups-entry):not(.notebook-entry)'
+            '.content-box, .blog-item, .research-item, .project-item, .hobby-item'
         );
         sections.forEach(section => {
             section.style.opacity = '0';
@@ -283,6 +283,14 @@ class Utils {
                 setTimeout(() => inThrottle = false, limit);
             }
         };
+    }
+
+    /** Show a filtered directory card and clear leftover fade-in styles. */
+    static showDirectoryEntry(entry, list) {
+        entry.style.display = '';
+        entry.style.opacity = '1';
+        entry.style.transform = 'none';
+        list.appendChild(entry);
     }
 }
 
@@ -540,8 +548,7 @@ class NotebookDirectory {
             entry.style.display = 'none';
         });
         filtered.forEach((entry) => {
-            entry.style.display = '';
-            this.list.appendChild(entry);
+            Utils.showDirectoryEntry(entry, this.list);
         });
 
         if (this.resultsCount) {
@@ -612,8 +619,7 @@ class NewsDirectory {
             entry.style.display = 'none';
         });
         filtered.forEach((entry) => {
-            entry.style.display = '';
-            this.list.appendChild(entry);
+            Utils.showDirectoryEntry(entry, this.list);
         });
 
         if (this.resultsCount) {
@@ -767,10 +773,7 @@ class GraduatesDirectory {
                 }
             }
             // Force visible — LoadingAnimations may have left opacity at 0.
-            entry.style.display = '';
-            entry.style.opacity = '1';
-            entry.style.transform = 'none';
-            this.list.appendChild(entry);
+            Utils.showDirectoryEntry(entry, this.list);
         });
 
         if (this.resultsCount) {
@@ -841,8 +844,7 @@ class PatentsProductsDirectory {
             entry.style.display = 'none';
         });
         filtered.forEach((entry) => {
-            entry.style.display = '';
-            this.list.appendChild(entry);
+            Utils.showDirectoryEntry(entry, this.list);
         });
 
         if (this.resultsCount) {
@@ -913,8 +915,7 @@ class StartupsDirectory {
             entry.style.display = 'none';
         });
         filtered.forEach((entry) => {
-            entry.style.display = '';
-            this.list.appendChild(entry);
+            Utils.showDirectoryEntry(entry, this.list);
         });
 
         if (this.resultsCount) {
