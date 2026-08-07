@@ -12,50 +12,64 @@
     <div class="research-list">
         {{ range $index, $paper := .Pages }}
         {{ $isEven := eq (mod $index 2) 0 }}
-        <article class="research-item {{ if $isEven }}image-left{{ else }}image-right{{ end }}">
+        {{ $summary := .Params.summary | default .Params.abstract | default (.Summary | plainify) }}
+        <article class="research-item {{ if $isEven }}image-left{{ else }}image-right{{ end }}{{ if not .Params.image }} no-image{{ end }}">
             {{ if .Params.image }}
             <div class="research-image">
                 <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}" class="clickable-image">
             </div>
             {{ end }}
             <div class="research-content">
-                <div class="research-meta">
-                    <time class="research-date">{{ .Params.publication_year | default (.Date.Format "2006") }}</time>
-                    {{ if .Params.publication }}
-                    <span class="research-publication">{{ .Params.publication }}</span>
-                    {{ end }}
-                </div>
-                <h2 class="research-title">{{ .Title }}</h2>
-                {{ if .Params.authors }}
-                <div class="research-authors">
-                    {{ delimit .Params.authors ", " }}
-                </div>
-                {{ end }}
-                <div class="research-description">{{ .Content }}</div>
-                {{ if .Params.abstract }}
-                <div class="research-abstract-section">
-                    <div class="research-abstract" id="abstract-{{ $index }}" style="display: none;">
-                        <p>{{ .Params.abstract }}</p>
+                <details class="research-collapse">
+                    <summary class="research-summary">
+                        <div class="research-meta">
+                            <time class="research-date">{{ .Params.publication_year | default (.Date.Format "2006") }}</time>
+                            {{ if .Params.publication }}
+                            <span class="research-publication">{{ .Params.publication }}</span>
+                            {{ end }}
+                        </div>
+                        <h2 class="research-title">{{ .Title }}</h2>
+                        {{ if .Params.authors }}
+                        <div class="research-authors">
+                            {{ delimit .Params.authors ", " }}
+                        </div>
+                        {{ end }}
+                        {{ if $summary }}
+                        <p class="research-teaser">{{ $summary | truncate 220 }}</p>
+                        {{ end }}
+                        <span class="research-expand-hint" aria-hidden="true">
+                            <span class="research-expand-closed">Show details</span>
+                            <span class="research-expand-open">Hide details</span>
+                        </span>
+                    </summary>
+
+                    <div class="research-collapse-body">
+                        {{ with .Content }}
+                        <div class="research-description">{{ . }}</div>
+                        {{ end }}
+
+                        {{ if and .Params.abstract (ne (string .Params.abstract) (string $summary)) }}
+                        <div class="research-abstract">
+                            <p>{{ .Params.abstract }}</p>
+                        </div>
+                        {{ end }}
+
+                        <div class="research-buttons">
+                            <a href="{{ .RelPermalink }}" class="btn btn-secondary">Open page</a>
+                            {{ if .Params.paper_url }}
+                            <a href="{{ .Params.paper_url }}" target="_blank" rel="noopener" class="btn btn-primary">View Paper</a>
+                            {{ end }}
+                        </div>
+
+                        {{ if .Params.tags }}
+                        <div class="research-tags">
+                            {{ range .Params.tags }}
+                            <span class="tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
                     </div>
-                </div>
-                {{ end }}
-                <div class="research-buttons">
-                    {{ if .Params.abstract }}
-                    <button class="btn btn-secondary abstract-toggle" onclick="toggleAbstract({{ $index }})">
-                        <span class="toggle-text">Show Abstract</span>
-                    </button>
-                    {{ end }}
-                    {{ if .Params.paper_url }}
-                    <a href="{{ .Params.paper_url }}" target="_blank" rel="noopener" class="btn btn-primary">View Paper</a>
-                    {{ end }}
-                </div>
-                {{ if .Params.tags }}
-                <div class="research-tags">
-                    {{ range .Params.tags }}
-                    <span class="tag">{{ . }}</span>
-                    {{ end }}
-                </div>
-                {{ end }}
+                </details>
             </div>
         </article>
         {{ else }}
@@ -63,20 +77,4 @@
         {{ end }}
     </div>
 </div>
-
-<script>
-function toggleAbstract(index) {
-    const abstractDiv = document.getElementById('abstract-' + index);
-    const button = event.target.closest('.abstract-toggle');
-    const toggleText = button.querySelector('.toggle-text');
-
-    if (abstractDiv.style.display === 'none') {
-        abstractDiv.style.display = 'block';
-        toggleText.textContent = 'Hide Abstract';
-    } else {
-        abstractDiv.style.display = 'none';
-        toggleText.textContent = 'Show Abstract';
-    }
-}
-</script>
 {{ end }}
