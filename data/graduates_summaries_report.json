@@ -295,8 +295,7 @@
     {
       "name": "Tobias Lülf",
       "rwth_url": "https://publications.rwth-aachen.de/record/765489",
-      "summary": "online nicht verfügbar External link: Table of contents",
-      "abstract_chars": 55
+      "error": "No English abstract/summary extracted"
     },
     {
       "name": "Tao Luo",
@@ -394,14 +393,12 @@
     {
       "name": "Martin Wiese",
       "rwth_url": "https://publications.rwth-aachen.de/record/785894",
-      "summary": "online nicht verfügbar External link: Table of contents",
-      "abstract_chars": 55
+      "error": "No English abstract/summary extracted"
     },
     {
       "name": "Monika T. Wiese",
       "rwth_url": "https://publications.rwth-aachen.de/record/803875",
-      "summary": "online nicht verfügbar External link: Table of contents",
-      "abstract_chars": 55
+      "error": "No English abstract/summary extracted"
     },
     {
       "name": "Marco Scholz",
@@ -527,8 +524,7 @@
     {
       "name": "Daniel J. Bell",
       "rwth_url": "https://publications.rwth-aachen.de/record/824265",
-      "summary": "Lebende Zellen sind in der Lage, durch die Kombination von selektivem Transport und biochemischen Reaktionen selbstregulierte oszillierende Prozesse zu generieren. Die Nachbildung dieser Prozesse in lebensähnlichen synthetischen Systemen ist von besonderem Interesse, um ein tieferes Verständnis für den Übergang von synthetischen…",
-      "abstract_chars": 6329
+      "error": "No English abstract/summary extracted"
     },
     {
       "name": "Davide Di Marino",
@@ -574,8 +570,8 @@
     }
   ],
   "summary": {
-    "filled": 87,
-    "failed": 10,
+    "filled": 83,
+    "failed": 14,
     "processed": 97
   }
 }

@@ -350,12 +350,34 @@ def prefer_english_abstract(block: str) -> str:
     return block
 
 
+def is_mostly_german(text: str) -> bool:
+    words = re.findall(r"[A-Za-zÄÖÜäöüß]+", text.lower())
+    if len(words) < 8:
+        return False
+    german_markers = {
+        "und", "der", "die", "das", "mit", "von", "für", "wird", "durch",
+        "diese", "arbeit", "nicht", "sowie", "zeigt", "werden", "einer",
+        "sind", "auch", "bei", "auf", "den", "dem", "des", "im", "zur",
+    }
+    english_markers = {
+        "the", "and", "of", "to", "in", "is", "for", "with", "this", "that",
+        "from", "are", "as", "by", "on", "was", "were", "be", "or", "at",
+    }
+    g = sum(1 for w in words if w in german_markers)
+    e = sum(1 for w in words if w in english_markers)
+    return g >= e + 3
+
+
 def short_webpage_summary(abstract_text: Optional[str], max_chars: int = 340) -> str:
     """
     Build a concise 1–2 sentence blurb for graduate cards / detail pages.
     Prefers a 'This thesis…' framing sentence plus one result/impact sentence.
     """
     if not abstract_text:
+        return ""
+    if "online nicht verfügbar" in abstract_text.lower():
+        return ""
+    if is_mostly_german(abstract_text):
         return ""
 
     sentences = [

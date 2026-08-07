@@ -246,6 +246,9 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             failed += 1
             print(f"  FAIL: {exc}")
+            if args.all and args.write_csv and not args.dry_run:
+                # Clear stale / non-English summaries on full refresh.
+                rows[idx]["summary"] = ""
             report["people"].append(
                 {"name": name, "rwth_url": url, "error": str(exc)}
             )
