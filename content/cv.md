@@ -273,25 +273,6 @@ date = "2026-03-09"
 </section>
 
 <section class="cv-section">
-  <h2>Scientific career support</h2>
-  <ul class="cv-people">
-    <li>Nico van der Vegt — TU Darmstadt</li>
-    <li>Rob Lammertink — University of Twente</li>
-    <li>Nieck Benes — University of Twente</li>
-    <li>Dimitrios Stamatialis — University of Twente</li>
-    <li>Saiful — Universitas Syiah Kuala</li>
-    <li>Kitty Nijmeijer — Technical University of Eindhoven</li>
-    <li>Zeynep Culfaz — METU Ankara</li>
-    <li>Tao He — Shanghai Advanced Research Institute</li>
-    <li>Tao Luo — Sichuan University</li>
-    <li>Youri Gendel — Technion Haifa</li>
-    <li>Oded Nir — Ben Gurion, Bersheba</li>
-    <li>John Linkhorst — Technical University of Darmstadt</li>
-    <li>Hanna Roth — University of Duisburg-Essen</li>
-  </ul>
-</section>
-
-<section class="cv-section">
   <h2>Publication record</h2>
   <p class="cv-note">Scopus, November 2025</p>
   <dl class="cv-facts cv-facts-compact">
