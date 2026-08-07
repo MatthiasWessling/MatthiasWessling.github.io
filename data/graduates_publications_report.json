@@ -1,7 +1,7 @@
 {
   "publications_in_ris": 766,
   "graduates": 144,
-  "graduates_with_publications": 136,
+  "graduates_with_publications": 137,
   "ambiguous_author_strings": [
     {
       "au": "Wiese, M.",
@@ -195,8 +195,8 @@
       "name": "Davide Di Marino",
       "initials": "D",
       "surname_keys": [
-        "marino",
-        "di marino"
+        "di marino",
+        "marino"
       ],
       "count": 9
     },
@@ -557,8 +557,8 @@
       "name": "L. de Geeter",
       "initials": "",
       "surname_keys": [
-        "geeter",
-        "de geeter"
+        "de geeter",
+        "geeter"
       ],
       "count": 2
     },
@@ -654,8 +654,8 @@
       "name": "Maria Adelaida Restrepo Toro",
       "initials": "MA",
       "surname_keys": [
-        "toro",
-        "restrepo toro"
+        "restrepo toro",
+        "toro"
       ],
       "count": 1
     },
@@ -807,8 +807,8 @@
       "name": "Nico F.A. van der Vegt",
       "initials": "NFA",
       "surname_keys": [
-        "vegt",
-        "van der vegt"
+        "van der vegt",
+        "vegt"
       ],
       "count": 27
     },
@@ -840,8 +840,8 @@
       "name": "Petrus Cornelis van der Heijden",
       "initials": "PC",
       "surname_keys": [
-        "van der heijden",
-        "heijden"
+        "heijden",
+        "van der heijden"
       ],
       "count": 2
     },
@@ -893,14 +893,6 @@
       ],
       "count": 7
     },
-    "s-weik": {
-      "name": "S. Weik",
-      "initials": "S",
-      "surname_keys": [
-        "weik"
-      ],
-      "count": 0
-    },
     "said-abdu": {
       "name": "Said Abdu",
       "initials": "S",
@@ -932,6 +924,14 @@
         "reijerkerk"
       ],
       "count": 8
+    },
+    "sara-weik": {
+      "name": "Sara Weik",
+      "initials": "S",
+      "surname_keys": [
+        "weik"
+      ],
+      "count": 3
     },
     "sebastian-bernhard-rauer": {
       "name": "Sebastian Bernhard Rauer",
@@ -1145,8 +1145,8 @@
       "name": "Wilbert J.C. van de Ven",
       "initials": "WJC",
       "surname_keys": [
-        "van de ven",
-        "ven"
+        "ven",
+        "van de ven"
       ],
       "count": 9
     },
@@ -1190,11 +1190,6 @@
       "slug": "marina-lazar",
       "name": "Marina Lazar",
       "initials": "M"
-    },
-    {
-      "slug": "s-weik",
-      "name": "S. Weik",
-      "initials": "S"
     },
     {
       "slug": "stefanie-hoffmann",

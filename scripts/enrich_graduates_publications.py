@@ -104,6 +104,8 @@ AMBIGUOUS_TITLE_RULES: Dict[str, List[Tuple[str, Tuple[str, ...]]]] = {
 }
 
 # Manual surname / AU overrides when automatic parsing is insufficient.
+# Prefer author_aliases in each graduate's front matter for name changes;
+# this dict remains for typos / one-off Scopus forms.
 # Keys are graduate markdown filenames (without .md).
 MANUAL_ALIASES: Dict[str, List[str]] = {
     # CSV typo "KorcnPercin" / page "korcan-percin"
@@ -115,7 +117,6 @@ MANUAL_ALIASES: Dict[str, List[str]] = {
     # Therese / Theresa Krahnstöver
     "therese-krahnstoever": ["Krahnstöver, T.", "Krahnstoever, T.", "Krahnstover, T."],
     "theresa-b-m-roesener": ["Rösener, T.", "Roesener, T.", "Rosener, T."],
-    "s-weik": ["Weik, S."],
     "sven-lyko": ["Lyko, S."],
     "jonas-loewenberg": ["Löwenberg, J.", "Loewenberg, J.", "Lowenberg, J."],
     "tobias-luelf": ["Lülf, T.", "Luelf, T.", "Lulf, T."],
@@ -344,6 +345,19 @@ class Graduate:
     initials: str
     surname_keys: List[str]
     aliases: List[str] = field(default_factory=list)
+    former_names: List[str] = field(default_factory=list)
+
+
+def parse_toml_string_list(front: str, key: str) -> List[str]:
+    """Parse a simple TOML string array: key = ["a", "b"]."""
+    m = re.search(
+        rf'^{re.escape(key)}\s*=\s*\[(.*?)\]\s*$',
+        front,
+        re.M | re.S,
+    )
+    if not m:
+        return []
+    return [s.replace('\\"', '"') for s in re.findall(r'"((?:\\.|[^"\\])*)"', m.group(1))]
 
 
 def parse_ris(path: Path) -> List[Publication]:
@@ -390,13 +404,22 @@ def load_graduates(graduates_dir: Path) -> List[Graduate]:
         if path.name == "_index.md":
             continue
         text = path.read_text(encoding="utf-8")
-        m = re.search(r'^title\s*=\s*"(.*)"\s*$', text, re.M)
+        if not text.startswith("+++"):
+            continue
+        end = text.find("+++", 3)
+        front = text[3:end] if end > 0 else text
+        m = re.search(r'^title\s*=\s*"(.*)"\s*$', front, re.M)
         if not m:
             continue
         title = m.group(1).replace('\\"', '"')
         given, surname = split_given_surname(title)
         initials = initials_from_given(given)
         slug = path.stem
+        aliases = list(MANUAL_ALIASES.get(slug, []))
+        for alias in parse_toml_string_list(front, "author_aliases"):
+            if alias not in aliases:
+                aliases.append(alias)
+        former_names = parse_toml_string_list(front, "former_names")
         grads.append(
             Graduate(
                 path=path,
@@ -406,7 +429,8 @@ def load_graduates(graduates_dir: Path) -> List[Graduate]:
                 surname=surname,
                 initials=initials,
                 surname_keys=surname_keys_for_graduate(surname),
-                aliases=list(MANUAL_ALIASES.get(slug, [])),
+                aliases=aliases,
+                former_names=former_names,
             )
         )
     return grads

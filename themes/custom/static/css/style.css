@@ -959,6 +959,13 @@ a:hover {
     flex-shrink: 0;
 }
 
+.graduates-former-names {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
 .graduates-pub-count {
     font-size: 0.9rem;
     opacity: 0.8;

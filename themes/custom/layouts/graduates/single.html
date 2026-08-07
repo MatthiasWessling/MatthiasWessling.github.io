@@ -18,6 +18,9 @@
                     {{ else }}
                     <time>{{ .Date.Format "January 2, 2006" }}</time>
                     {{ end }}
+                    {{ with .Params.former_names }}
+                    <span class="graduates-former-names">Also published as {{ delimit . ", " }}</span>
+                    {{ end }}
                 </div>
             </div>
         </header>
