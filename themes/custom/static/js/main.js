@@ -626,9 +626,11 @@ class GraduatesDirectory {
         this.list = document.getElementById('graduates-list');
         this.searchInput = document.getElementById('graduates-search');
         this.topicsInput = document.getElementById('graduates-topics-search');
+        this.yearSelect = document.getElementById('graduates-year');
         this.sortSelect = document.getElementById('graduates-sort');
         this.resultsCount = document.getElementById('graduates-results-count');
         this.entries = [];
+        this.yearHeadings = new Map();
 
         this.init();
     }
@@ -647,23 +649,43 @@ class GraduatesDirectory {
         if (this.topicsInput) {
             this.topicsInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
         }
+        if (this.yearSelect) {
+            this.yearSelect.addEventListener('change', () => this.render());
+        }
         this.sortSelect.addEventListener('change', () => this.render());
         this.render();
+    }
+
+    getYearHeading(year) {
+        if (this.yearHeadings.has(year)) {
+            return this.yearHeadings.get(year);
+        }
+        const heading = document.createElement('h2');
+        heading.className = 'graduates-year-heading';
+        heading.dataset.yearHeading = year;
+        heading.textContent = year;
+        this.yearHeadings.set(year, heading);
+        return heading;
+    }
+
+    clearYearHeadings() {
+        this.list.querySelectorAll('.graduates-year-heading').forEach((el) => el.remove());
     }
 
     render() {
         const query = this.searchInput.value.trim().toLowerCase();
         const topicsQuery = (this.topicsInput?.value || '').trim().toLowerCase();
+        const yearFilter = (this.yearSelect?.value || '').trim();
         const sortMode = this.sortSelect.value;
 
         const filtered = this.entries.filter((entry) => {
             const title = entry.dataset.title || '';
-            const thesisTitle = entry.dataset.thesisTitle || '';
-            const summary = entry.dataset.summary || '';
             const topics = entry.dataset.topics || '';
-            const matchesText = !query || title.includes(query) || thesisTitle.includes(query) || summary.includes(query);
+            const year = entry.dataset.year || '';
+            const matchesName = !query || title.includes(query);
             const matchesTopics = !topicsQuery || topics.includes(topicsQuery);
-            return matchesText && matchesTopics;
+            const matchesYear = !yearFilter || year === yearFilter;
+            return matchesName && matchesTopics && matchesYear;
         });
 
         filtered.sort((a, b) => {
@@ -671,24 +693,48 @@ class GraduatesDirectory {
             const dateB = Number(b.dataset.date || 0);
             const titleA = (a.dataset.title || '').toLowerCase();
             const titleB = (b.dataset.title || '').toLowerCase();
+            const yearA = a.dataset.year || '';
+            const yearB = b.dataset.year || '';
 
             if (sortMode === 'oldest') {
+                if (yearA !== yearB) {
+                    return yearA.localeCompare(yearB);
+                }
                 return dateA - dateB;
             }
             if (sortMode === 'title-asc') {
+                if (yearA !== yearB) {
+                    return yearB.localeCompare(yearA);
+                }
                 return titleA.localeCompare(titleB);
             }
             if (sortMode === 'title-desc') {
+                if (yearA !== yearB) {
+                    return yearB.localeCompare(yearA);
+                }
                 return titleB.localeCompare(titleA);
             }
-            // default: newest first
+            // default: newest first — years descending, then date
+            if (yearA !== yearB) {
+                return yearB.localeCompare(yearA);
+            }
             return dateB - dateA;
         });
 
+        this.clearYearHeadings();
         this.entries.forEach((entry) => {
             entry.style.display = 'none';
         });
+
+        let currentYear = null;
         filtered.forEach((entry) => {
+            const year = entry.dataset.year || 'Unknown';
+            if (year !== currentYear) {
+                currentYear = year;
+                const heading = this.getYearHeading(year);
+                heading.style.display = '';
+                this.list.appendChild(heading);
+            }
             entry.style.display = '';
             this.list.appendChild(entry);
         });

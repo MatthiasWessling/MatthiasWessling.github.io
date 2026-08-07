@@ -12,6 +12,11 @@
     <div class="blog-list">
         {{ range .Pages }}
         <article class="blog-item">
+            {{ if .Params.image }}
+            <a href="{{ .Permalink }}" class="blog-list-cover">
+                <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}">
+            </a>
+            {{ end }}
             <div class="blog-meta">
                 <time class="blog-date">{{ .Date.Format "January 2, 2006" }}</time>
                 {{ if .Params.tags }}

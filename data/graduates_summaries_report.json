@@ -1,0 +1,581 @@
+{
+  "people": [
+    {
+      "name": "Florian Wiesner",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1028896",
+      "summary": "This thesis advances the fundamental understanding and predictive modeling of two-phase flow phenomena in GDEs through the development of novel computational frameworks spanning from detailed morphological simulations to novel, generalizable machine learning approaches. Applied to both stochastically reconstructed and μ-CT scanned…",
+      "abstract_chars": 2569
+    },
+    {
+      "name": "Sebastian Brosch",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1028159",
+      "summary": "The location and morphology of the TPB is defined by the wettability of the CL. Overall, it could be shown that the primary reaction location in ecCO2RR is in fact at the TPB, however, the active area for CO2 reduction is far larger than previously assumed for GDEs.",
+      "abstract_chars": 2074
+    },
+    {
+      "name": "Wibke Victoria Zängler",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1023118",
+      "summary": "This thesis aims to advance electrochemical hydrogen compression applicability in natural gas mixtures by increasing process robustness against impurities and reducing costs through innovative reactor design. With impurity/hydrogen mixtures, the high-temperature EHC demonstrated stable operation, minimal potential increase, and higher…",
+      "abstract_chars": 1794
+    },
+    {
+      "name": "Maike Wrobel",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1028636",
+      "summary": "This thesis examines the feasibility of scaling up CO2 electrolysis to industrial levels in a bipolar membrane (BPM) reactor. Overall, this thesis concludes that industrial-scale CO2 electrolysis in BPM-based systems is achievable with appropriate electrode engineering, membrane optimization, and advanced simulation tools.",
+      "abstract_chars": 2336
+    },
+    {
+      "name": "Siqi Wang",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1021247",
+      "summary": "This thesis aims to design, fabricate, and apply the porous PEDOT:PSS structures as advanced electrode materials, focusing on enhancing ion transport, surface area, and overall device performance across diverse electrochemical systems. A systematic investigation of the interplay between pore architecture, ionic/electronic conductivity,…",
+      "abstract_chars": 1298
+    },
+    {
+      "name": "Simon Wennemaring",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1019577",
+      "summary": "Experiments with multichannel membrane modules revealed that particle deposition occurs mainly in the outer channels, reducing the contribution of the inner channels to the filtration process. The research underscores the importance of understanding the behavior of individual membranes in order to explain overall module performance.",
+      "abstract_chars": 1494
+    },
+    {
+      "name": "Clara Berinike Bräsel",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1016404",
+      "summary": "This thesis's findings contribute to a comprehensive understanding of fouling phenomena, narrowing the gap between pore-scale events and the macroscopic filtration process.",
+      "abstract_chars": 322
+    },
+    {
+      "name": "Maria Adelaida Restrepo Toro",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1023806",
+      "summary": "This thesis explores innovative techniques for fabricating biocatalytic hollow fiber membranes by directly integrating enzymes and functional materials into the structure, enhancing enzyme stability and introducing new functionalities beneficial to separation processes. The third method is fabricating low-fouling and self-cleaning hollow…",
+      "abstract_chars": 1733
+    },
+    {
+      "name": "Jonas Frederik Bäßler",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1012205",
+      "summary": "This thesis explores selective methanol oxidation as a less energy-intensive alternative to OER for paired electrolysis, which yield value-added products from both anodic and cathodic reactions.Two paired processes were studied in electrochemical flow cells: Methanol oxidation to formaldehyde at platinum paired with CO2 reduction, and…",
+      "abstract_chars": 2525
+    },
+    {
+      "name": "Lucas Maximilian Stüwe",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1009830",
+      "summary": "The present thesis provides two experimental approaches for filtration investigations in simplified environments on different size scales, starting with microfluidic investigations of particle properties on the hydraulic resistance of a filter cake by precisely controlling particle softness, shape, porosity, quantity and dispersity.…",
+      "abstract_chars": 1960
+    },
+    {
+      "name": "Jan Frauholz",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1020930",
+      "summary": "The thermodynamically unfavorable transfer of water into a second solution, which requires an additional continuous regeneration process, reduces the process' competitiveness or nullifies the possibility of treating highly osmotic feed streams. Overall, forward osmosis processes can be energy competitive with evaporation-based…",
+      "abstract_chars": 2635
+    },
+    {
+      "name": "Maria Charlotte Padligur",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1009045",
+      "summary": "This work aims to understand the mechanisms of charge transport and electrochemical reactions in dynamic multi-phase systems and to use these insights to show the applicability of multi-phase systems for the electrochemical synthesis of FDCA (2,5-furandicarboxylic acid) from the biomass-derived compound HMF (5-hydroxymethylfurfural)…",
+      "abstract_chars": 1676
+    },
+    {
+      "name": "Lukas Tobias Hirschwald",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1004690",
+      "summary": "In this thesis, I employed computational fluid dynamics simulations, human whole blood experiments, and simulative optimization to evaluate and optimize the hemodynamics in differently designed modules with isometric and anisometric TPMS topology compared to a conventional tubular architecture. Overall, my work demonstrated that…",
+      "abstract_chars": 1582
+    },
+    {
+      "name": "Lea Maria Steinbeck",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1009669",
+      "summary": "This thesis examines the fabrication of such complex-shaped microgels and the customization of selected microgel characteristics. The aim is to establish a fabrication platform with a repertoire of tailorable microgel characteristics that enables the combination and reliable regulation of the properties of a microgel.",
+      "abstract_chars": 2135
+    },
+    {
+      "name": "Matthias Christian Geiger",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1012765",
+      "summary": "This thesis presents microfluidic spinning as a technology platform for the fabrication of microfibers, whose properties can be tailored to explore the role of the different cues guiding neuroregeneration. The spinning process was analyzed with regard to the parameterspace available for spinning and the fiber diameter resulting from each…",
+      "abstract_chars": 1842
+    },
+    {
+      "name": "Niklas Köller",
+      "rwth_url": "https://publications.rwth-aachen.de/record/1005953",
+      "summary": "This thesis undertook the scale-up of FCDI technology and deployed it in real-world desalination and salt recycling scenarios while innovating new components and materials to enhance cost-effectiveness. Compared to Electrodialysis, FCDI requires more membrane area, resulting in a disadvantage in capital cost.",
+      "abstract_chars": 1654
+    },
+    {
+      "name": "Sebastian Bernhard Rauer",
+      "rwth_url": "https://publications.rwth-aachen.de/record/998882",
+      "summary": "This thesis aims to advance the state-of-the-art of stimuli-responsive materials by developing three distinct protein-functionalized scaffolds, which can be actuated by electrical current, temperature, or pressure and are applicable in technologically significant bioreactors. The repeated use of interleukin-3 presenting microcarriers for…",
+      "abstract_chars": 2057
+    },
+    {
+      "name": "Jan Vehrenberg",
+      "rwth_url": "https://publications.rwth-aachen.de/record/995136",
+      "summary": "This thesis underlines the great potential of value added anode reactions such as GOR and CER to push eCO2R towards economical feasibility at industrial scale. Benefits over OER are assessed with respect to direct advantages such as generation of value added products at the anode and reduction of cell voltage as well as indirect…",
+      "abstract_chars": 415
+    },
+    {
+      "name": "Stefan Herrmann",
+      "rwth_url": "https://publications.rwth-aachen.de/record/989545",
+      "summary": "This thesis aims for a new ozonation reactor that limits ozone loss, enhances the degradation rate for low oxidizable MPs, i.e., X-ray contrast agents, and limits bromate formation. Overall, bubble-less photocatalytic ozonation is a promising technology to increase the degradation of low oxidizable MPs and the TOC removal in water…",
+      "abstract_chars": 2018
+    },
+    {
+      "name": "Nils Simeon Ragnar Weber",
+      "rwth_url": "https://publications.rwth-aachen.de/record/990543",
+      "summary": "On the other hand, a shift in product distribution towards methane formation was observed in flow-by mode, in which CO2 is channeled through the lumen of the electrode. In conclusion, selective laser melting provides a promising means for the single-step fabrication of tubular gas diffusion electrodes with pore networks tailored to CO2…",
+      "abstract_chars": 559
+    },
+    {
+      "name": "Tobias Harhues",
+      "rwth_url": "https://publications.rwth-aachen.de/record/988599",
+      "summary": "This work aims to integrate electrochemical processes into two process chains to yield 2,5-furandicarboxylic acid (FDCA) and 2-butanone. It reveals the possibility of eradicating intermediate purification steps when integrating electrochemical conversion with the preceding chemocatalytic or microbial processes.",
+      "abstract_chars": 2432
+    },
+    {
+      "name": "Matthias Heßelmann",
+      "rwth_url": "https://publications.rwth-aachen.de/record/988602",
+      "summary": "The micro-environment near a planar plate electrode for electrochemical CO2 conversion to CO was rigorously modeled by accounting for the size of dissolved species in the electrolyte.",
+      "abstract_chars": 1873
+    },
+    {
+      "name": "Kristina Baitalow",
+      "rwth_url": "https://publications.rwth-aachen.de/record/995130",
+      "summary": "This work aims to comprehend the interaction of both cathode reactions on a single switchable oxygen depolarized cathode and enable a safe switching operation. The electrochemical experiments revealed a significant correlation between the increase in cell potential and the undesired electrolyte breakthrough to the gas side of the oxygen…",
+      "abstract_chars": 2032
+    },
+    {
+      "name": "Daniel Matthias Julian Felder",
+      "rwth_url": "https://publications.rwth-aachen.de/record/964209",
+      "summary": "This thesis employs high-resolution charge transport models to explain the electrochemical processes in organic synapses and identify the non-ideal behavior's root causes. Simulations of artificial neural networks show that self-discharge can significantly degrade network performance over single-digit minutes.",
+      "abstract_chars": 1300
+    },
+    {
+      "name": "Jens Rubner",
+      "rwth_url": "https://publications.rwth-aachen.de/record/969876",
+      "summary": "This thesis aims to utilize PECVD to produce organosilica films with tailored chemical and permeation properties.",
+      "abstract_chars": 1716
+    },
+    {
+      "name": "Maren Großeheide",
+      "rwth_url": "https://publications.rwth-aachen.de/record/959695",
+      "summary": "This thesis aims to develop the CO2R process towards industrial application. The process stability regarding Faraday efficiency (FE) of CO and cell voltage (U_cell) was drastically improved and it was found, that the duration of the start-up procedure had a major influence on the resulting FE of CO.",
+      "abstract_chars": 2401
+    },
+    {
+      "name": "Maik Tepper",
+      "rwth_url": "https://publications.rwth-aachen.de/record/960356",
+      "summary": "In particular, this thesis presents three approaches to implement rotation in a spinneret.",
+      "abstract_chars": 1889
+    },
+    {
+      "name": "Patrick Bongartz",
+      "rwth_url": "https://publications.rwth-aachen.de/record/960419",
+      "summary": "To overcome this challenges, aim of this work is the development of a technology for the bubble-free aeration of microbial fermentations. This cell-retention enables the direct, in-line transfer of the fermentation broth to a solvent extraction setup.",
+      "abstract_chars": 2091
+    },
+    {
+      "name": "Alexander Heinrich Limper",
+      "rwth_url": "https://publications.rwth-aachen.de/record/856694",
+      "summary": "This thesis thus firstly aims to develop concepts for the fabrication of 3D-structured porous electrodes that improve the mass transport in the reactor by passive mixing. The feasibility of this functionalization method was demonstrated on a mixer electrode from SLM and showed extremely high potential for the efficient degradation of…",
+      "abstract_chars": 1740
+    },
+    {
+      "name": "Ilka Isabelle Rose",
+      "rwth_url": "https://publications.rwth-aachen.de/record/943024",
+      "summary": "For this purpose, conventional polyethersulfone dialysis membranes are functionalized subsequently or during membrane production for subsequent heparinization without adversely affecting the membrane properties. X-ray photoelectronspectroscopy and thermogravimetric analyses demonstrate the in-situ functionalization with polydopamine.",
+      "abstract_chars": 2173
+    },
+    {
+      "name": "Anna Maria Kalde",
+      "rwth_url": "https://publications.rwth-aachen.de/record/861369",
+      "summary": "This thesis aims to broaden the understanding of fluid-fluid displacement flow communication at a multi-pore scale while resolving displacement dynamics down to a sub-pore scale. Finally, the study on hydrogels demonstrated the potential of hydrogel pillar arrays serving as devices for biomedical applications in chromatography or lateral…",
+      "abstract_chars": 2450
+    },
+    {
+      "name": "Denis Mathias Wypysek",
+      "rwth_url": "https://publications.rwth-aachen.de/record/861122",
+      "summary": "This thesis revealed that small deviations from the ideal membrane position inside a membrane module highly influence its flow field and filtration behavior. This study shows that the combination of magnetic resonance imaging and computational fluid dynamics is a powerful tool to unravel the hydrodynamic behavior of multichannel…",
+      "abstract_chars": 1350
+    },
+    {
+      "name": "Arne Can Lüken",
+      "rwth_url": "https://publications.rwth-aachen.de/record/849734",
+      "summary": "This thesis aims to provide mechanistic insights into the filtration process by developing experimental methods for microscopic filter cake visualization and applying these methods to analyze colloid and particle interactions in the filter cake during filtration. This thesis developed two devices for visually observing filter cakes: The…",
+      "abstract_chars": 2607
+    },
+    {
+      "name": "Felix Stockmeier",
+      "rwth_url": "https://publications.rwth-aachen.de/record/856875",
+      "summary": "Until now, experimental studies were limited to 2D measurement techniques and 3D simulations which are restricted to small scales due to computational costs.This thesis surpasses this limitation and presents an experimental method for quantification of the 3D velocity field of electroconvection with high temporal and spatial resolution.",
+      "abstract_chars": 2445
+    },
+    {
+      "name": "Stephan Christian Emonds",
+      "rwth_url": "https://publications.rwth-aachen.de/record/849649",
+      "summary": "In this thesis, different approaches to fabricate polyelectrolyte complex hollow fiber nanofiltration membranes in a single step are developed. Overall, the polyelectrolyte material platform allows the single step fabrication of polyelectrolyte composite and freestanding hollow fiber nanofiltration membranes.",
+      "abstract_chars": 2793
+    },
+    {
+      "name": "Johannes Kamp",
+      "rwth_url": "https://publications.rwth-aachen.de/record/957990",
+      "summary": "The results in this thesis prove that indeed, polyelectrolyte multilayer membranes with separation characteristics can be tailored to a specific applications.",
+      "abstract_chars": 473
+    },
+    {
+      "name": "Suzana Lohaus",
+      "rwth_url": "https://publications.rwth-aachen.de/record/850675",
+      "summary": "This thesis addresses the further development of membrane geometries towards 3D membrane architectures, their material improvement for medical applications, particularly the improvement of blood compatibility, and most recently, the development of a temperature-responsive membrane bioreactor for the production of cellular tissue.…",
+      "abstract_chars": 1303
+    },
+    {
+      "name": "Georg Franz Linz",
+      "rwth_url": "https://publications.rwth-aachen.de/record/849075",
+      "summary": "In this thesis, electrical impedance spectroscopy (EIS) was utilized in static and dynamic cultivations to overcome the disadvantages of single-frequency resistance measurements typically applied in cell barrier research. Contrary to the standard approach, the electric circuit modeling of EIS data allows for the separation of the barrier…",
+      "abstract_chars": 1577
+    },
+    {
+      "name": "Mojtaba Mohseni",
+      "rwth_url": "https://publications.rwth-aachen.de/record/847266",
+      "summary": "This thesis introduces novel freestanding carbons that can serve as an adsorbent, an electrode, or both to remove OMPs via adsorption, (electro-)Fenton-based oxidation, or a combination of them in a so-called cyclic process, respectively.",
+      "abstract_chars": 2568
+    },
+    {
+      "name": "Dana Kaubitzsch",
+      "rwth_url": "https://publications.rwth-aachen.de/record/943047",
+      "summary": "This thesis discusses the current state-of-the-art of classical and electrochemical production methods for dialkyl and diaryl carbonates.",
+      "abstract_chars": 851
+    },
+    {
+      "name": "Christian Jürgen Linnartz",
+      "rwth_url": "https://publications.rwth-aachen.de/record/850752",
+      "summary": "Facing that global challenge, essential aspects to be tackled are recycling water-soluble compounds, degradation of harmful contaminates, and new pathways for the electrification of the chemical industry. Results showed that charge transport within the flow electrodes is fostered by creating particle percolation networks, yet the used…",
+      "abstract_chars": 2333
+    },
+    {
+      "name": "Johannes Lohaus",
+      "rwth_url": "https://publications.rwth-aachen.de/record/843415",
+      "summary": "This thesis used coupled computational fluid dynamics - discrete element methods (CFD-DEM) simulations to examine pore-scale mechanisms during membrane fouling and membrane backwashing. The simulations revealed a dominant role of the inner pore structure, which is consistent with experimental observations from literature.",
+      "abstract_chars": 2823
+    },
+    {
+      "name": "Franziska Maria Dorothee Gertrud Hagemann",
+      "rwth_url": "https://publications.rwth-aachen.de/record/837978",
+      "summary": "Membrane adsorbers with a biporous structure can improve the downstream process in bioprocesses, because mass transfer limitations are drastically reduced compared to conventional resin chromatography materials. Convective pores enable fast mass transfer and diffusive pores in the membrane bridges provide surface for binding.",
+      "abstract_chars": 1903
+    },
+    {
+      "name": "Hanna Josefine Wolff",
+      "rwth_url": "https://publications.rwth-aachen.de/record/842918",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Qing Cui",
+      "rwth_url": "https://publications.rwth-aachen.de/record/834117",
+      "summary": "This thesis aims at utilizing wet spinning technology to achieve fabrication of polymeric fibers with different structures, and making full use of the spun functional fiber materials in tissue engineering and electrochemical reactions. The composite demonstrated the highest conductivity of 484 S/cm and an optimum capacitance of 82.59 F/g.",
+      "abstract_chars": 2228
+    },
+    {
+      "name": "Morten Logemann",
+      "rwth_url": "https://publications.rwth-aachen.de/record/836136",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Xin Wei",
+      "rwth_url": "https://publications.rwth-aachen.de/record/824880",
+      "summary": "In this work, catalyst-modified gas diffusion electrodes (GDEs) were applied in an electrochemical membrane reactor to overcome the restriction caused by the low solubility of $\\rm N_2$. As a result, a significant improvement was achieved.",
+      "abstract_chars": 1474
+    },
+    {
+      "name": "Hannah Roth",
+      "rwth_url": "https://publications.rwth-aachen.de/record/841451",
+      "summary": "The aim of thesis is to explore the scalable chemistry in a spinneret technology base as a single-step manufacturing process for functionalized membranes and thus to offer an intelligent alternative for multi-step membrane modification processes. Filtration experiments with BSA prove excellent antifouling properties of the resulting…",
+      "abstract_chars": 2509
+    },
+    {
+      "name": "Michael Theo Alders",
+      "rwth_url": "https://publications.rwth-aachen.de/record/834212",
+      "summary": "As an example, the model is used to determine parameters for PDMS as the most ideal membrane material. For hydrocarbons the results correspond to the expected behaviour, but for polar vapors effects are observed which cannot be conclusively clarified.",
+      "abstract_chars": 809
+    },
+    {
+      "name": "Tobias Lülf",
+      "rwth_url": "https://publications.rwth-aachen.de/record/765489",
+      "summary": "online nicht verfügbar External link: Table of contents",
+      "abstract_chars": 55
+    },
+    {
+      "name": "Tao Luo",
+      "rwth_url": "https://publications.rwth-aachen.de/record/707249",
+      "summary": "The resultant membranes have a symmetric cross-sectional structure with macropores (2 to 10 microns) distributed in the nanoporous membrane matrix.",
+      "abstract_chars": 869
+    },
+    {
+      "name": "Therese Krahnstöver",
+      "rwth_url": "https://publications.rwth-aachen.de/record/772900",
+      "summary": "In this thesis, the separation of PAC in advanced wastewater treatment processes is studied. The results show that, when operating PAC plants, it is essential to put a focus not only on effective adsorption, but also on adequate solids separation.",
+      "abstract_chars": 1422
+    },
+    {
+      "name": "Thomas Harlacher",
+      "rwth_url": "https://publications.rwth-aachen.de/record/229064",
+      "summary": "In the gas permeation unit the carbon dioxide and hydrogen resulting from the water gas shift have to be separated.",
+      "abstract_chars": 1299
+    },
+    {
+      "name": "Tim Femmer",
+      "rwth_url": "https://publications.rwth-aachen.de/record/540792",
+      "summary": "It involves a liquid photopolymer in a vat that is cured throughout light activation.This thesis describes how rapid prototyping, especially digital light processing, can be applied in the field of membrane technology. The developed membrane stirrer device for in-situ product recovery in a bioreactor is unique in function and design and…",
+      "abstract_chars": 1342
+    },
+    {
+      "name": "Theresa B. M. Rösener",
+      "rwth_url": "https://publications.rwth-aachen.de/record/774433",
+      "summary": "This thesis elucidates how direct membrane heating can positively influence membrane transport phenomena and presents novel applications that arise from the direct heat input. The applied electric power enables to control the temperature of the membrane.",
+      "abstract_chars": 1772
+    },
+    {
+      "name": "S. Weik",
+      "rwth_url": "https://publications.rwth-aachen.de/record/794592",
+      "summary": "This thesis follows a different approach, aiming at influencing the process conditions and the hydrodynamics in particular, instead of altering the membrane surface. In particular, the newly developed aerating mixer which combines aeration and mixing in one device, showed promising results in fouling mitigation.",
+      "abstract_chars": 2920
+    },
+    {
+      "name": "Serafin Stiefel",
+      "rwth_url": "https://publications.rwth-aachen.de/record/698589",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Stefanie M. A. Kriescher",
+      "rwth_url": "https://publications.rwth-aachen.de/record/571497",
+      "summary": "Membrane electrode assemblies (MEA) were applied when gaseous reactants were involved. The production of hydrocarbons with low current efficiency was achieved in both reactor types.",
+      "abstract_chars": 1796
+    },
+    {
+      "name": "Sven Lyko",
+      "rwth_url": "https://publications.rwth-aachen.de/record/210527",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Sebastian Koester",
+      "rwth_url": "https://publications.rwth-aachen.de/record/688743",
+      "summary": "An optimization beyond this limit will only make sense if the impact of the stagnant layer is reduced simultaneously. A case study revealed that the actual saving potential of membrane spacers depends on multiple parameters like outer climate conditions, energy prices and the humidification technology of the corresponding building…",
+      "abstract_chars": 852
+    },
+    {
+      "name": "Stefanie Hoffmann",
+      "rwth_url": "https://publications.rwth-aachen.de/record/565633",
+      "summary": "This work systematically investigates solvent as well as solute transport through adense PDMS-based polymeric OSN membrane.",
+      "abstract_chars": 1737
+    },
+    {
+      "name": "S. Bannwarth",
+      "rwth_url": "https://publications.rwth-aachen.de/record/689909",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Said Alsayegh",
+      "rwth_url": "https://publications.rwth-aachen.de/record/728648",
+      "summary": "The scope of this thesis is to identify membrane-based processes to recover and utilize H2 generated from photocatalytic water splitting while maintaining safety and flammability constraints throughout the separation process. Through integration, the aim was to improve the overall process economics through the production of a more value-…",
+      "abstract_chars": 2897
+    },
+    {
+      "name": "Said Abdu",
+      "rwth_url": "https://publications.rwth-aachen.de/record/710113",
+      "summary": "Membrane surfaces are elaborately altered during membrane formation or in a separate step afterward with the objective of enhancing some desired performances or mitigating drawbacks that are inherent to membrane separation processes. At overlimiting current densities, the study further shows that polyelectrolyte multilayers allow…",
+      "abstract_chars": 3527
+    },
+    {
+      "name": "Robert G. Keller",
+      "rwth_url": "https://publications.rwth-aachen.de/record/822014",
+      "summary": "This thesis presents integrated biorefinery processes based on green solvents, lignin-first conceptualization, and the coupling of electrochemical processes to cellulose depolymerization. Experimental and simulation results demonstrated that the separation prevents overoxidation of glucose while simultaneously retaining the reactant…",
+      "abstract_chars": 2255
+    },
+    {
+      "name": "Robert Femmer",
+      "rwth_url": "https://publications.rwth-aachen.de/record/709436",
+      "summary": "This thesis aims to increase the understanding of some of the processes happening at and around these interfaces by eliminating the electroneutrality condition from the set of commonly assumed simplifications. A fundamental study of the common assumption of the ideal bulk boundary condition with an artificial mixing model reveals a…",
+      "abstract_chars": 1527
+    },
+    {
+      "name": "Martin Wiese",
+      "rwth_url": "https://publications.rwth-aachen.de/record/785894",
+      "summary": "online nicht verfügbar External link: Table of contents",
+      "abstract_chars": 55
+    },
+    {
+      "name": "Monika T. Wiese",
+      "rwth_url": "https://publications.rwth-aachen.de/record/803875",
+      "summary": "online nicht verfügbar External link: Table of contents",
+      "abstract_chars": 55
+    },
+    {
+      "name": "Marco Scholz",
+      "rwth_url": "https://publications.rwth-aachen.de/record/229347",
+      "summary": "Thus, upgrading of biogas which is the separation of carbon dioxide from the methane rich gas is more efficient and the product gas can be injected in the natural gas grid.",
+      "abstract_chars": 2487
+    },
+    {
+      "name": "Marina Lazar",
+      "rwth_url": "https://publications.rwth-aachen.de/record/571750",
+      "summary": "This thesis includes a study on silicone based membranes, as to their chemistry, their separation performance in organic solvents and influence of introduced functional groups. The measured results were used together with modelling approach to determine membrane specific parameters and their relevance in accurate predicting of the…",
+      "abstract_chars": 1485
+    },
+    {
+      "name": "Mark Ajhar",
+      "rwth_url": "https://publications.rwth-aachen.de/record/64099",
+      "summary": "It consists of the following:a) thorough overview of already established and still developing siloxane removal technologies,b) detailed investigation of a viable sampling and analytical method,c) screening of different elastomers to identify siloxane-selective membrane materials,d) design of a suitable membrane structure, i.e.…",
+      "abstract_chars": 1012
+    },
+    {
+      "name": "Laura Keller",
+      "rwth_url": "https://publications.rwth-aachen.de/record/789300",
+      "summary": "In this thesis, hollow fibers made of carbon nanotubes (CNT) replace the polymeric matrix. The formation of a polymeric, gastight layer on the shell side was successful, which enables isothermal operation with these fibers in the future.",
+      "abstract_chars": 2037
+    },
+    {
+      "name": "Lars I. E. Peters",
+      "rwth_url": "https://publications.rwth-aachen.de/record/811228",
+      "summary": "Membrane processes offer shorter diffusional pathways for the adsorption, faster binding kinetics and overall lower pressure drops, but are limited to a flat membrane geometry.",
+      "abstract_chars": 1072
+    },
+    {
+      "name": "Korcan Percin",
+      "rwth_url": "https://publications.rwth-aachen.de/record/819825",
+      "summary": "This thesis suggests replacing the standard electrodes used in a vanadium redox flow battery with the slurry electrodes. This thesis demonstrates the application of the static mixers to improve the slurry mixing in the flow cell, and thereby, increase the electrochemical activity significantly.",
+      "abstract_chars": 2598
+    },
+    {
+      "name": "Kerstin M. Remmen",
+      "rwth_url": "https://publications.rwth-aachen.de/record/782953",
+      "summary": "In this thesis, novel Layer-by-Layer (LbL) nanofiltration membranes are applied to recover phosphorus from sewage sludge ash leached by acids. An optimization of LbL membranes is performed to achieve superior phosphorus yields and permeabilities compared to conventional membranes, leading to a more environmentally friendly and…",
+      "abstract_chars": 849
+    },
+    {
+      "name": "Kurt Kugler",
+      "rwth_url": "https://publications.rwth-aachen.de/record/572765",
+      "summary": "To answer the question if an electrochemical NH3 synthesis process can compete with the state-of-the-art Haber process, a complete synthesis process with N2 production via air separation, NH3 synthesis in an ecMR and downstream product separation was modelled and optimized in Aspen+. For the ecMR a new model was developed in Aspen Custom…",
+      "abstract_chars": 710
+    },
+    {
+      "name": "Jan-Bernd Vennekötter",
+      "rwth_url": "https://publications.rwth-aachen.de/record/793058",
+      "summary": "Even though the focus of the study is on small scale electrochemical membrane reactors, a clear guideline for industrial scale up is given. Further catalyst and electrode design is necessary to be able to reduce CO2 with high selectivities to different C1 and C2 products.",
+      "abstract_chars": 473
+    },
+    {
+      "name": "Jan Stodollick",
+      "rwth_url": "https://publications.rwth-aachen.de/record/687814",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Jonas Löwenberg",
+      "rwth_url": "https://publications.rwth-aachen.de/record/685654",
+      "summary": "In this thesis, two specific examples of the abovementioned development are addressed by the combination of powdered activated carbon (PAC) adsorption and filtration processes.",
+      "abstract_chars": 2468
+    },
+    {
+      "name": "Jonas Lölsberg",
+      "rwth_url": "https://publications.rwth-aachen.de/record/813718",
+      "summary": "Within the cell-sorting device, whole blood with a clinical relevant hematocrit is sorted based on the joint effects of flow focusing and inertial lift forces resulting in lateral cell migration.",
+      "abstract_chars": 540
+    },
+    {
+      "name": "John Linkhorst",
+      "rwth_url": "https://publications.rwth-aachen.de/record/749893",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Jozef Kochan",
+      "rwth_url": "https://publications.rwth-aachen.de/record/211238",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Hans Breisig",
+      "rwth_url": "https://publications.rwth-aachen.de/record/698588",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Fee Pitsch",
+      "rwth_url": "https://publications.rwth-aachen.de/record/228839",
+      "error": "No English abstract/summary extracted"
+    },
+    {
+      "name": "Florian G. Roghmans",
+      "rwth_url": "https://publications.rwth-aachen.de/record/809118",
+      "summary": "This thesis aims at the improvement of ion transfer through two different types of membranes via the deposition of microgels on their surface. Electrochemical impedance spectroscopy revealed that the charge of the modifications has a decisive impact on the dielectric response of the system, thereby fingerprinting monovalention…",
+      "abstract_chars": 2611
+    },
+    {
+      "name": "Frederike Carstensen",
+      "rwth_url": "https://publications.rwth-aachen.de/record/229377",
+      "summary": "This thesis presents a novel ISPR process named reverse-flow diafiltration. As a result no net flux over the membrane occurs and cake-layer formation by particle accumulation is kept low.",
+      "abstract_chars": 3214
+    },
+    {
+      "name": "Elizaveta Evdochenko",
+      "rwth_url": "https://publications.rwth-aachen.de/record/816815",
+      "summary": "This thesis aims to attain a deeper phenomenological understanding of ion transport through charged nanofiltration and ion-exchange membranes by means of conducting numerical simulations. When the bulk charge is overcompensated, the rejection and selectivity can increase significantly due to the strong influence of the overall charge on…",
+      "abstract_chars": 2493
+    },
+    {
+      "name": "Deniz P. Rall",
+      "rwth_url": "https://publications.rwth-aachen.de/record/804603",
+      "summary": "This thesis offers a novel data-driven methodology using artificial neural networks (ANNs) for the development of layer-by-layer nanofiltration membranes in contrast to established screening pathways. Furthermore, machine learning enables a well-founded physical analysis of the performance spectrum, creating an interface between the…",
+      "abstract_chars": 1854
+    },
+    {
+      "name": "Daniel Menne",
+      "rwth_url": "https://publications.rwth-aachen.de/record/684806",
+      "summary": "A new coating method involving constant flux permeation enables precise tailoring of the performance in terms of retention and permeability of the resulting membranes.",
+      "abstract_chars": 695
+    },
+    {
+      "name": "Daniel J. Bell",
+      "rwth_url": "https://publications.rwth-aachen.de/record/824265",
+      "summary": "Lebende Zellen sind in der Lage, durch die Kombination von selektivem Transport und biochemischen Reaktionen selbstregulierte oszillierende Prozesse zu generieren. Die Nachbildung dieser Prozesse in lebensähnlichen synthetischen Systemen ist von besonderem Interesse, um ein tieferes Verständnis für den Übergang von synthetischen…",
+      "abstract_chars": 6329
+    },
+    {
+      "name": "Davide Di Marino",
+      "rwth_url": "https://publications.rwth-aachen.de/record/771046",
+      "summary": "In this thesis, electrochemical processes are applied to valorize lignin, with a particular focus on the role of the electrolyte. Main results regarded the successful depolymerization in the deep eutectic solvent and the formation of aromatic compounds with a high selectivity for guaiacol and vanillin.",
+      "abstract_chars": 1682
+    },
+    {
+      "name": "Christian Abels",
+      "rwth_url": "https://publications.rwth-aachen.de/record/444991",
+      "summary": "In this thesis the conversion of cellulose to glucose downstream of the wood dissolution process in Ionic Liquid is discussed. The semi-empirical model, based on systematic experimental results, allows for the prediction of the glucose yield from the nanofiltration as a unit operation.",
+      "abstract_chars": 1248
+    },
+    {
+      "name": "Benedikt M. Aumeier",
+      "rwth_url": "https://publications.rwth-aachen.de/record/801868",
+      "summary": "The main objective of this thesis was to develop a water treatment process that fulfills the above-mentioned requirements, and to demonstrate its technical feasibility in order to assure self-sustaining operation at household level.The developed process consisted of two steps: water purification and process regeneration.",
+      "abstract_chars": 1828
+    },
+    {
+      "name": "Burckhard E. L. Ohs",
+      "rwth_url": "https://publications.rwth-aachen.de/record/817133",
+      "summary": "Thus, in the second part of the thesis, a process consisting of an electrochemicalH2 separation and temperature swing adsorption for the separation of N2and CO2 is presented. With this thesis at hand, overall process analysis of the biogenic H2 production is possible.",
+      "abstract_chars": 968
+    },
+    {
+      "name": "Bandar A. Bawareth",
+      "rwth_url": "https://publications.rwth-aachen.de/record/755846",
+      "summary": "Through the analysis, the objective was to manipulate the process parameters in order to maximize the aromatics production yield. The sensitivity study revealed that a membrane with a molecular weight cut-off (MWCO) of 750 Da and pore diameter of 1 nm is an optimum nano-filtration membrane for a continuous membrane reactor.",
+      "abstract_chars": 1039
+    },
+    {
+      "name": "Alexandra K. E. Rommerskirchen",
+      "rwth_url": "https://publications.rwth-aachen.de/record/814181",
+      "summary": "This thesis discusses the state of the art of FCDI and related technologies and, based on this, presents experimental and theoretical studies, which advance the field of FCDI. The overall focus of this thesis lies on the application of FCDI for the treatment of high salinity solutions.",
+      "abstract_chars": 677
+    },
+    {
+      "name": "Axel Böcking",
+      "rwth_url": "https://publications.rwth-aachen.de/record/788632",
+      "summary": "This thesis proves the quality of retention and flow data from the standardized method. Such effects have been demonstrated in experiments, e.g., cononsolvency or preferential solvation.",
+      "abstract_chars": 644
+    }
+  ],
+  "summary": {
+    "filled": 87,
+    "failed": 10,
+    "processed": 97
+  }
+}

@@ -1,0 +1,770 @@
+{
+  "people": [
+    {
+      "name": "Wibke Victoria Zängler",
+      "linkedin": "https://www.linkedin.com/in/wibke-zaengler/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Dr.-Ing. at AVT RWTH; PhD post thanks Matthias Wessling; hydrogen compression thesis match.",
+      "alternates": []
+    },
+    {
+      "name": "Maike Wrobel",
+      "linkedin": "https://www.linkedin.com/in/maike-wrobel-4b876b184/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn lists AVT.CVT RWTH and CO2/BPM GDE papers with Wessling/Keller matching thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Siqi Wang",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Common name; no LinkedIn with clear RWTH/AVT/PEDOT evidence. Wrong Delaware CS profile exists.",
+      "alternates": [
+        "https://www.linkedin.com/in/siqi-wang-01aaaa/"
+      ]
+    },
+    {
+      "name": "Simon Wennemaring",
+      "linkedin": "https://www.linkedin.com/in/simon-wennemaring-b95181177/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Postdoc Chemical Process Engineering RWTH; MRI membrane papers with Wessling.",
+      "alternates": []
+    },
+    {
+      "name": "Clara Berinike Bräsel",
+      "linkedin": "https://www.linkedin.com/in/berinike-bräsel-684a511a1/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Berinike Bräsel: AVT RWTH + naion.tech; AVT staff page Bräsel geb. Göbel matches thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Maria Adelaida Restrepo Toro",
+      "linkedin": "https://www.linkedin.com/in/maria-adelaida-restrepo-59b558197/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Research Assistant Chair of Chemical Process Engineering RWTH; hollow-fiber PEC papers.",
+      "alternates": []
+    },
+    {
+      "name": "Jonas Frederik Bäßler",
+      "linkedin": "https://www.linkedin.com/in/jonas-baessler-0365a3225/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Wissenschaftlicher Mitarbeiter RWTH; AVT methanol/paired electrolysis pubs. Alternate jonas-baessler is automotive (wrong).",
+      "alternates": [
+        "https://www.linkedin.com/in/jonas-baessler/"
+      ]
+    },
+    {
+      "name": "Lucas Maximilian Stüwe",
+      "linkedin": "https://www.linkedin.com/in/lucas-stüwe-7a7b2215b/",
+      "orcid": "https://orcid.org/0000-0002-6077-9509",
+      "confidence": "high",
+      "evidence": "LinkedIn lists filtration papers with Lüken/Stockmeier/Wessling; ORCID RWTH AVT affiliation.",
+      "alternates": []
+    },
+    {
+      "name": "Jan Frauholz",
+      "linkedin": "https://www.linkedin.com/in/jan-frauholz-7152a78a/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Industrial PhD Aquaporin / FUJIFILM; RWTH forward-osmosis thesis and Aquaporin academy post.",
+      "alternates": []
+    },
+    {
+      "name": "Maria Charlotte Padligur",
+      "linkedin": "https://www.linkedin.com/in/maria-padligur-135403125/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: AVT RWTH; FDCA/flow-electrode papers match thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Lukas Tobias Hirschwald",
+      "linkedin": "https://www.linkedin.com/in/lukas-hirschwald/",
+      "orcid": "https://orcid.org/0000-0002-4629-429X",
+      "confidence": "high",
+      "evidence": "LinkedIn: Scientific staff AVT.CVT; TPMS blood-contactor thesis; ORCID match.",
+      "alternates": []
+    },
+    {
+      "name": "Lea Maria Steinbeck",
+      "linkedin": "",
+      "orcid": "https://orcid.org/0000-0001-6842-0368",
+      "confidence": "none",
+      "evidence": "ORCID confirms AVT.CVT PhD microgels. LinkedIn lea-steinbeck-b28808157 is Graphic Packaging KAM (different person).",
+      "alternates": [
+        "https://www.linkedin.com/in/lea-steinbeck-b28808157/"
+      ]
+    },
+    {
+      "name": "Matthias Christian Geiger",
+      "linkedin": "https://www.linkedin.com/in/matthiascgeiger/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Microfluidics PhD candidate AVT; neuroregeneration/microfiber posts with Wessling/Linkhorst.",
+      "alternates": []
+    },
+    {
+      "name": "Niklas Köller",
+      "linkedin": "https://www.linkedin.com/in/niklas-koeller-59ba9318a/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: PhD Student AVT.CVT; FCDI scale-up papers match thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Sebastian Bernhard Rauer",
+      "linkedin": "https://www.linkedin.com/in/sebastian-rauer-10934314a/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Dr.-Ing. Chemical Process Engineering RWTH; thesis title on profile; AVT doctoral researcher.",
+      "alternates": []
+    },
+    {
+      "name": "Jan Vehrenberg",
+      "linkedin": "https://www.linkedin.com/in/jan-vehrenberg-068153337/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn linked from ELECTRA Symposium as Dr. Jan Vehrenberg (Redox One); RWTH paired eCO2R thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Stefan Herrmann",
+      "linkedin": "https://www.linkedin.com/in/stefan-herrmann-a1730765/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Doctoral candidate AVT.CVT Wessling; thesis title photocatalytic ozonation on profile.",
+      "alternates": []
+    },
+    {
+      "name": "Nils Simeon Ragnar Weber",
+      "linkedin": "https://www.linkedin.com/in/nils-weber/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: PhD RWTH; tubular copper GDE CO2 papers with Keller/Wessling match thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Tobias Harhues",
+      "linkedin": "https://www.linkedin.com/in/tharhues/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Postdoc AVT; biomass valorization/HMF-FDCA papers and thesis title on profile.",
+      "alternates": []
+    },
+    {
+      "name": "Matthias Heßelmann",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Strong RWTH CO2 modeling record; no public LinkedIn URL found with RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "Kristina Baitalow",
+      "linkedin": "https://www.linkedin.com/in/kristinabaitalow/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn post: defended Switchable ODC thesis at AVT RWTH Nov 2023; thanks Wessling.",
+      "alternates": []
+    },
+    {
+      "name": "Daniel Matthias Julian Felder",
+      "linkedin": "https://www.linkedin.com/in/dnlfelder/",
+      "orcid": "https://orcid.org/0000-0003-0065-7144",
+      "confidence": "high",
+      "evidence": "LinkedIn dnlfelder: Aachen/BASF; publications with Lölsberg/Mohseni/Wessling neuromorphic and microtubes; ORCID match.",
+      "alternates": []
+    },
+    {
+      "name": "Jens Rubner",
+      "linkedin": "https://www.linkedin.com/in/jens-rubner-2244bb1a3/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Doktorand RWTH; plasma-coated organosilica membrane papers with Wessling.",
+      "alternates": []
+    },
+    {
+      "name": "Maren Großeheide",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "RWTH CO2 thesis confirmed; no LinkedIn profile found with AVT evidence.",
+      "alternates": []
+    },
+    {
+      "name": "Maik Tepper",
+      "linkedin": "https://www.linkedin.com/in/maik-tepper/",
+      "orcid": "https://orcid.org/0000-0001-8489-3384",
+      "confidence": "high",
+      "evidence": "LinkedIn: thesis Rotation-in-a-Spinneret; AVT/DWI; EMS prize posts.",
+      "alternates": []
+    },
+    {
+      "name": "Patrick Bongartz",
+      "linkedin": "https://www.linkedin.com/in/patrick-bongartz-1106/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: BioThrust CEO; Wissenschaftlicher Mitarbeiter RWTH gas-fermentation bioreactor thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Alexander Heinrich Limper",
+      "linkedin": "https://www.linkedin.com/in/alexander-limper/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: AVT; additive manufacturing porous mixer electrodes papers match thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Ilka Isabelle Rose",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "AVT staff and blood-compatible membranes thesis confirmed; no LinkedIn with RWTH evidence found.",
+      "alternates": []
+    },
+    {
+      "name": "Denis Mathias Wypysek",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "RWTH multichannel membrane visualization thesis; no LinkedIn URL found.",
+      "alternates": []
+    },
+    {
+      "name": "Arne Can Lüken",
+      "linkedin": "https://www.linkedin.com/in/arne-lüken-80456089/",
+      "orcid": "https://orcid.org/0000-0002-4801-8360",
+      "confidence": "high",
+      "evidence": "LinkedIn: PhD candidate AVT soft-matter filtration; ORCID BASF/RWTH; thesis match.",
+      "alternates": []
+    },
+    {
+      "name": "Felix Stockmeier",
+      "linkedin": "https://www.linkedin.com/in/felix-stockmeier/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Dr.-Ing. AVT Wessling; electroconvection overlimiting thesis; now Evonik DURAION.",
+      "alternates": []
+    },
+    {
+      "name": "Stephan Christian Emonds",
+      "linkedin": "https://www.linkedin.com/in/stephan-emonds-553b4b14b/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: PhD AVT PEC membranes thesis title; Euromembrane award posts.",
+      "alternates": []
+    },
+    {
+      "name": "Johannes Kamp",
+      "linkedin": "https://www.linkedin.com/in/johannes-kamp-ba0236207/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Dr.-Ing. RWTH PEM/LbL membranes; AVT project manager.",
+      "alternates": []
+    },
+    {
+      "name": "Suzana Lohaus",
+      "linkedin": "https://www.linkedin.com/in/suzana-lohaus-58b50114a/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Research assistant PhD RWTH; formerly Djeljadini; tissue engineering membrane bioreactor.",
+      "alternates": []
+    },
+    {
+      "name": "Georg Franz Linz",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "RWTH EIS biological barriers thesis; common name; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "Mojtaba Mohseni",
+      "linkedin": "https://www.linkedin.com/in/emojimohseni/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Postdoc RWTH; freestanding carbons micropollutants thesis; joint PhD Ghent. Alt slug also exists.",
+      "alternates": [
+        "https://www.linkedin.com/in/mojtaba-mohseni-354297132/"
+      ]
+    },
+    {
+      "name": "Dana Kaubitzsch",
+      "linkedin": "https://www.linkedin.com/in/dana-kaubitzsch/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: AVT postdoc electrochemistry; organic carbonates thesis listed.",
+      "alternates": []
+    },
+    {
+      "name": "Christian Jürgen Linnartz",
+      "linkedin": "https://www.linkedin.com/in/christian-linnartz-ab2026156/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: DWI group leader Desalination & Ion Recovery; FCDI flow-electrode thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Johannes Lohaus",
+      "linkedin": "https://www.linkedin.com/in/johannes-lohaus-2419b81a4/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Doktorand AVT.CVT; colloidal deposition/fouling thesis; now Henkel.",
+      "alternates": []
+    },
+    {
+      "name": "Franziska Maria Dorothee Gertrud Hagemann",
+      "linkedin": "https://www.linkedin.com/in/dr-ing-franziska-hagemann-845056160/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: PhD RWTH; membrane adsorber design papers with Wessling.",
+      "alternates": []
+    },
+    {
+      "name": "Hanna Josefine Wolff",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "RWTH microgels thesis confirmed; many Hanna Wolff profiles; none clearly tied to AVT.",
+      "alternates": []
+    },
+    {
+      "name": "Qing Cui",
+      "linkedin": "https://www.linkedin.com/in/qingcui-rwth/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn slug qingcui-rwth: 2021 PhD Chemical Process Engineering RWTH; wet-spun PEC/PEDOT fibers.",
+      "alternates": []
+    },
+    {
+      "name": "Morten Logemann",
+      "linkedin": "https://www.linkedin.com/in/morten-logemann/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Wissenschaftlicher Mitarbeiter AVT; ROMEO membrane reactor hydroformylation.",
+      "alternates": []
+    },
+    {
+      "name": "Xin Wei",
+      "linkedin": "https://www.linkedin.com/in/xin-wei-608ab8a8/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: electrochemical ammonia/GDE research matching RWTH thesis.",
+      "alternates": []
+    },
+    {
+      "name": "Hannah Roth",
+      "linkedin": "https://www.linkedin.com/in/hannah-roth-153b20aa/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: PhD AVT Wessling; chemistry-in-a-spinneret; now Prof. Duisburg-Essen.",
+      "alternates": []
+    },
+    {
+      "name": "Michael Theo Alders",
+      "linkedin": "https://www.linkedin.com/in/michael-alders-973336170/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Wissenschaftlicher Mitarbeiter RWTH; chilled membranes / gas separation papers match thesis.",
+      "alternates": []
+    },
+    {
+      "name": "T. Lülf",
+      "linkedin": "https://www.linkedin.com/in/dr-tobias-luelf-5985b1119/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Dr. Tobias Luelf: membrane technology; Evonik AEM marketing; TheOrg notes Dr.-Ing. Membrantechnik RWTH; structured HF thesis.",
+      "alternates": []
+    },
+    {
+      "name": "T. Luo",
+      "linkedin": "https://www.linkedin.com/in/tao-luo-a8670231/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Tao Luo: Dr.-Ing. Chemical Engineering RWTH 2013-2017; VRFB ion-exchange membranes.",
+      "alternates": []
+    },
+    {
+      "name": "T. Krahnstöver",
+      "linkedin": "https://www.linkedin.com/in/therese-krahnstöver-ab6ab4183/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Therese Krahnstöver: RWTH dissertation powdered activated carbon leakage; PAC papers.",
+      "alternates": []
+    },
+    {
+      "name": "T. Harlacher",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Thomas Harlacher RWTH argon plasma membrane thesis; no LinkedIn with RWTH evidence found.",
+      "alternates": []
+    },
+    {
+      "name": "T. Femmer",
+      "linkedin": "https://www.linkedin.com/in/tfemmer/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Tim Femmer: PhD rapid prototyping membranes/devices at AVT Wessling.",
+      "alternates": []
+    },
+    {
+      "name": "T. B. M. Rösener",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Theresa Rösener temperature-modulated membrane transport thesis; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "S. Weik",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Initials only; static mixer membrane filtration thesis; no clear LinkedIn.",
+      "alternates": []
+    },
+    {
+      "name": "S. Stiefel",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Serafin Stiefel lignin electrochemical membrane reactors; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "S. M. A. Kriescher",
+      "linkedin": "https://www.linkedin.com/in/stefanie-kriescher-4aa730b0/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Stefanie Kriescher: PhD RWTH; electrochemical CO2 reduction papers with Wessling.",
+      "alternates": []
+    },
+    {
+      "name": "S. Lyko",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Sven Lyko MBR fouling thesis; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "S. Koester",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Sebastian Koester membrane enthalpy exchangers; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "S. Hoffmann",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Stefanie Hoffmann OSN transport; common name; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "S. Bannwarth",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Bannwarth EIS membrane characterization; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "S. Alsayegh",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Said Alsayegh hydrogen recovery thesis; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "S. Abdu",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Said Abdu ion-exchange interface engineering; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "R. G. Keller",
+      "linkedin": "https://www.linkedin.com/in/robert-keller-12003b147/",
+      "orcid": "",
+      "confidence": "medium",
+      "evidence": "Slug cited by Mohseni coauthor post as Robert Keller; RWTH electrochemistry group leader; common name so medium.",
+      "alternates": []
+    },
+    {
+      "name": "R. Femmer",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Robert Femmer ion transport polyelectrolyte thesis; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "M. Wiese",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Martin Wiese Flow-MRI membranes; common name; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "M. T. Wiese",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Monika Wiese responsive membranes; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "M. Scholz",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Marco Scholz biogas upgrading; common name; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "M. Lazar",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Marina Lazar silicone OSN membranes; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "M. Ajhar",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Mark Ajhar siloxane biogas membranes; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "L. Keller",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Laura Keller CNT microtubes CO2; common name; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "L. I. E. Peters",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Lars Peters pH parametric pumping; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "K. Percin",
+      "linkedin": "https://www.linkedin.com/in/korcanpercin/",
+      "orcid": "",
+      "confidence": "medium",
+      "evidence": "Slug cited by Mohseni coauthor post as Korcan Percin; VRFB slurry electrodes RWTH thesis.",
+      "alternates": []
+    },
+    {
+      "name": "K. M. Remmen",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Kerstin Remmen LbL resource recovery; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "K. Kugler",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Kurt Kugler electrochemical N2 reduction; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "J.-B. Vennekötter",
+      "linkedin": "https://www.linkedin.com/in/dr-jan-bernd-vennekötter-34422a122/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: RWTH education; CO2 electrochemical membrane reactor papers matching thesis.",
+      "alternates": []
+    },
+    {
+      "name": "J. Stodollick",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Jan Stodollick hybrid membrane itaconic acid; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "J. Löwenberg",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Jonas Löwenberg PAC hybrid processes; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "J. Lölsberg",
+      "linkedin": "https://www.linkedin.com/in/dr-ing-jonas-lölsberg-849b4b117/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Dr.-Ing. Jonas Lölsberg: Chemical Process Engineering RWTH; microfluidic 2PP thesis.",
+      "alternates": []
+    },
+    {
+      "name": "J. Linkhorst",
+      "linkedin": "https://www.linkedin.com/in/john-linkhorst-2394b732/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Prof. TU Darmstadt; formerly RWTH AVT group leader; soft colloid filtration PhD.",
+      "alternates": []
+    },
+    {
+      "name": "J. Kochan",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Jozef Kochan LbL ultrafiltration; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "H. Breisig",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Hans Breisig droplet porous-wall channels; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "F. Pitsch",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Fee Pitsch membrane distillation propylene; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "F. G. Roghmans",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Florian Roghmans microgel-modified membranes; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "F. Carstensen",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Frederike Carstensen reverse flow diafiltration; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "E. Evdochenko",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Lisa/E. Evdochenko ion transport NF modeling; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "D. P. Rall",
+      "linkedin": "https://www.linkedin.com/in/dr-deniz-rall/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn Dr. Deniz Rall: Dr.-Ing. Chemical Process Engineering RWTH; LbL NF data-driven thesis; Borchers-Plakette post.",
+      "alternates": []
+    },
+    {
+      "name": "D. Menne",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Daniel Menne LbL nanofiltration; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "D. J. Bell",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Daniel Josef Bell oscillating membranes; common name; no LinkedIn with clear RWTH evidence.",
+      "alternates": []
+    },
+    {
+      "name": "D. Di Marino",
+      "linkedin": "https://www.linkedin.com/in/davide-di-marino-89284451/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Scientific Researcher RWTH; PhD Chemische Verfahrenstechnik; lignin electrochemical papers/thesis.",
+      "alternates": []
+    },
+    {
+      "name": "C. Abels",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Christian Abels IL lignocellulose membranes; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "B. M. Aumeier",
+      "linkedin": "https://www.linkedin.com/in/benedikt-aumeier-352755178/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Willy-Hager Prize for PhD at AVT RWTH; hydrothermal drinking-water thesis; thanks Wessling.",
+      "alternates": []
+    },
+    {
+      "name": "B. E. L. Ohs",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Burckhard Ohs biohydrogen recovery; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "B. A. Bawareth",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Bandar Bawareth lignin depolymerization modeling; no LinkedIn found.",
+      "alternates": []
+    },
+    {
+      "name": "A. K. E. Rommerskirchen",
+      "linkedin": "https://www.linkedin.com/in/alexandra-rommerskirchen-87083098/",
+      "orcid": "",
+      "confidence": "high",
+      "evidence": "LinkedIn: Dr.-Ing. RWTH FCDI; Bertha Benz Prize; continuous flow-electrode capacitive deionization.",
+      "alternates": []
+    },
+    {
+      "name": "A. Böcking",
+      "linkedin": "",
+      "orcid": "",
+      "confidence": "none",
+      "evidence": "Axel Böcking organic solvent nanofiltration; no LinkedIn found.",
+      "alternates": []
+    }
+  ],
+  "summary": {
+    "high": 50,
+    "medium": 2,
+    "low": 0,
+    "none": 42
+  }
+}

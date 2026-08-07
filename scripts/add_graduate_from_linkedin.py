@@ -59,6 +59,22 @@ def extract_name_from_linkedin(linkedin_url: str) -> str:
 
 def slugify(value: str) -> str:
     value = value.lower().strip()
+    replacements = {
+        "ä": "ae",
+        "ö": "oe",
+        "ü": "ue",
+        "ß": "ss",
+        "á": "a",
+        "à": "a",
+        "é": "e",
+        "è": "e",
+        "í": "i",
+        "ó": "o",
+        "ú": "u",
+        "ñ": "n",
+    }
+    for src, dst in replacements.items():
+        value = value.replace(src, dst)
     value = re.sub(r"[^a-z0-9]+", "-", value)
     value = re.sub(r"-{2,}", "-", value).strip("-")
     return value or "graduate"

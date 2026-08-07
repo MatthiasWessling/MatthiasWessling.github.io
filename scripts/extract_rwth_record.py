@@ -43,7 +43,16 @@ def validate_rwth_record_url(url: str) -> str:
 
 
 def fetch_html(url: str, timeout: int = 20) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            # Bypass the site's lightweight JS gate used for bots.
+            "Cookie": "APP_INIT=1",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+        },
+    )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         encoding = resp.headers.get_content_charset() or "utf-8"
         return resp.read().decode(encoding, errors="replace")
@@ -137,13 +146,52 @@ def extract_title(raw_html: str, page_text: str) -> Optional[str]:
     return clean_title_candidate(text_title) if text_title else None
 
 
-def extract_author(page_text: str) -> Optional[str]:
-    # Pattern seen in records: "Brosch, SebastianRWTH*"
-    author = first_match(r"([A-Z][a-zA-Z\-']+,\s+[A-Z][a-zA-Z\-']+)\s*RWTH", page_text)
+def extract_author(raw_html: str, page_text: str) -> Optional[str]:
+    """Return the best available author string (prefer full given names)."""
+    candidates: List[str] = []
+
+    for meta in re.findall(
+        r'<meta[^>]+name="citation_author"[^>]+content="([^"]+)"',
+        raw_html,
+        flags=re.I,
+    ):
+        candidates.append(html.unescape(meta).strip())
+
+    from_itemprop = first_match(
+        r'itemprop="author"[^>]*>.*?itemprop="name">([^<]+)</span>',
+        raw_html,
+        flags=re.I | re.S,
+    )
+    if from_itemprop:
+        candidates.append(html.unescape(from_itemprop).strip())
+
+    # Allow umlauts and multi-part given names: "Kalde, Anna MariaRWTH*"
+    author = first_match(
+        r"([A-ZÄÖÜ][A-Za-zÄÖÜäöüß\-']+,\s+[A-ZÄÖÜ][A-Za-zÄÖÜäöüß\-'.]*(?:\s+[A-ZÄÖÜ][A-Za-zÄÖÜäöüß\-'.]*)*)\s*RWTH",
+        page_text,
+    )
     if author:
-        return author
-    # Fallback from "vorgelegt von Sebastian Brosch"
-    return first_match(r"vorgelegt von\s+([A-Z][a-zA-Z\-']+\s+[A-Z][a-zA-Z\-']+)", page_text, re.I)
+        candidates.append(author)
+
+    # Fallback from "vorgelegt von Sebastian Brosch" / full legal name forms
+    vorgelegt = first_match(
+        r"vorgelegt von\s+([A-ZÄÖÜ][A-Za-zÄÖÜäöüß\-']+(?:\s+[A-ZÄÖÜ][A-Za-zÄÖÜäöüß\-']+)+)",
+        page_text,
+        re.I,
+    )
+    if vorgelegt:
+        candidates.append(vorgelegt.strip())
+
+    def score(name: str) -> tuple:
+        # Prefer names without single-letter initials; then longer strings.
+        initial_hits = len(re.findall(r"(?:^|[\s,])[A-Za-z]\.?(?:$|[\s,])", name))
+        return (-initial_hits, len(name))
+
+    cleaned = [c for c in candidates if c]
+    if not cleaned:
+        return None
+    cleaned.sort(key=score, reverse=True)
+    return cleaned[0]
 
 
 def extract_year(page_text: str) -> Optional[int]:
@@ -228,24 +276,49 @@ def extract_abstract_text(page_text: str) -> Optional[str]:
     # Capture the abstract block between "Kurzfassung" and "OpenAccess".
     block = first_match(r"Kurzfassung\s+(.+?)\s+OpenAccess:", page_text, flags=re.I)
     if not block:
+        # WebFetch / markdown fallbacks
+        block = first_match(
+            r"Kurzfassung\s+(.+?)(?:\nOpenAccess|\nDokumenttyp|\nFormat\b)",
+            page_text,
+            flags=re.I | re.S,
+        )
+    if not block:
         return None
 
     block = re.sub(r"\s+", " ", block).strip()
+    return prefer_english_abstract(block)
+
+
+def prefer_english_abstract(block: str) -> str:
+    """Prefer the English half of bilingual RWTH abstracts."""
     sentences = split_sentences(block)
     if not sentences:
         return block
 
-    # Known starts observed in RWTH bilingual abstracts.
-    english_starts = [
-        "Porous media plays a significant role",
-        "Immiscible fluid-fluid displacement",
-        "Gas diffusion electrodes",
-        "This thesis",
-    ]
-    for marker in english_starts:
-        marker_match = re.search(re.escape(marker), block, flags=re.I)
-        if marker_match:
-            return block[marker_match.start() :].strip()
+    # Only treat these as English-section anchors when they start a sentence.
+    english_sentence_starts = (
+        "porous media plays",
+        "immiscible fluid-fluid",
+        "gas diffusion electrodes are",
+        "this thesis",
+        "climate change mitigation",
+        "the present thesis",
+        "this work ",
+        "this work,",
+        "in this thesis",
+        "the thesis",
+        "electrochemical co2",
+        "electrochemical co₂",
+        "carbon dioxide",
+        "hollow fiber",
+        "polymeric ",
+        "membrane ",
+    )
+
+    for idx, sentence in enumerate(sentences):
+        lower = sentence.lower().lstrip()
+        if any(lower.startswith(marker) for marker in english_sentence_starts):
+            return " ".join(sentences[idx:]).strip()
 
     english_stopwords = {
         "the", "and", "of", "to", "in", "is", "for", "with", "this", "that",
@@ -263,7 +336,6 @@ def extract_abstract_text(page_text: str) -> Optional[str]:
         umlaut_penalty = 1 if re.search(r"[äöüÄÖÜß]", sentence) else 0
         return english_hits - german_hits - umlaut_penalty
 
-    # Score sentence windows and cut to the most likely English start.
     best_idx = 0
     best_score = -10_000
     for idx in range(len(sentences)):
@@ -276,6 +348,94 @@ def extract_abstract_text(page_text: str) -> Optional[str]:
     if best_score > 0:
         return " ".join(sentences[best_idx:]).strip()
     return block
+
+
+def short_webpage_summary(abstract_text: Optional[str], max_chars: int = 340) -> str:
+    """
+    Build a concise 1–2 sentence blurb for graduate cards / detail pages.
+    Prefers a 'This thesis…' framing sentence plus one result/impact sentence.
+    """
+    if not abstract_text:
+        return ""
+
+    sentences = [
+        s
+        for s in split_sentences(abstract_text)
+        if len(s) >= 40
+        and not s.lower().startswith(("go ", "rate this document", "record created"))
+    ]
+    if not sentences:
+        return ""
+
+    framing = None
+    for sentence in sentences[:10]:
+        lower = sentence.lower()
+        if lower.startswith(
+            (
+                "this thesis",
+                "the present thesis",
+                "this work",
+                "in this thesis",
+                "the thesis",
+            )
+        ):
+            framing = sentence
+            break
+
+    resultish = None
+    preferred_keys = ("overall", "conclude", "this thesis concludes", "it was shown", "show that", "shows that")
+    fallback_keys = ("demonstrate", "result", "found that", "enable", "achieve", "reveal")
+    for keys in (preferred_keys, fallback_keys):
+        for sentence in sentences:
+            if framing and sentence == framing:
+                continue
+            lower = sentence.lower()
+            if any(key in lower for key in keys):
+                resultish = sentence
+                break
+        if resultish:
+            break
+
+    parts: List[str] = []
+    if framing:
+        parts.append(framing)
+        if resultish and resultish not in parts:
+            parts.append(resultish)
+    else:
+        parts.append(sentences[0])
+        candidate = resultish or (sentences[1] if len(sentences) > 1 else "")
+        if candidate and candidate not in parts:
+            parts.append(candidate)
+
+    summary = " ".join(parts)
+    summary = re.sub(r"\s+", " ", summary).strip()
+    # Avoid mid-list / connective fragments as the opening blurb.
+    bad_starts = (
+        "(1)",
+        "(2)",
+        "(3)",
+        "gas diffusion electrodes (gdes) and",
+        "moreover,",
+        "however,",
+        "therefore,",
+        "furthermore,",
+        "in addition,",
+        "the fabrication is based",
+    )
+    if summary.lower().startswith(bad_starts):
+        # Fall back to the first framing-like or first clean sentence.
+        fallback = framing or next(
+            (
+                s
+                for s in sentences
+                if not s.lower().startswith(bad_starts)
+            ),
+            sentences[0],
+        )
+        summary = fallback
+    if len(summary) <= max_chars:
+        return summary
+    return textwrap.shorten(summary, width=max_chars, placeholder="…")
 
 
 def condense_abstract_to_bullets(abstract_text: Optional[str], max_points: int = 5) -> List[str]:
@@ -336,13 +496,14 @@ def extract_rwth_metadata(url: str) -> Dict[str, Any]:
     thesis_title = extract_title(raw_html, text)
     abstract_text = extract_abstract_text(text)
     summary_bullets = condense_abstract_to_bullets(abstract_text, max_points=5)
+    short_summary = short_webpage_summary(abstract_text)
 
     result: Dict[str, Any] = {
         "source_url": validated_url,
         "record_id": extract_record_id(validated_url, text),
         "title": thesis_title,
         "thesis_title": thesis_title,
-        "author": extract_author(text),
+        "author": extract_author(raw_html, text),
         "year": extract_year(text),
         "graduate_date": extract_graduate_date(text),
         "thesis_type": extract_thesis_type(text),
@@ -350,6 +511,8 @@ def extract_rwth_metadata(url: str) -> Dict[str, Any]:
         "pdf_url": extract_pdf_url(raw_html, text),
         "language": extract_language(text),
         "advisors": extract_advisors(text),
+        "abstract": abstract_text,
+        "summary": short_summary,
         "summary_bullets": summary_bullets,
     }
     return result

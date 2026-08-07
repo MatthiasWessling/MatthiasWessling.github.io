@@ -1,6 +1,6 @@
 +++
 title = "Graduates"
-description = "Search the list of my graduates on names and topics"
+description = "Directory of PhD graduates — search by name, thesis topics, and graduation year"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+Browse PhD graduates supervised as first thesis advisor. Use the filters to search by **name**, **topics**, or **graduation year**. Entries are grouped by year. The directory is seeded from [RWTH Publications](https://publications.rwth-aachen.de/search?ln=de&cc=PhDThesis&sc=1&p=Wessling+Dissertation) (second-examiner theses are omitted).

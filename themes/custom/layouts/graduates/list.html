@@ -9,29 +9,67 @@
         {{ end }}
     </header>
 
+    {{ $years := slice }}
+    {{ range .Pages }}
+        {{ $year := "" }}
+        {{ with .Params.graduate_date }}
+            {{ $year = (time .).Format "2006" }}
+            {{ if or (eq $year "1900") (eq $year "1970") }}
+                {{ $year = "Undated" }}
+            {{ end }}
+        {{ else }}
+            {{ $year = "Undated" }}
+        {{ end }}
+        {{ if and $year (not (in $years $year)) }}
+            {{ $years = $years | append $year }}
+        {{ end }}
+    {{ end }}
+    {{ $yearsNumeric := slice }}
+    {{ $hasUndated := false }}
+    {{ range $years }}
+        {{ if eq . "Undated" }}
+            {{ $hasUndated = true }}
+        {{ else }}
+            {{ $yearsNumeric = $yearsNumeric | append . }}
+        {{ end }}
+    {{ end }}
+    {{ $years = collections.Reverse (sort $yearsNumeric) }}
+    {{ if $hasUndated }}
+        {{ $years = $years | append "Undated" }}
+    {{ end }}
+
     <div class="news-controls graduates-controls">
         <div class="news-search-wrap">
-            <label for="graduates-search" class="news-control-label">Search</label>
-            <input id="graduates-search" type="search" placeholder="Search by graduate name or thesis title" autocomplete="off">
+            <label for="graduates-search" class="news-control-label">Name</label>
+            <input id="graduates-search" type="search" placeholder="Search by graduate name" autocomplete="off">
         </div>
         <div class="news-search-wrap">
             <label for="graduates-topics-search" class="news-control-label">Topics</label>
             <input id="graduates-topics-search" type="search" placeholder="Search thesis topics and keywords" autocomplete="off">
         </div>
         <div class="news-sort-wrap">
+            <label for="graduates-year" class="news-control-label">Year</label>
+            <select id="graduates-year">
+                <option value="">All years</option>
+                {{ range $years }}
+                <option value="{{ . }}">{{ . }}</option>
+                {{ end }}
+            </select>
+        </div>
+        <div class="news-sort-wrap">
             <label for="graduates-sort" class="news-control-label">Sort</label>
             <select id="graduates-sort">
                 <option value="newest">Newest first</option>
                 <option value="oldest">Oldest first</option>
-                <option value="title-asc">Title A-Z</option>
-                <option value="title-desc">Title Z-A</option>
+                <option value="title-asc">Name A–Z</option>
+                <option value="title-desc">Name Z–A</option>
             </select>
         </div>
     </div>
 
     <p id="graduates-results-count" class="news-results-count"></p>
 
-    <div id="graduates-list" class="news-list">
+    <div id="graduates-list" class="news-list graduates-list">
         {{ range .Pages.ByDate.Reverse }}
         {{ $thesisTitle := (.Params.thesis_title | default "") }}
         {{ if eq $thesisTitle "" }}
@@ -39,13 +77,31 @@
         {{ $thesisTitle = (replaceRE "(?m)^- Title:\\s*" "" (index . 0)) }}
         {{ end }}
         {{ end }}
+        {{ $graduateYear := "" }}
+        {{ $sortDate := .Date.Unix }}
+        {{ with .Params.graduate_date }}
+            {{ $graduateTime := time . }}
+            {{ $graduateYear = $graduateTime.Format "2006" }}
+            {{ if or (eq $graduateYear "1900") (eq $graduateYear "1970") }}
+                {{ $graduateYear = "Undated" }}
+            {{ end }}
+            {{ $sortDate = $graduateTime.Unix }}
+        {{ else }}
+            {{ $graduateYear = "Undated" }}
+            {{ $sortDate = 0 }}
+        {{ end }}
+        {{ $topicTags := "" }}
+        {{ with .Params.topics }}
+            {{ $topicTags = delimit . " " | lower }}
+        {{ end }}
+        {{ $topicsSearch := trim (printf "%s %s %s" $topicTags ($thesisTitle | lower) (.Params.summary | default "" | lower)) " " }}
         <article
             class="news-item graduates-entry"
             data-title="{{ .Title | lower }}"
             data-thesis-title="{{ $thesisTitle | lower }}"
-            data-summary="{{ (printf "%s %s" (.Params.summary | default "") (.Plain | default "")) | lower }}"
-            data-topics="{{ .Plain | lower }}"
-            data-date="{{ .Date.Unix }}"
+            data-topics="{{ $topicsSearch }}"
+            data-year="{{ $graduateYear }}"
+            data-date="{{ $sortDate }}"
         >
             <div class="news-entry-layout">
                 <div class="news-main">
@@ -54,8 +110,14 @@
                             <h2 class="news-title">{{ .Title }}</h2>
                             {{ if ne $thesisTitle "" }}
                             <p class="news-summary"><strong>Thesis:</strong> {{ $thesisTitle }}</p>
-                            {{ else if .Params.summary }}
-                            <p class="news-summary">{{ .Params.summary }}</p>
+                            {{ end }}
+                            {{ with .Params.summary }}
+                            <p class="graduates-blurb">{{ . }}</p>
+                            {{ end }}
+                            {{ with .Params.topics }}
+                            <p class="graduates-topics">
+                                {{ range . }}<span class="graduates-topic-tag">{{ . }}</span>{{ end }}
+                            </p>
                             {{ end }}
                         </div>
                         {{ if .Params.image }}

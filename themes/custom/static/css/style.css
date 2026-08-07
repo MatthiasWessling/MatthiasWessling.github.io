@@ -11,52 +11,60 @@ html {
 
 /* CSS Custom Properties for Theming */
 :root {
-    /* Light Mode — warm paper + deep teal (materials / lab) */
-    --bg-color: #faf8f5;
-    --text-color: #1c1917;
-    --header-bg: #3f3a36;
-    --header-text: #faf8f5;
-    --accent-color: #0f766e;
-    --accent-hover: #0d5f59;
-    --border-color: #e8e2da;
-    --shadow-color: rgba(28, 25, 23, 0.08);
-    --code-bg: #f3efe9;
-    --card-bg: #fffcf9;
-    --card-border: #e8e2da;
-    --nav-hover: rgba(250, 248, 245, 0.12);
-    --footer-bg: #f3efe9;
+    /* Light Mode — Precision Hardware (Apple × lab instrument) */
+    --bg-color: #f5f5f7;
+    --text-color: #1d1d1f;
+    --text-mute: #86868b;
+    --header-bg: rgba(251, 251, 253, 0.72);
+    --header-text: #1d1d1f;
+    --accent-color: #0071e3;
+    --accent-hover: #0077ed;
+    --border-color: #d2d2d7;
+    --shadow-color: rgba(0, 0, 0, 0.06);
+    --code-bg: #e8e8ed;
+    --card-bg: #ffffff;
+    --card-border: #d2d2d7;
+    --nav-hover: rgba(0, 0, 0, 0.05);
+    --footer-bg: #f5f5f7;
+    --stage-bg: #ffffff;
+    --hairline: rgba(0, 0, 0, 0.08);
 }
 
 [data-theme="dark"] {
-    /* Dark Mode — warm charcoal + lighter teal */
-    --bg-color: #1c1917;
-    --text-color: #e7e5e4;
-    --header-bg: #292524;
-    --header-text: #e7e5e4;
-    --accent-color: #2dd4bf;
-    --accent-hover: #5eead4;
-    --border-color: #44403c;
-    --shadow-color: rgba(0, 0, 0, 0.35);
-    --code-bg: #292524;
-    --card-bg: #292524;
-    --card-border: #44403c;
-    --nav-hover: rgba(255, 255, 255, 0.1);
-    --footer-bg: #292524;
+    /* Dark Mode — space gray */
+    --bg-color: #000000;
+    --text-color: #f5f5f7;
+    --text-mute: #a1a1a6;
+    --header-bg: rgba(29, 29, 31, 0.72);
+    --header-text: #f5f5f7;
+    --accent-color: #2997ff;
+    --accent-hover: #64b5ff;
+    --border-color: #424245;
+    --shadow-color: rgba(0, 0, 0, 0.45);
+    --code-bg: #1d1d1f;
+    --card-bg: #1d1d1f;
+    --card-border: #424245;
+    --nav-hover: rgba(255, 255, 255, 0.08);
+    --footer-bg: #000000;
+    --stage-bg: #1d1d1f;
+    --hairline: rgba(255, 255, 255, 0.12);
 }
 
 /* Base Typography */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 1.25rem;
 }
 
 /* Typography */
@@ -66,17 +74,21 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 1rem;
     font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: clamp(2.25rem, 4vw, 3.25rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
 }
 
 h3 {
@@ -125,11 +137,14 @@ a:hover {
 .site-header {
     background-color: var(--header-bg);
     color: var(--header-text);
-    padding: 1rem 0;
+    padding: 0.75rem 0;
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px var(--shadow-color);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--hairline);
+    box-shadow: none;
 }
 
 .main-nav {
@@ -139,8 +154,9 @@ a:hover {
 }
 
 .nav-brand a {
-    font-size: clamp(1.05rem, 1.4vw, 1.5rem);
-    font-weight: bold;
+    font-size: clamp(1.05rem, 1.4vw, 1.35rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
     color: var(--header-text);
     white-space: nowrap;
 }
@@ -225,7 +241,7 @@ a:hover {
 
 /* Hero Section */
 .hero-section {
-    padding: 4rem 0;
+    padding: 5rem 0 4rem;
 }
 
 .hero-content {
@@ -236,8 +252,15 @@ a:hover {
 }
 
 .hero-text h1 {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+    font-size: clamp(2.75rem, 5vw, 3.75rem);
+    margin-bottom: 1.25rem;
+    letter-spacing: -0.035em;
+}
+
+.hero-text p {
+    color: var(--text-mute);
+    font-size: 1.15rem;
+    max-width: 36rem;
 }
 
 .hero-image {
@@ -245,36 +268,37 @@ a:hover {
 }
 
 .profile-image {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--accent-color);
+    border: 1px solid var(--hairline);
+    box-shadow: 0 20px 40px var(--shadow-color);
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .profile-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 /* Latest Content Section */
 .latest-content {
-    padding: 3rem 0;
+    padding: 2rem 0 4rem;
 }
 
 .content-boxes {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .content-box {
     background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    box-shadow: 0 2px 4px var(--shadow-color);
+    border: 1px solid var(--hairline);
+    border-radius: 1.125rem;
+    padding: 1.75rem;
+    box-shadow: none;
 }
 
 .box-header {
@@ -306,8 +330,7 @@ a:hover {
 
 .item-date {
     font-size: 0.85rem;
-    color: var(--text-color);
-    opacity: 0.7;
+    color: var(--text-mute);
     margin-bottom: 0.25rem;
 }
 
@@ -333,18 +356,19 @@ a:hover {
 }
 
 .tag {
-    background-color: var(--accent-color);
-    color: white;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.25rem;
+    background-color: var(--code-bg);
+    color: var(--text-color);
+    padding: 0.2rem 0.55rem;
+    border-radius: 0.375rem;
     font-size: 0.75rem;
+    font-weight: 500;
 }
 
 .tech-tag {
-    background-color: var(--border-color);
-    color: var(--text-color);
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.25rem;
+    background-color: var(--code-bg);
+    color: var(--text-mute);
+    padding: 0.2rem 0.55rem;
+    border-radius: 0.375rem;
     font-size: 0.75rem;
 }
 
@@ -354,19 +378,7 @@ a:hover {
     font-style: italic;
 }
 
-/* Section Headers */
-.section-header {
-    text-align: center;
-    padding: 2rem 0;
-    border-bottom: 1px solid var(--border-color);
-    margin-bottom: 2rem;
-}
-
-.section-description {
-    margin-top: 1rem;
-    font-size: 1.1rem;
-    opacity: 0.8;
-}
+/* Section Headers — see product-stage block near footer for final rules */
 
 /* Blog Styles */
 .blog-list {
@@ -432,9 +444,9 @@ a:hover {
     align-items: center;
     padding: 2rem;
     background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px var(--shadow-color);
+    border: 1px solid var(--hairline);
+    border-radius: 1.125rem;
+    box-shadow: none;
 }
 
 .research-item.image-right {
@@ -493,10 +505,10 @@ a:hover {
 
 .research-abstract {
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 1.25rem;
     background-color: var(--code-bg);
-    border-radius: 0.25rem;
-    border-left: 4px solid var(--accent-color);
+    border-radius: 0.75rem;
+    border-left: none;
 }
 
 .research-buttons {
@@ -507,13 +519,13 @@ a:hover {
 
 /* Button Styles */
 .btn {
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
+    padding: 0.65rem 1.15rem;
+    border-radius: 980px;
     text-decoration: none;
     font-weight: 500;
     border: none;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
@@ -533,14 +545,14 @@ a:hover {
 }
 
 .btn-secondary {
-    background-color: var(--border-color);
-    color: var(--text-color);
+    background-color: transparent;
+    color: var(--accent-color);
     border: 1px solid var(--border-color);
 }
 
 .btn-secondary:hover {
-    background-color: var(--accent-color);
-    color: white;
+    background-color: var(--nav-hover);
+    color: var(--accent-hover);
     text-decoration: none;
 }
 
@@ -581,10 +593,10 @@ a:hover {
 .paper-link {
     background-color: var(--accent-color);
     color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
+    padding: 0.65rem 1.15rem;
+    border-radius: 980px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.25s ease;
 }
 
 .paper-link:hover {
@@ -600,11 +612,11 @@ a:hover {
 
 .project-item {
     background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 0.5rem;
+    border: 1px solid var(--hairline);
+    border-radius: 1.125rem;
     overflow: hidden;
-    box-shadow: 0 2px 4px var(--shadow-color);
-    transition: transform 0.3s ease;
+    box-shadow: none;
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .project-item:hover {
@@ -668,9 +680,9 @@ a:hover {
     align-items: center;
     padding: 2rem;
     background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px var(--shadow-color);
+    border: 1px solid var(--hairline);
+    border-radius: 1.125rem;
+    box-shadow: none;
 }
 
 .hobby-item.image-right {
@@ -771,7 +783,47 @@ a:hover {
 }
 
 .graduates-controls {
-    grid-template-columns: 1fr 1fr auto;
+    grid-template-columns: 1fr 1fr auto auto;
+    max-width: 960px;
+}
+
+.graduates-year-heading {
+    margin: 1.75rem 0 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--hairline);
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.graduates-year-heading:first-child {
+    margin-top: 0.25rem;
+}
+
+.graduates-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0 0 0.5rem;
+}
+
+.graduates-blurb {
+    margin: 0 0 0.65rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    opacity: 0.9;
+}
+
+.graduates-topic-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    padding: 0.2rem 0.45rem;
+    border: 1px solid var(--hairline);
+    border-radius: 0.25rem;
+    color: var(--text-color);
+    opacity: 0.85;
 }
 
 .graduates-entry-header {
@@ -800,7 +852,7 @@ a:hover {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: 2px solid var(--accent-color);
+    border: 1px solid var(--hairline);
     flex-shrink: 0;
 }
 
@@ -846,7 +898,7 @@ a:hover {
 .news-single-media img,
 .news-single-media video {
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 1.125rem;
     display: block;
 }
 
@@ -896,7 +948,8 @@ a:hover {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: 2px solid var(--accent-color);
+    border: 1px solid var(--hairline);
+    box-shadow: 0 12px 28px var(--shadow-color);
     flex-shrink: 0;
 }
 
@@ -1036,7 +1089,7 @@ a:hover {
 .hobby-single .hobby-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 0.5rem;
+    border-radius: 1.125rem;
     cursor: pointer;
 }
 
@@ -1044,10 +1097,13 @@ a:hover {
 .project-summary,
 .hobby-description,
 .news-summary {
-    background-color: var(--code-bg);
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    margin: 2rem 0;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    margin: 1.5rem 0 2rem;
+    color: var(--text-mute);
+    font-size: 1.15rem;
+    line-height: 1.5;
 }
 
 .content-body,
@@ -1057,6 +1113,7 @@ a:hover {
 .hobby-content,
 .news-content {
     line-height: 1.8;
+    max-width: 42rem;
 }
 
 .content-body img,
@@ -1067,8 +1124,8 @@ a:hover {
 .news-content img {
     max-width: 100%;
     height: auto;
-    border-radius: 0.5rem;
-    margin: 1rem 0;
+    border-radius: 1.125rem;
+    margin: 1.5rem 0;
     cursor: pointer;
 }
 
@@ -1135,15 +1192,70 @@ a:hover {
 /* Footer */
 .site-footer {
     background-color: var(--footer-bg);
-    padding: 2rem 0;
-    margin-top: 4rem;
-    border-top: 1px solid var(--border-color);
+    padding: 2.5rem 0;
+    margin-top: 5rem;
+    border-top: 1px solid var(--hairline);
 }
 
 .footer-content {
     text-align: center;
-    font-size: 0.9rem;
-    opacity: 0.7;
+    font-size: 0.85rem;
+    color: var(--text-mute);
+    opacity: 1;
+}
+
+/* Product stage — Apple-style cover frames */
+.product-stage,
+.news-single-media-full,
+.blog-cover {
+    background: linear-gradient(180deg, var(--stage-bg) 0%, var(--bg-color) 100%);
+    border: 1px solid var(--hairline);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin: 0 0 2rem 0;
+    overflow: hidden;
+}
+
+.product-stage img,
+.blog-cover img,
+.news-single-media-full img {
+    border-radius: 0.85rem;
+    box-shadow: 0 24px 48px var(--shadow-color);
+}
+
+.blog-list-cover {
+    margin: 0 0 1.25rem 0;
+    border-radius: 1.125rem;
+    overflow: hidden;
+    background: var(--stage-bg);
+    border: 1px solid var(--hairline);
+}
+
+.blog-list-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.section-header {
+    text-align: left;
+    padding: 3rem 0 1.5rem;
+    border-bottom: 1px solid var(--hairline);
+    margin-bottom: 2.5rem;
+}
+
+.section-header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.section-description {
+    margin-top: 0.75rem;
+    font-size: 1.15rem;
+    color: var(--text-mute);
+    opacity: 1;
+    max-width: 36rem;
 }
 
 /* Image Modal */

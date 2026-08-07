@@ -1,0 +1,747 @@
+{
+  "generated_for": "/Users/matthiaswessling/Coding/github webpage/data/graduates.csv",
+  "settings": {
+    "prefer": "duckduckgo",
+    "min_score": 6.0,
+    "min_margin": 1.5,
+    "openalex_only": true
+  },
+  "people": [
+    {
+      "name": "Florian Wiesner",
+      "row_index": 0,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-4898-004X",
+        "openalex_id": "https://openalex.org/A5038507759",
+        "display_name": "Florian Wiesner"
+      }
+    },
+    {
+      "name": "Sebastian Brosch",
+      "row_index": 1,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-2001-6283",
+        "openalex_id": "https://openalex.org/A5026611459",
+        "display_name": "Sebastian Brosch"
+      }
+    },
+    {
+      "name": "Wibke Victoria Zängler",
+      "row_index": 2,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5123858691",
+        "display_name": "Wibke Victoria Zängler"
+      }
+    },
+    {
+      "name": "Maike Wrobel",
+      "row_index": 3,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5004309871",
+        "display_name": "Maike Wrobel"
+      }
+    },
+    {
+      "name": "Siqi Wang",
+      "row_index": 4,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-1502-4238",
+        "openalex_id": "https://openalex.org/A5100420069",
+        "display_name": "Siqi Wang"
+      }
+    },
+    {
+      "name": "Simon Wennemaring",
+      "row_index": 5,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5069728172",
+        "display_name": "Simon Wennemaring"
+      }
+    },
+    {
+      "name": "Clara Berinike Bräsel",
+      "row_index": 6,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5085665102",
+        "display_name": "Berinike Bräsel"
+      }
+    },
+    {
+      "name": "Maria Adelaida Restrepo Toro",
+      "row_index": 7,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0001-7581-2802",
+        "openalex_id": "https://openalex.org/A5080252791",
+        "display_name": "Maria Adelaida Restrepo Toro"
+      }
+    },
+    {
+      "name": "Jonas Frederik Bäßler",
+      "row_index": 8,
+      "openalex": {}
+    },
+    {
+      "name": "Lucas Maximilian Stüwe",
+      "row_index": 9,
+      "openalex": {}
+    },
+    {
+      "name": "Jan Frauholz",
+      "row_index": 10,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-4933-5501",
+        "openalex_id": "https://openalex.org/A5009826225",
+        "display_name": "Jan Frauholz"
+      }
+    },
+    {
+      "name": "Maria Charlotte Padligur",
+      "row_index": 11,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5122222038",
+        "display_name": "Maria Charlotte Linnartz Padligur"
+      }
+    },
+    {
+      "name": "Lukas Tobias Hirschwald",
+      "row_index": 12,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-4629-429X",
+        "openalex_id": "https://openalex.org/A5043849846",
+        "display_name": "Lukas T. Hirschwald"
+      }
+    },
+    {
+      "name": "Lea Maria Steinbeck",
+      "row_index": 13,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5135803514",
+        "display_name": "Lea Maria Steinbeck"
+      }
+    },
+    {
+      "name": "Matthias Christian Geiger",
+      "row_index": 14,
+      "openalex": {}
+    },
+    {
+      "name": "Niklas Köller",
+      "row_index": 15,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0003-3515-3050",
+        "openalex_id": "https://openalex.org/A5010722579",
+        "display_name": "Niklas Köller"
+      }
+    },
+    {
+      "name": "Sebastian Bernhard Rauer",
+      "row_index": 16,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-9889-078X",
+        "openalex_id": "https://openalex.org/A5110247180",
+        "display_name": "Sebastian Rauer"
+      }
+    },
+    {
+      "name": "Jan Vehrenberg",
+      "row_index": 17,
+      "openalex": {
+        "orcid": "https://orcid.org/0009-0002-2685-8454",
+        "openalex_id": "https://openalex.org/A5061823627",
+        "display_name": "Jan Vehrenberg"
+      }
+    },
+    {
+      "name": "Stefan Herrmann",
+      "row_index": 18,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-4473-9224",
+        "openalex_id": "https://openalex.org/A5028414506",
+        "display_name": "Stefan Herrmann"
+      }
+    },
+    {
+      "name": "Nils Simeon Ragnar Weber",
+      "row_index": 19,
+      "openalex": {}
+    },
+    {
+      "name": "Tobias Harhues",
+      "row_index": 20,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-5021-3093",
+        "openalex_id": "https://openalex.org/A5025681565",
+        "display_name": "Tobias Harhues"
+      }
+    },
+    {
+      "name": "Matthias Heßelmann",
+      "row_index": 21,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-7420-8643",
+        "openalex_id": "https://openalex.org/A5057158418",
+        "display_name": "Matthias Heßelmann"
+      }
+    },
+    {
+      "name": "Kristina Baitalow",
+      "row_index": 22,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0003-2336-8126",
+        "openalex_id": "https://openalex.org/A5037935490",
+        "display_name": "Kristina Baitalow"
+      }
+    },
+    {
+      "name": "Daniel Matthias Julian Felder",
+      "row_index": 23,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5143508105",
+        "display_name": "Daniel Matthias Julian Felder"
+      }
+    },
+    {
+      "name": "Jens Rubner",
+      "row_index": 24,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-1008-7176",
+        "openalex_id": "https://openalex.org/A5079208358",
+        "display_name": "Jens Rubner"
+      }
+    },
+    {
+      "name": "Maren Großeheide",
+      "row_index": 25,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5028045376",
+        "display_name": "Maren Großeheide"
+      }
+    },
+    {
+      "name": "Maik Tepper",
+      "row_index": 26,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0001-8489-3384",
+        "openalex_id": "https://openalex.org/A5063111807",
+        "display_name": "Maik Tepper"
+      }
+    },
+    {
+      "name": "Patrick Bongartz",
+      "row_index": 27,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-2240-2671",
+        "openalex_id": "https://openalex.org/A5019698408",
+        "display_name": "Patrick Bongartz"
+      }
+    },
+    {
+      "name": "Alexander Heinrich Limper",
+      "row_index": 28,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5125214665",
+        "display_name": "Alexander Heinrich Limper"
+      }
+    },
+    {
+      "name": "Ilka Isabelle Rose",
+      "row_index": 29,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5132918000",
+        "display_name": "Ilka Isabelle Rose"
+      }
+    },
+    {
+      "name": "Anna Maria Kalde",
+      "row_index": 30,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-5706-1547",
+        "openalex_id": "https://openalex.org/A5000283456",
+        "display_name": "Anna Kalde"
+      }
+    },
+    {
+      "name": "Denis Mathias Wypysek",
+      "row_index": 31,
+      "openalex": {}
+    },
+    {
+      "name": "Arne Can Lüken",
+      "row_index": 32,
+      "openalex": {}
+    },
+    {
+      "name": "Felix Stockmeier",
+      "row_index": 33,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-4725-6607",
+        "openalex_id": "https://openalex.org/A5053562694",
+        "display_name": "Felix Stockmeier"
+      }
+    },
+    {
+      "name": "Stephan Christian Emonds",
+      "row_index": 34,
+      "openalex": {}
+    },
+    {
+      "name": "Johannes Kamp",
+      "row_index": 35,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-7854-3107",
+        "openalex_id": "https://openalex.org/A5102787121",
+        "display_name": "Johannes Kamp"
+      }
+    },
+    {
+      "name": "Suzana Lohaus",
+      "row_index": 36,
+      "openalex": {}
+    },
+    {
+      "name": "Georg Franz Linz",
+      "row_index": 37,
+      "openalex": {}
+    },
+    {
+      "name": "Mojtaba Mohseni",
+      "row_index": 38,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0001-7890-6070",
+        "openalex_id": "https://openalex.org/A5090719705",
+        "display_name": "Mojtaba Mohseni"
+      }
+    },
+    {
+      "name": "Dana Kaubitzsch",
+      "row_index": 39,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5139939657",
+        "display_name": "Dana Kaubitzsch"
+      }
+    },
+    {
+      "name": "Christian Jürgen Linnartz",
+      "row_index": 40,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0003-4153-3252",
+        "openalex_id": "https://openalex.org/A5027421402",
+        "display_name": "Christian J. Linnartz"
+      }
+    },
+    {
+      "name": "Johannes Lohaus",
+      "row_index": 41,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5088556607",
+        "display_name": "Johannes Lohaus"
+      }
+    },
+    {
+      "name": "Franziska Maria Dorothee Gertrud Hagemann",
+      "row_index": 42,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5139025460",
+        "display_name": "Franziska Maria Dorothee Gertrud Hagemann"
+      }
+    },
+    {
+      "name": "Hanna Josefine Wolff",
+      "row_index": 43,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-0463-5842",
+        "openalex_id": "https://openalex.org/A5081975388",
+        "display_name": "Hanna J. M. Wolff"
+      }
+    },
+    {
+      "name": "Qing Cui",
+      "row_index": 44,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-1970-5145",
+        "openalex_id": "https://openalex.org/A5007859084",
+        "display_name": "Xiaoqing Cui"
+      }
+    },
+    {
+      "name": "Morten Logemann",
+      "row_index": 45,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5090391817",
+        "display_name": "Morten Logemann"
+      }
+    },
+    {
+      "name": "Xin Wei",
+      "row_index": 46,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0001-9735-606X",
+        "openalex_id": "https://openalex.org/A5100765872",
+        "display_name": "Xin Wei Wang"
+      }
+    },
+    {
+      "name": "Hannah Roth",
+      "row_index": 47,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0003-4382-8310",
+        "openalex_id": "https://openalex.org/A5007495096",
+        "display_name": "Hannah Roth"
+      }
+    },
+    {
+      "name": "Michael Theo Alders",
+      "row_index": 48,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5125130729",
+        "display_name": "Michael Theo Alders"
+      }
+    },
+    {
+      "name": "T. Lülf",
+      "row_index": 49,
+      "openalex": {}
+    },
+    {
+      "name": "T. Luo",
+      "row_index": 50,
+      "openalex": {}
+    },
+    {
+      "name": "T. Krahnstöver",
+      "row_index": 51,
+      "openalex": {}
+    },
+    {
+      "name": "T. Harlacher",
+      "row_index": 52,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5030530475",
+        "display_name": "Thomas Harlacher"
+      }
+    },
+    {
+      "name": "T. Femmer",
+      "row_index": 53,
+      "openalex": {}
+    },
+    {
+      "name": "T. B. M. Rösener",
+      "row_index": 54,
+      "openalex": {}
+    },
+    {
+      "name": "S. Weik",
+      "row_index": 55,
+      "openalex": {}
+    },
+    {
+      "name": "S. Stiefel",
+      "row_index": 56,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5048261155",
+        "display_name": "Serafin Stiefel"
+      }
+    },
+    {
+      "name": "S. M. A. Kriescher",
+      "row_index": 57,
+      "openalex": {}
+    },
+    {
+      "name": "S. Lyko",
+      "row_index": 58,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5109988506",
+        "display_name": "Sven Lyko"
+      }
+    },
+    {
+      "name": "S. Koester",
+      "row_index": 59,
+      "openalex": {}
+    },
+    {
+      "name": "S. Hoffmann",
+      "row_index": 60,
+      "openalex": {}
+    },
+    {
+      "name": "S. Bannwarth",
+      "row_index": 61,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5004481372",
+        "display_name": "Sebastian Bannwarth"
+      }
+    },
+    {
+      "name": "S. Alsayegh",
+      "row_index": 62,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5070913759",
+        "display_name": "Sari Alsayegh"
+      }
+    },
+    {
+      "name": "S. Abdu",
+      "row_index": 63,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5065256826",
+        "display_name": "Said Abdu"
+      }
+    },
+    {
+      "name": "R. G. Keller",
+      "row_index": 64,
+      "openalex": {}
+    },
+    {
+      "name": "R. Femmer",
+      "row_index": 65,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5026998559",
+        "display_name": "Robert Femmer"
+      }
+    },
+    {
+      "name": "M. Wiese",
+      "row_index": 66,
+      "openalex": {}
+    },
+    {
+      "name": "M. T. Wiese",
+      "row_index": 67,
+      "openalex": {}
+    },
+    {
+      "name": "M. Scholz",
+      "row_index": 68,
+      "openalex": {}
+    },
+    {
+      "name": "M. Lazar",
+      "row_index": 69,
+      "openalex": {}
+    },
+    {
+      "name": "M. Ajhar",
+      "row_index": 70,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5005336500",
+        "display_name": "Marc Ajhar"
+      }
+    },
+    {
+      "name": "L. Keller",
+      "row_index": 71,
+      "openalex": {}
+    },
+    {
+      "name": "L. I. E. Peters",
+      "row_index": 72,
+      "openalex": {}
+    },
+    {
+      "name": "K. Percin",
+      "row_index": 73,
+      "openalex": {}
+    },
+    {
+      "name": "K. M. Remmen",
+      "row_index": 74,
+      "openalex": {}
+    },
+    {
+      "name": "K. Kugler",
+      "row_index": 75,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5030668537",
+        "display_name": "Kurt Kugler"
+      }
+    },
+    {
+      "name": "J.-B. Vennekötter",
+      "row_index": 76,
+      "openalex": {}
+    },
+    {
+      "name": "J. Stodollick",
+      "row_index": 77,
+      "openalex": {}
+    },
+    {
+      "name": "J. Löwenberg",
+      "row_index": 78,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5012740010",
+        "display_name": "Jonas Löwenberg"
+      }
+    },
+    {
+      "name": "J. Lölsberg",
+      "row_index": 79,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0003-0824-0976",
+        "openalex_id": "https://openalex.org/A5060520096",
+        "display_name": "Jonas Lölsberg"
+      }
+    },
+    {
+      "name": "J. Linkhorst",
+      "row_index": 80,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-8556-9217",
+        "openalex_id": "https://openalex.org/A5020337417",
+        "display_name": "John Linkhorst"
+      }
+    },
+    {
+      "name": "J. Kochan",
+      "row_index": 81,
+      "openalex": {}
+    },
+    {
+      "name": "H. Breisig",
+      "row_index": 82,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5033939329",
+        "display_name": "Hans Breisig"
+      }
+    },
+    {
+      "name": "F. Pitsch",
+      "row_index": 83,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5032038285",
+        "display_name": "Fee Pitsch"
+      }
+    },
+    {
+      "name": "F. G. Roghmans",
+      "row_index": 84,
+      "openalex": {}
+    },
+    {
+      "name": "F. Carstensen",
+      "row_index": 85,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5065309943",
+        "display_name": "Frederike Carstensen"
+      }
+    },
+    {
+      "name": "E. Evdochenko",
+      "row_index": 86,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5085710415",
+        "display_name": "E. Evdochenko"
+      }
+    },
+    {
+      "name": "D. P. Rall",
+      "row_index": 87,
+      "openalex": {}
+    },
+    {
+      "name": "D. Menne",
+      "row_index": 88,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5005074819",
+        "display_name": "Daniel Menne"
+      }
+    },
+    {
+      "name": "D. J. Bell",
+      "row_index": 89,
+      "openalex": {}
+    },
+    {
+      "name": "D. Di Marino",
+      "row_index": 90,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0001-6961-3129",
+        "openalex_id": "https://openalex.org/A5017201543",
+        "display_name": "Daniele Di Marino"
+      }
+    },
+    {
+      "name": "C. Abels",
+      "row_index": 91,
+      "openalex": {}
+    },
+    {
+      "name": "B. M. Aumeier",
+      "row_index": 92,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0003-2167-4066",
+        "openalex_id": "https://openalex.org/A5086014254",
+        "display_name": "Benedikt M. Aumeier"
+      }
+    },
+    {
+      "name": "B. E. L. Ohs",
+      "row_index": 93,
+      "openalex": {}
+    },
+    {
+      "name": "B. A. Bawareth",
+      "row_index": 94,
+      "openalex": {}
+    },
+    {
+      "name": "A. K. E. Rommerskirchen",
+      "row_index": 95,
+      "openalex": {
+        "orcid": "https://orcid.org/0000-0002-5497-9379",
+        "openalex_id": "https://openalex.org/A5015216563",
+        "display_name": "Alexandra Rommerskirchen"
+      }
+    },
+    {
+      "name": "A. Böcking",
+      "row_index": 96,
+      "openalex": {
+        "orcid": "",
+        "openalex_id": "https://openalex.org/A5006776610",
+        "display_name": "Axel Böcking"
+      }
+    }
+  ],
+  "summary": {
+    "processed": 97,
+    "accepted": 0,
+    "ambiguous": 0,
+    "none": 0,
+    "orcid_hits": 28
+  }
+}

@@ -4,8 +4,8 @@ date = '2026-02-24'
 draft = false
 summary = 'Continuous electrochemical lithium recovery from wet-shredding streams using flow-electrode capacitive deionization and salt metathesis.'
 featured = false
-image = '/images/news/Lithium recovery.jpg'
-image_alt = 'Lithium recovery concept graphic'
+image = '/images/news/lithium-recovery-visual.png'
+image_alt = 'Silver aluminum FCDI stack for continuous electrochemical lithium recovery'
 image_full_width = true
 +++
 
