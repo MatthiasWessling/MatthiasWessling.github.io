@@ -9,8 +9,8 @@ publication = 'Research note'
 publication_year = '2026'
 paper_url = ''
 featured = true
-image = '/images/blog/neural-networks-arc-visual.png'
-image_alt = 'Three-stage visual: infrared spectra feeding a neural net, layered nanofiltration membranes with optimization curves, and an organic neuromorphic synapse'
+image = '/images/blog/ink-spectra-synapses.png'
+image_alt = 'Abstract black-ink drawing of a neural network with spectral and synaptic motifs'
 tags = ['neural networks', 'machine learning', 'membranes', 'neuromorphic']
 +++
 

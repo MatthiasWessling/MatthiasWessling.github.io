@@ -9,8 +9,8 @@ publication = 'Research note'
 publication_year = '2026'
 paper_url = ''
 featured = true
-image = '/images/blog/fluid-spatio-temporal-visual.png'
-image_alt = 'Cutaway of fluid spatio-temporal phenomena: Rayleigh–Bénard convection rolls, near-membrane electroconvective eddies, and an uneven wetting front in a porous channel'
+image = '/images/blog/ink-spatio-temporal.png'
+image_alt = 'Abstract black-ink drawing of fluid convection rolls and a membrane line'
 tags = ['spatio-temporal', 'visualization', 'MRI', 'microfluidics', 'fouling', 'GDE', 'wetting', 'Rayleigh-Bénard', 'electroconvection', 'overlimiting']
 +++
 

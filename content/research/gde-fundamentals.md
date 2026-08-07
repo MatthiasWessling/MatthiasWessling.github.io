@@ -9,8 +9,8 @@ publication = 'Research note'
 publication_year = '2026'
 paper_url = ''
 featured = true
-image = '/images/blog/gde-fundamentals-visual.png'
-image_alt = 'Cutaway of a gas diffusion electrode showing gas pathways, partial catalyst-layer flooding, and a dynamic triple-phase boundary with local reaction gradients'
+image = '/images/blog/ink-gde.png'
+image_alt = 'Abstract black-ink drawing of a porous gas diffusion electrode and triple-phase boundary'
 tags = ['gas diffusion electrodes', 'CO2 reduction', 'wetting', 'triple-phase boundary', 'electrowetting', 'modeling', 'microfluidics']
 +++
 

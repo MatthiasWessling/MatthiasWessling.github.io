@@ -9,8 +9,8 @@ publication = 'Research note'
 publication_year = '2026'
 paper_url = ''
 featured = true
-image = '/images/blog/solvent-free-membrane-prep-visual.png'
-image_alt = 'Aqueous salt-dilution phase inversion: polyelectrolyte dope in water, porous PEC film forming in a coagulation bath, and a spun tubular membrane'
+image = '/images/blog/ink-solvent-free.png'
+image_alt = 'Abstract black-ink drawing of a spinneret, water ripples, and a porous hollow-fiber membrane'
 tags = ['membranes', 'polyelectrolyte complexes', 'aqueous phase separation', 'solvent-free', 'nanofiltration', 'hollow fibers', 'biocatalysis']
 +++
 
