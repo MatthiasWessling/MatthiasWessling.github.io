@@ -1,20 +1,11 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-# Sitemap location
-Sitemap: https://example.org/sitemap.xml
+User-agent: Googlebot
+Disallow: /
 
-# Common crawler directives
-Crawl-delay: 1
+User-agent: Bingbot
+Disallow: /
 
-# Block access to admin areas (if any)
-Disallow: /admin/
-Disallow: /.git/
-
-# Allow search engines to index all content
-Allow: /blog/
-Allow: /research/
-Allow: /patents-products/
-Allow: /startups/
-Allow: /graduates/
-Allow: /news/
+User-agent: DuckDuckBot
+Disallow: /

@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Matthias Wessling'
 theme = 'custom'
 
+disableKinds = ['sitemap']
+
 [params]
   author = 'Matthias Wessling'
   description = 'Information on my work and interests'
