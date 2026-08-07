@@ -16,7 +16,33 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/824880/files/824880.pdf
 linkedin = "https://www.linkedin.com/in/xin-wei-608ab8a8/"
 orcid = "https://orcid.org/0000-0001-9735-606X"
 featured = false
+
+[[publications]]
+title = "Efficient Electrocatalytic N2Reduction on Three-Phase Interface Coupled in a Three-Compartment Flow Reactor for the Ambient NH3Synthesis"
+year = "2021"
+journal = "ACS Applied Materials and Interfaces"
+doi = "10.1021/acsami.1c03698"
+url = "https://doi.org/10.1021/acsami.1c03698"
+authors = "Wei, X.; Pu, M.; Jin, Y.; Wessling, M."
+
+[[publications]]
+title = "Microtubular Gas Diffusion Electrode Based on Ruthenium-Carbon Nanotubes for Ambient Electrochemical Nitrogen Reduction to Ammonia"
+year = "2020"
+journal = "ChemElectroChem"
+doi = "10.1002/celc.202001370"
+url = "https://doi.org/10.1002/celc.202001370"
+authors = "Wei, X.; Vogel, D.; Keller, L.; Kriescher, S.; Wessling, M."
+
+[[publications]]
+title = "CO2 aided H2 recovery from water splitting processes"
+year = "2017"
+journal = "International Journal of Hydrogen Energy"
+doi = "10.1016/j.ijhydene.2017.07.023"
+url = "https://doi.org/10.1016/j.ijhydene.2017.07.023"
+authors = "Alsayegh, S.; Johnson, J.R.; Wei, X.; Ohs, B.; Lohaus, J.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

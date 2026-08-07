@@ -16,7 +16,33 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Polymer intrusion into narrow pores at the interface between a poor solvent and adsorbing and non-adsorbing surfaces"
+year = "2004"
+journal = "Polymer"
+doi = "10.1016/j.polymer.2004.02.063"
+url = "https://doi.org/10.1016/j.polymer.2004.02.063"
+authors = "Hermsen, G.F.; Wessling, M.; Van Der Vegt, N.F.A."
+
+[[publications]]
+title = "Monte Carlo simulations of polymer conformations at the bulk/membrane interface"
+year = "2002"
+journal = "Desalination"
+doi = "10.1016/S0011-9164(02)00443-5"
+url = "https://doi.org/10.1016/S0011-9164(02)00443-5"
+authors = "Hermsen, G.F.; De Geeter, B.A.; Van Der Vegt, N.F.A.; Wessling, M."
+
+[[publications]]
+title = "Monte Carlo simulation of partially confined flexible polymers"
+year = "2002"
+journal = "Macromolecules"
+doi = "10.1021/ma020176g"
+url = "https://doi.org/10.1021/ma020176g"
+authors = "Hermsen, G.F.; De Geeter, B.A.; Van der Vegt, N.F.A.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

@@ -16,7 +16,33 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Membrane-based recovery of glucose from enzymatic hydrolysis of ionic liquid pretreated cellulose"
+year = "2013"
+journal = "Bioresource Technology"
+doi = "10.1016/j.biortech.2013.09.012"
+url = "https://doi.org/10.1016/j.biortech.2013.09.012"
+authors = "Abels, C.; Thimm, K.; Wulfhorst, H.; Spiess, A.C.; Wessling, M."
+
+[[publications]]
+title = "Membrane processes in biorefinery applications"
+year = "2013"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2013.05.030"
+url = "https://doi.org/10.1016/j.memsci.2013.05.030"
+authors = "Abels, C.; Carstensen, F.; Wessling, M."
+
+[[publications]]
+title = "Simple purification of ionic liquid solvents by nanofiltration in biorefining of lignocellulosic substrates"
+year = "2012"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2011.12.020"
+url = "https://doi.org/10.1016/j.memsci.2011.12.020"
+authors = "Abels, C.; Redepenning, C.; Moll, A.; Melin, T.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

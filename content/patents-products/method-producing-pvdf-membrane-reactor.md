@@ -9,9 +9,14 @@ application_number = "EP23751281.9"
 priority_number = "DE102022118981 A1"
 filing_date = "2023-07-27"
 publication_date = "2025-06-04"
+priority_date = "2022-07-28"
 status = "Grant of patent intended (EP Register, 2026-02-18)"
 assignee = "Rheinisch-Westfalische Technische Hochschule (RWTH) Aachen"
+organization = "RWTH"
 inventors = ["Stefan Herrmann", "Matthias Wessling"]
+topics = ["membrane reactors", "membranes", "polymers"]
+google_patents_url = "https://patents.google.com/patent/WO2024023237A1/en"
+family_publications = "WO2024023237A1"
 thumbnails = [
   "/images/patents/ep4561744/thumb-01.png",
   "/images/patents/ep4561744/thumb-02.png",
@@ -28,7 +33,7 @@ thumbnails = [
 - **Priority:** DE102022118981 (2022-07-28)
 - **International publication:** WO2024023237 A1
 
-## Short abstract
+## Summary of the invention
 
 The invention concerns a process for producing PVDF (or PVDF copolymers) using a membrane reactor. It targets improved process control during polymerization by combining reactor and membrane-based operation conditions.
 
@@ -36,6 +41,7 @@ The invention concerns a process for producing PVDF (or PVDF copolymers) using a
 
 - [Espacenet entry](https://worldwide.espacenet.com/patent/search?q=pn%3DEP4561744A1)
 - [EPO Register entry](https://register.epo.org/application?number=EP23751281&tab=main&lng=en)
+- [Google Patents (WO family)](https://patents.google.com/patent/WO2024023237A1/en)
 - [WO publication PDF](https://patentimages.storage.googleapis.com/c2/b2/88/28cac74216c8a9/WO2024023237A1.pdf)
 
 ## Figures

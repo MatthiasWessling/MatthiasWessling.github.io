@@ -1,0 +1,1220 @@
+{
+  "publications_in_ris": 766,
+  "graduates": 144,
+  "graduates_with_publications": 136,
+  "ambiguous_author_strings": [
+    {
+      "au": "Wiese, M.",
+      "candidates": [
+        "Martin Wiese",
+        "Monika T. Wiese"
+      ],
+      "score": 19
+    }
+  ],
+  "ambiguous_title_resolved": 21,
+  "ambiguous_title_unresolved": 1,
+  "per_graduate_counts": {
+    "aaltje-bos": {
+      "name": "Aaltje Bos",
+      "initials": "A",
+      "surname_keys": [
+        "bos"
+      ],
+      "count": 5
+    },
+    "alberto-figoli": {
+      "name": "Alberto Figoli",
+      "initials": "A",
+      "surname_keys": [
+        "figoli"
+      ],
+      "count": 2
+    },
+    "alexander-heinrich-limper": {
+      "name": "Alexander Heinrich Limper",
+      "initials": "AH",
+      "surname_keys": [
+        "limper"
+      ],
+      "count": 5
+    },
+    "alexandra-k-e-rommerskirchen": {
+      "name": "Alexandra K. E. Rommerskirchen",
+      "initials": "AKE",
+      "surname_keys": [
+        "rommerskirchen"
+      ],
+      "count": 12
+    },
+    "alisia-mariska-peters": {
+      "name": "Alisia Mariska Peters",
+      "initials": "AM",
+      "surname_keys": [
+        "peters"
+      ],
+      "count": 5
+    },
+    "anna-maria-kalde": {
+      "name": "Anna Maria Kalde",
+      "initials": "AM",
+      "surname_keys": [
+        "kalde"
+      ],
+      "count": 11
+    },
+    "anne-corine-ijzer": {
+      "name": "Anne Corine IJzer",
+      "initials": "AC",
+      "surname_keys": [
+        "ijzer"
+      ],
+      "count": 3
+    },
+    "arne-can-lueken": {
+      "name": "Arne Can Lüken",
+      "initials": "AC",
+      "surname_keys": [
+        "lueken"
+      ],
+      "count": 9
+    },
+    "axel-boecking": {
+      "name": "Axel Böcking",
+      "initials": "A",
+      "surname_keys": [
+        "boecking"
+      ],
+      "count": 3
+    },
+    "bandar-a-bawareth": {
+      "name": "Bandar A. Bawareth",
+      "initials": "BA",
+      "surname_keys": [
+        "bawareth"
+      ],
+      "count": 2
+    },
+    "benedikt-m-aumeier": {
+      "name": "Benedikt M. Aumeier",
+      "initials": "BM",
+      "surname_keys": [
+        "aumeier"
+      ],
+      "count": 9
+    },
+    "bernd-krause": {
+      "name": "Bernd Krause",
+      "initials": "B",
+      "surname_keys": [
+        "krause"
+      ],
+      "count": 10
+    },
+    "bernke-j-papenburg": {
+      "name": "Bernke J. Papenburg",
+      "initials": "BJ",
+      "surname_keys": [
+        "papenburg"
+      ],
+      "count": 14
+    },
+    "burckhard-e-l-ohs": {
+      "name": "Burckhard E. L. Ohs",
+      "initials": "BEL",
+      "surname_keys": [
+        "ohs"
+      ],
+      "count": 16
+    },
+    "christian-abels": {
+      "name": "Christian Abels",
+      "initials": "C",
+      "surname_keys": [
+        "abels"
+      ],
+      "count": 3
+    },
+    "christian-juergen-linnartz": {
+      "name": "Christian Jürgen Linnartz",
+      "initials": "CJ",
+      "surname_keys": [
+        "linnartz"
+      ],
+      "count": 21
+    },
+    "clara-berinike-braesel": {
+      "name": "Clara Berinike Bräsel",
+      "initials": "CB",
+      "surname_keys": [
+        "braesel"
+      ],
+      "count": 4
+    },
+    "dana-kaubitzsch": {
+      "name": "Dana Kaubitzsch",
+      "initials": "D",
+      "surname_keys": [
+        "kaubitzsch"
+      ],
+      "count": 0
+    },
+    "dana-manuela-sterescu": {
+      "name": "Dana Manuela Sterescu",
+      "initials": "DM",
+      "surname_keys": [
+        "sterescu"
+      ],
+      "count": 5
+    },
+    "daniel-j-bell": {
+      "name": "Daniel J. Bell",
+      "initials": "DJ",
+      "surname_keys": [
+        "bell"
+      ],
+      "count": 13
+    },
+    "daniel-matthias-julian-felder": {
+      "name": "Daniel Matthias Julian Felder",
+      "initials": "DMJ",
+      "surname_keys": [
+        "felder"
+      ],
+      "count": 13
+    },
+    "daniel-menne": {
+      "name": "Daniel Menne",
+      "initials": "D",
+      "surname_keys": [
+        "menne"
+      ],
+      "count": 7
+    },
+    "davide-di-marino": {
+      "name": "Davide Di Marino",
+      "initials": "D",
+      "surname_keys": [
+        "marino",
+        "di marino"
+      ],
+      "count": 9
+    },
+    "denis-mathias-wypysek": {
+      "name": "Denis Mathias Wypysek",
+      "initials": "DM",
+      "surname_keys": [
+        "wypysek"
+      ],
+      "count": 12
+    },
+    "deniz-p-rall": {
+      "name": "Deniz P. Rall",
+      "initials": "DP",
+      "surname_keys": [
+        "rall"
+      ],
+      "count": 13
+    },
+    "elizaveta-evdochenko": {
+      "name": "Elizaveta Evdochenko",
+      "initials": "E",
+      "surname_keys": [
+        "evdochenko"
+      ],
+      "count": 11
+    },
+    "fee-pitsch": {
+      "name": "Fee Pitsch",
+      "initials": "F",
+      "surname_keys": [
+        "pitsch"
+      ],
+      "count": 3
+    },
+    "felix-stockmeier": {
+      "name": "Felix Stockmeier",
+      "initials": "F",
+      "surname_keys": [
+        "stockmeier"
+      ],
+      "count": 11
+    },
+    "florian-g-roghmans": {
+      "name": "Florian G. Roghmans",
+      "initials": "FG",
+      "surname_keys": [
+        "roghmans"
+      ],
+      "count": 7
+    },
+    "florian-wiesner": {
+      "name": "Florian Wiesner",
+      "initials": "F",
+      "surname_keys": [
+        "wiesner"
+      ],
+      "count": 6
+    },
+    "franziska-maria-dorothee-gertrud-hagemann": {
+      "name": "Franziska Maria Dorothee Gertrud Hagemann",
+      "initials": "FMDG",
+      "surname_keys": [
+        "hagemann"
+      ],
+      "count": 5
+    },
+    "frederike-carstensen": {
+      "name": "Frederike Carstensen",
+      "initials": "F",
+      "surname_keys": [
+        "carstensen"
+      ],
+      "count": 9
+    },
+    "friedrich-georg-wilhelm": {
+      "name": "Friedrich Georg Wilhelm",
+      "initials": "FG",
+      "surname_keys": [
+        "wilhelm"
+      ],
+      "count": 8
+    },
+    "georg-franz-linz": {
+      "name": "Georg Franz Linz",
+      "initials": "GF",
+      "surname_keys": [
+        "linz"
+      ],
+      "count": 8
+    },
+    "gerard-frank-hermsen": {
+      "name": "Gerard Frank Hermsen",
+      "initials": "GF",
+      "surname_keys": [
+        "hermsen"
+      ],
+      "count": 3
+    },
+    "gerrald-bargeman": {
+      "name": "Gerrald Bargeman",
+      "initials": "G",
+      "surname_keys": [
+        "bargeman"
+      ],
+      "count": 8
+    },
+    "guillo-alexander-schrader": {
+      "name": "Guillo Alexander Schrader",
+      "initials": "GA",
+      "surname_keys": [
+        "schrader"
+      ],
+      "count": 2
+    },
+    "h-c-aran": {
+      "name": "H.C. Aran",
+      "initials": "HC",
+      "surname_keys": [
+        "aran"
+      ],
+      "count": 6
+    },
+    "hanna-josefine-wolff": {
+      "name": "Hanna Josefine Wolff",
+      "initials": "HJ",
+      "surname_keys": [
+        "wolff"
+      ],
+      "count": 7
+    },
+    "hannah-roth": {
+      "name": "Hannah Roth",
+      "initials": "H",
+      "surname_keys": [
+        "roth"
+      ],
+      "count": 29
+    },
+    "hans-breisig": {
+      "name": "Hans Breisig",
+      "initials": "H",
+      "surname_keys": [
+        "breisig"
+      ],
+      "count": 8
+    },
+    "ilka-isabelle-rose": {
+      "name": "Ilka Isabelle Rose",
+      "initials": "II",
+      "surname_keys": [
+        "rose"
+      ],
+      "count": 3
+    },
+    "ines-frenzel": {
+      "name": "Ines Frenzel",
+      "initials": "I",
+      "surname_keys": [
+        "frenzel"
+      ],
+      "count": 4
+    },
+    "j-j-krol": {
+      "name": "J.J. Krol",
+      "initials": "JJ",
+      "surname_keys": [
+        "krol"
+      ],
+      "count": 5
+    },
+    "j-m-jani": {
+      "name": "J.M. Jani",
+      "initials": "JM",
+      "surname_keys": [
+        "jani"
+      ],
+      "count": 4
+    },
+    "jan-bernd-vennekoetter": {
+      "name": "Jan-Bernd Vennekötter",
+      "initials": "JB",
+      "surname_keys": [
+        "vennekoetter"
+      ],
+      "count": 4
+    },
+    "jan-frauholz": {
+      "name": "Jan Frauholz",
+      "initials": "J",
+      "surname_keys": [
+        "frauholz"
+      ],
+      "count": 1
+    },
+    "jan-stodollick": {
+      "name": "Jan Stodollick",
+      "initials": "J",
+      "surname_keys": [
+        "stodollick"
+      ],
+      "count": 1
+    },
+    "jan-vehrenberg": {
+      "name": "Jan Vehrenberg",
+      "initials": "J",
+      "surname_keys": [
+        "vehrenberg"
+      ],
+      "count": 3
+    },
+    "jens-potreck": {
+      "name": "Jens Potreck",
+      "initials": "J",
+      "surname_keys": [
+        "potreck"
+      ],
+      "count": 5
+    },
+    "jens-rubner": {
+      "name": "Jens Rubner",
+      "initials": "J",
+      "surname_keys": [
+        "rubner"
+      ],
+      "count": 13
+    },
+    "jo-o-miguel-de-sousa-andre": {
+      "name": "João Miguel de Sousa André",
+      "initials": "JMDS",
+      "surname_keys": [
+        "andre"
+      ],
+      "count": 2
+    },
+    "joerg-h-balster": {
+      "name": "Jörg H. Balster",
+      "initials": "JH",
+      "surname_keys": [
+        "balster"
+      ],
+      "count": 13
+    },
+    "johannes-kamp": {
+      "name": "Johannes Kamp",
+      "initials": "J",
+      "surname_keys": [
+        "kamp"
+      ],
+      "count": 18
+    },
+    "johannes-lohaus": {
+      "name": "Johannes Lohaus",
+      "initials": "J",
+      "surname_keys": [
+        "lohaus"
+      ],
+      "count": 12
+    },
+    "john-linkhorst": {
+      "name": "John Linkhorst",
+      "initials": "J",
+      "surname_keys": [
+        "linkhorst"
+      ],
+      "count": 63
+    },
+    "jonas-frederik-baessler": {
+      "name": "Jonas Frederik Bäßler",
+      "initials": "JF",
+      "surname_keys": [
+        "baessler"
+      ],
+      "count": 3
+    },
+    "jonas-loelsberg": {
+      "name": "Jonas Lölsberg",
+      "initials": "J",
+      "surname_keys": [
+        "loelsberg"
+      ],
+      "count": 20
+    },
+    "jonas-loewenberg": {
+      "name": "Jonas Löwenberg",
+      "initials": "J",
+      "surname_keys": [
+        "loewenberg"
+      ],
+      "count": 0
+    },
+    "jonathan-nathaniel-barsema": {
+      "name": "Jonathan Nathaniel Barsema",
+      "initials": "JN",
+      "surname_keys": [
+        "barsema"
+      ],
+      "count": 9
+    },
+    "jorrit-de-jong": {
+      "name": "Jorrit de Jong",
+      "initials": "J",
+      "surname_keys": [
+        "de jong",
+        "jong"
+      ],
+      "count": 8
+    },
+    "jozef-kochan": {
+      "name": "Jozef Kochan",
+      "initials": "J",
+      "surname_keys": [
+        "kochan"
+      ],
+      "count": 2
+    },
+    "kerstin-m-remmen": {
+      "name": "Kerstin M. Remmen",
+      "initials": "KM",
+      "surname_keys": [
+        "remmen"
+      ],
+      "count": 5
+    },
+    "kitty-nijmeijer": {
+      "name": "Kitty Nijmeijer",
+      "initials": "K",
+      "surname_keys": [
+        "nijmeijer"
+      ],
+      "count": 25
+    },
+    "korcan-percin": {
+      "name": "Korcan Percin",
+      "initials": "K",
+      "surname_keys": [
+        "percin"
+      ],
+      "count": 8
+    },
+    "kristina-baitalow": {
+      "name": "Kristina Baitalow",
+      "initials": "K",
+      "surname_keys": [
+        "baitalow"
+      ],
+      "count": 5
+    },
+    "kurt-kugler": {
+      "name": "Kurt Kugler",
+      "initials": "K",
+      "surname_keys": [
+        "kugler"
+      ],
+      "count": 4
+    },
+    "l-de-geeter": {
+      "name": "L. de Geeter",
+      "initials": "",
+      "surname_keys": [
+        "geeter",
+        "de geeter"
+      ],
+      "count": 2
+    },
+    "lars-i-e-peters": {
+      "name": "Lars I. E. Peters",
+      "initials": "LIE",
+      "surname_keys": [
+        "peters"
+      ],
+      "count": 1
+    },
+    "laura-keller": {
+      "name": "Laura Keller",
+      "initials": "L",
+      "surname_keys": [
+        "keller"
+      ],
+      "count": 7
+    },
+    "laura-vogelaar": {
+      "name": "Laura Vogelaar",
+      "initials": "L",
+      "surname_keys": [
+        "vogelaar"
+      ],
+      "count": 4
+    },
+    "lea-maria-steinbeck": {
+      "name": "Lea Maria Steinbeck",
+      "initials": "LM",
+      "surname_keys": [
+        "steinbeck"
+      ],
+      "count": 6
+    },
+    "lucas-maximilian-stuewe": {
+      "name": "Lucas Maximilian Stüwe",
+      "initials": "LM",
+      "surname_keys": [
+        "stuewe"
+      ],
+      "count": 9
+    },
+    "lukas-tobias-hirschwald": {
+      "name": "Lukas Tobias Hirschwald",
+      "initials": "LT",
+      "surname_keys": [
+        "hirschwald"
+      ],
+      "count": 7
+    },
+    "maik-joern-geerken": {
+      "name": "Maik Jörn Geerken",
+      "initials": "MJ",
+      "surname_keys": [
+        "geerken"
+      ],
+      "count": 5
+    },
+    "maik-tepper": {
+      "name": "Maik Tepper",
+      "initials": "M",
+      "surname_keys": [
+        "tepper"
+      ],
+      "count": 11
+    },
+    "maike-wrobel": {
+      "name": "Maike Wrobel",
+      "initials": "M",
+      "surname_keys": [
+        "wrobel"
+      ],
+      "count": 1
+    },
+    "marco-scholz": {
+      "name": "Marco Scholz",
+      "initials": "M",
+      "surname_keys": [
+        "scholz"
+      ],
+      "count": 9
+    },
+    "maren-grosseheide": {
+      "name": "Maren Großeheide",
+      "initials": "M",
+      "surname_keys": [
+        "grosseheide"
+      ],
+      "count": 4
+    },
+    "maria-adelaida-restrepo-toro": {
+      "name": "Maria Adelaida Restrepo Toro",
+      "initials": "MA",
+      "surname_keys": [
+        "toro",
+        "restrepo toro"
+      ],
+      "count": 1
+    },
+    "maria-charlotte-padligur": {
+      "name": "Maria Charlotte Padligur",
+      "initials": "MC",
+      "surname_keys": [
+        "padligur"
+      ],
+      "count": 8
+    },
+    "maria-elena-avramescu": {
+      "name": "Maria Elena Avramescu",
+      "initials": "ME",
+      "surname_keys": [
+        "avramescu"
+      ],
+      "count": 9
+    },
+    "marie-christiana-wijers": {
+      "name": "Marie Christiana Wijers",
+      "initials": "MC",
+      "surname_keys": [
+        "wijers"
+      ],
+      "count": 2
+    },
+    "marina-lazar": {
+      "name": "Marina Lazar",
+      "initials": "M",
+      "surname_keys": [
+        "lazar"
+      ],
+      "count": 0
+    },
+    "mark-ajhar": {
+      "name": "Mark Ajhar",
+      "initials": "M",
+      "surname_keys": [
+        "ajhar"
+      ],
+      "count": 1
+    },
+    "marlon-susanne-liesbeth-tijink": {
+      "name": "Marlon Susanne Liesbeth Tijink",
+      "initials": "MSL",
+      "surname_keys": [
+        "tijink"
+      ],
+      "count": 3
+    },
+    "martin-wiese": {
+      "name": "Martin Wiese",
+      "initials": "M",
+      "surname_keys": [
+        "wiese"
+      ],
+      "count": 9
+    },
+    "matias-bikel": {
+      "name": "Matías Bikel",
+      "initials": "M",
+      "surname_keys": [
+        "bikel"
+      ],
+      "count": 5
+    },
+    "matthias-christian-geiger": {
+      "name": "Matthias Christian Geiger",
+      "initials": "MC",
+      "surname_keys": [
+        "geiger"
+      ],
+      "count": 6
+    },
+    "matthias-hesselmann": {
+      "name": "Matthias Heßelmann",
+      "initials": "M",
+      "surname_keys": [
+        "hesselmann"
+      ],
+      "count": 7
+    },
+    "mayur-ramesh-dalwani": {
+      "name": "Mayur Ramesh Dalwani",
+      "initials": "MR",
+      "surname_keys": [
+        "dalwani"
+      ],
+      "count": 6
+    },
+    "michael-theo-alders": {
+      "name": "Michael Theo Alders",
+      "initials": "MT",
+      "surname_keys": [
+        "alders"
+      ],
+      "count": 14
+    },
+    "miriam-girones-i-nogue": {
+      "name": "Míriam Gironès i Nogué",
+      "initials": "MGI",
+      "surname_keys": [
+        "nogue"
+      ],
+      "count": 1
+    },
+    "mojtaba-mohseni": {
+      "name": "Mojtaba Mohseni",
+      "initials": "M",
+      "surname_keys": [
+        "mohseni"
+      ],
+      "count": 18
+    },
+    "monika-t-wiese": {
+      "name": "Monika T. Wiese",
+      "initials": "MT",
+      "surname_keys": [
+        "wiese"
+      ],
+      "count": 6
+    },
+    "morten-logemann": {
+      "name": "Morten Logemann",
+      "initials": "M",
+      "surname_keys": [
+        "logemann"
+      ],
+      "count": 7
+    },
+    "mustafa-hakan-yildirim": {
+      "name": "Mustafa Hakan Yildirim",
+      "initials": "MH",
+      "surname_keys": [
+        "yildirim"
+      ],
+      "count": 5
+    },
+    "nela-stafie": {
+      "name": "Nela Stafie",
+      "initials": "N",
+      "surname_keys": [
+        "stafie"
+      ],
+      "count": 3
+    },
+    "nico-f-a-van-der-vegt": {
+      "name": "Nico F.A. van der Vegt",
+      "initials": "NFA",
+      "surname_keys": [
+        "vegt",
+        "van der vegt"
+      ],
+      "count": 27
+    },
+    "niklas-koeller": {
+      "name": "Niklas Köller",
+      "initials": "N",
+      "surname_keys": [
+        "koeller"
+      ],
+      "count": 8
+    },
+    "nils-simeon-ragnar-weber": {
+      "name": "Nils Simeon Ragnar Weber",
+      "initials": "NSR",
+      "surname_keys": [
+        "weber"
+      ],
+      "count": 3
+    },
+    "patrick-bongartz": {
+      "name": "Patrick Bongartz",
+      "initials": "P",
+      "surname_keys": [
+        "bongartz"
+      ],
+      "count": 8
+    },
+    "petrus-cornelis-van-der-heijden": {
+      "name": "Petrus Cornelis van der Heijden",
+      "initials": "PC",
+      "surname_keys": [
+        "van der heijden",
+        "heijden"
+      ],
+      "count": 2
+    },
+    "piotr-edward-dlugolecki": {
+      "name": "Piotr Edward Dlugolecki",
+      "initials": "PE",
+      "surname_keys": [
+        "dlugolecki"
+      ],
+      "count": 5
+    },
+    "qing-cui": {
+      "name": "Qing Cui",
+      "initials": "Q",
+      "surname_keys": [
+        "cui"
+      ],
+      "count": 2
+    },
+    "robert-femmer": {
+      "name": "Robert Femmer",
+      "initials": "R",
+      "surname_keys": [
+        "femmer"
+      ],
+      "count": 9
+    },
+    "robert-g-keller": {
+      "name": "Robert G. Keller",
+      "initials": "RG",
+      "surname_keys": [
+        "keller"
+      ],
+      "count": 45
+    },
+    "ronald-h-s-jansen": {
+      "name": "Ronald H.S. Jansen",
+      "initials": "RHS",
+      "surname_keys": [
+        "jansen"
+      ],
+      "count": 4
+    },
+    "s-bannwarth": {
+      "name": "S. Bannwarth",
+      "initials": "S",
+      "surname_keys": [
+        "bannwarth"
+      ],
+      "count": 7
+    },
+    "s-weik": {
+      "name": "S. Weik",
+      "initials": "S",
+      "surname_keys": [
+        "weik"
+      ],
+      "count": 0
+    },
+    "said-abdu": {
+      "name": "Said Abdu",
+      "initials": "S",
+      "surname_keys": [
+        "abdu"
+      ],
+      "count": 5
+    },
+    "said-alsayegh": {
+      "name": "Said Alsayegh",
+      "initials": "S",
+      "surname_keys": [
+        "alsayegh"
+      ],
+      "count": 3
+    },
+    "saiful": {
+      "name": "Saiful",
+      "initials": "",
+      "surname_keys": [
+        "saiful"
+      ],
+      "count": 3
+    },
+    "sander-reijerkerk": {
+      "name": "Sander Reijerkerk",
+      "initials": "S",
+      "surname_keys": [
+        "reijerkerk"
+      ],
+      "count": 8
+    },
+    "sebastian-bernhard-rauer": {
+      "name": "Sebastian Bernhard Rauer",
+      "initials": "SB",
+      "surname_keys": [
+        "rauer"
+      ],
+      "count": 12
+    },
+    "sebastian-brosch": {
+      "name": "Sebastian Brosch",
+      "initials": "S",
+      "surname_keys": [
+        "brosch"
+      ],
+      "count": 9
+    },
+    "sebastian-koester": {
+      "name": "Sebastian Koester",
+      "initials": "S",
+      "surname_keys": [
+        "koester"
+      ],
+      "count": 5
+    },
+    "serafin-stiefel": {
+      "name": "Serafin Stiefel",
+      "initials": "S",
+      "surname_keys": [
+        "stiefel"
+      ],
+      "count": 7
+    },
+    "seyed-schwan-hosseiny": {
+      "name": "Seyed Schwan Hosseiny",
+      "initials": "SS",
+      "surname_keys": [
+        "hosseiny"
+      ],
+      "count": 6
+    },
+    "simon-wennemaring": {
+      "name": "Simon Wennemaring",
+      "initials": "S",
+      "surname_keys": [
+        "wennemaring"
+      ],
+      "count": 6
+    },
+    "siqi-wang": {
+      "name": "Siqi Wang",
+      "initials": "S",
+      "surname_keys": [
+        "wang"
+      ],
+      "count": 2
+    },
+    "stefan-herrmann": {
+      "name": "Stefan Herrmann",
+      "initials": "S",
+      "surname_keys": [
+        "herrmann"
+      ],
+      "count": 8
+    },
+    "stefanie-hoffmann": {
+      "name": "Stefanie Hoffmann",
+      "initials": "S",
+      "surname_keys": [
+        "hoffmann"
+      ],
+      "count": 0
+    },
+    "stefanie-m-a-kriescher": {
+      "name": "Stefanie M. A. Kriescher",
+      "initials": "SMA",
+      "surname_keys": [
+        "kriescher"
+      ],
+      "count": 10
+    },
+    "stephan-christian-emonds": {
+      "name": "Stephan Christian Emonds",
+      "initials": "SC",
+      "surname_keys": [
+        "emonds"
+      ],
+      "count": 9
+    },
+    "suzana-lohaus": {
+      "name": "Suzana Lohaus",
+      "initials": "S",
+      "surname_keys": [
+        "lohaus"
+      ],
+      "count": 6
+    },
+    "sven-lyko": {
+      "name": "Sven Lyko",
+      "initials": "S",
+      "surname_keys": [
+        "lyko"
+      ],
+      "count": 0
+    },
+    "sybrandus-jacob-metz": {
+      "name": "Sybrandus Jacob Metz",
+      "initials": "SJ",
+      "surname_keys": [
+        "metz"
+      ],
+      "count": 8
+    },
+    "szymon-maria-dutczak": {
+      "name": "Szymon Maria Dutczak",
+      "initials": "SM",
+      "surname_keys": [
+        "dutczak"
+      ],
+      "count": 8
+    },
+    "tao-he": {
+      "name": "Tao He",
+      "initials": "T",
+      "surname_keys": [
+        "he"
+      ],
+      "count": 6
+    },
+    "tao-luo": {
+      "name": "Tao Luo",
+      "initials": "T",
+      "surname_keys": [
+        "luo"
+      ],
+      "count": 7
+    },
+    "theresa-b-m-roesener": {
+      "name": "Theresa B. M. Rösener",
+      "initials": "TBM",
+      "surname_keys": [
+        "roesener"
+      ],
+      "count": 0
+    },
+    "therese-krahnstoever": {
+      "name": "Therese Krahnstöver",
+      "initials": "T",
+      "surname_keys": [
+        "krahnstoever"
+      ],
+      "count": 0
+    },
+    "thomas-harlacher": {
+      "name": "Thomas Harlacher",
+      "initials": "T",
+      "surname_keys": [
+        "harlacher"
+      ],
+      "count": 4
+    },
+    "tim-femmer": {
+      "name": "Tim Femmer",
+      "initials": "T",
+      "surname_keys": [
+        "femmer"
+      ],
+      "count": 9
+    },
+    "tobias-harhues": {
+      "name": "Tobias Harhues",
+      "initials": "T",
+      "surname_keys": [
+        "harhues"
+      ],
+      "count": 7
+    },
+    "tobias-luelf": {
+      "name": "Tobias Lülf",
+      "initials": "T",
+      "surname_keys": [
+        "luelf"
+      ],
+      "count": 10
+    },
+    "tymen-visser": {
+      "name": "Tymen Visser",
+      "initials": "T",
+      "surname_keys": [
+        "visser"
+      ],
+      "count": 11
+    },
+    "warner-j-nauta": {
+      "name": "Warner J. Nauta",
+      "initials": "WJ",
+      "surname_keys": [
+        "nauta"
+      ],
+      "count": 1
+    },
+    "wibke-victoria-zaengler": {
+      "name": "Wibke Victoria Zängler",
+      "initials": "WV",
+      "surname_keys": [
+        "zaengler"
+      ],
+      "count": 5
+    },
+    "wilbert-j-c-van-de-ven": {
+      "name": "Wilbert J.C. van de Ven",
+      "initials": "WJC",
+      "surname_keys": [
+        "van de ven",
+        "ven"
+      ],
+      "count": 9
+    },
+    "wojciech-ogieglo": {
+      "name": "Wojciech Ogieglo",
+      "initials": "W",
+      "surname_keys": [
+        "ogieglo"
+      ],
+      "count": 21
+    },
+    "xin-wei": {
+      "name": "Xin Wei",
+      "initials": "X",
+      "surname_keys": [
+        "wei"
+      ],
+      "count": 3
+    },
+    "zandrie-borneman": {
+      "name": "Zandrie Borneman",
+      "initials": "Z",
+      "surname_keys": [
+        "borneman"
+      ],
+      "count": 19
+    }
+  },
+  "graduates_without_publications": [
+    {
+      "slug": "dana-kaubitzsch",
+      "name": "Dana Kaubitzsch",
+      "initials": "D"
+    },
+    {
+      "slug": "jonas-loewenberg",
+      "name": "Jonas Löwenberg",
+      "initials": "J"
+    },
+    {
+      "slug": "marina-lazar",
+      "name": "Marina Lazar",
+      "initials": "M"
+    },
+    {
+      "slug": "s-weik",
+      "name": "S. Weik",
+      "initials": "S"
+    },
+    {
+      "slug": "stefanie-hoffmann",
+      "name": "Stefanie Hoffmann",
+      "initials": "S"
+    },
+    {
+      "slug": "sven-lyko",
+      "name": "Sven Lyko",
+      "initials": "S"
+    },
+    {
+      "slug": "theresa-b-m-roesener",
+      "name": "Theresa B. M. Rösener",
+      "initials": "TBM"
+    },
+    {
+      "slug": "therese-krahnstoever",
+      "name": "Therese Krahnstöver",
+      "initials": "T"
+    }
+  ]
+}

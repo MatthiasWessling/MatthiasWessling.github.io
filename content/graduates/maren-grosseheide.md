@@ -16,7 +16,41 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/959695/files/959695.pdf
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Paired electrochemical synthesis of Cl2 from alkali chloride and CO from CO2"
+year = "2025"
+journal = "Chemical Engineering and Processing - Process Intensification"
+doi = "10.1016/j.cep.2025.110209"
+url = "https://doi.org/10.1016/j.cep.2025.110209"
+authors = "Vehrenberg, J.; Gert, G.; Grosseheide, M.; Wessling, M.; Keller, R."
+
+[[publications]]
+title = "A falling film design for electrochemical CO2 reduction"
+year = "2023"
+journal = "Electrochemistry Communications"
+doi = "10.1016/j.elecom.2023.107487"
+url = "https://doi.org/10.1016/j.elecom.2023.107487"
+authors = "Großeheide, M.; Schaffeld, D.; Keller, R.; Wessling, M."
+
+[[publications]]
+title = "Micromodel of a Gas Diffusion Electrode Tracks In-Operando Pore-Scale Wetting Phenomena"
+year = "2022"
+journal = "Small"
+doi = "10.1002/smll.202204012"
+url = "https://doi.org/10.1002/smll.202204012"
+authors = "Kalde, A.M.; Grosseheide, M.; Brosch, S.; Pape, S.V.; Keller, R.G.; Linkhorst, J.; Wessling, M."
+
+[[publications]]
+title = "Tubular hollow fibre electrodes for CO2 reduction made from copper aluminum alloy with drastically increased intrinsic porosity"
+year = "2020"
+journal = "Electrochemistry Communications"
+doi = "10.1016/j.elecom.2019.106645"
+url = "https://doi.org/10.1016/j.elecom.2019.106645"
+authors = "Bell, D.; Rall, D.; Großeheide, M.; Marx, L.; Hülsdünker, L.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

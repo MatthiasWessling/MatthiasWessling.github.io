@@ -16,7 +16,17 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/1023806/files/1023806.p
 linkedin = "https://www.linkedin.com/in/maria-adelaida-restrepo-59b558197/"
 orcid = "https://orcid.org/0000-0001-7581-2802"
 featured = false
+
+[[publications]]
+title = "On the organic solvent free preparation of ultrafiltration and nanofiltration membranes using polyelectrolyte complexation in an all aqueous phase inversion process"
+year = "2021"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2020.118632"
+url = "https://doi.org/10.1016/j.memsci.2020.118632"
+authors = "Kamp, J.; Emonds, S.; Borowec, J.; Restrepo Toro, M.A.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

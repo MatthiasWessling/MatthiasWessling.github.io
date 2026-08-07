@@ -16,7 +16,25 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Chapter 3 Differential scanning calorimetry and rheological experiments to study membrane formation via thermally-induced phase-separation"
+year = "2003"
+journal = "Membrane Science and Technology"
+doi = "10.1016/S0927-5193(03)80006-2"
+url = "https://doi.org/10.1016/S0927-5193(03)80006-2"
+authors = "van der Heijden, P.C.; Mulder, M.H.V.; Wessling, M."
+
+[[publications]]
+title = "Phase behavior of polymer-diluent systems characterized by temperature modulated differential scanning calorimetry"
+year = "2001"
+journal = "Thermochimica Acta"
+doi = "10.1016/S0040-6031(01)00587-1"
+url = "https://doi.org/10.1016/S0040-6031(01)00587-1"
+authors = "Van Der Heijden, P.C.; Mulder, M.H.V.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

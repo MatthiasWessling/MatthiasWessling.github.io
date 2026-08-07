@@ -16,7 +16,57 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/1028896/files/1028896.p
 linkedin = "https://www.linkedin.com/in/florian-wiesner-profile/"
 orcid = "https://orcid.org/0000-0002-4898-004X"
 featured = false
+
+[[publications]]
+title = "Enhancing Bubble Removal in Geometry-Optimized Electrodes"
+year = "2026"
+journal = "Advanced Engineering Materials"
+doi = "10.1002/adem.70921"
+url = "https://doi.org/10.1002/adem.70921"
+authors = "Wiesner, F.; Förster, P.; Limper, A.; Brodersen, A.; Wessling, M.; Linkhorst, J."
+
+[[publications]]
+title = "Data Mining for Enhanced PEM Electrolysis"
+year = "2026"
+journal = "Journal of the Electrochemical Society"
+doi = "10.1149/1945-7111/ae335e"
+url = "https://doi.org/10.1149/1945-7111/ae335e"
+authors = "Zimmer, S.; Wiesner, F.; Vollmert, N.; Steiger, J.; Engelhard, T.; Wessling, M.; Keller, R."
+
+[[publications]]
+title = "Unveiling the Role of PTFE Surface Coverage on Controlling Gas Diffusion Layer Water Content"
+year = "2024"
+journal = "ACS Applied Materials and Interfaces"
+doi = "10.1021/acsami.4c04641"
+url = "https://doi.org/10.1021/acsami.4c04641"
+authors = "Wiesner, F.; Woodford, J.; Sabharwal, M.; Hesselmann, M.; Jung, S.; Wessling, M.; Secanell, M."
+
+[[publications]]
+title = "Spatio-Temporal Electrowetting and Reaction Monitoring in Microfluidic Gas Diffusion Electrode Elucidates Mass Transport Limitations"
+year = "2024"
+journal = "Small"
+doi = "10.1002/smll.202310427"
+url = "https://doi.org/10.1002/smll.202310427"
+authors = "Brosch, S.; Wiesner, F.; Decker, A.; Linkhorst, J.; Wessling, M."
+
+[[publications]]
+title = "Additive Manufacturing of Intertwined Electrode Pairs - Guided Mass Transport with Gyroids"
+year = "2023"
+journal = "Advanced Engineering Materials"
+doi = "10.1002/adem.202200986"
+url = "https://doi.org/10.1002/adem.202200986"
+authors = "Wiesner, F.; Limper, A.; Marth, C.; Brodersen, A.; Wessling, M.; Linkhorst, J."
+
+[[publications]]
+title = "Process model for high salinity flow-electrode capacitive deionization processes with ion-exchange membranes"
+year = "2020"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2020.118614"
+url = "https://doi.org/10.1016/j.memsci.2020.118614"
+authors = "Rommerskirchen, A.; Alders, M.; Wiesner, F.; Linnartz, C.J.; Kalde, A.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

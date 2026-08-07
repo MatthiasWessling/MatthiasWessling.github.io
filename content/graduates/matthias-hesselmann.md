@@ -16,7 +16,65 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/988602/files/988602.pdf
 linkedin = ""
 orcid = "https://orcid.org/0000-0002-7420-8643"
 featured = false
+
+[[publications]]
+title = "Modeling different wetting states in gas diffusion electrodes for CO2 electrolysis"
+year = "2025"
+journal = "Electrochimica Acta"
+doi = "10.1016/j.electacta.2025.146699"
+url = "https://doi.org/10.1016/j.electacta.2025.146699"
+authors = "Plischka, W.; Heßelmann, M.; Wessling, M.; Keller, R."
+
+[[publications]]
+title = "Unveiling the Role of PTFE Surface Coverage on Controlling Gas Diffusion Layer Water Content"
+year = "2024"
+journal = "ACS Applied Materials and Interfaces"
+doi = "10.1021/acsami.4c04641"
+url = "https://doi.org/10.1021/acsami.4c04641"
+authors = "Wiesner, F.; Woodford, J.; Sabharwal, M.; Hesselmann, M.; Jung, S.; Wessling, M.; Secanell, M."
+
+[[publications]]
+title = "Pure-Water-Fed Forward-Bias Bipolar Membrane CO2 Electrolyzer"
+year = "2024"
+journal = "ACS Applied Materials and Interfaces"
+doi = "10.1021/acsami.4c02799"
+url = "https://doi.org/10.1021/acsami.4c02799"
+authors = "Heßelmann, M.; Lee, J.K.; Chae, S.; Tricker, A.; Keller, R.G.; Wessling, M.; Su, J.; Kushner, D.; Weber, A.Z.; Peng, X."
+
+[[publications]]
+title = "Dynamics of the Boundary Layer in Pulsed CO2 Electrolysis"
+year = "2024"
+journal = "Angewandte Chemie - International Edition"
+doi = "10.1002/anie.202406924"
+url = "https://doi.org/10.1002/anie.202406924"
+authors = "Heßelmann, M.; Felder, D.; Plischka, W.; Nabi, S.; Linkhorst, J.; Wessling, M.; Keller, R."
+
+[[publications]]
+title = "Why Membranes Matter: Ion Exchange Membranes in Holistic Process Optimization of Electrochemical CO2 Reduction"
+year = "2023"
+journal = "Advanced Sustainable Systems"
+doi = "10.1002/adsu.202300077"
+url = "https://doi.org/10.1002/adsu.202300077"
+authors = "Heßelmann, M.; Minten, H.; Geissler, T.; Keller, R.G.; Bardow, A.; Wessling, M."
+
+[[publications]]
+title = "Simulation-based guidance for improving CO2 reduction on silver gas diffusion electrodes"
+year = "2023"
+journal = "Electrochemical Science Advances"
+doi = "10.1002/elsa.202100160"
+url = "https://doi.org/10.1002/elsa.202100160"
+authors = "Heßelmann, M.; Bräsel, B.C.; Keller, R.G.; Wessling, M."
+
+[[publications]]
+title = "Early-stage evaluation of emerging CO2utilization technologies at low technology readiness levels"
+year = "2020"
+journal = "Green Chemistry"
+doi = "10.1039/c9gc04440j"
+url = "https://doi.org/10.1039/c9gc04440j"
+authors = "Roh, K.; Bardow, A.; Bongartz, D.; Burre, J.; Chung, W.; Deutz, S.; Han, D.; Heßelmann, M.; Kohlhaas, Y.; König, A.; Lee, J.S.; Meys, R.; Völker, S.; Wessling, M.; Lee, J.H.; Mitsos, A."
 +++
+
+
 
 ## Thesis
 

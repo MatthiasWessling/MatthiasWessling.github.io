@@ -1,0 +1,4088 @@
+{
+  "results": {
+    "total_num_results": 41,
+    "total_num_pages": 1,
+    "many_results": false,
+    "num_page": 0,
+    "cluster": [
+      {
+        "result": [
+          {
+            "id": "patent/US11261109B2/en",
+            "rank": 0,
+            "patent": {
+              "title": " Single module, flow-electrode apparatus and method for continous water \u2026",
+              "snippet": " The present invention relates to a single module, flow-electrode apparatus for continuous water desalination, ion separation and selective ion removal and concentration by capacitive deionization, comprising: a first current collector ( 1 ), a first compartment ( 1 \u2032) for a flow electrode, a first ion \u2026",
+              "priority_date": "2015-01-16",
+              "filing_date": "2016-01-15",
+              "grant_date": "2022-03-01",
+              "publication_date": "2022-03-01",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Dwi\u2014Leibniz-Institut Fur Interaktive Materialien E.V.",
+              "publication_number": "US11261109B2",
+              "language": "en",
+              "thumbnail": "e4/05/3b/8cdf26ad730c8c/US11261109-20220301-D00000.png",
+              "pdf": "2e/a4/f4/a87e35f46816c0/US11261109.pdf",
+              "figures": [
+                {
+                  "thumbnail": "bc/d7/44/a7b65843046a9c/US11261109-20220301-D00000.png",
+                  "full": "d6/76/09/ca8a7863654a4a/US11261109-20220301-D00000.png"
+                },
+                {
+                  "thumbnail": "14/63/ac/97974871bea79a/US11261109-20220301-D00001.png",
+                  "full": "e6/24/0e/6293d3595d9f49/US11261109-20220301-D00001.png"
+                },
+                {
+                  "thumbnail": "07/3a/0b/ae49465fb81367/US11261109-20220301-D00002.png",
+                  "full": "b1/04/7f/0f65a90501112c/US11261109-20220301-D00002.png"
+                },
+                {
+                  "thumbnail": "ba/47/b8/79315a60942c69/US11261109-20220301-D00003.png",
+                  "full": "2c/fc/cf/15a560ea062d26/US11261109-20220301-D00003.png"
+                },
+                {
+                  "thumbnail": "d5/37/90/a18f55834ea76f/US11261109-20220301-D00004.png",
+                  "full": "bd/84/55/0b98c02b0cd481/US11261109-20220301-D00004.png"
+                },
+                {
+                  "thumbnail": "4e/a8/75/0882e26e8246e9/US11261109-20220301-D00005.png",
+                  "full": "db/e7/79/63b8ee20552f77/US11261109-20220301-D00005.png"
+                },
+                {
+                  "thumbnail": "35/6a/57/eb45bbd76ef70c/US11261109-20220301-D00006.png",
+                  "full": "98/9d/81/c0b84160d1272a/US11261109-20220301-D00006.png"
+                },
+                {
+                  "thumbnail": "70/a4/83/e489bf2286508b/US11261109-20220301-D00007.png",
+                  "full": "09/56/3f/ae69cce964ef21/US11261109-20220301-D00007.png"
+                },
+                {
+                  "thumbnail": "52/7c/ae/ee09a6ffc92364/US11261109-20220301-D00008.png",
+                  "full": "39/83/11/007621d0381927/US11261109-20220301-D00008.png"
+                },
+                {
+                  "thumbnail": "85/c1/fb/ce9120e302114e/US11261109-20220301-D00009.png",
+                  "full": "8f/33/28/775006fcc8679d/US11261109-20220301-D00009.png"
+                },
+                {
+                  "thumbnail": "32/c8/f2/821200c01607ec/US11261109-20220301-D00010.png",
+                  "full": "79/8f/39/1037448e4a22f0/US11261109-20220301-D00010.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP3022785B1/en",
+            "rank": 1,
+            "patent": {
+              "title": " Microtubes made of carbon nanotubes",
+              "snippet": " A process for fabricating a stand alone, self-supporting microtube made of carbon nanotubes or composites based on carbon nanotubes, wherein the microtube has an outer diameter in the range of 500 to 5000 \u00b5m and a wall thickness in the range of 50 to 1000 \u00b5m, comprising either filtration of a \u2026",
+              "priority_date": "2013-07-16",
+              "filing_date": "2014-07-14",
+              "grant_date": "2018-09-26",
+              "publication_date": "2018-09-26",
+              "inventor": " Matthias Wessling ",
+              "assignee": "DWI an der RWTH Aachen e.V.",
+              "publication_number": "EP3022785B1",
+              "language": "en",
+              "thumbnail": "a2/89/3a/9e638f66ba5b7f/imgf0001.png",
+              "pdf": "29/ed/36/9cd65f8c8fb213/EP3022785B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "0b/36/28/2f133e3a459d49/imgf0001.png",
+                  "full": "01/cc/90/df39053394586d/imgf0001.png"
+                },
+                {
+                  "thumbnail": "82/35/fc/d821fd147d2ff3/imgf0002.png",
+                  "full": "cd/13/11/a9e9cfa1c9071f/imgf0002.png"
+                },
+                {
+                  "thumbnail": "e8/e9/72/62ac331a31da19/imgf0003.png",
+                  "full": "5e/50/eb/6eb040f8a4c6d0/imgf0003.png"
+                },
+                {
+                  "thumbnail": "85/60/51/c09bda9d5950ba/imgf0004.png",
+                  "full": "a4/3d/56/12fcf18d43336f/imgf0004.png"
+                },
+                {
+                  "thumbnail": "c3/59/7e/a4ac7763aa2d8f/imgf0005.png",
+                  "full": "14/d5/33/b62579eded1072/imgf0005.png"
+                },
+                {
+                  "thumbnail": "a5/48/a8/f19b0cc458be5c/imgf0006.png",
+                  "full": "0c/ab/02/2432a77c517aa5/imgf0006.png"
+                },
+                {
+                  "thumbnail": "aa/10/50/e892cac69256d1/imgf0007.png",
+                  "full": "6f/23/b2/b793c2392c8f19/imgf0007.png"
+                },
+                {
+                  "thumbnail": "20/41/79/3467f1a05dd620/imgf0008.png",
+                  "full": "7d/c2/fa/1320651a4ab083/imgf0008.png"
+                },
+                {
+                  "thumbnail": "43/96/1a/a98dc8ed843489/imgf0009.png",
+                  "full": "76/5c/c1/0ba89ef4e32992/imgf0009.png"
+                },
+                {
+                  "thumbnail": "57/ec/5a/8ab0b0f8faa34e/imgf0010.png",
+                  "full": "b1/fa/5f/e7808085f7ab4e/imgf0010.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP2136905B1/en",
+            "rank": 2,
+            "patent": {
+              "title": " Ion-permeable membrane and its manufacture",
+              "snippet": " Method for production of an ion-permeable membrane, in particular an ion-exchange membrane, which has at least one profiled surface, wherein a shaping element is brought into contact with an uncured polymer film which contains at least one polymer, generating a preferably regular pattern of \u2026",
+              "priority_date": "2007-04-10",
+              "filing_date": "2008-04-10",
+              "grant_date": "2017-05-31",
+              "publication_date": "2017-05-31",
+              "inventor": " Matthias Wessling ",
+              "assignee": "FUMATECH BWT GmbH",
+              "publication_number": "EP2136905B1",
+              "language": "en",
+              "thumbnail": "5b/cf/5b/5ec63db16a976b/imgf0001.png",
+              "pdf": "d9/d8/58/d1f87dce107ca0/EP2136905B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "12/46/27/cfb6a13b3321a4/imgf0001.png",
+                  "full": "55/89/34/8b5052632f6b11/imgf0001.png"
+                },
+                {
+                  "thumbnail": "10/42/19/9aa0e368001da7/imgf0002.png",
+                  "full": "12/e4/a7/6320b80eeaf99b/imgf0002.png"
+                },
+                {
+                  "thumbnail": "82/2f/1c/36a9280c73543c/imgf0003.png",
+                  "full": "94/f0/fc/75cababe3d22b0/imgf0003.png"
+                },
+                {
+                  "thumbnail": "3d/75/0c/cd1ce2363620ed/imgf0004.png",
+                  "full": "02/7d/94/c20192e018e5a2/imgf0004.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP2996794B1/en",
+            "rank": 3,
+            "patent": {
+              "title": " Control of the gas composition of a gas separating plant with membranes",
+              "snippet": " Apparatus for separating gases, comprising as membrane separation stages at least a feed stream separation stage (1) and a retentate separation stage (2) and also at least one compressor (4) arranged on the feed side of the feed stream separation stage (1) and/or at least one, preferably one or \u2026",
+              "priority_date": "2013-05-15",
+              "filing_date": "2014-04-28",
+              "grant_date": "2018-09-26",
+              "publication_date": "2018-09-26",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Evonik Fibres GmbH",
+              "publication_number": "EP2996794B1",
+              "language": "en",
+              "thumbnail": "f4/37/7e/c783d66138b51f/imgf0001.png",
+              "pdf": "5d/a9/3b/29607359c81660/EP2996794B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "28/7f/82/f746ee16daa03d/imgf0001.png",
+                  "full": "bf/e5/1d/e465713a5796ae/imgf0001.png"
+                },
+                {
+                  "thumbnail": "19/70/8f/eb36568b0bec5d/imgf0002.png",
+                  "full": "c0/be/f7/f64c288e17241b/imgf0002.png"
+                },
+                {
+                  "thumbnail": "1d/8c/dc/2191625fc26c5e/imgf0003.png",
+                  "full": "e3/5b/21/d19883d93e7536/imgf0003.png"
+                },
+                {
+                  "thumbnail": "0a/3e/0a/98d2bf0a5787ac/imgf0004.png",
+                  "full": "00/2c/fa/e80ec74df8321c/imgf0004.png"
+                },
+                {
+                  "thumbnail": "cb/1b/c7/4b99b85098d92e/imgf0005.png",
+                  "full": "d7/b1/29/b5153951f88616/imgf0005.png"
+                },
+                {
+                  "thumbnail": "e4/a7/ec/2549fae8f528c1/imgf0006.png",
+                  "full": "9b/f4/49/d222461e24591c/imgf0006.png"
+                },
+                {
+                  "thumbnail": "ca/6a/66/d493836d79c840/imgf0007.png",
+                  "full": "34/60/95/6ad5eed4a48803/imgf0007.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP3877341B1/en",
+            "rank": 4,
+            "patent": {
+              "title": " Electrochemical module comprising a flexible membrane-electrode assembly",
+              "snippet": " An electrochemical and/or flow-electrode capacitive deionization module for continuous liquid desalination and/or selective separation and/or concentration and/or recombination of ions from liquids and/or energy storage and/or electrochemical reactions in liquids/electrosynthesis, comprising: an \u2026",
+              "priority_date": "2018-11-05",
+              "filing_date": "2019-10-09",
+              "grant_date": "2022-06-29",
+              "publication_date": "2022-06-29",
+              "inventor": " Matthias Wessling ",
+              "assignee": "DWI - Leibniz-Institut f\u00fcr Interaktive Materialien e.V.",
+              "publication_number": "EP3877341B1",
+              "language": "en",
+              "thumbnail": "ba/dd/8b/40c933fe2862b3/imgf0001.png",
+              "pdf": "4c/1f/ca/44ca6b63f21d30/EP3877341B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "df/be/f4/129bcf0b132414/imgf0001.png",
+                  "full": "1d/62/70/4e45578525fb01/imgf0001.png"
+                },
+                {
+                  "thumbnail": "91/22/c0/80776f47ee5a36/imgf0002.png",
+                  "full": "22/f5/81/6317970085c39b/imgf0002.png"
+                },
+                {
+                  "thumbnail": "04/81/83/46a393981d1652/imgf0003.png",
+                  "full": "a2/84/77/3fed6152d730c6/imgf0003.png"
+                },
+                {
+                  "thumbnail": "50/75/e6/3c13c9dc9afcc3/imgf0004.png",
+                  "full": "14/53/e6/95fd79d7643a56/imgf0004.png"
+                },
+                {
+                  "thumbnail": "f1/e9/82/f7a7bd338c637e/imgf0005.png",
+                  "full": "c9/92/5b/6a52a496799f61/imgf0005.png"
+                },
+                {
+                  "thumbnail": "09/ca/c0/07a8bf3ee559df/imgf0006.png",
+                  "full": "8d/76/bc/fffec3c01a6417/imgf0006.png"
+                },
+                {
+                  "thumbnail": "96/c4/b0/b873d536fd5145/imgf0007.png",
+                  "full": "80/94/0d/6e022e6b6fdbba/imgf0007.png"
+                },
+                {
+                  "thumbnail": "77/f1/a2/0481ef398851d7/imgf0008.png",
+                  "full": "24/58/0f/4e491c245808a4/imgf0008.png"
+                },
+                {
+                  "thumbnail": "73/24/a0/509a95c4f815a3/imgf0009.png",
+                  "full": "52/30/3c/4bb7be8d7e2562/imgf0009.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US20160293963A1/en",
+            "rank": 5,
+            "patent": {
+              "title": " Oxygen-vanadium redox flow battery with vanadium electrolyte having carbon \u2026",
+              "snippet": " The present invention relates to an oxygen-vanadium redox flow battery with vanadium electrolyte having carbon particles dispersed therein.",
+              "priority_date": "2013-11-22",
+              "filing_date": "2014-11-21",
+              "publication_date": "2016-10-06",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Dwi An Der Rwth Aachen E.V.",
+              "publication_number": "US20160293963A1",
+              "language": "en",
+              "thumbnail": "a7/aa/d8/c653ddb0342c20/US20160293963A1-20161006-D00000.png",
+              "pdf": "59/dd/4b/e237789d825df6/US20160293963A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "9d/bf/c2/598fa32905e732/US20160293963A1-20161006-D00000.png",
+                  "full": "96/e8/cb/711ad66c3a612f/US20160293963A1-20161006-D00000.png"
+                },
+                {
+                  "thumbnail": "03/60/19/b91765c60152e0/US20160293963A1-20161006-D00001.png",
+                  "full": "ec/39/48/16ce63e3a1271f/US20160293963A1-20161006-D00001.png"
+                },
+                {
+                  "thumbnail": "e5/e5/7d/ceae4a80c5f37a/US20160293963A1-20161006-D00002.png",
+                  "full": "81/4c/78/f31fbc242416ae/US20160293963A1-20161006-D00002.png"
+                },
+                {
+                  "thumbnail": "a2/03/a8/fe74551ba03724/US20160293963A1-20161006-D00003.png",
+                  "full": "be/e7/8b/0ff08c37c20766/US20160293963A1-20161006-D00003.png"
+                },
+                {
+                  "thumbnail": "2a/76/e8/5ffbaa186c853f/US20160293963A1-20161006-D00004.png",
+                  "full": "84/7e/4b/3e48986039d532/US20160293963A1-20161006-D00004.png"
+                },
+                {
+                  "thumbnail": "1d/52/1c/1d2345df5c2bf1/US20160293963A1-20161006-D00005.png",
+                  "full": "18/ed/e1/66614359f60f60/US20160293963A1-20161006-D00005.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP2542712B1/en",
+            "rank": 6,
+            "patent": {
+              "title": " Process for manufacturing a hollow fibre membrane",
+              "snippet": " A process for manufacturing a hollow fibre membrane having a supporting layer and a separating layer with a double orifice spinneret having an outer annular orifice (1) and a central annular orifice (2), said process comprising, : (a) extruding a spinning composition comprising a first polymer and \u2026",
+              "priority_date": "2010-03-05",
+              "filing_date": "2011-03-04",
+              "grant_date": "2023-09-13",
+              "publication_date": "2023-09-13",
+              "inventor": " Matthias Wessling ",
+              "assignee": "NX Filtration Holding B.V.",
+              "publication_number": "EP2542712B1",
+              "language": "en",
+              "thumbnail": "fd/34/29/a53afb68a748bb/imgf0001.png",
+              "pdf": "19/78/60/62303319afdbbe/EP2542712B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "7f/f5/9b/4fdf62acc770ef/imgf0001.png",
+                  "full": "22/8d/dd/a705264dc1d544/imgf0001.png"
+                },
+                {
+                  "thumbnail": "35/a7/7a/84738c2436e898/imgf0002.png",
+                  "full": "2a/13/ed/63932f31ce4e18/imgf0002.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "MY",
+                      "best_patent_stage": {
+                        "state": "UNKNOWN"
+                      }
+                    },
+                    {
+                      "country_code": "RU",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP2599149A1/en",
+            "rank": 7,
+            "patent": {
+              "title": " Electro-catalyst",
+              "snippet": " The present invention relates to an electro-catalyst M' a Ir b M c , wherein M' is selected from the group consisting of Pt, Ta and Ru, and wherein the molar ratio a : b is within the range of 85 : 15 to 50 : 50 and the molar ratio a : c is within the range of 50 : 50 to 95 : 5, both calculated as \u2026",
+              "priority_date": "2010-07-28",
+              "filing_date": "2011-06-23",
+              "publication_date": "2013-06-05",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Magneto Special Anodes B.V.",
+              "publication_number": "EP2599149A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/CY1114296T1/en",
+            "rank": 8,
+            "patent": {
+              "title": " METHOD FOR PREPARING OPTICAL FIBER",
+              "snippet": " The invention relates to a process for the preparation of porous polymeric fibers, which contain activated or reactive particles. By extruding a mixture of one or more dissolved polymers with particulate material, a porous fiber is obtained in which the particulate material is trapped. The \u2026",
+              "priority_date": "2002-06-28",
+              "filing_date": "2013-07-05",
+              "publication_date": "2016-08-31",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Neokidney Holding B.V.",
+              "publication_number": "CY1114296T1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CA",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CY",
+                      "best_patent_stage": {
+                        "state": "UNKNOWN"
+                      }
+                    },
+                    {
+                      "country_code": "DK",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "ES",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "PT",
+                      "best_patent_stage": {
+                        "state": "UNKNOWN"
+                      }
+                    },
+                    {
+                      "country_code": "SI",
+                      "best_patent_stage": {
+                        "state": "UNKNOWN"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/WO2010137974A1/en",
+            "rank": 9,
+            "patent": {
+              "title": " Polymer composition comprising a blend of a multi-block thermoplastic elastomer \u2026",
+              "snippet": " The present invention relates to a polymer composition comprising a blend of a multi-block thermoplastic elastomer comprising alternating hard polymeric blocks and soft polymeric blocks, and a polymer comprising a metal of Group 14 of the Periodic System of the Elements. The present invention also \u2026",
+              "priority_date": "2009-05-25",
+              "filing_date": "2010-05-21",
+              "publication_date": "2010-12-02",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Universiteit Twente",
+              "publication_number": "WO2010137974A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "30/b9/06/e53603f9db5e3c/WO2010137974A1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US20250041805A1/en",
+            "rank": 10,
+            "patent": {
+              "title": " Method for increasing the selectivity of a membrane",
+              "snippet": " The disclosure relates to a method for improving the selectivity of a membrane, specifically of a membrane comprising a blend of i) a polysulfone, polyethersulfone or polyarylethersulfone and ii) polyvinylpyrrolidone, characterized in that the membrane is coated with polydopamine and heparin in a \u2026",
+              "priority_date": "2021-12-21",
+              "filing_date": "2022-12-16",
+              "publication_date": "2025-02-06",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Gambro Lundia Ab",
+              "publication_number": "US20250041805A1",
+              "language": "en",
+              "thumbnail": "43/28/4a/d757121d8eda58/US20250041805A1-20250206-D00000.png",
+              "pdf": "4e/b1/e3/1160df7f76ecd5/US20250041805A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "a2/87/dc/85b2499dc429bf/US20250041805A1-20250206-D00000.png",
+                  "full": "17/92/a1/616774f961167f/US20250041805A1-20250206-D00000.png"
+                },
+                {
+                  "thumbnail": "ee/a1/ff/74a12066a95d3f/US20250041805A1-20250206-D00001.png",
+                  "full": "fb/7e/4e/5cb5f4fff3fca9/US20250041805A1-20250206-D00001.png"
+                },
+                {
+                  "thumbnail": "d9/c0/71/a566eb4eda9ccb/US20250041805A1-20250206-D00002.png",
+                  "full": "ab/6c/ed/5def0d547a0785/US20250041805A1-20250206-D00002.png"
+                },
+                {
+                  "thumbnail": "f4/0d/d8/3cca84a47c45a0/US20250041805A1-20250206-D00003.png",
+                  "full": "7c/61/ed/7e00ae5b5bb3fc/US20250041805A1-20250206-D00003.png"
+                },
+                {
+                  "thumbnail": "e4/db/33/d90d2f15dafbff/US20250041805A1-20250206-D00004.png",
+                  "full": "f1/4f/90/5e8454a186d94b/US20250041805A1-20250206-D00004.png"
+                },
+                {
+                  "thumbnail": "c1/0a/36/6e23acff258edb/US20250041805A1-20250206-D00005.png",
+                  "full": "e6/ff/55/e731b64d4fce6f/US20250041805A1-20250206-D00005.png"
+                },
+                {
+                  "thumbnail": "98/ca/73/c5077307ded6b0/US20250041805A1-20250206-D00006.png",
+                  "full": "cf/dc/ce/fbb72e5ae9eb7b/US20250041805A1-20250206-D00006.png"
+                },
+                {
+                  "thumbnail": "14/ae/ab/03e82c0855c2d6/US20250041805A1-20250206-D00007.png",
+                  "full": "85/51/55/19277b45523767/US20250041805A1-20250206-D00007.png"
+                },
+                {
+                  "thumbnail": "b4/1d/44/ff17627f78d4bb/US20250041805A1-20250206-D00008.png",
+                  "full": "ca/77/f4/119abbf1a301e6/US20250041805A1-20250206-D00008.png"
+                },
+                {
+                  "thumbnail": "ef/99/6d/dc3b2c3722d386/US20250041805A1-20250206-D00009.png",
+                  "full": "e5/17/f9/00bd02fe5cb705/US20250041805A1-20250206-D00009.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US12319900B2/en",
+            "rank": 11,
+            "patent": {
+              "title": " Integral gas-introduction and stirring unit for gas-liquid reactors",
+              "snippet": " A gassing unit for bubble-free introduction of process gas into a liquid in a reactor, wherein the gassing unit includes at least: first and second spaced apart gas receiving chambers, the two gas receiving chambers connected to one another via at least two two-dimensional, gas-conducting \u2026",
+              "priority_date": "2020-01-31",
+              "filing_date": "2021-01-29",
+              "grant_date": "2025-06-03",
+              "publication_date": "2025-06-03",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Rheinisch-Westf\u00e4lische Technische Hochschule (Rwth) Aachen",
+              "publication_number": "US12319900B2",
+              "language": "en",
+              "thumbnail": "40/14/6f/f491366b0bc1fb/US12319900-20250603-D00000.png",
+              "pdf": "75/48/8b/75b0a42dc81056/US12319900B2.pdf",
+              "figures": [
+                {
+                  "thumbnail": "90/38/be/8ad87e652e7239/US12319900-20250603-D00000.png",
+                  "full": "fa/a9/da/d3a77efa2c12a7/US12319900-20250603-D00000.png"
+                },
+                {
+                  "thumbnail": "0f/3f/a5/73217e522fc109/US12319900-20250603-D00001.png",
+                  "full": "19/e1/0e/1739016602d689/US12319900-20250603-D00001.png"
+                },
+                {
+                  "thumbnail": "30/74/42/a8d50f9622de47/US12319900-20250603-D00002.png",
+                  "full": "14/88/89/7fff60f249b7a5/US12319900-20250603-D00002.png"
+                },
+                {
+                  "thumbnail": "01/0a/56/a0cee91cae928d/US12319900-20250603-D00003.png",
+                  "full": "51/2d/3a/1e225b0d55574c/US12319900-20250603-D00003.png"
+                },
+                {
+                  "thumbnail": "8a/b4/e8/967420d7a44efd/US12319900-20250603-D00004.png",
+                  "full": "78/77/78/2ecb632ee370ae/US12319900-20250603-D00004.png"
+                },
+                {
+                  "thumbnail": "3d/aa/58/bfd3f072a7965d/US12319900-20250603-D00005.png",
+                  "full": "b8/3b/02/26dc294d51f08a/US12319900-20250603-D00005.png"
+                },
+                {
+                  "thumbnail": "20/03/8b/4585675620969c/US12319900-20250603-D00006.png",
+                  "full": "3e/81/40/cef170c79402a3/US12319900-20250603-D00006.png"
+                },
+                {
+                  "thumbnail": "d7/8c/dc/412ff1022bd4da/US12319900-20250603-D00007.png",
+                  "full": "e4/85/9e/04fa289434d55d/US12319900-20250603-D00007.png"
+                },
+                {
+                  "thumbnail": "20/a1/ab/a23b81d7dd3660/US12319900-20250603-D00008.png",
+                  "full": "df/57/a3/a923009d30c691/US12319900-20250603-D00008.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CA",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US20200276539A1/en",
+            "rank": 12,
+            "patent": {
+              "title": " Filter device having a flow fitting",
+              "snippet": " A filter device ( 10 ), in particular for a tangential flow filtration device, has at least one fluid inlet ( 22 ), at least one retentate outlet ( 24 ) and at least one permeate outlet ( 26 ). The filter device ( 10 ) further has at least one membrane ( 16 ) which separates a retentate section ( 18 ) from a \u2026",
+              "priority_date": "2017-09-25",
+              "filing_date": "2018-09-17",
+              "publication_date": "2020-09-03",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Sartorius Stedim Biotech Gmbh",
+              "publication_number": "US20200276539A1",
+              "language": "en",
+              "thumbnail": "d3/e9/b5/d07103cd66e5a3/US20200276539A1-20200903-D00000.png",
+              "pdf": "18/59/15/825a89480149a3/US20200276539A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "8e/bf/b9/e9387064632581/US20200276539A1-20200903-D00000.png",
+                  "full": "13/87/bb/bad53882cbfabd/US20200276539A1-20200903-D00000.png"
+                },
+                {
+                  "thumbnail": "86/f9/80/8cda93d65f73c6/US20200276539A1-20200903-D00001.png",
+                  "full": "dd/4c/d8/ce750b5321d6cb/US20200276539A1-20200903-D00001.png"
+                },
+                {
+                  "thumbnail": "2c/47/e7/88c0c4e94caf74/US20200276539A1-20200903-D00002.png",
+                  "full": "14/fd/52/c9f9474c4ac88d/US20200276539A1-20200903-D00002.png"
+                },
+                {
+                  "thumbnail": "ab/fd/69/ff4056a1e8d55b/US20200276539A1-20200903-D00003.png",
+                  "full": "9a/e3/2d/bc4e9d8d0abeaf/US20200276539A1-20200903-D00003.png"
+                },
+                {
+                  "thumbnail": "30/ca/eb/578fc6d1be2038/US20200276539A1-20200903-D00004.png",
+                  "full": "a7/63/83/264b36fb5e66bd/US20200276539A1-20200903-D00004.png"
+                },
+                {
+                  "thumbnail": "f6/dd/54/03e466f902a773/US20200276539A1-20200903-D00005.png",
+                  "full": "8e/12/f0/2005591161f5d2/US20200276539A1-20200903-D00005.png"
+                },
+                {
+                  "thumbnail": "cc/22/57/40cd61d9e3798e/US20200276539A1-20200903-D00006.png",
+                  "full": "ca/79/df/38df2c0570455d/US20200276539A1-20200903-D00006.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/WO2023275302A1/en",
+            "rank": 13,
+            "patent": {
+              "title": " Method of additive manufacture of porous gas-permeable shaped bodies having \u2026",
+              "snippet": " The invention relates to a method of additive manufacture of porous gas-permeable shaped bodies via selective laser sintering of a polymer powder, comprising the steps of: a) providing a layer of a polymer powder within a build space; b) heating the polymer powder bed to a temperature of not less \u2026",
+              "priority_date": "2021-06-30",
+              "filing_date": "2022-06-30",
+              "publication_date": "2023-01-05",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Rheinisch-Westf\u00e4lische Technische Hochschule (Rwth) Aachen",
+              "publication_number": "WO2023275302A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "16/59/d0/88c64ccd986907/WO2023275302A1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "IL",
+                      "best_patent_stage": {
+                        "state": "UNKNOWN"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/NL2002984C2/en",
+            "rank": 14,
+            "patent": {
+              "title": " Method and device for membrane cleaning in electro-membrane processes.",
+              "snippet": " A method for cleaning membranes, comprising the steps of: 5. operating a device for performing an electro-membrane process; and - applying reverse electrical pulses to the device. The method of claim 1, wherein the reverse electrical pulses are applied to electrodes of the device. 3. Method \u2026",
+              "priority_date": "2009-06-08",
+              "filing_date": "2009-06-08",
+              "grant_date": "2010-12-09",
+              "publication_date": "2010-12-09",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Stichting Wetsus Ct Excellence Sustainable Water Technology",
+              "publication_number": "NL2002984C2",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "96/59/b8/183ad522598acc/NL2002984C2.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "NL",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/WO2021074235A1/en",
+            "rank": 15,
+            "patent": {
+              "title": " Membrane system, spinneret for manufacturing the membrane system, device \u2026",
+              "snippet": " The present invention relates to a membrane system including a hollow fiber membrane and static mixer separately arranged within the hollow portion of the hollow fiber membrane, a spinneret for manufacturing the membrane system, a device including the spinneret and a method for forming the \u2026",
+              "priority_date": "2019-10-16",
+              "filing_date": "2020-10-14",
+              "publication_date": "2021-04-22",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Dwi - Leibniz-Institut F\u00fcr Interaktive Materialien E.V.",
+              "publication_number": "WO2021074235A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "40/31/1d/682c1d5476705e/WO2021074235A1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP3946701B1/en",
+            "rank": 16,
+            "patent": {
+              "title": " Method for the manufacture of a membrane system",
+              "snippet": " A method for forming a membrane system having the form of a flat sheet or a tube, including (a) a porous membrane formed from at least one first polymer; and (b) particles of at least one second polymer different from the first polymer, wherein the porous membrane (a) has the particles (b) \u2026",
+              "priority_date": "2019-10-16",
+              "filing_date": "2020-10-14",
+              "grant_date": "2023-06-07",
+              "publication_date": "2023-06-07",
+              "inventor": " Matthias Wessling ",
+              "assignee": "DWI - Leibniz-Institut f\u00fcr Interaktive Materialien e.V.",
+              "publication_number": "EP3946701B1",
+              "language": "en",
+              "thumbnail": "07/3f/f3/ecfd2c948b5588/imgf0001.png",
+              "pdf": "4c/e9/a2/0e0a0c5a41033c/EP3946701B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "c0/61/21/4551551225668e/imgf0001.png",
+                  "full": "38/1b/e6/9e5e5c2485a410/imgf0001.png"
+                },
+                {
+                  "thumbnail": "aa/8a/b1/77d9a52a909f00/imgf0002.png",
+                  "full": "bf/08/2b/47531c83e22a02/imgf0002.png"
+                },
+                {
+                  "thumbnail": "d8/5a/03/6d87cd6f48f85a/imgf0003.png",
+                  "full": "3e/70/bc/1144c8a9a86ea1/imgf0003.png"
+                },
+                {
+                  "thumbnail": "1f/97/90/29166374ca582c/imgf0004.png",
+                  "full": "9a/9a/52/810af158515713/imgf0004.png"
+                },
+                {
+                  "thumbnail": "5e/74/06/0e2383b2d09b80/imgf0005.png",
+                  "full": "25/88/05/e08d96f039c2bd/imgf0005.png"
+                },
+                {
+                  "thumbnail": "03/54/02/87f127d5afab76/imgf0006.png",
+                  "full": "c4/bb/9e/1da7f3d7b73012/imgf0006.png"
+                },
+                {
+                  "thumbnail": "1a/1b/a3/86d6f966eeb748/imgf0007.png",
+                  "full": "d8/a7/2d/36c8122bdd921c/imgf0007.png"
+                },
+                {
+                  "thumbnail": "98/77/52/bfe19fdeb77f07/imgf0008.png",
+                  "full": "ab/ec/85/47e3b0bae018b2/imgf0008.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP4497494A1/en",
+            "rank": 17,
+            "patent": {
+              "title": " Sma-blended membranes for immobilizing functional molecules",
+              "snippet": " The present disclosure relates to polysulfone, polyethersulfone or polyarylethersulfone based membranes for use in extracorporeal blood treatment applications comprising a blend of (i) a polysulfone (PS), a polyethersulfone (PES) or a polyarylethersulfone (PAES); (ii) a polyvinylpyrrolidone (PVP); \u2026",
+              "priority_date": "2023-07-24",
+              "filing_date": "2023-07-24",
+              "publication_date": "2025-01-29",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Gambro Lundia AB",
+              "publication_number": "EP4497494A1",
+              "language": "en",
+              "thumbnail": "c1/db/e5/609b522dbed7a8/imgf0001.png",
+              "pdf": "37/5a/8d/570a2c9731100c/EP4497494A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "e3/fd/8e/2445c24c0dc069/imgf0001.png",
+                  "full": "93/3f/b0/1182065777f65d/imgf0001.png"
+                },
+                {
+                  "thumbnail": "99/de/2a/69e71e4f789186/imgf0002.png",
+                  "full": "23/83/b2/fe03612c7b7f1b/imgf0002.png"
+                },
+                {
+                  "thumbnail": "a4/39/9e/ef684260bad2dc/imgf0003.png",
+                  "full": "d3/99/de/e0a6541c78c9e5/imgf0003.png"
+                },
+                {
+                  "thumbnail": "cc/b3/70/6549aa24a96854/imgf0004.png",
+                  "full": "e7/29/d9/b9992f9d7f2dca/imgf0004.png"
+                },
+                {
+                  "thumbnail": "61/ee/26/ad19ca964cf125/imgf0005.png",
+                  "full": "33/ab/53/21bc4c2a2e0ba9/imgf0005.png"
+                },
+                {
+                  "thumbnail": "67/c5/e8/f7ff3b598e1fdd/imgf0006.png",
+                  "full": "88/c1/18/04f00f812fc83d/imgf0006.png"
+                },
+                {
+                  "thumbnail": "20/f4/a7/de821248046502/imgf0007.png",
+                  "full": "91/51/cc/7c125e3af20d7f/imgf0007.png"
+                },
+                {
+                  "thumbnail": "8c/94/7c/7c10909d9977fb/imgf0008.png",
+                  "full": "01/75/33/8ec7e9d138e08b/imgf0008.png"
+                },
+                {
+                  "thumbnail": "75/8b/fb/4cbc21fb9532fd/imgf0009.png",
+                  "full": "c6/f6/67/8b7cddd475794f/imgf0009.png"
+                },
+                {
+                  "thumbnail": "b2/15/6d/1e91456b1e86ca/imgf0010.png",
+                  "full": "4e/b8/b3/a35ac18782e168/imgf0010.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/WO2009058015A1/en",
+            "rank": 18,
+            "patent": {
+              "title": " . high throughput screening method and apparatus for analysing interactions \u2026",
+              "snippet": " The invention is directed to a high throughput screening method for analysing and interaction between a surface of a material and an environment. The screening method of the invention comprises: providing a micro-array comprising said material and having a multitude of units at least part of which \u2026",
+              "priority_date": "2007-11-02",
+              "filing_date": "2008-10-31",
+              "publication_date": "2009-05-07",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Universiteit Twente",
+              "publication_number": "WO2009058015A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "b3/65/25/47cecb36090b48/WO2009058015A1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CA",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/WO2022034082A1/en",
+            "rank": 19,
+            "patent": {
+              "title": " Method for producing conductive pedot:pss particles",
+              "snippet": " The present invention relates to a method for producing poly(3,4-ethylenedioxythiophene) polystyrene sulfonate (PEDOT:PSS) particles, at least comprising the steps: a) providing a mixture comprising poly(3,4-ethylenedioxythiophene) and polystyrene sulfonate in a solvent at least comprising water;",
+              "priority_date": "2020-08-10",
+              "filing_date": "2021-08-10",
+              "publication_date": "2022-02-17",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Rheinisch-Westf\u00e4lische Technische Hochschule (Rwth) Aachen",
+              "publication_number": "WO2022034082A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "b0/a2/59/05cad259f2725b/WO2022034082A1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US20090217819A1/en",
+            "rank": 20,
+            "patent": {
+              "title": " Gas separation membranes comprising permeability enhancing additives",
+              "snippet": " The present invention relates to polymer compositions comprising a (co)polymer comprising (a) an arylene oxide moiety and (b) a dendritic (co)polymer, a hyperbranched (co)polymer or a mixture thereof, and the use of these polymer compositions as membrane materials for the separation of gases. The \u2026",
+              "priority_date": "2006-03-15",
+              "filing_date": "2007-03-14",
+              "publication_date": "2009-09-03",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Matthias Wessling",
+              "publication_number": "US20090217819A1",
+              "language": "en",
+              "thumbnail": "2e/17/5b/a862f3b2a32d10/US20090217819A1-20090903-D00001.png",
+              "pdf": "c5/60/59/ee7880b64f911b/US20090217819A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "59/92/5c/87f70eb8aef7ae/US20090217819A1-20090903-D00001.png",
+                  "full": "56/a2/ac/8ca0f08b87fb3e/US20090217819A1-20090903-D00001.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP3981505B1/en",
+            "rank": 21,
+            "patent": {
+              "title": " Membrane with immobilized anticoagulant and process for producing same",
+              "snippet": " A porous hollow fiber membrane having an anticoagulant immobilized thereon; the membrane comprising a blend of i) a polysulfone, polyethersulfone or polyarylethersulfone; ii) a polyvinylpyrrolidone; and iii) a chitosan. The membrane of claim 1, wherein the anticoagulant is a glycosaminoglycan. The \u2026",
+              "priority_date": "2020-10-12",
+              "filing_date": "2020-10-12",
+              "grant_date": "2024-11-27",
+              "publication_date": "2024-11-27",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Gambro Lundia AB",
+              "publication_number": "EP3981505B1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "9b/92/69/5cb953274dce79/EP3981505B1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CA",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP4161687C0/en",
+            "rank": 22,
+            "patent": {
+              "title": " METHOD FOR THE PRODUCTION OF POLYELECTROLYTE COMPLEX MEMBRANES",
+              "snippet": "",
+              "priority_date": "2020-06-05",
+              "filing_date": "2021-06-02",
+              "publication_date": "2024-04-17",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Dwi Leibniz Institut Fuer Interaktive Mat E V",
+              "publication_number": "EP4161687C0",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US20070241058A1/en",
+            "rank": 23,
+            "patent": {
+              "title": " Method for monitoring the degree of fouling of a filter",
+              "snippet": " A method of filtering a fluid wherein after filtering a contaminated fluid, which causes the formation of a filter cake, a substantially non-contaminated fluid is fed through the filter cake and filter at varying flux or at varying driving force. At the same time the necessary driving force or the \u2026",
+              "priority_date": "2004-09-16",
+              "filing_date": "2007-03-15",
+              "publication_date": "2007-10-18",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Norit Membraan Technologie B.V.",
+              "publication_number": "US20070241058A1",
+              "language": "en",
+              "thumbnail": "7d/64/7f/4e4d930d371e1c/US20070241058A1-20071018-D00000.png",
+              "pdf": "30/b1/12/e218647f0307b0/US20070241058A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "c6/27/f0/702d04327129a3/US20070241058A1-20071018-D00000.png",
+                  "full": "4f/71/32/3c9b3f099de4af/US20070241058A1-20071018-D00000.png"
+                },
+                {
+                  "thumbnail": "12/58/8b/f2be50f2518085/US20070241058A1-20071018-D00001.png",
+                  "full": "8d/42/b8/f6e293b876968c/US20070241058A1-20071018-D00001.png"
+                },
+                {
+                  "thumbnail": "d1/11/1e/5c5732f6865abe/US20070241058A1-20071018-D00002.png",
+                  "full": "3f/bd/8b/2d83e64c3e85e8/US20070241058A1-20071018-D00002.png"
+                },
+                {
+                  "thumbnail": "1d/e5/6f/32fd428ceaf221/US20070241058A1-20071018-D00003.png",
+                  "full": "b5/22/9e/3ebe81d2e44869/US20070241058A1-20071018-D00003.png"
+                },
+                {
+                  "thumbnail": "43/60/17/d6c836a3f086fb/US20070241058A1-20071018-D00004.png",
+                  "full": "40/e2/04/1bc4579d6e4c08/US20070241058A1-20071018-D00004.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CA",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "ES",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "NL",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "ZA",
+                      "best_patent_stage": {
+                        "state": "UNKNOWN"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US7531120B2/en",
+            "rank": 24,
+            "patent": {
+              "title": " Method of making a product with a micro or nano sized structure and product",
+              "snippet": " Using phase separation technique perforated as well as non-perforated polymeric structures can be made with high aspect ratios (>5). By varying the phase separation process the properties (e.g. porous, non-porous, dense, open skin) of the moulded product can be tuned. Applications are described in \u2026",
+              "priority_date": "2000-12-02",
+              "filing_date": "2001-12-03",
+              "grant_date": "2009-05-12",
+              "publication_date": "2009-05-12",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Aquamarijn Holding B.V.",
+              "publication_number": "US7531120B2",
+              "language": "en",
+              "thumbnail": "46/c6/d3/af44f5ccc72578/US07531120-20090512-D00000.png",
+              "pdf": "71/46/55/b0c96e80a3ef3f/US7531120.pdf",
+              "figures": [
+                {
+                  "thumbnail": "93/15/ec/6f467ad02e0fa3/US07531120-20090512-D00000.png",
+                  "full": "09/c1/0b/8b857620b4148e/US07531120-20090512-D00000.png"
+                },
+                {
+                  "thumbnail": "e4/f9/4b/663f330e295fe8/US07531120-20090512-D00001.png",
+                  "full": "e6/ce/70/b21da512e4c631/US07531120-20090512-D00001.png"
+                },
+                {
+                  "thumbnail": "76/d6/91/c7b6f3a6920c6e/US07531120-20090512-D00002.png",
+                  "full": "2d/36/52/3d9344d0b1ffc7/US07531120-20090512-D00002.png"
+                },
+                {
+                  "thumbnail": "37/5c/8b/7aba464b25a219/US07531120-20090512-D00003.png",
+                  "full": "66/b9/14/5be65a2367bd6b/US07531120-20090512-D00003.png"
+                },
+                {
+                  "thumbnail": "43/70/ec/00db99d21759bb/US07531120-20090512-D00004.png",
+                  "full": "22/f5/44/46fa0903516844/US07531120-20090512-D00004.png"
+                },
+                {
+                  "thumbnail": "c6/7a/7b/f65a00eb6253e5/US07531120-20090512-D00005.png",
+                  "full": "a9/7f/b0/e30259b97a8579/US07531120-20090512-D00005.png"
+                },
+                {
+                  "thumbnail": "a2/f8/ae/956c95b817139f/US07531120-20090512-D00006.png",
+                  "full": "7b/c7/78/75e908c68f862a/US07531120-20090512-D00006.png"
+                },
+                {
+                  "thumbnail": "fb/e3/59/ec3ee1f474bdbb/US07531120-20090512-D00007.png",
+                  "full": "55/70/25/48e92b7787405f/US07531120-20090512-D00007.png"
+                },
+                {
+                  "thumbnail": "55/35/4c/bbf6a21b9ac06f/US07531120-20090512-D00008.png",
+                  "full": "14/4c/48/617420613a7f08/US07531120-20090512-D00008.png"
+                },
+                {
+                  "thumbnail": "a9/f2/5b/b5c8b660fed26c/US07531120-20090512-D00009.png",
+                  "full": "a9/26/5f/bb07cdb744a716/US07531120-20090512-D00009.png"
+                },
+                {
+                  "thumbnail": "3f/6c/13/ef1b51bd631d32/US07531120-20090512-D00010.png",
+                  "full": "a7/8d/b8/9a63574ccf1773/US07531120-20090512-D00010.png"
+                },
+                {
+                  "thumbnail": "60/a2/98/d7c29b3b47bc64/US07531120-20090512-D00011.png",
+                  "full": "b3/41/e4/5d7c8b97d2a3f5/US07531120-20090512-D00011.png"
+                },
+                {
+                  "thumbnail": "a6/50/03/a7dc9470a0528c/US07531120-20090512-D00012.png",
+                  "full": "2e/98/30/856504c681ea0d/US07531120-20090512-D00012.png"
+                },
+                {
+                  "thumbnail": "a6/4c/9d/f8ccd89d98ad0d/US07531120-20090512-D00013.png",
+                  "full": "40/00/b4/5a312c1bff7ff7/US07531120-20090512-D00013.png"
+                },
+                {
+                  "thumbnail": "f9/db/b7/6ad7b2afc6a103/US07531120-20090512-D00014.png",
+                  "full": "17/03/07/5ec5cd96579447/US07531120-20090512-D00014.png"
+                },
+                {
+                  "thumbnail": "75/eb/2b/5ac052f0764806/US07531120-20090512-D00015.png",
+                  "full": "1d/c2/70/cf9cf720a5d526/US07531120-20090512-D00015.png"
+                },
+                {
+                  "thumbnail": "9b/fc/df/66df636e9c681f/US07531120-20090512-D00016.png",
+                  "full": "d3/68/33/5b3227e6fdeb0a/US07531120-20090512-D00016.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "NL",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/EP1781845B1/en",
+            "rank": 25,
+            "patent": {
+              "title": " Functional porous multilayer fibre and its preparation",
+              "snippet": " The invention relates to a hollow or solid fibre having multiple porous layers concentrically arranged, and wherein at least one of the layers comprises functionalized or active particles that are well accessible and maintain their function after preparation. The layer containing high loads of \u2026",
+              "priority_date": "2004-08-17",
+              "filing_date": "2005-08-17",
+              "grant_date": "2010-12-15",
+              "publication_date": "2010-12-15",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Mosaic Systems B.V.",
+              "publication_number": "EP1781845B1",
+              "language": "en",
+              "thumbnail": "14/90/87/dcd4da35d5db52/imgf0001.png",
+              "pdf": "7a/4d/39/8831780b861b48/EP1781845B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "af/e3/84/d4f77a4ed61550/imgf0001.png",
+                  "full": "99/53/81/2670ce2c6a277f/imgf0001.png"
+                },
+                {
+                  "thumbnail": "03/db/43/b4891be07cba21/imgf0002.png",
+                  "full": "34/a6/0c/214d8612354135/imgf0002.png"
+                },
+                {
+                  "thumbnail": "ba/a2/92/1a6a7ad6c39d7d/imgf0003.png",
+                  "full": "b2/5b/ae/0d188e52b0dea7/imgf0003.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CA",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US7644825B2/en",
+            "rank": 26,
+            "patent": {
+              "title": " Membrane and use thereof",
+              "snippet": " The membrane producible by shaping a polymer blend or a block copolymer comprising blocks of monomer units, loading the polymer blend or block copolymer with a blowing gas concentration within the polymer blend or block polymer above a critical concentration at a temperature below a critical \u2026",
+              "priority_date": "2002-11-30",
+              "filing_date": "2003-10-17",
+              "grant_date": "2010-01-12",
+              "publication_date": "2010-01-12",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Gambro Lundia Ab",
+              "publication_number": "US7644825B2",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "e6/75/ba/9631e714883dbe/US7644825.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "ES",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US5711882A/en",
+            "rank": 27,
+            "patent": {
+              "title": " Gas separation membrane module and process",
+              "snippet": " A spiral-wound, gas-separation membrane module and a gas-separation process. The module and process provide at least partial counter-current flow between the feed and permeate gas streams without requiring a permeate sweep. The counter-current flow pattern can be achieved by appropriate placement \u2026",
+              "priority_date": "1995-09-29",
+              "filing_date": "1995-09-29",
+              "grant_date": "1998-01-27",
+              "publication_date": "1998-01-27",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Membrane Technology And Research, Inc.",
+              "publication_number": "US5711882A",
+              "language": "en",
+              "thumbnail": "a1/ef/a7/aa052127fe3fc9/US5711882-drawings-page-2.png",
+              "pdf": "27/28/f3/97401790714562/US5711882.pdf",
+              "figures": [
+                {
+                  "thumbnail": "ca/94/4f/f710853881f464/US5711882-drawings-page-2.png",
+                  "full": "6c/7e/8e/da25e833ff1071/US5711882-drawings-page-2.png"
+                },
+                {
+                  "thumbnail": "c9/74/52/b4acef9c6e5351/US5711882-drawings-page-3.png",
+                  "full": "ea/1a/53/a7216147ac9b40/US5711882-drawings-page-3.png"
+                },
+                {
+                  "thumbnail": "01/32/b2/b61c3332fc02af/US5711882-drawings-page-4.png",
+                  "full": "21/54/e4/35b8dacf7c468a/US5711882-drawings-page-4.png"
+                },
+                {
+                  "thumbnail": "99/0f/96/4a0fd65159013b/US5711882-drawings-page-5.png",
+                  "full": "0f/3d/9d/471a4bef35d086/US5711882-drawings-page-5.png"
+                },
+                {
+                  "thumbnail": "56/d4/d8/2f104e432a260c/US5711882-drawings-page-6.png",
+                  "full": "c7/cd/28/7e6640c2f395ce/US5711882-drawings-page-6.png"
+                },
+                {
+                  "thumbnail": "67/ae/40/c61750815686f8/US5711882-drawings-page-7.png",
+                  "full": "0b/52/10/ba5ddd26e4622e/US5711882-drawings-page-7.png"
+                },
+                {
+                  "thumbnail": "17/33/71/71bea5a8141f71/US5711882-drawings-page-8.png",
+                  "full": "2f/6e/e6/8be35525ed7ac0/US5711882-drawings-page-8.png"
+                },
+                {
+                  "thumbnail": "c5/16/c3/f36fc20612f2b0/US5711882-drawings-page-9.png",
+                  "full": "5f/2e/c4/fcfa9a0638948c/US5711882-drawings-page-9.png"
+                },
+                {
+                  "thumbnail": "7c/41/cd/78039f2c6bdd94/US5711882-drawings-page-10.png",
+                  "full": "94/80/67/b8417b93092f4b/US5711882-drawings-page-10.png"
+                },
+                {
+                  "thumbnail": "fb/45/c0/c1489086d16095/US5711882-drawings-page-11.png",
+                  "full": "24/25/80/9d365b95b4731e/US5711882-drawings-page-11.png"
+                },
+                {
+                  "thumbnail": "cd/e7/01/ec646f75e20e19/US5711882-drawings-page-12.png",
+                  "full": "47/45/f8/9d946fef7f64f6/US5711882-drawings-page-12.png"
+                },
+                {
+                  "thumbnail": "f9/cd/f3/3d7daf874789db/US5711882-drawings-page-13.png",
+                  "full": "40/ef/8f/f350666a7489c0/US5711882-drawings-page-13.png"
+                },
+                {
+                  "thumbnail": "ee/f9/c6/472f35436253b7/US5711882-drawings-page-14.png",
+                  "full": "aa/4f/7f/9d2e6605cfcaa3/US5711882-drawings-page-14.png"
+                },
+                {
+                  "thumbnail": "78/c5/8a/ea33615bd5e0ff/US5711882-drawings-page-15.png",
+                  "full": "0e/d5/1f/d8a2c601c19b0a/US5711882-drawings-page-15.png"
+                },
+                {
+                  "thumbnail": "a4/81/e3/d863ab94f29b17/US5711882-drawings-page-16.png",
+                  "full": "ea/92/b4/dac2f384fec9be/US5711882-drawings-page-16.png"
+                },
+                {
+                  "thumbnail": "ba/3e/f5/aa1c2f297d5ae4/US5711882-drawings-page-17.png",
+                  "full": "c5/2b/db/af0f1f175b7c50/US5711882-drawings-page-17.png"
+                },
+                {
+                  "thumbnail": "a0/0d/3b/8dad75e66bb161/US5711882-drawings-page-18.png",
+                  "full": "f5/8e/ab/e01da944300f61/US5711882-drawings-page-18.png"
+                },
+                {
+                  "thumbnail": "6d/4d/96/29e57646533018/US5711882-drawings-page-19.png",
+                  "full": "c9/6f/81/d30ee9d1a76ccd/US5711882-drawings-page-19.png"
+                },
+                {
+                  "thumbnail": "a6/53/0f/ed60c477f0a259/US5711882-drawings-page-20.png",
+                  "full": "b9/d5/3a/0303060e776351/US5711882-drawings-page-20.png"
+                },
+                {
+                  "thumbnail": "16/5d/c1/585f709ecaf052/US5711882-drawings-page-21.png",
+                  "full": "c6/ff/2a/750d6a6a46b08f/US5711882-drawings-page-21.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/US5611841A/en",
+            "rank": 28,
+            "patent": {
+              "title": " Vapor recovery process using baffled membrane module",
+              "snippet": " A gas-separation method for controlling vapor emissions. The method employs a spiral-wound membrane module, adapted to provide one or more feed-side baffles in the feed channel. The method may be used to control vapor emissions from a volatile liquid, and is particularly useful to control fuel \u2026",
+              "priority_date": "1995-09-29",
+              "filing_date": "1995-09-29",
+              "grant_date": "1997-03-18",
+              "publication_date": "1997-03-18",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Membrane Technology And Research, Inc.",
+              "publication_number": "US5611841A",
+              "language": "en",
+              "thumbnail": "2a/27/c5/59cdd5b0e1ba2f/US5611841-drawings-page-2.png",
+              "pdf": "81/c9/89/4c4893ff8e7b24/US5611841.pdf",
+              "figures": [
+                {
+                  "thumbnail": "57/40/f9/d217ae0f8ce778/US5611841-drawings-page-2.png",
+                  "full": "8c/b8/1a/2ed22cd085fd3f/US5611841-drawings-page-2.png"
+                },
+                {
+                  "thumbnail": "f7/53/6a/e4857bb01637c4/US5611841-drawings-page-3.png",
+                  "full": "bb/97/70/f7ee439be4d320/US5611841-drawings-page-3.png"
+                },
+                {
+                  "thumbnail": "36/da/be/efa73d9a891490/US5611841-drawings-page-4.png",
+                  "full": "5c/9b/6d/fb0ef7a9a0a75e/US5611841-drawings-page-4.png"
+                },
+                {
+                  "thumbnail": "65/16/47/f097f8a940e9aa/US5611841-drawings-page-5.png",
+                  "full": "1a/06/9f/cc1a79cc517991/US5611841-drawings-page-5.png"
+                },
+                {
+                  "thumbnail": "ea/31/55/7799dc644f6455/US5611841-drawings-page-6.png",
+                  "full": "bd/9e/df/006abb56f21b45/US5611841-drawings-page-6.png"
+                },
+                {
+                  "thumbnail": "f8/00/2b/c1fa38995a2070/US5611841-drawings-page-7.png",
+                  "full": "0a/e6/fa/b010e4b9c1b2a6/US5611841-drawings-page-7.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/DE102023106667A1/en",
+            "rank": 29,
+            "patent": {
+              "title": " Device for carrying out at least one local polymerization process of a \u2026",
+              "snippet": " Device (1) for carrying out at least one local polymerization process of a polymerizable material for the continuous additive production of at least one three-dimensional object (2) by means of multiphoton photopolymerization, wherein the device (1) comprises: at least one container (3) which \u2026",
+              "priority_date": "2023-03-16",
+              "filing_date": "2023-03-16",
+              "publication_date": "2024-09-19",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Xolo Gmbh",
+              "publication_number": "DE102023106667A1",
+              "language": "en",
+              "thumbnail": "64/54/ec/c7d63fdc09b295/DE102023106667A1_0004.png",
+              "pdf": "4e/8b/01/cb7163a947faa1/DE102023106667A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "f7/39/3c/42427d11c92360/DE102023106667A1_0004.png",
+                  "full": "40/d6/43/8704b25cefe05e/DE102023106667A1_0004.png"
+                },
+                {
+                  "thumbnail": "6b/72/9c/fff40212aac42c/DE102023106667A1_0005.png",
+                  "full": "c3/8c/dc/e7a4ca55a059e6/DE102023106667A1_0005.png"
+                },
+                {
+                  "thumbnail": "b2/0b/c0/3630cbed4450d9/DE102023106667A1_0006.png",
+                  "full": "22/bb/91/8c40799ddf08fe/DE102023106667A1_0006.png"
+                },
+                {
+                  "thumbnail": "f9/43/2e/a5801c17c412b2/DE102023106667A1_0007.png",
+                  "full": "62/ad/a8/cb5e6ef561152e/DE102023106667A1_0007.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/DE102023125255A1/en",
+            "rank": 30,
+            "patent": {
+              "title": " Electrochemical hydrogen compressor",
+              "snippet": " The invention relates to an electrochemical hydrogen compressor (1) comprising at least one compressor unit (4), wherein in the at least one compressor unit (4) between two gas flow regions (4a, 4b) an electrode arrangement (4c, 4d, 4e) is arranged, which comprises a gas-tight, proton-permeable \u2026",
+              "priority_date": "2023-09-19",
+              "filing_date": "2023-09-19",
+              "publication_date": "2025-03-20",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Rheinisch-Westf\u00e4lische Technische Hochschule Aachen, abgek\u00fcrzt RWTH Aachen, \u2026",
+              "publication_number": "DE102023125255A1",
+              "language": "en",
+              "thumbnail": "1d/e0/b7/5054390a8bfa41/DE102023125255A1_0001.png",
+              "pdf": "3d/5a/ea/14f1ac741417f4/DE102023125255A1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "a7/7f/1b/72c7353d1d513d/DE102023125255A1_0001.png",
+                  "full": "80/31/d3/b3a3553f611469/DE102023125255A1_0001.png"
+                },
+                {
+                  "thumbnail": "c8/56/77/94f16e190467e5/DE102023125255A1_0002.png",
+                  "full": "ff/da/69/8e2d13df377584/DE102023125255A1_0002.png"
+                },
+                {
+                  "thumbnail": "c5/58/0f/b6b894c97438b3/DE102023125255A1_0003.png",
+                  "full": "19/2a/6d/dc543f06f6d53d/DE102023125255A1_0003.png"
+                },
+                {
+                  "thumbnail": "ed/96/7a/799863b018196d/DE102023125255A1_0004.png",
+                  "full": "47/16/88/f9a961b4b5c7c7/DE102023125255A1_0004.png"
+                },
+                {
+                  "thumbnail": "19/40/22/f8d9368cb31b00/DE102023125255A1_0005.png",
+                  "full": "f5/80/78/6b2b8b99203dc7/DE102023125255A1_0005.png"
+                },
+                {
+                  "thumbnail": "8c/df/63/f3f2cc69a7315d/DE102023125255A1_0006.png",
+                  "full": "b2/05/97/db23849ab4a24d/DE102023125255A1_0006.png"
+                },
+                {
+                  "thumbnail": "bc/b3/b4/4a7e457d145e65/DE102023125255A1_0007.png",
+                  "full": "f8/43/eb/f2e0224723e808/DE102023125255A1_0007.png"
+                },
+                {
+                  "thumbnail": "d6/14/89/d1bc99bcc8a790/DE102023125255A1_0008.png",
+                  "full": "dd/c3/a1/12c3ef723d433c/DE102023125255A1_0008.png"
+                },
+                {
+                  "thumbnail": "b3/db/45/0701ab3ba243a4/DE102023125255A1_0009.png",
+                  "full": "16/8b/bd/efc1682b6aab48/DE102023125255A1_0009.png"
+                },
+                {
+                  "thumbnail": "ab/3e/47/a403f20b41bfc1/DE102023125255A1_0010.png",
+                  "full": "98/f6/46/653aaad9c5d478/DE102023125255A1_0010.png"
+                },
+                {
+                  "thumbnail": "d7/60/ee/037d43ecb0d4a7/DE102023125255A1_0011.png",
+                  "full": "3d/92/a6/d0b7bcda5f7e4d/DE102023125255A1_0011.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/WO2002004554A1/en",
+            "rank": 31,
+            "patent": {
+              "title": " Membrane and the use thereof",
+              "snippet": " The invention relates to a membrane that consists of a polymer or a polymer mixture. The aim of the invention is to produce membranes, especially planar membranes or hollow fiber membranes that have an as high a separation efficiency as possible while simultaneously having a high membrane \u2026",
+              "priority_date": "2000-07-08",
+              "filing_date": "2001-06-15",
+              "publication_date": "2002-01-17",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Universit\u00e4t Twente",
+              "publication_number": "WO2002004554A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "31/df/00/b297d382e4b4b0/WO2002004554A1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "ES",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/NL1029544C2/en",
+            "rank": 32,
+            "patent": {
+              "title": " Biological fuel cell.",
+              "snippet": " The invention concerns a biological fuel cell. The biological fuel cell comprises a number of cathode compartments, provided with a cathode; a number of anode compartments, provided with a anode; and a partition wall separating the cathode- and anode compartments. The biological fuel cell is \u2026",
+              "priority_date": "2005-07-15",
+              "filing_date": "2005-07-15",
+              "grant_date": "2007-01-16",
+              "publication_date": "2007-01-16",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Magneto Special Anodes B V",
+              "publication_number": "NL1029544C2",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "fb/8c/62/b60370f7d5382a/NL1029544C2.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DK",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "NL",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/DE102024129531A1/en",
+            "rank": 33,
+            "patent": {
+              "title": " Method for the production of polyelectrolyte complex membranes for \u2026",
+              "snippet": " The present invention relates to membrane materials and provides methods for producing membranes for ultrafiltration, microfiltration, and nanofiltration without the use of toxic solvents. Furthermore, the present invention provides such novel membrane materials with improved stability compared to \u2026",
+              "priority_date": "2024-10-11",
+              "filing_date": "2024-10-11",
+              "publication_date": "2026-04-16",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Rheinisch-Westf\u00e4lische Technische Hochschule Aachen, abgek\u00fcrzt RWTH Aachen, \u2026",
+              "publication_number": "DE102024129531A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/BR112012022443B1/en",
+            "rank": 34,
+            "patent": {
+              "title": " process for the manufacture of a hollow fiber membrane having a support layer \u2026",
+              "snippet": " PROCESS FOR MANUFACTURING A HOLLOW FIBER MEMBRANE HAVING A SUPPORT LAYER AND A SEPARATION LAYER, HOLLOW FIBER MEMBRANE AND USE OF HOLLOW FIBER MEMBRANE The present invention relates to a process for manufacturing a hollow fiber membrane which it has a supporting layer and a separating layer, in \u2026",
+              "priority_date": "2010-03-05",
+              "filing_date": "2011-03-04",
+              "publication_date": "2021-04-20",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Nx Filtration Holding B.V.",
+              "publication_number": "BR112012022443B1",
+              "language": "en",
+              "thumbnail": "31/6f/20/799929581d4638/img0003.png",
+              "pdf": "bd/c7/5d/dd3eb316f1a4e6/BR112012022443B1.pdf",
+              "figures": [
+                {
+                  "thumbnail": "64/91/e5/afcb39a2ecc203/img0003.png",
+                  "full": "3d/db/a3/36a515fa616701/img0003.png"
+                },
+                {
+                  "thumbnail": "af/a5/c8/12139a44dee683/img0004.png",
+                  "full": "c2/44/57/ec97ba50705afe/img0004.png"
+                }
+              ],
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "BR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/WO2024023237A1/en",
+            "rank": 35,
+            "patent": {
+              "title": " Method for producing polyvinylidene fluoride in a membrane reactor",
+              "snippet": " The present invention relates to a method for producing polyvinylidene fluoride with polymerization of vinylidene fluoride, in particularly using a polymerization reactor that comprises a membrane.",
+              "priority_date": "2022-07-28",
+              "filing_date": "2023-07-27",
+              "publication_date": "2024-02-01",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Rheinisch-Westf\u00e4lische Technische Hochschule (Rwth) Aachen",
+              "publication_number": "WO2024023237A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "c2/b2/88/28cac74216c8a9/WO2024023237A1.pdf",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/AU2003230463A1/en",
+            "rank": 36,
+            "patent": {
+              "title": " Separation of unsaturated hydrocarbons from a fluid mixture",
+              "snippet": "",
+              "priority_date": "2002-06-28",
+              "filing_date": "2003-05-08",
+              "publication_date": "2004-01-19",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Nederlandse Organisatie Voor Toegepast- Natuurwetenschappelijk Onderzoek Tno",
+              "publication_number": "AU2003230463A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/DE102024114129A1/en",
+            "rank": 37,
+            "patent": {
+              "title": " Switchable electrode arrangement",
+              "snippet": " The present invention relates to an electrode arrangement (10) for an electrochemical cell, wherein the electrode arrangement comprises at least one first electrode (14) and one second electrode (16), wherein the first electrode (14) and the second electrode (16) can be operated in the same \u2026",
+              "priority_date": "2024-05-21",
+              "filing_date": "2024-05-21",
+              "publication_date": "2025-11-27",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Rheinisch-Westf\u00e4lische Technische Hochschule Aachen, abgek\u00fcrzt RWTH Aachen, \u2026",
+              "publication_number": "DE102024114129A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/AU2435100A/en",
+            "rank": 38,
+            "patent": {
+              "title": " Membrane and its use",
+              "snippet": " The invention relates to a membrane that is produced by shaping a polymer or a polymer blend into the desired shape, charging it with a gas at hyperbaric pressure prior or after shaping it, expanding the polymer charged with gas above the glass transition temperature of the polymer/gas mixture and \u2026",
+              "priority_date": "1999-02-24",
+              "filing_date": "2000-01-05",
+              "publication_date": "2000-09-14",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Universitat Twente",
+              "publication_number": "AU2435100A",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "CN",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "KR",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AU",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "ES",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/ES2183560T3/en",
+            "rank": 39,
+            "patent": {
+              "title": " PREPARATION OF AN ORGANIC COMPOUND FOR A CONDENSATION RACTION.",
+              "snippet": " A process for the preparation of an organic compound by a condensation reaction in which in addition to the organic compound, other products are formed and one or more of the products formed during the preparation are extracted from the reaction mixture with the aid of a membrane , characterized \u2026",
+              "priority_date": "1998-05-20",
+              "filing_date": "1999-05-15",
+              "grant_date": "2003-03-16",
+              "publication_date": "2003-03-16",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Akzo Nobel Nv",
+              "publication_number": "ES2183560T3",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "EP",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "US",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "JP",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "AT",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "ES",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "NL",
+                      "best_patent_stage": {
+                        "state": "NOT_ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          },
+          {
+            "id": "patent/DE102024131256A1/en",
+            "rank": 40,
+            "patent": {
+              "title": " METHOD FOR THE PRODUCTION OF PLANAR, POROUS HYDROGELS BY FLOW LITHOGRAPHY",
+              "snippet": " The present invention lies in the technical field of additive manufacturing and provides a continuous process for producing planar, porous hydrogels and structures. The present invention also provides a device for the continuous production of hydrogels.",
+              "priority_date": "2024-10-25",
+              "filing_date": "2024-10-25",
+              "publication_date": "2026-04-30",
+              "inventor": " Matthias Wessling ",
+              "assignee": "Dwi - Leibniz-Institut F\u00fcr Interaktive Materialien E.V.",
+              "publication_number": "DE102024131256A1",
+              "language": "en",
+              "thumbnail": "",
+              "pdf": "",
+              "family_metadata": {
+                "aggregated": {
+                  "country_status": [
+                    {
+                      "country_code": "WO",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    },
+                    {
+                      "country_code": "DE",
+                      "best_patent_stage": {
+                        "state": "ACTIVE"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "is_similar_document": false,
+            "entity_matches": {
+              "additional": 0
+            },
+            "measure_matches": {}
+          }
+        ]
+      }
+    ],
+    "chem_exhausted": false,
+    "summary": {
+      "assignee": [
+        {
+          "key": "Total",
+          "value": 1000,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 9
+            },
+            {
+              "key": "2019-2022",
+              "value": 7
+            },
+            {
+              "key": "2016-2019",
+              "value": 2
+            },
+            {
+              "key": "2013-2016",
+              "value": 4
+            },
+            {
+              "key": "2010-2013",
+              "value": 4
+            },
+            {
+              "key": "2007-2010",
+              "value": 5
+            },
+            {
+              "key": "2004-2007",
+              "value": 2
+            },
+            {
+              "key": "2001-2004",
+              "value": 4
+            },
+            {
+              "key": "1998-2001",
+              "value": 2
+            },
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Rheinisch-Westf\u00e4lische Technische Hochschule (Rwth) Aachen",
+          "value": 97,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 2
+            },
+            {
+              "key": "2019-2022",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Rheinisch-Westf\u00e4lische Technische Hochschule Aachen, abgek\u00fcrzt RWTH Aachen, K\u00f6rperschaft des \u00f6ffentlichen Rechts",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "key": "DWI - Leibniz-Institut f\u00fcr Interaktive Materialien e.V.",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Membrane Technology And Research, Inc.",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Gambro Lundia AB",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Dwi - Leibniz-Institut F\u00fcr Interaktive Materialien E.V.",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Gambro Lundia Ab",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Universiteit Twente",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2010-2013",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Sartorius Stedim Biotech Gmbh",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2016-2019",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Xolo Gmbh",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Nx Filtration Holding B.V.",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2010-2013",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Nederlandse Organisatie Voor Toegepast- Natuurwetenschappelijk Onderzoek Tno",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Dimitrios Stamatialis",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2007-2010",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Stichting Wetsus Ct Excellence Sustainable Water Technology",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2007-2010",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "DWI an der RWTH Aachen e.V.",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2013-2016",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Magneto Special Anodes B.V.",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2010-2013",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "NX Filtration Holding B.V.",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2010-2013",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Dwi\u2014Leibniz-Institut Fur Interaktive Materialien E.V.",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2016-2019",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Mosaic Systems B.V.",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2004-2007",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "inventor": [
+        {
+          "key": "Matthias Wessling",
+          "value": 1000,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 9
+            },
+            {
+              "key": "2019-2022",
+              "value": 7
+            },
+            {
+              "key": "2016-2019",
+              "value": 2
+            },
+            {
+              "key": "2013-2016",
+              "value": 4
+            },
+            {
+              "key": "2010-2013",
+              "value": 4
+            },
+            {
+              "key": "2007-2010",
+              "value": 5
+            },
+            {
+              "key": "2004-2007",
+              "value": 2
+            },
+            {
+              "key": "2001-2004",
+              "value": 4
+            },
+            {
+              "key": "1998-2001",
+              "value": 2
+            },
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Total",
+          "value": 1000,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 9
+            },
+            {
+              "key": "2019-2022",
+              "value": 7
+            },
+            {
+              "key": "2016-2019",
+              "value": 2
+            },
+            {
+              "key": "2013-2016",
+              "value": 4
+            },
+            {
+              "key": "2010-2013",
+              "value": 4
+            },
+            {
+              "key": "2007-2010",
+              "value": 5
+            },
+            {
+              "key": "2004-2007",
+              "value": 2
+            },
+            {
+              "key": "2001-2004",
+              "value": 4
+            },
+            {
+              "key": "1998-2001",
+              "value": 2
+            },
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Dimitrios Stamatialis",
+          "value": 121,
+          "frequency": [
+            {
+              "key": "2010-2013",
+              "value": 2
+            },
+            {
+              "key": "2007-2010",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "key": "Bernd Krause",
+          "value": 97,
+          "frequency": [
+            {
+              "key": "2019-2022",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 2
+            },
+            {
+              "key": "1998-2001",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Youri Gendel",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2016-2019",
+              "value": 1
+            },
+            {
+              "key": "2013-2016",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Markus Storr",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Szymon Maria Dutczak",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2010-2013",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Sybrandus Jacob Metz",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2007-2010",
+              "value": 1
+            },
+            {
+              "key": "2004-2007",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "John Linkhorst",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Martin Rempfer",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Michael Kather",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2019-2022",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Karina Katarzyna Kopec",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2010-2013",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Ilka Rose",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Thomas Hofmann",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Hannah Roth",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Moritz Meyer",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Richard W. Baker",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Dorothea Catharina Nymeijer",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2004-2007",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Ralf Menda",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Heiner Strahtmann",
+          "value": 24,
+          "frequency": [
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        }
+      ],
+      "cpc": [
+        {
+          "key": "Total",
+          "value": 1000,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 9
+            },
+            {
+              "key": "2019-2022",
+              "value": 7
+            },
+            {
+              "key": "2016-2019",
+              "value": 2
+            },
+            {
+              "key": "2013-2016",
+              "value": 4
+            },
+            {
+              "key": "2010-2013",
+              "value": 4
+            },
+            {
+              "key": "2007-2010",
+              "value": 5
+            },
+            {
+              "key": "2004-2007",
+              "value": 2
+            },
+            {
+              "key": "2001-2004",
+              "value": 4
+            },
+            {
+              "key": "1998-2001",
+              "value": 2
+            },
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "B01D",
+          "value": 634,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 4
+            },
+            {
+              "key": "2019-2022",
+              "value": 4
+            },
+            {
+              "key": "2016-2019",
+              "value": 2
+            },
+            {
+              "key": "2013-2016",
+              "value": 3
+            },
+            {
+              "key": "2010-2013",
+              "value": 2
+            },
+            {
+              "key": "2007-2010",
+              "value": 4
+            },
+            {
+              "key": "2001-2004",
+              "value": 4
+            },
+            {
+              "key": "1998-2001",
+              "value": 1
+            },
+            {
+              "key": "1995-1998",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "B01J",
+          "value": 170,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 2
+            },
+            {
+              "key": "2013-2016",
+              "value": 2
+            },
+            {
+              "key": "2004-2007",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 1
+            },
+            {
+              "key": "1998-2001",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "B29C",
+          "value": 146,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 3
+            },
+            {
+              "key": "2001-2004",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "key": "C02F",
+          "value": 121,
+          "frequency": [
+            {
+              "key": "2019-2022",
+              "value": 1
+            },
+            {
+              "key": "2016-2019",
+              "value": 1
+            },
+            {
+              "key": "2013-2016",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Y02E",
+          "value": 121,
+          "frequency": [
+            {
+              "key": "2013-2016",
+              "value": 2
+            },
+            {
+              "key": "2010-2013",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 1
+            },
+            {
+              "key": "2004-2007",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "H01M",
+          "value": 121,
+          "frequency": [
+            {
+              "key": "2013-2016",
+              "value": 2
+            },
+            {
+              "key": "2010-2013",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 1
+            },
+            {
+              "key": "2004-2007",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "Y10T",
+          "value": 97,
+          "frequency": [
+            {
+              "key": "2013-2016",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 1
+            },
+            {
+              "key": "2004-2007",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "C08L",
+          "value": 97,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            },
+            {
+              "key": "2010-2013",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "A61M",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            },
+            {
+              "key": "2013-2016",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "D01D",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2013-2016",
+              "value": 1
+            },
+            {
+              "key": "2010-2013",
+              "value": 1
+            },
+            {
+              "key": "2004-2007",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "B33Y",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "key": "C25B",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 2
+            },
+            {
+              "key": "2013-2016",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "C08J",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 2
+            },
+            {
+              "key": "2019-2022",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "G01N",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2013-2016",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "B01F",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2019-2022",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "Y02C",
+          "value": 73,
+          "frequency": [
+            {
+              "key": "2013-2016",
+              "value": 2
+            },
+            {
+              "key": "1995-1998",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "C08F",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "key": "B29K",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2022-2025",
+              "value": 1
+            },
+            {
+              "key": "2001-2004",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "key": "C12M",
+          "value": 48,
+          "frequency": [
+            {
+              "key": "2019-2022",
+              "value": 1
+            },
+            {
+              "key": "2007-2010",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

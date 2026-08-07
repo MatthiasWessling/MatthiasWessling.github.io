@@ -16,7 +16,25 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Heme-Protein Active Site Models via Self-Assembly in Water"
+year = "2003"
+journal = "Organic Letters"
+doi = "10.1021/ol030053w"
+url = "https://doi.org/10.1021/ol030053w"
+authors = "Fiammengo, R.; Wojciechowski, K.; Crego-Calama, M.; Timmerman, P.; Figoli, A.; Wessling, M.; Reinhoudt, D.N."
+
+[[publications]]
+title = "Synthesis of novel nanostructured mixed matrix membranes"
+year = "2002"
+journal = "Desalination"
+doi = "10.1016/S0011-9164(02)00755-5"
+url = "https://doi.org/10.1016/S0011-9164(02)00755-5"
+authors = "Figoli, A.; Sager, W.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

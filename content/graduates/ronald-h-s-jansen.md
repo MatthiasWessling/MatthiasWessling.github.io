@@ -16,7 +16,41 @@ thesis_pdf = "https://research.utwente.nl/files/6120122/thesis_Jansen.pdf"
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Response to comment on \"outside-in trimming of humic substances during ozonation in a membrane contactor\" [2]"
+year = "2007"
+journal = "Environmental Science and Technology"
+doi = "10.1021/es078005k"
+url = "https://doi.org/10.1021/es078005k"
+authors = "Jansen, R.H.S.; Zwijnenburg, A.; Van Der Meer, W.G.J.; Wessling, M."
+
+[[publications]]
+title = "Outside-in trimming of humic substances during ozonation in a membrane contactor"
+year = "2006"
+journal = "Environmental Science and Technology"
+doi = "10.1021/es060533t"
+url = "https://doi.org/10.1021/es060533t"
+authors = "Jansen, R.H.S.; Zwijnenburg, A.; Van Der Meer, W.G.J.; Wessling, M."
+
+[[publications]]
+title = "Hollow fiber membrane contactors - A means to study the reaction kinetics of humic substance ozonation"
+year = "2005"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2004.07.038"
+url = "https://doi.org/10.1016/j.memsci.2004.07.038"
+authors = "Jansen, R.H.S.; De Rijk, J.W.; Zwijnenburg, A.; Mulder, M.H.V.; Wessling, M."
+
+[[publications]]
+title = "Analysis of cell-stabilizing additives in low-density polyethylene foams using low-frequency dielectric spectroscopy"
+year = "2003"
+journal = "Macromolecules"
+doi = "10.1021/ma025947v"
+url = "https://doi.org/10.1021/ma025947v"
+authors = "Barsema, J.N.; Bostoen, C.L.; Jansen, R.H.S.; Mulder, M.H.V.; Nauta, W.J.; Steeman, P.A.M.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

@@ -16,7 +16,33 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/943024/files/943024.pdf
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Poly(styrene-alt-maleic anhydride)-copolymers blended in poly(ether sulfone) membranes as a platform for effective biomolecular surface functionalization"
+year = "2024"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2023.122050"
+url = "https://doi.org/10.1016/j.memsci.2023.122050"
+authors = "Helmecke, T.; Rose, I.I.; Tsurkan, M.V.; Roth, H.; Maitz, M.F.; Werner, C.; Wessling, M."
+
+[[publications]]
+title = "Single-step chitosan functionalized membranes for heparinization"
+year = "2022"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2022.120567"
+url = "https://doi.org/10.1016/j.memsci.2022.120567"
+authors = "Rose, I.I.; Kather, M.; Roth, H.; Dünkelberg, H.; Rein, L.; Klimosch, S.N.; Schmolz, M.; Wessling, M."
+
+[[publications]]
+title = "Chemistry in a spinneret—Polydopamine functionalized hollow fiber membranes"
+year = "2022"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2022.120324"
+url = "https://doi.org/10.1016/j.memsci.2022.120324"
+authors = "Rose, I.I.; Roth, H.; Xie, J.; Hollmann, F.; Votteler, S.; Storr, M.; Krause, B.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

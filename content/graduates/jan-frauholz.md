@@ -16,7 +16,17 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/1020930/files/1020930.p
 linkedin = "https://www.linkedin.com/in/jan-frauholz-7152a78a/"
 orcid = "https://orcid.org/0000-0002-4933-5501"
 featured = false
+
+[[publications]]
+title = "Seawater desalination by forward-osmosis-assisted temperature swing solvent extraction"
+year = "2023"
+journal = "Desalination"
+doi = "10.1016/j.desal.2023.116697"
+url = "https://doi.org/10.1016/j.desal.2023.116697"
+authors = "Frauholz, J.; Roth, H.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

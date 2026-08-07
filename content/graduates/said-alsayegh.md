@@ -16,7 +16,33 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Methanol production via direct carbon dioxide hydrogenation using hydrogen from photocatalytic water splitting: Process development and techno-economic analysis"
+year = "2019"
+journal = "Journal of Cleaner Production"
+doi = "10.1016/j.jclepro.2018.10.132"
+url = "https://doi.org/10.1016/j.jclepro.2018.10.132"
+authors = "Alsayegh, S.; Johnson, J.R.; Ohs, B.; Wessling, M."
+
+[[publications]]
+title = "Systematic optimization of H2 recovery from water splitting process using membranes and N2 diluent"
+year = "2017"
+journal = "International Journal of Hydrogen Energy"
+doi = "10.1016/j.ijhydene.2016.11.186"
+url = "https://doi.org/10.1016/j.ijhydene.2016.11.186"
+authors = "Alsayegh, S.; Johnson, J.R.; Ohs, B.; Lohaus, J.; Wessling, M."
+
+[[publications]]
+title = "CO2 aided H2 recovery from water splitting processes"
+year = "2017"
+journal = "International Journal of Hydrogen Energy"
+doi = "10.1016/j.ijhydene.2017.07.023"
+url = "https://doi.org/10.1016/j.ijhydene.2017.07.023"
+authors = "Alsayegh, S.; Johnson, J.R.; Wei, X.; Ohs, B.; Lohaus, J.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

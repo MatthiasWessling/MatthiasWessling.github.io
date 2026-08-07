@@ -789,9 +789,13 @@ class PatentsProductsDirectory {
     constructor() {
         this.list = document.getElementById('patents-products-list');
         this.searchInput = document.getElementById('patents-products-search');
+        this.topicsInput = document.getElementById('patents-products-topics-search');
+        this.yearSelect = document.getElementById('patents-products-year');
+        this.organizationSelect = document.getElementById('patents-products-organization');
         this.sortSelect = document.getElementById('patents-products-sort');
         this.resultsCount = document.getElementById('patents-products-results-count');
         this.entries = [];
+        this.yearHeadings = new Map();
 
         this.init();
     }
@@ -807,27 +811,82 @@ class PatentsProductsDirectory {
         }
 
         this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        if (this.topicsInput) {
+            this.topicsInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        }
+        if (this.yearSelect) {
+            this.yearSelect.addEventListener('change', () => this.render());
+        }
+        if (this.organizationSelect) {
+            this.organizationSelect.addEventListener('change', () => this.render());
+        }
         this.sortSelect.addEventListener('change', () => this.render());
         this.render();
     }
 
+    getYearHeading(year) {
+        if (this.yearHeadings.has(year)) {
+            return this.yearHeadings.get(year);
+        }
+        const heading = document.createElement('h2');
+        heading.className = 'graduates-year-heading';
+        heading.dataset.yearHeading = year;
+        heading.textContent = year;
+        this.yearHeadings.set(year, heading);
+        return heading;
+    }
+
+    clearYearHeadings() {
+        this.list.querySelectorAll('.graduates-year-heading').forEach((el) => el.remove());
+        this.yearHeadings.clear();
+    }
+
+    ensureEmptyState() {
+        let empty = this.list.querySelector('.patents-products-empty-state');
+        if (!empty) {
+            empty = document.createElement('p');
+            empty.className = 'no-content patents-products-empty-state';
+            empty.hidden = true;
+            this.list.appendChild(empty);
+        }
+        return empty;
+    }
+
     render() {
         const query = this.searchInput.value.trim().toLowerCase();
+        const topicsQuery = (this.topicsInput?.value || '').trim().toLowerCase();
+        const yearFilter = (this.yearSelect?.value || '').trim();
+        const organizationFilter = (this.organizationSelect?.value || '').trim().toLowerCase();
         const sortMode = this.sortSelect.value;
 
         const filtered = this.entries.filter((entry) => {
             const title = entry.dataset.title || '';
             const summary = entry.dataset.summary || '';
-            return !query || title.includes(query) || summary.includes(query);
+            const topics = entry.dataset.topics || '';
+            const year = entry.dataset.year || '';
+            const organization = entry.dataset.organization || '';
+            const haystack = `${title} ${summary} ${topics}`;
+            const matchesSearch = !query || haystack.includes(query);
+            const matchesTopics = !topicsQuery || topics.includes(topicsQuery);
+            const matchesYear = !yearFilter || year === yearFilter;
+            const matchesOrganization = !organizationFilter || organization === organizationFilter;
+            return matchesSearch && matchesTopics && matchesYear && matchesOrganization;
         });
+
+        const groupByYear = sortMode === 'newest' || sortMode === 'oldest';
 
         filtered.sort((a, b) => {
             const dateA = Number(a.dataset.date || 0);
             const dateB = Number(b.dataset.date || 0);
             const titleA = (a.dataset.title || '').toLowerCase();
             const titleB = (b.dataset.title || '').toLowerCase();
+            const yearA = a.dataset.year || '';
+            const yearB = b.dataset.year || '';
 
             if (sortMode === 'oldest') {
+                if (yearA !== yearB) {
+                    return yearA.localeCompare(yearB);
+                }
                 return dateA - dateB;
             }
             if (sortMode === 'title-asc') {
@@ -836,14 +895,32 @@ class PatentsProductsDirectory {
             if (sortMode === 'title-desc') {
                 return titleB.localeCompare(titleA);
             }
-            // default: newest first
+            if (yearA !== yearB) {
+                return yearB.localeCompare(yearA);
+            }
             return dateB - dateA;
         });
 
+        this.clearYearHeadings();
         this.entries.forEach((entry) => {
             entry.style.display = 'none';
         });
+
+        const empty = this.ensureEmptyState();
+        empty.hidden = filtered.length > 0;
+        empty.textContent = filtered.length
+            ? ''
+            : 'No patents match these filters. Clear Topics/Year/Organization or try another search.';
+
+        let currentYear = null;
         filtered.forEach((entry) => {
+            if (groupByYear) {
+                const year = entry.dataset.year || '';
+                if (year && year !== currentYear) {
+                    currentYear = year;
+                    this.list.appendChild(this.getYearHeading(year));
+                }
+            }
             Utils.showDirectoryEntry(entry, this.list);
         });
 

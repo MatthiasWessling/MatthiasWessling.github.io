@@ -16,7 +16,25 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/834117/files/834117.pdf
 linkedin = "https://www.linkedin.com/in/qingcui-rwth/"
 orcid = "https://orcid.org/0000-0002-1970-5145"
 featured = false
+
+[[publications]]
+title = "Wet-Spun PEDOT/CNT Composite Hollow Fibers as Flexible Electrodes for H2O2 Production**"
+year = "2021"
+journal = "ChemElectroChem"
+doi = "10.1002/celc.202100237"
+url = "https://doi.org/10.1002/celc.202100237"
+authors = "Cui, Q.; Bell, D.J.; Wang, S.; Mohseni, M.; Felder, D.; Lölsberg, J.; Wessling, M."
+
+[[publications]]
+title = "Wet-Spinning of Biocompatible Core–Shell Polyelectrolyte Complex Fibers for Tissue Engineering"
+year = "2020"
+journal = "Advanced Materials Interfaces"
+doi = "10.1002/admi.202000849"
+url = "https://doi.org/10.1002/admi.202000849"
+authors = "Cui, Q.; Bell, D.J.; Rauer, S.B.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

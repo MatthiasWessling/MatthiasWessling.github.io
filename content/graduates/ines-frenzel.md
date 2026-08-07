@@ -16,7 +16,41 @@ thesis_pdf = "https://research.utwente.nl/files/6119857/thesis_Frenzel.pdf"
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Water recycling from mixed chromic acid waste effluents by membrane technology"
+year = "2006"
+journal = "Separation and Purification Technology"
+doi = "10.1016/j.seppur.2005.08.010"
+url = "https://doi.org/10.1016/j.seppur.2005.08.010"
+authors = "Frenzel, I.; Stamatialis, D.F.; Wessling, M."
+
+[[publications]]
+title = "Electrochemical reduction of dilute chromate solutions on carbon felt electrodes"
+year = "2006"
+journal = "Journal of Applied Electrochemistry"
+doi = "10.1007/s10800-005-9074-y"
+url = "https://doi.org/10.1007/s10800-005-9074-y"
+authors = "Frenzel, I.; Holdik, H.; Barmashenko, V.; Stamatialis, D.F.; Wessling, M."
+
+[[publications]]
+title = "Chromic acid recovery by electro-electrodialysis: II. Pilot scale process, development, and optimization"
+year = "2005"
+journal = "Separation and Purification Technology"
+doi = "10.1016/j.seppur.2005.06.002"
+url = "https://doi.org/10.1016/j.seppur.2005.06.002"
+authors = "Frenzel, I.; Holdik, H.; Stamatialis, D.F.; Pourcelly, G.; Wessling, M."
+
+[[publications]]
+title = "Chromic acid recovery by electro-electrodialysis I. Evaluation of anion-exchange membrane"
+year = "2005"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2005.03.031"
+url = "https://doi.org/10.1016/j.memsci.2005.03.031"
+authors = "Frenzel, I.; Holdik, H.; Stamatialis, D.F.; Pourcelly, G.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

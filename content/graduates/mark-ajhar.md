@@ -16,7 +16,17 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Siloxane removal using silicone-rubber membranes"
+year = "2012"
+journal = "Separation and Purification Technology"
+doi = "10.1016/j.seppur.2012.01.003"
+url = "https://doi.org/10.1016/j.seppur.2012.01.003"
+authors = "Ajhar, M.; Bannwarth, S.; Stollenwerk, K.-H.; Spalding, G.; Yüce, S.; Wessling, M.; Melin, T."
 +++
+
+
 
 ## Thesis
 

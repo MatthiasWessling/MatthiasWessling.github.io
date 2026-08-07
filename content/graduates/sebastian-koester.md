@@ -16,7 +16,49 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Modeling heat and mass transfer in cross-counterflow enthalpy exchangers"
+year = "2017"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2016.10.030"
+url = "https://doi.org/10.1016/j.memsci.2016.10.030"
+authors = "Koester, S.; Falkenberg, M.; Logemann, M.; Wessling, M."
+
+[[publications]]
+title = "Spacer enhanced heat and mass transfer in membrane-based enthalpy exchangers"
+year = "2016"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2016.06.002"
+url = "https://doi.org/10.1016/j.memsci.2016.06.002"
+authors = "Koester, S.; Klasen, A.; Lölsberg, J.; Wessling, M."
+
+[[publications]]
+title = "On individual resistances of selective skin, porous support and diffusion boundary layer in water vapor permeation"
+year = "2016"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2015.12.070"
+url = "https://doi.org/10.1016/j.memsci.2015.12.070"
+authors = "Koester, S.; Lölsberg, J.; Lutz, L.; Marten, D.; Wessling, M."
+
+[[publications]]
+title = "Water vapor permeance: The interplay of feed and permeate activity"
+year = "2015"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2015.03.019"
+url = "https://doi.org/10.1016/j.memsci.2015.03.019"
+authors = "Koester, S.; Roghmans, F.; Wessling, M."
+
+[[publications]]
+title = "Aixchanger - Membranes in building ventilation"
+year = "2010"
+journal = "20th Annual Meeting of the North American Membrane Society and 11th International Conference on Inorganic Membranes 2010, NAMS/ICIM 2010"
+doi = ""
+url = "https://www.scopus.com/pages/publications/84877715065?origin=resultslist"
+authors = "Koester, S.; Schleger, M.; Wessling, M.; Melin, T."
 +++
+
+
 
 ## Thesis
 

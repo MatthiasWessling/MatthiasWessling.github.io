@@ -1,6 +1,6 @@
 +++
 title = "Patents"
-description = "Patents, prototypes, and product developments."
+description = "Selected patents and patent applications with Matthias Wessling as inventor."
 +++
 
-This section highlights patents, translational work, and products.
+Patents and patent applications across membrane science, electrochemical systems, and related process technology. Use the filters to browse by year, organization, or topic.

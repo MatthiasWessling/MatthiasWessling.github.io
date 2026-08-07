@@ -16,7 +16,17 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Vibrating polymeric microsieves: Antifouling strategies for microfiltration"
+year = "2006"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2006.09.001"
+url = "https://doi.org/10.1016/j.memsci.2006.09.001"
+authors = "Gironès i Nogué, M.; Akbarsyah, I.J.; Bolhuis-Versteeg, L.A.M.; Lammertink, R.G.H.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

@@ -16,7 +16,25 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/1021247/files/1021247.p
 linkedin = ""
 orcid = "https://orcid.org/0000-0002-1502-4238"
 featured = false
+
+[[publications]]
+title = "PEDOT:PSS-CNT Composite Particles Overcome Contact Resistances in Slurry Electrodes for Flow-Electrode Capacitive Deionization"
+year = "2023"
+journal = "Advanced Functional Materials"
+doi = "10.1002/adfm.202303606"
+url = "https://doi.org/10.1002/adfm.202303606"
+authors = "Rauer, S.B.; Wang, S.; Köller, N.; Bell, D.J.; Zhang, Y.; Wang, X.; Linnartz, C.J.; Wessling, M.; Linkhorst, J."
+
+[[publications]]
+title = "Wet-Spun PEDOT/CNT Composite Hollow Fibers as Flexible Electrodes for H2O2 Production**"
+year = "2021"
+journal = "ChemElectroChem"
+doi = "10.1002/celc.202100237"
+url = "https://doi.org/10.1002/celc.202100237"
+authors = "Cui, Q.; Bell, D.J.; Wang, S.; Mohseni, M.; Felder, D.; Lölsberg, J.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

@@ -16,7 +16,33 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/995136/files/995136.pdf
 linkedin = "https://www.linkedin.com/in/jan-vehrenberg-068153337/"
 orcid = "https://orcid.org/0009-0002-2685-8454"
 featured = false
+
+[[publications]]
+title = "Paired electrochemical synthesis of Cl2 from alkali chloride and CO from CO2"
+year = "2025"
+journal = "Chemical Engineering and Processing - Process Intensification"
+doi = "10.1016/j.cep.2025.110209"
+url = "https://doi.org/10.1016/j.cep.2025.110209"
+authors = "Vehrenberg, J.; Gert, G.; Grosseheide, M.; Wessling, M.; Keller, R."
+
+[[publications]]
+title = "Paired electrochemical synthesis of formate via oxidation of glycerol and reduction of CO2 in a flow cell reactor"
+year = "2023"
+journal = "Electrochemistry Communications"
+doi = "10.1016/j.elecom.2023.107497"
+url = "https://doi.org/10.1016/j.elecom.2023.107497"
+authors = "Vehrenberg, J.; Baessler, J.; Decker, A.; Keller, R.; Wessling, M."
+
+[[publications]]
+title = "Steady-state electrochemical synthesis of HKUST-1 with polarity reversal"
+year = "2020"
+journal = "Microporous and Mesoporous Materials"
+doi = "10.1016/j.micromeso.2020.110218"
+url = "https://doi.org/10.1016/j.micromeso.2020.110218"
+authors = "Vehrenberg, J.; Vepsäläinen, M.; Macedo, D.S.; Rubio-Martinez, M.; Webster, N.A.S.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

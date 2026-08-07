@@ -16,7 +16,17 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/1028636/files/1028636.p
 linkedin = "https://www.linkedin.com/in/maike-wrobel-4b876b184/"
 orcid = ""
 featured = false
+
+[[publications]]
+title = "On the weeping of the GDE cathode during bipolar membrane-based electrochemical CO2 reduction reaction at high current densities"
+year = "2023"
+journal = "Chemical Engineering Journal"
+doi = "10.1016/j.cej.2023.145335"
+url = "https://doi.org/10.1016/j.cej.2023.145335"
+authors = "Wrobel, M.; Kriescher, S.; Schiffer, T.; Keller, R.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

@@ -16,7 +16,25 @@ thesis_pdf = ""
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Electrochemical Membrane Reactor Modeling for Lignin Depolymerization"
+year = "2019"
+journal = "ACS Sustainable Chemistry and Engineering"
+doi = "10.1021/acssuschemeng.8b04670"
+url = "https://doi.org/10.1021/acssuschemeng.8b04670"
+authors = "Bawareth, B.; Di Marino, D.; Nijhuis, T.A.; Jestel, T.; Wessling, M."
+
+[[publications]]
+title = "Unravelling Electrochemical Lignin Depolymerization"
+year = "2018"
+journal = "ACS Sustainable Chemistry and Engineering"
+doi = "10.1021/acssuschemeng.8b00335"
+url = "https://doi.org/10.1021/acssuschemeng.8b00335"
+authors = "Bawareth, B.; Di Marino, D.; Nijhuis, T.A.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

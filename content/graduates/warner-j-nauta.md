@@ -16,7 +16,17 @@ thesis_pdf = "https://research.utwente.nl/files/6077407/t000001c.pdf"
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Analysis of cell-stabilizing additives in low-density polyethylene foams using low-frequency dielectric spectroscopy"
+year = "2003"
+journal = "Macromolecules"
+doi = "10.1021/ma025947v"
+url = "https://doi.org/10.1021/ma025947v"
+authors = "Barsema, J.N.; Bostoen, C.L.; Jansen, R.H.S.; Mulder, M.H.V.; Nauta, W.J.; Steeman, P.A.M.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

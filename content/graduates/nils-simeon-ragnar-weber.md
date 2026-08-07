@@ -16,7 +16,33 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/990543/files/990543.pdf
 linkedin = "https://www.linkedin.com/in/nils-weber/"
 orcid = ""
 featured = false
+
+[[publications]]
+title = "A continuous flow reactor for tubular gas diffusion electrodes"
+year = "2024"
+journal = "Chemical Engineering Journal"
+doi = "10.1016/j.cej.2024.150031"
+url = "https://doi.org/10.1016/j.cej.2024.150031"
+authors = "Weber, N.; Möntmann, M.; Wessling, M.; Keller, R."
+
+[[publications]]
+title = "Tailoring Pore Networks – Gas Diffusion Electrodes via Additive Manufacturing"
+year = "2023"
+journal = "Advanced Materials Technologies"
+doi = "10.1002/admt.202300720"
+url = "https://doi.org/10.1002/admt.202300720"
+authors = "Weber, N.; Linkhorst, J.; Keller, R.; Wessling, M."
+
+[[publications]]
+title = "Additive manufacturing of composite porosity mixer electrodes"
+year = "2022"
+journal = "Electrochemistry Communications"
+doi = "10.1016/j.elecom.2021.107176"
+url = "https://doi.org/10.1016/j.elecom.2021.107176"
+authors = "Limper, A.; Weber, N.; Brodersen, A.; Keller, R.; Wessling, M.; Linkhorst, J."
 +++
+
+
 
 ## Thesis
 

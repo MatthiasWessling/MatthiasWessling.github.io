@@ -16,7 +16,17 @@ thesis_pdf = "https://publications.rwth-aachen.de/record/811228/files/811228.pdf
 linkedin = ""
 orcid = ""
 featured = false
+
+[[publications]]
+title = "Membrane based direct pH parametric pumping"
+year = "2018"
+journal = "Journal of Membrane Science"
+doi = "10.1016/j.memsci.2018.02.056"
+url = "https://doi.org/10.1016/j.memsci.2018.02.056"
+authors = "Peters, L.; Linz, G.; Wessling, M."
 +++
+
+
 
 ## Thesis
 

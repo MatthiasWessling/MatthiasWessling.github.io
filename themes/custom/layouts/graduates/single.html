@@ -41,6 +41,31 @@
             {{ .Content }}
         </div>
 
+        {{ with .Params.publications }}
+        <section class="graduates-publications" aria-labelledby="graduates-publications-heading">
+            <h2 id="graduates-publications-heading">Publications</h2>
+            <ol class="graduates-publications-list">
+                {{ range . }}
+                <li class="graduates-publication">
+                    {{ if .url }}
+                    <a class="graduates-publication-title" href="{{ .url }}" rel="noopener noreferrer">{{ .title }}</a>
+                    {{ else }}
+                    <span class="graduates-publication-title">{{ .title }}</span>
+                    {{ end }}
+                    <div class="graduates-publication-meta">
+                        {{ with .year }}<span class="graduates-publication-year">{{ . }}</span>{{ end }}
+                        {{ with .journal }}<span class="graduates-publication-journal">{{ . }}</span>{{ end }}
+                        {{ with .doi }}<span class="graduates-publication-doi">DOI: {{ . }}</span>{{ end }}
+                    </div>
+                    {{ with .authors }}
+                    <div class="graduates-publication-authors">{{ . }}</div>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ol>
+        </section>
+        {{ end }}
+
         <footer class="news-footer">
             <div class="back-to-list">
                 <a href="/graduates/">← Back to all graduates</a>
