@@ -247,7 +247,7 @@ class LoadingAnimations {
         // (.graduates-entry, .news-entry, etc.) — opacity:0 + display toggling
         // leaves filtered-in items invisible after selector changes.
         const sections = document.querySelectorAll(
-            '.content-box, .blog-item, .research-item, .project-item, .hobby-item, .news-item:not(.graduates-entry):not(.news-entry):not(.patent-entry):not(.startup-entry)'
+            '.content-box, .blog-item, .research-item, .project-item, .hobby-item, .news-item:not(.graduates-entry):not(.news-entry):not(.patents-products-entry):not(.startups-entry):not(.notebook-entry)'
         );
         sections.forEach(section => {
             section.style.opacity = '0';
