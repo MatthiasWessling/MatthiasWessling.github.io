@@ -83,8 +83,8 @@ AMBIGUOUS_TITLE_RULES: Dict[str, List[Tuple[str, Tuple[str, ...]]]] = {
             ),
         ),
     ],
-    # Note: "Lohaus, T." is Theresa Lohaus (collaborator), not Suzana.
-    # Suzana Lohaus published as Djeljadini, S. — see author_aliases on her page.
+    # Note: "Lohaus, T." is Theresa Rösener (née Lohaus); Suzana published as Djeljadini, S.
+    # See author_aliases on theresa-b-m-roesener.md and suzana-lohaus.md.
 }
 
 # Manual surname / AU overrides when automatic parsing is insufficient.
