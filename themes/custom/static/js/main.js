@@ -243,8 +243,12 @@ class LoadingAnimations {
             });
         }, observerOptions);
 
-        // Observe content sections
-        const sections = document.querySelectorAll('.content-box, .blog-item, .research-item, .project-item, .hobby-item, .news-item');
+        // Observe content sections. Skip filterable directory entries
+        // (.graduates-entry, .news-entry, etc.) — opacity:0 + display toggling
+        // leaves filtered-in items invisible after selector changes.
+        const sections = document.querySelectorAll(
+            '.content-box, .blog-item, .research-item, .project-item, .hobby-item, .news-item:not(.graduates-entry):not(.news-entry):not(.patent-entry):not(.startup-entry)'
+        );
         sections.forEach(section => {
             section.style.opacity = '0';
             section.style.transform = 'translateY(20px)';
@@ -762,7 +766,10 @@ class GraduatesDirectory {
                     this.list.appendChild(this.getYearHeading(year));
                 }
             }
+            // Force visible — LoadingAnimations may have left opacity at 0.
             entry.style.display = '';
+            entry.style.opacity = '1';
+            entry.style.transform = 'none';
             this.list.appendChild(entry);
         });
 

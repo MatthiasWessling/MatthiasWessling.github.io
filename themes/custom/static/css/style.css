@@ -783,7 +783,7 @@ a:hover {
 }
 
 .graduates-controls {
-    grid-template-columns: 1fr 1fr auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     max-width: 960px;
 }
 
