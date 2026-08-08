@@ -1,11 +1,11 @@
 +++
-title = 'Membranes without organic solvents'
+title = 'Organic solvent-free membrane fabrication via aqueous polyelectrolyte complexation'
 date = '2026-08-07'
 draft = false
-summary = 'How salt-dilution aqueous phase separation — from Kamp and Emonds to Restrepo’s biocatalytic hollow fibers — makes ultrafiltration and nanofiltration membranes without NMP, DMF, or classical crosslinking chemistry.'
-abstract = 'How salt-dilution aqueous phase separation — from Kamp and Emonds to Restrepo’s biocatalytic hollow fibers — makes ultrafiltration and nanofiltration membranes without NMP, DMF, or classical crosslinking chemistry.'
+summary = 'Overview of salt-dilution aqueous phase separation for polyelectrolyte complex ultrafiltration and nanofiltration membranes, including tubular and hollow-fiber spinning and Restrepo’s biocatalytic extensions.'
+abstract = 'Overview of salt-dilution aqueous phase separation for polyelectrolyte complex ultrafiltration and nanofiltration membranes, including tubular and hollow-fiber spinning and Restrepo’s biocatalytic extensions.'
 authors = ['Matthias Wessling']
-publication = 'Research note'
+publication = 'Research overview'
 publication_year = '2026'
 paper_url = ''
 featured = true
@@ -14,69 +14,43 @@ image_alt = 'Abstract black-ink drawing of a spinneret, water ripples, and a por
 tags = ['membranes', 'polyelectrolyte complexes', 'aqueous phase separation', 'solvent-free', 'nanofiltration', 'hollow fibers', 'biocatalysis']
 +++
 
-Most polymeric membranes are still born in organic solvents. NIPS — nonsolvent-induced phase separation — is elegant engineering and a regulatory liability: NMP, DMF, DMAc and related solvents sit under increasing pressure, and many high-performance skins still need a separate crosslinking step with reagents one would rather not handle at scale.
+Conventional polymeric membrane fabrication by nonsolvent-induced phase separation (NIPS) typically relies on organic solvents such as NMP, DMF, or DMAc. These solvents face increasing regulatory pressure, and many selective layers additionally require crosslinking chemistry that is undesirable at scale. This note summarizes group work on aqueous alternatives based on polyelectrolyte complexation under salt control.
 
-The question we posed was deliberately blunt: **can we keep the process logic of NIPS while replacing the organic solvent with water?**
+## Salt dilution as the phase-separation trigger
 
-The answer that emerged in our group is polyelectrolyte complexation under salt control — aqueous phase separation that looks familiar to anyone who has cast a membrane, yet chemically belongs to soft matter rather than to organic polymer solution thermodynamics.
+Oppositely charged polyelectrolytes complex and precipitate unless complexation is suppressed. At sufficiently high salt concentration, a homogeneous aqueous dope can be prepared. Immersion in water dilutes the salt, the composition enters the demixing gap, and a porous polyelectrolyte complex (PEC) membrane forms.
 
-## The idea: salt as the temporary solvent
+*[On the organic solvent free preparation of ultrafiltration and nanofiltration membranes using polyelectrolyte complexation in an all aqueous phase inversion process](https://doi.org/10.1016/j.memsci.2020.118632)* (Kamp, Emonds, Borowec, Restrepo Toro, Wessling, 2021) established this route for PSS / PDADMAC with overcritical KBr. Polyion ratio influences morphology and places performance in the ultrafiltration to nanofiltration range, without organic solvents and without classical crosslinking. The process is deliberately analogous to NIPS in its demixing logic; the role of the organic solvent is replaced by ionic strength in water.
 
-Oppositely charged polyelectrolytes want to complex and precipitate. That is usually a problem for processing. It becomes a feature if you *suppress* complexation with a high salt concentration, cast or spin a homogeneous aqueous dope, then *dilute* the salt so that the system enters the demixing gap and solidifies as a porous polyelectrolyte complex (PEC).
+## Tubular and hollow-fiber geometries
 
-*[On the organic solvent free preparation of ultrafiltration and nanofiltration membranes using polyelectrolyte complexation in an all aqueous phase inversion process](https://doi.org/10.1016/j.memsci.2020.118632)* (Kamp, Emonds, Borowec, Restrepo Toro, Wessling, 2021) established that route for PSS / PDADMAC with overcritical KBr. Immersion in water drives salt out and water in; further dilution precipitates the complex. Polyion ratio tunes morphology and moves performance across ultrafiltration and nanofiltration — without organic solvents and without classical crosslinking.
+*[Polyelectrolyte Complex Tubular Membranes via a Salt Dilution Induced Phase Inversion Process](https://doi.org/10.1002/adem.202001401)* (Emonds, Kamp, Borowec, Roth, Wessling, 2021) demonstrated dry-jet wet spinning of aqueous PSS / PDADMAC / KBr dopes with water-based bore fluids. Air-gap and bore composition were used to control demixing and lumen-skin integrity. Membranes remained asymmetric and freestanding.
 
-The process rhyme with NIPS is intentional. Existing intuition about demixing rates, skin formation, and asymmetric porosity still applies. What changes is the chemistry of the “solvent”: ionic strength instead of a polar aprotic liquid.
+*[Open and dense hollow fiber nanofiltration membranes through a streamlined polyelectrolyte-based spinning process](https://doi.org/10.1016/j.memsci.2021.120100)* (Emonds et al., 2022) developed continuous spinning toward open versus dense nanofiltration morphologies. Stephan Emonds’ thesis, *[Fabrication of polyelectrolyte complex membranes](https://publications.rwth-aachen.de/record/849649)*, documents composite and freestanding PEC hollow fibers. Related spinneret work ([2020](https://doi.org/10.1016/j.memsci.2020.118325)) formed polyelectrolyte separation layers during spinning, reducing post-treatment steps.
 
-## From flat sheets to tubes and hollow fibers
+## Charge, selectivity, and related multilayer systems
 
-Industrial membrane plants rarely live on flat sheets alone. Tubular and hollow-fiber geometries had to follow.
+*[Tuning the excess charge and inverting the salt rejection hierarchy of polyelectrolyte multilayer membranes](https://doi.org/10.1016/j.memsci.2021.119636)* (Kamp, Emonds et al., 2021) showed how excess polyion charge reshapes ion rejection, including inversion of familiar salt hierarchies. Tubular composite polyelectrolyte multilayers on ceramic supports were examined toward nanofiltration and reverse-osmosis transport ranges ([2021](https://doi.org/10.1016/j.memsci.2020.118851)).
 
-*[Polyelectrolyte Complex Tubular Membranes via a Salt Dilution Induced Phase Inversion Process](https://doi.org/10.1002/adem.202001401)* (Emonds, Kamp, Borowec, Roth, Wessling, 2021) showed dry-jet wet spinning of aqueous PSS / PDADMAC / KBr dopes with water-based bore fluids. Air-gap and bore composition control delayed demixing and produce defect-free lumen skins; the membranes remain asymmetric, porous, and freestanding — still without NMP or trimesoyl chloride.
+## Biocatalytic and functional hollow fibers (Restrepo)
 
-*[Open and dense hollow fiber nanofiltration membranes through a streamlined polyelectrolyte-based spinning process](https://doi.org/10.1016/j.memsci.2021.120100)* (Emonds et al., 2022) then streamlined spinning toward open versus dense NF morphologies in a single continuous process. Stephan Emonds’ thesis, *[Fabrication of polyelectrolyte complex membranes](https://publications.rwth-aachen.de/record/849649)*, collects the platform: composite and freestanding PEC hollow fibers in one step.
+Aqueous fabrication is particularly relevant when enzymes must be incorporated, because conventional organic-solvent routes are incompatible with direct enzyme addition during membrane formation. Maria Adelaida Restrepo Toro’s thesis, *[Fabrication and modification of functional and enzymatically active hollow fiber membranes](https://publications.rwth-aachen.de/record/1023806)* (2025), addresses this in three related approaches.
 
-Related “chemistry in a spinneret” work ([2020](https://doi.org/10.1016/j.memsci.2020.118325)) had already shown that polyelectrolyte separation layers can be formed during spinning rather than in a post-treatment cascade — another step toward fewer hazardous reagents and fewer unit operations.
+*[Self-supporting biocatalytic polyelectrolyte complex hollow fiber membranes via salt-dilution induced phase separation](https://doi.org/10.1016/j.memsci.2023.122157)* (Restrepo, Emonds, Zhao, Karakas, Kamp, Roth, Wessling, 2024) spun freestanding PEC hollow fibers with alkaline phosphatase included in the aqueous dope, combining immobilization with nanofiltration-relevant separation.
 
-## Function beyond filtration: charge and selectivity
+*[Single-step polyelectrolyte complex coating on hollow fibers yields nanofiltration or biocatalytic properties](https://doi.org/10.1016/j.memlet.2023.100039)* (Restrepo, Kamp, Guericke, Schnichels, Roth, Wessling, 2023) used salt-suppressed polyanion/polycation solutions and controlled desalination (interfacial complexation or diffusive desalination) to form PEC coatings in one step, as an alternative to multi-cycle layer-by-layer assembly.
 
-Once the membrane is a polyelectrolyte complex rather than a crosslinked hydrophobic polymer, charge becomes a design dial.
+Related work includes an intermediate PEI lumen layer supporting interfacial polymerization on PAI hollow fibers ([2023](https://doi.org/10.3390/membranes13080741)) and amine-functionalized microgels on PES–SMA blend supports for low-fouling hollow fibers ([2025](https://doi.org/10.1016/j.memsci.2025.124493)). These supports are not always fully organic-solvent-free, but they follow the same logic of integrating function during or immediately after fabrication under mild aqueous conditions.
 
-*[Tuning the excess charge and inverting the salt rejection hierarchy of polyelectrolyte multilayer membranes](https://doi.org/10.1016/j.memsci.2021.119636)* (Kamp, Emonds et al., 2021) shows how excess polyion charge reshapes ion rejection — including inversion of familiar salt hierarchies. Tubular composite PEMs on ceramic supports extend the same aqueous multilayer logic toward NF and RO transport ranges ([2021](https://doi.org/10.1016/j.memsci.2020.118851)).
+Patent protection for salt-dilution PEC membrane porosity control is described in [US12458928B2](/patents-products/us12458928b2-polyelectrolyte-complex-membrane/).
 
-## Maria Restrepo: when solvent-free becomes the enabler for enzymes
-
-The deeper payoff of aqueous fabrication appears in Maria Adelaida Restrepo Toro’s work. Conventional biocatalytic membranes force a cruel sequence: make the polymer membrane in harsh solvents and heat, *then* try to immobilize enzymes that those conditions would destroy. Restrepo’s thesis, *[Fabrication and modification of functional and enzymatically active hollow fiber membranes](https://publications.rwth-aachen.de/record/1023806)* (2025), turns that order around in three complementary ways.
-
-**1. Enzymes in the dope.** Because salt-dilution PEC spinning never uses organic solvents, enzymes can ride along in the polymer solution. *[Self-supporting biocatalytic polyelectrolyte complex hollow fiber membranes via salt-dilution induced phase separation](https://doi.org/10.1016/j.memsci.2023.122157)* (Restrepo, Emonds, Zhao, Karakas, Kamp, Roth, Wessling, 2024) spins freestanding, mechanically stable PEC hollow fibers with alkaline phosphatase already inside the matrix — immobilization without a post-coating cascade, and with retained nanofiltration character.
-
-**2. Single-step PEC coating instead of LbL.** *[Single-step polyelectrolyte complex coating on hollow fibers yields nanofiltration or biocatalytic properties](https://doi.org/10.1016/j.memlet.2023.100039)* (Restrepo, Kamp, Guericke, Schnichels, Roth, Wessling, 2023) still uses salt to keep polyanions and polycations dissolved, then triggers complexation on the fiber by controlled desalination — interfacial complexation or diffusive desalination. One aqueous coating step replaces multi-cycle layer-by-layer assembly and can deliver either NF skins or enzyme-bearing layers.
-
-**3. Functional surfaces that stay processable.** Adjacent Restrepo papers extend the same soft-matter instinct beyond pure PEC spinning: an intermediate PEI lumen layer that supports interfacial polymerization on PAI hollow fibers ([2023](https://doi.org/10.3390/membranes13080741)), and amine-functionalized microgels covalently or electrostatically bound to PES–SMA blend supports for low-fouling, self-cleaning hollow fibers ([2025](https://doi.org/10.1016/j.memsci.2025.124493)). Those routes are not always fully organic-solvent-free in the support, but they share the design logic: build functionality into aqueous or mild-chemistry steps rather than fighting inert commercial membranes afterward.
-
-Read together with Kamp and Emonds, Restrepo completes the arc: solvent-free PEC is not only a greener way to make a filter. It is a fabrication language in which **enzymes, charge, and antifouling soft matter can enter during or immediately after membrane formation**, instead of as an afterthought.
-
-The intellectual property trail follows the science: [US12458928B2](/patents-products/us12458928b2-polyelectrolyte-complex-membrane/) covers producing PEC membranes of predetermined porosity by salt-dilution induced phase separation in aqueous media.
-
-## Why this matters
+## Comparison with classical NIPS
 
 | Classical NIPS | Salt-dilution aqueous PEC |
 |---|---|
-| Organic dope (NMP, DMF, …) | Aqueous dope + supporting salt |
-| Water as nonsolvent | Water as both medium and dilution trigger |
-| Often separate crosslinking | Complexation sets the network |
-| Flat sheet → fiber know-how transferable | Same process grammar, new chemistry |
+| Organic dope (NMP, DMF, …) | Aqueous dope with supporting salt |
+| Water as nonsolvent | Water as medium and dilution trigger |
+| Often separate crosslinking | Network formed by polyelectrolyte complexation |
+| Established spinning know-how | Same process elements (air gap, bore fluid, demixing) with different chemistry |
 
-Regulators are not waiting for membrane science to invent a better story. The practical path is to keep what spinning plants already understand — demixing, air gaps, bore fluids, asymmetric skins — while removing the solvents that make scale-up politically and environmentally expensive.
-
-Organic solvent-free membrane preparation, in this line of work, is therefore not a slogan. It is a concrete substitution: **salt instead of NMP, complexation instead of crosslinking, water all the way from dope to fiber** — and, with Restrepo, a path to put enzymes into that fiber while it forms.
-
-#SolventFree
-#AqueousPhaseSeparation
-#PolyelectrolyteComplex
-#MembraneFabrication
-#Nanofiltration
-#HollowFibers
-#BiocatalyticMembranes
-#GreenMembraneScience
-#SaltDilution
+The scientific contribution of this line is a transferable fabrication platform: salt instead of polar aprotic solvents, complexation instead of classical crosslinking, and—where required—direct incorporation of enzymes into hollow fibers during aqueous spinning.
