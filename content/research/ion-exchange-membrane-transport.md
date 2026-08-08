@@ -1,0 +1,63 @@
++++
+title = 'Fundamentals of ion transport in and at ion-exchange membranes'
+date = '2026-08-08'
+draft = false
+summary = 'Overview of fundamental ion transport in ion-exchange membranes and at their interfaces: concentration polarization, selectivity (mobility and partition), surface and coating effects, bipolar-membrane water splitting, and overlimiting electroconvection.'
+abstract = 'Overview of fundamental ion transport in ion-exchange membranes and at their interfaces: concentration polarization, selectivity (mobility and partition), surface and coating effects, bipolar-membrane water splitting, and overlimiting electroconvection.'
+authors = ['Matthias Wessling']
+publication = 'Research overview'
+publication_year = '2026'
+paper_url = ''
+featured = true
+image = '/images/blog/ink-ion-exchange-transport.png'
+image_alt = 'Abstract black-ink drawing of an ion-exchange membrane with fixed charges, depleted boundary layer, and interfacial flow'
+tags = ['ion-exchange membranes', 'ion transport', 'electrodialysis', 'selectivity', 'concentration polarization', 'electroconvection', 'bipolar membranes', 'permselectivity']
++++
+
+Ion-exchange membranes (IEMs) separate ionic solutions by preferential transport of counter-ions through a charged polymer phase. Under an applied electric field the same membranes set concentration polarization at the membrane–solution interface and, at sufficiently high current, electroconvection and water dissociation. Performance therefore depends on transport *inside* the membrane (partition, mobility, fixed-charge density) and *at* the membrane (surface morphology, coatings, local hydrodynamics). This note summarizes group work that treats those fundamentals experimentally and by continuum modeling. Spatio-temporal visualization of overlimiting flows and module-scale ion fields is collected separately in *[Spatio-temporal phenomena in membranes and electrodes](/research/spatio-temporal-phenomena/)*.
+
+## Concentration polarization at monopolar membranes
+
+J.J. Krol’s thesis, *[Monopolar and bipolar ion exchange membranes](https://research.utwente.nl/en/publications/monopolar-and-bipolar-ion-exchange-membranes/)*, established chronopotentiometric and current–voltage characterization of IEMs. *[Concentration polarization with monopolar ion exchange membranes: current-voltage curves and water dissociation](https://doi.org/10.1016/S0376-7388(99)00133-7)* (1999) mapped the ohmic, plateau, and overlimiting regions and related water dissociation to the polarized interface. *[Chronopotentiometry and overlimiting ion transport through monopolar ion exchange membranes](https://doi.org/10.1016/S0376-7388(99)00134-9)* (1999) resolved voltage fluctuations associated with hydrodynamic instability beyond the limiting current. *[Coupled transport phenomena in overlimiting current electrodialysis](https://doi.org/10.1016/S1383-5866(98)00080-X)* (1998) framed mass and charge transport as coupled once the depleted layer can no longer sustain the imposed flux by diffusion alone.
+
+## Selectivity inside the membrane: mobility and partition
+
+Counter-ion selectivity is not a single membrane constant. *[Selectivity of ion exchange membranes: a review](https://doi.org/10.1016/j.memsci.2018.03.051)* (Luo, Abdu, Wessling, 2018) organized the literature around competing mechanisms. *[Ion mobility and partition determine the counter-ion selectivity of ion exchange membranes](https://doi.org/10.1016/j.memsci.2019.117645)* (Luo, Roghmans, Wessling, 2020) showed experimentally that selectivity can be expressed as the product of a mobility ratio and a partition coefficient between solution and membrane—analogous to a solution–diffusion description for ions. *[Combining Manning’s theory and the ionic conductivity experimental approach to characterize selectivity of cation exchange membranes](https://doi.org/10.1016/j.memsci.2021.119263)* (2021) linked condensed and free counter-ions in Manning’s framework to measured conductivity, providing a route from fixed-charge density to selective transport.
+
+Early materials work on monovalent-selective sulfonated PEEK CEMs ([2005](https://doi.org/10.1016/j.memsci.2005.04.019)) and later coatings for water-crossover mitigation in brine concentration ([2021](https://doi.org/10.1002/admt.202100202)) illustrate how membrane chemistry and interfacial layers jointly set ion and water fluxes.
+
+## Resistances of membrane, boundary layer, and double layer
+
+At low salt concentration the membrane resistance is not constant. *[Transport limitations in ion exchange membranes at low salt concentrations](https://doi.org/10.1016/j.memsci.2009.09.033)* and *[On the resistances of membrane, diffusion boundary layer and double layer in ion exchange membrane transport](https://doi.org/10.1016/j.memsci.2009.11.069)* (Dlugołecki et al., 2010) decomposed the total voltage drop into membrane, diffusion-boundary-layer, and electric-double-layer contributions, which is essential for reverse electrodialysis and dilute feeds where the membrane can dominate the stack resistance.
+
+## Interface engineering: coatings, multilayers, and microgels
+
+Surface modification changes which ions enter the membrane and how strongly the interface polarizes. Said Abdu’s thesis, *[Interface engineering of ion exchange membranes](https://publications.rwth-aachen.de/record/710113)*, and *[Layer-by-layer modification of cation exchange membranes controls ion selectivity and water splitting](https://doi.org/10.1021/am4048317)* (2014) showed that polyelectrolyte multilayers tune monovalent/multivalent selectivity and the onset of water dissociation. Florian Roghmans’ thesis, *[Ion transport through microgel-modified membrane surfaces](https://publications.rwth-aachen.de/record/809118)*, used soft microgel coatings: *[Electrochemical impedance spectroscopy fingerprints the ion selectivity of microgel functionalized ion-exchange membranes](https://doi.org/10.1016/j.elecom.2016.09.009)* (2016) and *[On the permselectivity of cation-exchange membranes bearing an ion selective coating](https://doi.org/10.1016/j.memsci.2020.117854)* (2020) related coating charge and architecture to EIS signatures and measured permselectivity.
+
+Charge distribution across multilayer films also controls nanofiltration-type ion rejection. *[Ion transport through electrolyte/polyelectrolyte multi-layers](https://doi.org/10.1038/srep11583)* (Femmer et al., 2015) and *[Unraveling the effect of charge distribution in a polyelectrolyte multilayer nanofiltration membrane on its ion transport properties](https://doi.org/10.1016/j.memsci.2020.118045)* (2020) treated layered fixed-charge profiles with continuum transport models. Elizaveta Evdochenko’s thesis, *[Modeling of ion transport through nanofiltration and ion-exchange membranes](https://publications.rwth-aachen.de/record/816815)*, extended such descriptions to pore-coating geometries relevant to LbL-modified porous membranes ([2025](https://doi.org/10.1016/j.desal.2024.118170)).
+
+## Membrane surface morphology and electroconvection
+
+The limiting-current plateau and the onset of electroconvection depend on membrane microtopology. *[Role of membrane surface in concentration polarization at cation exchange membranes](https://doi.org/10.1016/j.memsci.2003.12.032)* (2004) and *[Morphology and microtopology of cation-exchange polymers and the origin of the overlimiting current](https://doi.org/10.1021/jp068474t)* (2007) showed that surface undulations with spacing comparable to the boundary-layer thickness shorten the plateau and promote earlier electroconvection.
+
+Deliberate patterning amplifies this effect. Nanometer-thick lateral polyelectrolyte micropatterns induce macroscopic electro-osmotic instabilities ([2014](https://doi.org/10.1038/srep04294)). *[On the dynamical regimes of pattern-accelerated electroconvection](https://doi.org/10.1038/srep22505)* (2016) and *[2D patterned ion-exchange membranes induce electroconvection](https://doi.org/10.1002/admi.201801309)* (Roghmans et al., 2019) mapped how heterogeneous surface conductivity sets vortex organization. Continuum and experimental work then quantified space-charge breakdown and coupled ion–flow fields ([2021](https://doi.org/10.1016/j.memsci.2021.119583)), 3D electroconvective velocity fields (Stockmeier; [2021](https://doi.org/10.1016/j.memsci.2021.119846)), interaction with spacer-channel flow ([2023](https://doi.org/10.1016/j.memsci.2023.121589)), eddy diffusivities for chaotic electroconvection ([2024](https://doi.org/10.1103/PhysRevFluids.9.023701)), and stabilization of vortices by corrugation ([2025](https://doi.org/10.1016/j.memsci.2024.123555)). Spacer geometry can simultaneously enhance mixing and shadow the electric field ([2026](https://doi.org/10.1016/j.memsci.2026.125644)).
+
+## Bipolar membranes and water splitting
+
+Bipolar membranes (BPMs) combine a cation- and an anion-exchange layer; water splitting at the bipolar junction supplies H⁺ and OH⁻. Friedrich Wilhelm’s thesis on bipolar membrane electrodialysis and chronopotentiometric studies ([2001](https://doi.org/10.1016/S0022-0728(01)00348-5); [2002](https://doi.org/10.1016/S0376-7388(01)00696-2); [2002](https://doi.org/10.1023/A:1016317503435)) characterized current–voltage behaviour, including concentrated salt and salt-leakage effects. *[Behaviour of bipolar membranes at high current density water diffusion limitation](https://doi.org/10.1016/S1383-5866(98)00058-6)* (1998) identified water supply to the junction as a rate limit. Asymmetric BPMs and interface-layer design reduce co-ion leakage and improve product purity ([2002](https://doi.org/10.1021/ie010524n); [2010](https://doi.org/10.1016/j.memsci.2010.09.034)). *[Catalytic polyelectrolyte multilayers at the bipolar membrane interface](https://doi.org/10.1021/am403019y)* (Abdu et al., 2013) placed catalysts at the junction by LbL assembly. *[A comprehensive mathematical model of water splitting in bipolar membranes](https://doi.org/10.1016/j.memsci.2020.118010)* (2020) examined how the spatial distribution of fixed charges and catalyst at the junction affects water-splitting kinetics.
+
+## Process-facing consequences of the same fundamentals
+
+Organic-acid electrodialysis couples ion transport to homogeneous reactions that can be tracked by EIS ([2020](https://doi.org/10.1016/j.memsci.2019.117592)); overlimiting resistance in itaconic acid systems was described with a short-cut model ([2014](https://doi.org/10.1016/j.memsci.2013.11.008)). Module concepts such as spacer-free electrodialysis ([2009](https://doi.org/10.1016/j.memsci.2009.05.048)) follow from controlling interfacial mixing without classical spacer geometry. Local ion concentration fields inside opaque ED stacks can be reconstructed by MRI ([2025](https://doi.org/10.1016/j.memlet.2025.100094)).
+
+## Overview
+
+| Location | Central question | Representative contributions |
+|---|---|---|
+| Membrane bulk | What sets counter-ion selectivity and conductivity? | Selectivity review; mobility × partition; Manning–conductivity analysis (Luo) |
+| Solution–membrane interface | How does concentration polarization develop and break? | Chronopotentiometry; limiting/overlimiting I–V; water dissociation (Krol) |
+| Engineered surface | How do coatings and patterns change selectivity and vortices? | LbL and microgel coatings (Abdu, Roghmans); patterned electroconvection |
+| Bipolar junction | What controls water splitting and salt leakage? | BPM chronopotentiometry (Wilhelm); catalytic multilayers; junction continuum models |
+| Channel / module | How do spacers and buoyancy couple to interfacial electroconvection? | Spacer–EC interaction; corrugation; spacer mixing vs field shadowing |
+
+Across these scales the same picture recurs: fixed charge and mobility inside the polymer set selective permeation, while geometry and chemistry of the interface set polarization, water splitting, and electroconvective enhancement of ion transport.
