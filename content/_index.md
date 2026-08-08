@@ -4,7 +4,8 @@ description = "Research, projects, and updates from Matthias Wessling."
 +++
 
 On these pages, I share notes and updates on:
-- the research we conduct in my group at RWTH Aachen University and the DWI Leibniz Institute for Interactive Materials
+- the research our teams conduct at RWTH Aachen University and the DWI Leibniz Institute for Interactive Materials
+- [graduates](/graduates/), their theses and papers—often the product of team science across students, postdocs and collaborators
 - projects I am interested in and currently working on
 - startup activities from the past, present, and future
 
