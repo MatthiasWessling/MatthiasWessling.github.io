@@ -1,0 +1,68 @@
++++
+title = 'Swelling, sorption-induced relaxations, hydrogels, and in-situ ellipsometry'
+date = '2026-08-08'
+draft = false
+summary = 'Overview of dilation and plasticization of glassy polymers, sorption-induced relaxations, thin-film ellipsometry, hydrogel and microgel swelling (Bell, Steinbeck), and compression of soft colloids in filtration.'
+abstract = 'Overview of dilation and plasticization of glassy polymers, sorption-induced relaxations, thin-film ellipsometry, hydrogel and microgel swelling (Bell, Steinbeck), and compression of soft colloids in filtration.'
+authors = ['Matthias Wessling']
+publication = 'Research overview'
+publication_year = '2026'
+paper_url = ''
+featured = true
+image = '/images/blog/ink-swelling-ellipsometry.png'
+image_alt = 'Abstract black-ink drawing of a thin polymer film swelling under penetrant sorption with an ellipsometric light beam'
+tags = ['swelling', 'sorption', 'relaxations', 'plasticization', 'ellipsometry', 'thin films', 'glassy polymers', 'PIM', 'hydrogels', 'microgels', 'compression']
++++
+
+Volume change in polymers appears in two related settings in our work. In dense glassy membranes, sorption of gases or vapors dilates the film, can trigger relaxations and a penetrant-induced glass transition, and alters permeability (plasticization). In hydrogels and microgels, water and solutes drive large, often stimuli-responsive swelling; under filtration the same soft networks compress. This note summarizes both lines: classical dilation and relaxation studies, quantitative thin-film ellipsometry, hydrogel/microgel swelling (Bell, Steinbeck), and compression of microgel assemblies.
+
+## Dilation, time-dependent permeation, and plasticization
+
+Early work treated plasticization as a coupled sorption–volume–transport problem rather than a single permeability upturn. *[Plasticization of gas separation membranes](https://doi.org/10.1016/0950-4214(91)80028-4)* (1991) framed the phenomenon for glassy gas-separation materials. *[Dilation kinetics of glassy, aromatic polyimides induced by carbon dioxide sorption](https://doi.org/10.1002/polb.1995.090330907)* (1995) reported volume uptake kinetics under CO₂, and *[Time-dependent permeation of carbon dioxide through a polyimide membrane above the plasticization pressure](https://doi.org/10.1002/app.1995.070581105)* (1995) linked the same regime to non-steady permeation.
+
+*[Optical vs. direct sorption and swelling measurements for the study of stiff-chain polymer-penetrant interactions](https://doi.org/10.1016/S0376-7388(97)00007-0)* (1997) compared optical and gravimetric routes to sorption and swelling, anticipating later optical thin-film methods. Aaltje Bos’s thesis, *[High pressure CO2/CH4 separation with glassy polymer membranes: aspects of CO2-induced plasticization](https://research.utwente.nl/en/publications/high-pressure-cosub2subchsub4sub-separation-with-glassy-polymer-m/)*, and *[CO2-induced plasticization phenomena in glassy polymers](https://doi.org/10.1016/S0376-7388(98)00299-3)* (1999) mapped plasticization across materials and examined suppression by blending and semi-interpenetrating networks. *[Accelerated plasticization of thin-film composite membranes used in gas separation](https://doi.org/10.1016/S1383-5866(01)00127-7)* (2001) showed that thin selective layers can plasticize faster than thick films, which is operationally relevant for asymmetric and composite membranes.
+
+## Onset of sorption-induced relaxations
+
+Molecular dynamics work by Nico van der Vegt addressed how sorption changes the thermodynamic state of the glass. *[The sorption induced glass transition in amorphous glassy polymers](https://doi.org/10.1063/1.479042)* (1999) formulated penetrant-induced vitrification/devitrification as a sorption-dependent glass transition.
+
+Tymen Visser’s thesis, *[Mixed gas plasticization phenomena in asymmetric membranes](https://research.utwente.nl/en/publications/mixed-gas-plasticization-phenomena-in-asymmetric-membranes-2/)*, connected these ideas to permeation practice. *[When do sorption-induced relaxations in glassy polymers set in?](https://doi.org/10.1021/ma070202g)* (*Macromolecules*, 2007) asked for a criterion: relaxations appear once a critical dilatational strain (or related sorption level) is reached, rather than at an arbitrary feed pressure. Related papers treated competitive sorption versus plasticization in hollow fibers and auto/mutual plasticization in mixed C₃ feeds ([2005](https://doi.org/10.1016/j.memsci.2004.12.015); [2007](https://doi.org/10.1016/j.memsci.2007.07.048); [2008](https://doi.org/10.1016/j.memsci.2007.12.035)).
+
+The same language of sorption-induced relaxations was carried to hydrophilic systems. *[Sorption induced relaxations during water diffusion in S-PEEK](https://doi.org/10.1039/b810638j)* (Potreck et al., 2009) resolved non-Fickian water uptake associated with polymer relaxation during diffusion.
+
+## In-situ spectroscopic ellipsometry of thin films
+
+Wojciech Ogieglo’s thesis, *[In-situ spectroscopic ellipsometry for studies of thin films and membranes](https://research.utwente.nl/en/publications/in-situ-spectroscopic-ellipsometry-for-studies-of-thin-films-and/)*, established spectroscopic ellipsometry as a quantitative tool for simultaneous thickness and refractive-index changes under vapor, liquid, or pressurized gas exposure. *[In situ ellipsometry studies on swelling of thin polymer films: A review](https://doi.org/10.1016/j.progpolymsci.2014.09.004)* (*Progress in Polymer Science*, 2015) summarizes the method and its limits.
+
+Methodological papers include optical models for polymer on porous α-alumina supports ([2012](https://doi.org/10.1021/am2015958)), effective-medium treatments that account for excess free volume in glasses ([2014](https://doi.org/10.1016/j.polymer.2014.02.040)), and non-equilibrium swelling of thin PDMS under nanofiltration-relevant hexane permeation ([2013](https://doi.org/10.1016/j.memsci.2013.04.039)). Dynamic experiments resolved Case II–related surface swelling of ultrathin polystyrene in n-hexane ([2013](https://doi.org/10.1002/macp.201300371)), temperature-induced changes of diffusion mechanism ([2013](https://doi.org/10.1016/j.polymer.2012.11.038)), optical anisotropy during overshoot swelling of zwitterionic films ([2013](https://doi.org/10.1016/j.tsf.2013.07.077)), and polymer relaxations near penetrant- or temperature-induced glass transitions ([2014](https://doi.org/10.1021/ma5002707); [2014](https://doi.org/10.1016/j.memsci.2014.04.013)). Liquid-immersed thin-film composite membranes were imaged non-invasively in situ ([2018](https://doi.org/10.1016/j.memsci.2017.10.027)). Ellipsometry was later also used to confirm monolayer microgel deposition on porous substrates in responsive composite membranes ([2018](https://doi.org/10.1016/j.memsci.2018.03.037)).
+
+## Ultrathin films and polymers of intrinsic microporosity
+
+Ellipsometry made confinement effects measurable in films on the order of tens to hundreds of nanometers. For PIM-1 and related materials, liquid and vapor swelling, mixed-penetrant sorption, and high-pressure CO₂ uptake under ultrathin confinement were quantified ([2016](https://doi.org/10.1021/acs.jpcb.6b06807); [2017](https://doi.org/10.1021/acs.jpcb.7b03891); [2017](https://doi.org/10.1021/acs.jpcb.7b10061); [2018](https://doi.org/10.1021/acsami.8b01402)). *[CO2/CH4 pure- and mixed-gas dilation and sorption in thin (∼500 nm) and ultrathin (∼50 nm) polymers of intrinsic microporosity](https://doi.org/10.1021/acs.macromol.0c01163)* (2020) compared dilation and sorption across thickness and gas composition, connecting the thin-film optical measurements to mixed-gas membrane conditions.
+
+## Hydrogel and microgel swelling (Bell, Steinbeck)
+
+Hydrogels and microgels undergo large aqueous volume changes, often with a volume phase transition (temperature, pH, or reaction-coupled). Daniel Bell’s thesis, *[Artificial oscillating membrane systems](https://publications.rwth-aachen.de/record/824265)*, addressed self-regulated swelling. *[Towards synergistic oscillations in enzymatically active hydrogel spheres](https://doi.org/10.1039/d0sm01548b)* (2021) combined glucose oxidase activity with a pH-responsive volume phase transition: enzymatic acidification and swelling-dependent permeability form a feedback loop that can produce a self-regulated oscillation cycle under constant nutrient supply. *[Monodisperse porous microspheres with pH-responsive permeability and reactivity](https://doi.org/10.1021/acsapm.9b01135)* (2020) used swelling state to switch substrate access and enzymatic conversion. *[Hydrogel membranes made from crosslinked microgel multilayers with tunable density](https://doi.org/10.1016/j.memsci.2020.118912)* (2021) assembled microgels into freestanding hydrogel membranes whose density—and therefore transport—depends on how the soft particles pack and crosslink in the swollen state.
+
+Lea Steinbeck’s thesis, *[Tailoring the characteristics of complex-shaped microgels](https://publications.rwth-aachen.de/record/1009669)* (2025), treated swelling as a design variable for anisometric PNIPAM microgels made by stop-flow lithography. *[Porous anisometric PNIPAM microgels: tailored porous structure and thermal response](https://doi.org/10.1002/marc.202300680)* (2024) used cononsolvency during polymerization to set porosity; the resulting gels showed a larger collapse amplitude, altered collapse and swelling kinetics, and internal polymer patterns during swelling. *[Hierarchically structured and tunable hydrogel patches](https://doi.org/10.1002/smll.202407311)* (2025) extended the approach to millimeter-scale hydrogels with spatially varying crosslinking and porosity, so swelling and mechanics differ between defined regions in one object. Related work on magnetically actuable complex microgels ([2023](https://doi.org/10.1002/admt.202300044)) uses swollen soft bodies whose orientation, rather than only radius, controls local flow.
+
+At fluid interfaces, *[Effect of the 3D swelling of microgels on their 2D phase behavior at the liquid–liquid interface](https://doi.org/10.1021/acs.langmuir.9b02498)* (2019) coupled bulk volume phase transition to interfacial compression isotherms and ellipsometry: corona-dominated interactions at low compression remain temperature-insensitive, whereas compressed states recover sensitivity of the aqueous portions of the particles.
+
+## Compression of hydrogels and microgels
+
+Under permeation, soft particles do not only swell: they deform and the cake densifies. *[Direct observation of deformation in microgel filtration](https://doi.org/10.1038/s41598-019-55516-w)* (2019) visualized amorphous and crystalline microgel domains in a microfluidic filter cake by confocal microscopy while flux was varied, resolving single-particle deformation and ensemble compression. *[Particle movements provoke avalanche-like compaction in soft colloid filter cakes](https://doi.org/10.1038/s41598-021-92119-w)* (2021) showed that local particle rearrangements trigger abrupt densification events rather than purely continuous consolidation. Early-time filtration of soft core–shell microgels can exhibit a resistance peak followed by a substantial drop as the deposit reorganizes — *[Temporal resistance fluctuations during the initial filtration period of colloidal matter filtration](https://doi.org/10.1016/j.memsci.2024.122988)* (2024). Backwashing and cleaning motions of soft cakes were resolved similarly as cluster resuspension and collective motion ([2020](https://doi.org/10.1016/j.memsci.2020.117886); [2020](https://doi.org/10.1038/s41598-020-76970-x)).
+
+Compression and swelling therefore close the loop for soft colloids: stimuli set the equilibrium swollen size and mechanics; filtration stress sets the nonequilibrium compacted state that governs hydraulic resistance.
+
+## Overview
+
+| Theme | Question | Representative contributions |
+|---|---|---|
+| Plasticization and dilation | How do CO₂ sorption, volume, and permeation evolve with time and thickness? | Dilation kinetics; time-dependent permeation; Bos plasticization map; accelerated TFC plasticization |
+| Relaxation onset | When does the glass begin to relax under sorption? | Sorption-induced glass transition (MD); critical dilatational strain (Visser); water in S-PEEK |
+| Optical thin-film metrology | How can thickness and refractive index be followed under exposure? | In-situ SE review; free-volume EMA; Case II and Tg-vicinity dynamics (Ogieglo) |
+| Confinement / PIM | Do ultrathin selective layers swell and sorb like thick films? | PIM liquid/vapor/CO₂ and mixed-gas dilation studies |
+| Hydrogel / microgel swelling | How do stimuli and architecture set aqueous volume change? | Bell: reaction-coupled oscillations, pH-gated microspheres, microgel multilayer membranes; Steinbeck: porous anisometric PNIPAM, hierarchical patches |
+| Soft-colloid compression | How do swollen microgels deform and densify under filtration? | Confocal cake deformation; avalanche-like compaction; early-time resistance fluctuations |
+
+The common element is quantitative volume change—whether dilatational strain in a glassy film, a hydrogel volume phase transition, or compressive densification of a microgel cake—as the link between material state and transport.
