@@ -22,6 +22,10 @@ Thumbs.db
 *.tmp
 *.temp
 
+# Confidential ERC / Permeac proposal materials (local only)
+PERMEAC*.pdf
+Wessling_ERC*.pdf
+
 # Graduate metadata scrape caches
 data/ut_cache/
 data/rwth_cache/

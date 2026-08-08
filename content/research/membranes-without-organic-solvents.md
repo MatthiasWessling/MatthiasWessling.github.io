@@ -2,8 +2,8 @@
 title = 'Organic solvent-free membrane fabrication via aqueous polyelectrolyte complexation'
 date = '2026-08-07'
 draft = false
-summary = 'Overview of salt-dilution aqueous phase separation for polyelectrolyte complex ultrafiltration and nanofiltration membranes, including tubular and hollow-fiber spinning and Restrepo’s biocatalytic extensions.'
-abstract = 'Overview of salt-dilution aqueous phase separation for polyelectrolyte complex ultrafiltration and nanofiltration membranes, including tubular and hollow-fiber spinning and Restrepo’s biocatalytic extensions.'
+summary = 'Aqueous polyelectrolyte complexation under salt control—architecting permeable, fixed-charge soft networks into ultrafiltration and nanofiltration membranes, including tubular and hollow-fiber spinning and enzyme-laden biocatalytic fibers.'
+abstract = 'Aqueous polyelectrolyte complexation under salt control—architecting permeable, fixed-charge soft networks into ultrafiltration and nanofiltration membranes, including tubular and hollow-fiber spinning and enzyme-laden biocatalytic fibers.'
 authors = ['Matthias Wessling']
 publication = 'Research overview'
 publication_year = '2026'
@@ -11,30 +11,30 @@ paper_url = ''
 featured = true
 image = '/images/blog/ink-solvent-free.png'
 image_alt = 'Abstract black-ink drawing of a spinneret, water ripples, and a porous hollow-fiber membrane'
-tags = ['membranes', 'polyelectrolyte complexes', 'aqueous phase separation', 'solvent-free', 'nanofiltration', 'hollow fibers', 'biocatalysis']
+tags = ['membranes', 'polyelectrolyte complexes', 'aqueous phase separation', 'solvent-free', 'nanofiltration', 'hollow fibers', 'biocatalysis', 'fixed charge']
 +++
 
-Conventional polymeric membrane fabrication by nonsolvent-induced phase separation (NIPS) typically relies on organic solvents such as NMP, DMF, or DMAc. These solvents face increasing regulatory pressure, and many selective layers additionally require crosslinking chemistry that is undesirable at scale. This note summarizes group work on aqueous alternatives based on polyelectrolyte complexation under salt control.
+Conventional polymeric membrane fabrication by nonsolvent-induced phase separation (NIPS) typically relies on organic solvents such as NMP, DMF, or DMAc. These solvents face increasing regulatory pressure, and many selective layers additionally require crosslinking chemistry that is undesirable at scale. This note summarizes group work on aqueous alternatives based on polyelectrolyte complexation under salt control: soft, hydrated polyion networks whose fixed charge, mesh size and morphology are set during aqueous demixing—architected permeable matter without polar aprotic solvents.
 
 ## Salt dilution as the phase-separation trigger
 
-Oppositely charged polyelectrolytes complex and precipitate unless complexation is suppressed. At sufficiently high salt concentration, a homogeneous aqueous dope can be prepared. Immersion in water dilutes the salt, the composition enters the demixing gap, and a porous polyelectrolyte complex (PEC) membrane forms.
+Oppositely charged polyelectrolytes complex and precipitate unless complexation is suppressed. At sufficiently high salt concentration, a homogeneous aqueous dope can be prepared. Immersion in water dilutes the salt, the composition enters the demixing gap, and a porous polyelectrolyte complex (PEC) membrane forms. Ionic strength replaces the organic solvent as the control variable that keeps the soft constituents processable until architecture is locked in by complexation.
 
-*[On the organic solvent free preparation of ultrafiltration and nanofiltration membranes using polyelectrolyte complexation in an all aqueous phase inversion process](https://doi.org/10.1016/j.memsci.2020.118632)* (Kamp, Emonds, Borowec, Restrepo Toro, Wessling, 2021) established this route for PSS / PDADMAC with overcritical KBr. Polyion ratio influences morphology and places performance in the ultrafiltration to nanofiltration range, without organic solvents and without classical crosslinking. The process is deliberately analogous to NIPS in its demixing logic; the role of the organic solvent is replaced by ionic strength in water.
+*[On the organic solvent free preparation of ultrafiltration and nanofiltration membranes using polyelectrolyte complexation in an all aqueous phase inversion process](https://doi.org/10.1016/j.memsci.2020.118632)* (Kamp, Emonds, Borowec, Restrepo Toro, Wessling, 2021) established this route for PSS / PDADMAC with overcritical KBr. Polyion ratio influences morphology and places performance in the ultrafiltration to nanofiltration range, without organic solvents and without classical crosslinking. The process is deliberately analogous to NIPS in its demixing logic; the role of the organic solvent is replaced by ionic strength in water. Excess polyion charge becomes a design coordinate for ionic partitioning and selectivity.
 
 ## Tubular and hollow-fiber geometries
 
-*[Polyelectrolyte Complex Tubular Membranes via a Salt Dilution Induced Phase Inversion Process](https://doi.org/10.1002/adem.202001401)* (Emonds, Kamp, Borowec, Roth, Wessling, 2021) demonstrated dry-jet wet spinning of aqueous PSS / PDADMAC / KBr dopes with water-based bore fluids. Air-gap and bore composition were used to control demixing and lumen-skin integrity. Membranes remained asymmetric and freestanding.
+*[Polyelectrolyte Complex Tubular Membranes via a Salt Dilution Induced Phase Inversion Process](https://doi.org/10.1002/adem.202001401)* (Emonds, Kamp, Borowec, Roth, Wessling, 2021) demonstrated dry-jet wet spinning of aqueous PSS / PDADMAC / KBr dopes with water-based bore fluids. Air-gap and bore composition were used to control demixing and lumen-skin integrity. Membranes remained asymmetric and freestanding—shaped permeable bodies whose porosity and skin architecture are set by the same salt-dilution physics.
 
 *[Open and dense hollow fiber nanofiltration membranes through a streamlined polyelectrolyte-based spinning process](https://doi.org/10.1016/j.memsci.2021.120100)* (Emonds et al., 2022) developed continuous spinning toward open versus dense nanofiltration morphologies. Stephan Emonds’ thesis, *[Fabrication of polyelectrolyte complex membranes](https://publications.rwth-aachen.de/record/849649)*, documents composite and freestanding PEC hollow fibers. Related spinneret work ([2020](https://doi.org/10.1016/j.memsci.2020.118325)) formed polyelectrolyte separation layers during spinning, reducing post-treatment steps.
 
 ## Charge, selectivity, and related multilayer systems
 
-*[Tuning the excess charge and inverting the salt rejection hierarchy of polyelectrolyte multilayer membranes](https://doi.org/10.1016/j.memsci.2021.119636)* (Kamp, Emonds et al., 2021) showed how excess polyion charge reshapes ion rejection, including inversion of familiar salt hierarchies. Tubular composite polyelectrolyte multilayers on ceramic supports were examined toward nanofiltration and reverse-osmosis transport ranges ([2021](https://doi.org/10.1016/j.memsci.2020.118851)).
+*[Tuning the excess charge and inverting the salt rejection hierarchy of polyelectrolyte multilayer membranes](https://doi.org/10.1016/j.memsci.2021.119636)* (Kamp, Emonds et al., 2021) showed how excess polyion charge reshapes ion rejection, including inversion of familiar salt hierarchies. Fixed-charge sign and density therefore couple architecture to selective ion transport in the same soft aqueous network. Tubular composite polyelectrolyte multilayers on ceramic supports were examined toward nanofiltration and reverse-osmosis transport ranges ([2021](https://doi.org/10.1016/j.memsci.2020.118851)).
 
 ## Biocatalytic and functional hollow fibers (Restrepo)
 
-Aqueous fabrication is particularly relevant when enzymes must be incorporated, because conventional organic-solvent routes are incompatible with direct enzyme addition during membrane formation. Maria Adelaida Restrepo Toro’s thesis, *[Fabrication and modification of functional and enzymatically active hollow fiber membranes](https://publications.rwth-aachen.de/record/1023806)* (2025), addresses this in three related approaches.
+Aqueous fabrication is particularly relevant when enzymes must be incorporated, because conventional organic-solvent routes are incompatible with direct enzyme addition during membrane formation. Maria Adelaida Restrepo Toro’s thesis, *[Fabrication and modification of functional and enzymatically active hollow fiber membranes](https://publications.rwth-aachen.de/record/1023806)* (2025), addresses this in three related approaches. Reaction and permeability then share one hydrated polymer phase—transport and chemistry co-located in the soft network.
 
 *[Self-supporting biocatalytic polyelectrolyte complex hollow fiber membranes via salt-dilution induced phase separation](https://doi.org/10.1016/j.memsci.2023.122157)* (Restrepo, Emonds, Zhao, Karakas, Kamp, Roth, Wessling, 2024) spun freestanding PEC hollow fibers with alkaline phosphatase included in the aqueous dope, combining immobilization with nanofiltration-relevant separation.
 
@@ -53,4 +53,4 @@ Patent protection for salt-dilution PEC membrane porosity control is described i
 | Often separate crosslinking | Network formed by polyelectrolyte complexation |
 | Established spinning know-how | Same process elements (air gap, bore fluid, demixing) with different chemistry |
 
-The scientific contribution of this line is a transferable fabrication platform: salt instead of polar aprotic solvents, complexation instead of classical crosslinking, and—where required—direct incorporation of enzymes into hollow fibers during aqueous spinning.
+The scientific contribution of this line is a transferable fabrication platform: salt instead of polar aprotic solvents, complexation instead of classical crosslinking, and—where required—direct incorporation of enzymes into hollow fibers during aqueous spinning. Soft charged constituents are architected into permeable bodies whose fixed charge and morphology jointly set ion and water transport.
