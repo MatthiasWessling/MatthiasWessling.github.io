@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Hugo-based personal website for Florian Wiesner built with a custom theme. The site serves as a portfolio showcasing research, projects, blog posts, hobbies, and news updates.
+This is a Hugo-based personal website for Matthias Wessling built with a custom theme. The site serves as a portfolio showcasing research, projects, blog posts, hobbies, and news updates.
 
 ## Development Commands
 
