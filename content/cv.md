@@ -17,10 +17,8 @@ date = "2026-03-09"
   <dl class="cv-facts">
     <dt>Name</dt>
     <dd>Univ.-Prof. Dr.-Ing. Matthias Wessling</dd>
-    <dt>Address (work)</dt>
+    <dt>Address</dt>
     <dd>Aachener Verfahrenstechnik, RWTH Aachen, DWI – Leibniz Institute for Interactive Materials, Forckenbeckstr. 51, 52074 Aachen, Germany</dd>
-    <dt>Address (private)</dt>
-    <dd>Keltenstrasse 53, 52074 Aachen, Germany</dd>
     <dt>Date of birth</dt>
     <dd>10 March 1963</dd>
     <dt>Place of birth</dt>
