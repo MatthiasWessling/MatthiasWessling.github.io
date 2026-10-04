@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       since_year:
-        description: "Import works from this year onward"
+        description: "Import works from this year onward (default: full career from 1990)"
         required: false
-        default: "2024"
+        default: "1990"
       overwrite:
         description: "Refresh existing openalex-sourced pages (true/false)"
         required: false
@@ -38,7 +38,7 @@ jobs:
       - name: Sync publications
         id: sync
         env:
-          SINCE_YEAR: ${{ github.event.inputs.since_year || '2024' }}
+          SINCE_YEAR: ${{ github.event.inputs.since_year || '1990' }}
           OVERWRITE: ${{ github.event.inputs.overwrite || 'false' }}
         run: |
           set -euo pipefail
@@ -68,7 +68,7 @@ jobs:
             ## Summary
             - Weekly OpenAlex sync for ORCID `0000-0002-7874-5315` / author `A5031459065`
             - Created: `${{ steps.sync.outputs.created }}` · Updated: `${{ steps.sync.outputs.updated }}`
-            - Since year: `${{ github.event.inputs.since_year || '2024' }}` · Overwrite: `${{ github.event.inputs.overwrite || 'false' }}`
+            - Since year: `${{ github.event.inputs.since_year || '1990' }}` · Overwrite: `${{ github.event.inputs.overwrite || 'false' }}`
 
             ## Notes
             - Review for false author attributions before merge

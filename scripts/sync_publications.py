@@ -12,6 +12,8 @@ Usage:
   python scripts/sync_publications.py --since-year 2024
   python scripts/sync_publications.py --overwrite
   python scripts/sync_publications.py --limit 20
+
+Default import covers the full career (from 1990). Pass --since-year for a narrower window.
 """
 
 from __future__ import annotations
@@ -145,6 +147,11 @@ def normalize_doi(value: Optional[str]) -> str:
     return doi.strip()
 
 
+def normalize_author_name(name: str) -> str:
+    """Prefer ASCII Wessling spelling for site-facing author lists."""
+    return (name or "").replace("Weßling", "Wessling").replace("weßling", "wessling").strip()
+
+
 def parse_work(raw: Dict[str, Any]) -> Optional[Publication]:
     title = (raw.get("title") or raw.get("display_name") or "").strip()
     if not title:
@@ -168,7 +175,7 @@ def parse_work(raw: Dict[str, Any]) -> Optional[Publication]:
     authors: List[str] = []
     for authorship in raw.get("authorships") or []:
         author = authorship.get("author") or {}
-        name = (author.get("display_name") or "").strip()
+        name = normalize_author_name(author.get("display_name") or "")
         if name and name not in authors:
             authors.append(name)
 
@@ -201,7 +208,7 @@ def parse_work(raw: Dict[str, Any]) -> Optional[Publication]:
 def fetch_works(
     *,
     author_id: str,
-    since_year: int,
+    since_year: Optional[int],
     types: Sequence[str],
     limit: Optional[int],
 ) -> List[Publication]:
@@ -209,8 +216,9 @@ def fetch_works(
     filters = [
         f"author.id:{author_id}",
         f"type:{type_filter}",
-        f"from_publication_date:{since_year}-01-01",
     ]
+    if since_year is not None:
+        filters.append(f"from_publication_date:{since_year}-01-01")
     base = "https://api.openalex.org/works"
     per_page = 50
     cursor = "*"
@@ -372,7 +380,12 @@ def main() -> int:
         default=DEFAULT_OPENALEX_AUTHOR,
         help="OpenAlex author id (e.g. A5031459065)",
     )
-    parser.add_argument("--since-year", type=int, default=2024, help="Import works from this year onward")
+    parser.add_argument(
+        "--since-year",
+        type=int,
+        default=1990,
+        help="Import works from this year onward (default: 1990, full career)",
+    )
     parser.add_argument(
         "--types",
         default=",".join(DEFAULT_TYPES),
