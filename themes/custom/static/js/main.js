@@ -932,6 +932,154 @@ class PatentsProductsDirectory {
     }
 }
 
+// Publications list search and sorting
+class PublicationsDirectory {
+    constructor() {
+        this.list = document.getElementById('publications-list');
+        this.searchInput = document.getElementById('publications-search');
+        this.topicsInput = document.getElementById('publications-topics-search');
+        this.yearSelect = document.getElementById('publications-year');
+        this.journalSelect = document.getElementById('publications-journal');
+        this.sortSelect = document.getElementById('publications-sort');
+        this.resultsCount = document.getElementById('publications-results-count');
+        this.entries = [];
+        this.yearHeadings = new Map();
+
+        this.init();
+    }
+
+    init() {
+        if (!this.list || !this.searchInput || !this.sortSelect) {
+            return;
+        }
+
+        this.entries = Array.from(this.list.querySelectorAll('.publications-entry'));
+        if (!this.entries.length) {
+            return;
+        }
+
+        this.searchInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        if (this.topicsInput) {
+            this.topicsInput.addEventListener('input', Utils.debounce(() => this.render(), 150));
+        }
+        if (this.yearSelect) {
+            this.yearSelect.addEventListener('change', () => this.render());
+        }
+        if (this.journalSelect) {
+            this.journalSelect.addEventListener('change', () => this.render());
+        }
+        this.sortSelect.addEventListener('change', () => this.render());
+        this.render();
+    }
+
+    getYearHeading(year) {
+        if (this.yearHeadings.has(year)) {
+            return this.yearHeadings.get(year);
+        }
+        const heading = document.createElement('h2');
+        heading.className = 'graduates-year-heading';
+        heading.dataset.yearHeading = year;
+        heading.textContent = year;
+        this.yearHeadings.set(year, heading);
+        return heading;
+    }
+
+    clearYearHeadings() {
+        this.list.querySelectorAll('.graduates-year-heading').forEach((el) => el.remove());
+        this.yearHeadings.clear();
+    }
+
+    ensureEmptyState() {
+        let empty = this.list.querySelector('.publications-empty-state');
+        if (!empty) {
+            empty = document.createElement('p');
+            empty.className = 'no-content publications-empty-state';
+            empty.hidden = true;
+            this.list.appendChild(empty);
+        }
+        return empty;
+    }
+
+    render() {
+        const query = this.searchInput.value.trim().toLowerCase();
+        const topicsQuery = (this.topicsInput?.value || '').trim().toLowerCase();
+        const yearFilter = (this.yearSelect?.value || '').trim();
+        const journalFilter = (this.journalSelect?.value || '').trim().toLowerCase();
+        const sortMode = this.sortSelect.value;
+
+        const filtered = this.entries.filter((entry) => {
+            const title = entry.dataset.title || '';
+            const summary = entry.dataset.summary || '';
+            const topics = entry.dataset.topics || '';
+            const year = entry.dataset.year || '';
+            const journal = entry.dataset.journal || '';
+            const haystack = `${title} ${summary} ${topics}`;
+            const matchesSearch = !query || haystack.includes(query);
+            const matchesTopics = !topicsQuery || topics.includes(topicsQuery);
+            const matchesYear = !yearFilter || year === yearFilter;
+            const matchesJournal = !journalFilter || journal === journalFilter;
+            return matchesSearch && matchesTopics && matchesYear && matchesJournal;
+        });
+
+        const groupByYear = sortMode === 'newest' || sortMode === 'oldest';
+
+        filtered.sort((a, b) => {
+            const dateA = Number(a.dataset.date || 0);
+            const dateB = Number(b.dataset.date || 0);
+            const titleA = (a.dataset.title || '').toLowerCase();
+            const titleB = (b.dataset.title || '').toLowerCase();
+            const yearA = a.dataset.year || '';
+            const yearB = b.dataset.year || '';
+
+            if (sortMode === 'oldest') {
+                if (yearA !== yearB) {
+                    return yearA.localeCompare(yearB);
+                }
+                return dateA - dateB;
+            }
+            if (sortMode === 'title-asc') {
+                return titleA.localeCompare(titleB);
+            }
+            if (sortMode === 'title-desc') {
+                return titleB.localeCompare(titleA);
+            }
+            if (yearA !== yearB) {
+                return yearB.localeCompare(yearA);
+            }
+            return dateB - dateA;
+        });
+
+        this.clearYearHeadings();
+        this.entries.forEach((entry) => {
+            entry.style.display = 'none';
+        });
+
+        const empty = this.ensureEmptyState();
+        empty.hidden = filtered.length > 0;
+        empty.textContent = filtered.length
+            ? ''
+            : 'No publications match these filters. Clear Topics/Year/Journal or try another search.';
+
+        let currentYear = null;
+        filtered.forEach((entry) => {
+            if (groupByYear) {
+                const year = entry.dataset.year || '';
+                if (year && year !== currentYear) {
+                    currentYear = year;
+                    this.list.appendChild(this.getYearHeading(year));
+                }
+            }
+            Utils.showDirectoryEntry(entry, this.list);
+        });
+
+        if (this.resultsCount) {
+            const total = this.entries.length;
+            const visible = filtered.length;
+            this.resultsCount.textContent = `${visible} of ${total} publications`;
+        }
+    }
+}
+
 // Startup list search and sorting
 class StartupsDirectory {
     constructor() {
@@ -1018,6 +1166,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new NewsDirectory();
     new GraduatesDirectory();
     new PatentsProductsDirectory();
+    new PublicationsDirectory();
     new StartupsDirectory();
 
     // Add any additional initialization here

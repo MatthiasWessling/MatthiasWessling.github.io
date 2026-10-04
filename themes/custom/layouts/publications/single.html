@@ -1,0 +1,69 @@
+{{ define "main" }}
+<div class="container">
+    <article class="news-single">
+        <header class="news-header">
+            <h1>{{ .Title }}</h1>
+            <div class="news-meta">
+                {{ with .Params.publication_year }}
+                <time>{{ . }}</time>
+                {{ else }}
+                <time>{{ .Date.Format "2006" }}</time>
+                {{ end }}
+                {{ with .Params.publication }}
+                <span class="graduates-institution">{{ . }}</span>
+                {{ end }}
+            </div>
+        </header>
+
+        {{ with .Params.authors }}
+        <section class="news-summary">
+            <p class="lead">{{ delimit . ", " }}</p>
+        </section>
+        {{ end }}
+
+        {{ if or .Params.doi .Params.paper_url .Params.openalex_id .Params.cited_by_count .Params.source }}
+        <section class="patent-meta-card">
+            {{ with .Params.doi }}<p><strong>DOI:</strong> <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">{{ . }}</a></p>{{ end }}
+            {{ with .Params.paper_url }}<p><strong>Paper:</strong> <a href="{{ . }}" target="_blank" rel="noopener">Open link</a></p>{{ end }}
+            {{ with .Params.openalex_id }}<p><strong>OpenAlex:</strong> <a href="https://openalex.org/{{ . }}" target="_blank" rel="noopener">{{ . }}</a></p>{{ end }}
+            {{ with .Params.cited_by_count }}<p><strong>Citations (OpenAlex):</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.source }}<p><strong>Source:</strong> {{ . }}</p>{{ end }}
+        </section>
+        {{ end }}
+
+        {{ with .Params.tags }}
+        <div class="graduates-topics" style="margin-bottom: 1rem;">
+            {{ range . }}
+            <span class="graduates-topic-tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        <div class="news-content">
+            {{ .Content }}
+        </div>
+
+        <div class="research-buttons" style="margin-top: 1.5rem;">
+            {{ if .Params.paper_url }}
+            <a href="{{ .Params.paper_url }}" target="_blank" rel="noopener" class="btn btn-primary">View Paper</a>
+            {{ else if .Params.doi }}
+            <a href="https://doi.org/{{ .Params.doi }}" target="_blank" rel="noopener" class="btn btn-primary">View Paper</a>
+            {{ end }}
+            <a href="{{ "/publications/" | relURL }}" class="btn btn-secondary">All publications</a>
+        </div>
+
+        <footer class="news-footer">
+            {{ if or .PrevInSection .NextInSection }}
+            <nav class="news-nav">
+                {{ with .PrevInSection }}
+                <a href="{{ .Permalink }}" class="nav-prev">← {{ .Title }}</a>
+                {{ end }}
+                {{ with .NextInSection }}
+                <a href="{{ .Permalink }}" class="nav-next">{{ .Title }} →</a>
+                {{ end }}
+            </nav>
+            {{ end }}
+        </footer>
+    </article>
+</div>
+{{ end }}

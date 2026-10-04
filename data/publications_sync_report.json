@@ -1,0 +1,1216 @@
+{
+  "author_id": "A5031459065",
+  "orcid": "0000-0002-7874-5315",
+  "since_year": 2024,
+  "types": [
+    "article",
+    "review"
+  ],
+  "fetched": 92,
+  "dry_run": false,
+  "overwrite": true,
+  "created": 0,
+  "updated": 92,
+  "skipped": 0,
+  "preserved": 0,
+  "publications": [
+    {
+      "openalex_id": "W7214939352",
+      "doi": "10.1016/j.isci.2026.117623",
+      "title": "Physiological elasticity and topography modulate in vitro prostate cancer cell behavior",
+      "publication_year": 2026,
+      "journal": "iScience",
+      "slug": "10-1016-j-isci-2026-117623"
+    },
+    {
+      "openalex_id": "W7214963903",
+      "doi": "10.1002/mame.70352",
+      "title": "Geometry\u2010Dependent Fidelity Limits in Projection Photopolymerization of Millimeter\u2010Scale PEG\u2010Based Hydrogels",
+      "publication_year": 2026,
+      "journal": "Macromolecular Materials and Engineering",
+      "slug": "10-1002-mame-70352"
+    },
+    {
+      "openalex_id": "W7214361000",
+      "doi": "10.1016/j.memlet.2026.100127",
+      "title": "Population-resolved quantification of lipid nanoparticle transmission during sterile filtration",
+      "publication_year": 2026,
+      "journal": "Journal of Membrane Science Letters",
+      "slug": "10-1016-j-memlet-2026-100127"
+    },
+    {
+      "openalex_id": "W7213320180",
+      "doi": "10.1016/j.memsci.2026.126106",
+      "title": "Hydraulic coupling and flow redistribution in hollow fiber membrane modules with blocked fibers",
+      "publication_year": 2026,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2026-126106"
+    },
+    {
+      "openalex_id": "W7204887138",
+      "doi": "10.1002/smll.75540",
+      "title": "Electroconductive MXene\u2010Thin\u2010Film\u2010Composite Membranes for Coupled Osmotic Concentration and PFAS Mineralization",
+      "publication_year": 2026,
+      "journal": "Small",
+      "slug": "10-1002-smll-75540"
+    },
+    {
+      "openalex_id": "W7172344420",
+      "doi": "10.1002/adma.74361",
+      "title": "From Fiber Bundles to Architected Membranes: Triply Periodic Minimal Surface Architectures for Biohybrid Artificial Lungs",
+      "publication_year": 2026,
+      "journal": "Advanced Materials",
+      "slug": "10-1002-adma-74361"
+    },
+    {
+      "openalex_id": "W7172418498",
+      "doi": "10.1021/acs.iecr.6c01825",
+      "title": "Beyond Stack Metrics: Process-Economic Design of Sodium Sulfate Electro\u2013Electrodialysis",
+      "publication_year": 2026,
+      "journal": "Industrial & Engineering Chemistry Research",
+      "slug": "10-1021-acs-iecr-6c01825"
+    },
+    {
+      "openalex_id": "W7168354331",
+      "doi": "10.1002/celc.70275",
+      "title": "Getting the Most of Your Catalyst: How Process Parameters and Pulse Procedures Affect the Performance of eCO 2 R",
+      "publication_year": 2026,
+      "journal": "ChemElectroChem",
+      "slug": "10-1002-celc-70275"
+    },
+    {
+      "openalex_id": "W7167586449",
+      "doi": "10.1016/j.jcou.2026.103508",
+      "title": "Transport-kinetic trade-offs in pulsed CO2 electrolysis with gas diffusion electrodes: A microkinetic-continuum modeling study",
+      "publication_year": 2026,
+      "journal": "Journal of CO2 Utilization",
+      "slug": "10-1016-j-jcou-2026-103508"
+    },
+    {
+      "openalex_id": "W7168129490",
+      "doi": "10.1002/ache.70003",
+      "title": "Tunable Anodes: A Dynamic Solution for Fluctuating Green Electricity",
+      "publication_year": 2026,
+      "journal": "Advanced Chemical Engineering",
+      "slug": "10-1002-ache-70003"
+    },
+    {
+      "openalex_id": "W7163897223",
+      "doi": "10.1016/j.memsci.2026.125770",
+      "title": "Beyond dehydration: Local coordination shapes ion-transport barriers in polyelectrolyte membranes",
+      "publication_year": 2026,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2026-125770"
+    },
+    {
+      "openalex_id": "W7162305503",
+      "doi": "10.1002/adem.70921",
+      "title": "Enhancing Bubble Removal in Geometry\u2010Optimized Electrodes",
+      "publication_year": 2026,
+      "journal": "Advanced Engineering Materials",
+      "slug": "10-1002-adem-70921"
+    },
+    {
+      "openalex_id": "W7160020569",
+      "doi": "10.1016/j.memsci.2026.125587",
+      "title": "Flow distribution in single-use intravenous in-line membrane filters",
+      "publication_year": 2026,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2026-125587"
+    },
+    {
+      "openalex_id": "W7155028944",
+      "doi": "10.1016/j.ijhydene.2026.154957",
+      "title": "Environmental Potential Of Co-Transporting Hydrogen In Natural Gas Pipelines Followed By Electrochemical Hydrogen Compression",
+      "publication_year": 2026,
+      "journal": "International Journal of Hydrogen Energy",
+      "slug": "10-1016-j-ijhydene-2026-154957"
+    },
+    {
+      "openalex_id": "W7154854208",
+      "doi": "10.1016/j.elecom.2026.108180",
+      "title": "Reducing interfacial resistances in proton exchange membrane water electrolysis via gas diffusion layer-based layer-by-layer coating",
+      "publication_year": 2026,
+      "journal": "Electrochemistry Communications",
+      "slug": "10-1016-j-elecom-2026-108180"
+    },
+    {
+      "openalex_id": "W7128430657",
+      "doi": "10.1016/j.desal.2026.119961",
+      "title": "Lithium recovery from battery recycling water via salt metathesis using flow-electrode capacitive deionization",
+      "publication_year": 2026,
+      "journal": "Desalination",
+      "slug": "10-1016-j-desal-2026-119961"
+    },
+    {
+      "openalex_id": "W7124687663",
+      "doi": "10.1002/adsu.70365",
+      "title": "Electro\u2010Conductive Silver\u2010Coated Polyamide\u2010Imide Membranes for Sustainable Water Treatment (Adv. Sustainable Syst. 1/2026)",
+      "publication_year": 2026,
+      "journal": "Advanced Sustainable Systems",
+      "slug": "10-1002-adsu-70365"
+    },
+    {
+      "openalex_id": "W7126087565",
+      "doi": "10.18154/rwth-2026-01051",
+      "title": "Electro-Conductive Silver-Coated Polyamide-Imide Membranes for Sustainable Water Treatment",
+      "publication_year": 2026,
+      "journal": "Advanced Sustainable Systems",
+      "slug": "10-18154-rwth-2026-01051"
+    },
+    {
+      "openalex_id": "W7160800894",
+      "doi": "",
+      "title": "Verfahren zur Herstellung fl\u00e4chiger, por\u00f6ser Hydrogele mittels Fluss-Lithographie",
+      "publication_year": 2026,
+      "journal": "RWTH Publications (RWTH Aachen)",
+      "slug": "2026-verfahren-zur-herstellung-flaechiger-poroeser-hydrogele-mittels-fluss-litho"
+    },
+    {
+      "openalex_id": "W7165370456",
+      "doi": "10.18154/rwth-2026-05946",
+      "title": "Flow distribution in single-use intravenous in-line membrane filters",
+      "publication_year": 2026,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-18154-rwth-2026-05946"
+    },
+    {
+      "openalex_id": "W4416732877",
+      "doi": "10.1016/j.advmem.2025.100193",
+      "title": "Molecular fractionation with poly(ether ether ketone) hollow fibers",
+      "publication_year": 2025,
+      "journal": "Advanced Membranes",
+      "slug": "10-1016-j-advmem-2025-100193"
+    },
+    {
+      "openalex_id": "W4415989521",
+      "doi": "10.1002/advs.202512302",
+      "title": "3D Membrane Microstructures for Increased Efficiency in Blood\u2010Gas Transfer",
+      "publication_year": 2025,
+      "journal": "Advanced Science",
+      "slug": "10-1002-advs-202512302"
+    },
+    {
+      "openalex_id": "W4415955217",
+      "doi": "10.1016/j.memlet.2025.100110",
+      "title": "Fabrication and property modification of free-standing PSS/PDADMAC ultra- and microfiltration membranes by incorporating cellulosic additives",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science Letters",
+      "slug": "10-1016-j-memlet-2025-100110"
+    },
+    {
+      "openalex_id": "W4415766860",
+      "doi": "10.1016/j.jconrel.2025.114370",
+      "title": "Self-regulating microfluidic system for lipid nanoparticle production",
+      "publication_year": 2025,
+      "journal": "Journal of Controlled Release",
+      "slug": "10-1016-j-jconrel-2025-114370"
+    },
+    {
+      "openalex_id": "W4415447240",
+      "doi": "10.1016/j.memsci.2025.124849",
+      "title": "Shape-dependent fouling dynamics in a crossflow model pore system",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2025-124849"
+    },
+    {
+      "openalex_id": "W4415312270",
+      "doi": "10.1021/acsmacrolett.5c00608",
+      "title": "Continuous Flow Synthesis of Polyvinylidene Fluoride",
+      "publication_year": 2025,
+      "journal": "ACS Macro Letters",
+      "slug": "10-1021-acsmacrolett-5c00608"
+    },
+    {
+      "openalex_id": "W4414572653",
+      "doi": "10.1016/j.cej.2025.168727",
+      "title": "Resistively heated spiral wound module for temperature swing adsorption of CO2",
+      "publication_year": 2025,
+      "journal": "Chemical Engineering Journal",
+      "slug": "10-1016-j-cej-2025-168727"
+    },
+    {
+      "openalex_id": "W4414307674",
+      "doi": "10.1016/j.cherd.2025.09.009",
+      "title": "Multi-species ion exchange model with competitive adsorption for iron removal in PEM water electrolysis",
+      "publication_year": 2025,
+      "journal": "Process Safety and Environmental Protection",
+      "slug": "10-1016-j-cherd-2025-09-009"
+    },
+    {
+      "openalex_id": "W4413813062",
+      "doi": "10.1016/j.ijhydene.2025.150980",
+      "title": "Effect of natural gas impurities on electrochemical hydrogen compression and strategies for mitigation",
+      "publication_year": 2025,
+      "journal": "International Journal of Hydrogen Energy",
+      "slug": "10-1016-j-ijhydene-2025-150980"
+    },
+    {
+      "openalex_id": "W4413472755",
+      "doi": "10.1002/adsu.202500527",
+      "title": "Electro\u2010Conductive Silver\u2010Coated Polyamide\u2010Imide Membranes for Sustainable Water Treatment",
+      "publication_year": 2025,
+      "journal": "Advanced Sustainable Systems",
+      "slug": "10-1002-adsu-202500527"
+    },
+    {
+      "openalex_id": "W4413053581",
+      "doi": "10.1016/j.elecom.2025.108018",
+      "title": "Tubular electrochemical reactors for the biphasic oxidation of HMF to FDCA",
+      "publication_year": 2025,
+      "journal": "Electrochemistry Communications",
+      "slug": "10-1016-j-elecom-2025-108018"
+    },
+    {
+      "openalex_id": "W4413049775",
+      "doi": "10.1016/j.memsci.2025.124493",
+      "title": "Fabrication of low-fouling hollow fiber membranes through the immobilization of amine-functionalized microgels on a blended PES-SMA support",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2025-124493"
+    },
+    {
+      "openalex_id": "W4411673387",
+      "doi": "10.1016/j.electacta.2025.146699",
+      "title": "Modeling different wetting states in gas diffusion electrodes for CO2 electrolysis",
+      "publication_year": 2025,
+      "journal": "Electrochimica Acta",
+      "slug": "10-1016-j-electacta-2025-146699"
+    },
+    {
+      "openalex_id": "W4411021730",
+      "doi": "10.1016/j.desal.2025.119026",
+      "title": "Separation of complex multi-salt-organic mixtures containing lithium salts with polyelectrolyte multilayer nanofiltration membranes",
+      "publication_year": 2025,
+      "journal": "Desalination",
+      "slug": "10-1016-j-desal-2025-119026"
+    },
+    {
+      "openalex_id": "W4410759174",
+      "doi": "10.1016/j.memsci.2025.124205",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2025-124205"
+    },
+    {
+      "openalex_id": "W4410231144",
+      "doi": "10.1016/j.chempr.2025.102582",
+      "title": "Visualization of CO formation at the triple-phase boundary in gas diffusion electrodes for ecCO2RR",
+      "publication_year": 2025,
+      "journal": "Chem",
+      "slug": "10-1016-j-chempr-2025-102582"
+    },
+    {
+      "openalex_id": "W4410012523",
+      "doi": "10.1016/j.desal.2025.118939",
+      "title": "Membrane arrangement influences time to steady state in FCDI with multi-ionic salt solutions",
+      "publication_year": 2025,
+      "journal": "Desalination",
+      "slug": "10-1016-j-desal-2025-118939"
+    },
+    {
+      "openalex_id": "W4409556345",
+      "doi": "10.1002/advs.202501162",
+      "title": "Tailored 3D Lattice Microstructures for Enhanced Functionality in Blood\u2010Gas Exchange",
+      "publication_year": 2025,
+      "journal": "Advanced Science",
+      "slug": "10-1002-advs-202501162"
+    },
+    {
+      "openalex_id": "W4408992923",
+      "doi": "10.1002/celc.202500034",
+      "title": "Feed and Bleed Operating Mode for Electrochemical Flow Cells: Challenges, Solutions and Practical Insights",
+      "publication_year": 2025,
+      "journal": "ChemElectroChem",
+      "slug": "10-1002-celc-202500034"
+    },
+    {
+      "openalex_id": "W4408745858",
+      "doi": "10.1002/elsa.70001",
+      "title": "Comparative Review of High\u2010 and Low\u2010Temperature Electrochemical Ammonia Synthesis",
+      "publication_year": 2025,
+      "journal": "Electrochemical Science Advances",
+      "slug": "10-1002-elsa-70001"
+    },
+    {
+      "openalex_id": "W4408422685",
+      "doi": "10.1016/j.memlet.2025.100094",
+      "title": "Visualizing the local ion concentration in electrodialysis cells via magnetic resonance imaging",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science Letters",
+      "slug": "10-1016-j-memlet-2025-100094"
+    },
+    {
+      "openalex_id": "W4408389795",
+      "doi": "10.1016/j.memlet.2025.100095",
+      "title": "On the diffusive water transport through polyelectrolyte-based membranes",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science Letters",
+      "slug": "10-1016-j-memlet-2025-100095"
+    },
+    {
+      "openalex_id": "W4408081460",
+      "doi": "10.1016/j.ces.2025.121465",
+      "title": "Fluid distribution in artificially manufactured porous mixed-wetting materials as a model for gas diffusion electrodes",
+      "publication_year": 2025,
+      "journal": "Chemical Engineering Science",
+      "slug": "10-1016-j-ces-2025-121465"
+    },
+    {
+      "openalex_id": "W4408043052",
+      "doi": "10.1016/j.memsci.2025.123916",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2025-123916"
+    },
+    {
+      "openalex_id": "W4408384658",
+      "doi": "10.1002/admt.202401996",
+      "title": "Microfluidic Spinning of PEDOT:PSS Microfibers for Nerve Guidance Conduits",
+      "publication_year": 2025,
+      "journal": "Advanced Materials Technologies",
+      "slug": "10-1002-admt-202401996"
+    },
+    {
+      "openalex_id": "W4407766821",
+      "doi": "10.1016/j.hazl.2025.100148",
+      "title": "Recovery of nitrate and fluoride salts from stainless steel pickling wastewater with flow-electrode capacitive deionization",
+      "publication_year": 2025,
+      "journal": "Journal of Hazardous Materials Letters",
+      "slug": "10-1016-j-hazl-2025-100148"
+    },
+    {
+      "openalex_id": "W4407438799",
+      "doi": "10.1016/j.cep.2025.110209",
+      "title": "Paired electrochemical synthesis of Cl2 from alkali chloride and CO from CO2",
+      "publication_year": 2025,
+      "journal": "Chemical Engineering and Processing - Process Intensification",
+      "slug": "10-1016-j-cep-2025-110209"
+    },
+    {
+      "openalex_id": "W4406902688",
+      "doi": "10.1038/s44286-025-00172-3",
+      "title": "Exploring the potential landscape of chemical engineering science",
+      "publication_year": 2025,
+      "journal": "Nature Chemical Engineering",
+      "slug": "10-1038-s44286-025-00172-3"
+    },
+    {
+      "openalex_id": "W4414688255",
+      "doi": "10.1039/d5ee01732g",
+      "title": "An ecosystem of carbon dioxide removal reviews \u2013 part 1: direct air CO 2 capture and storage",
+      "publication_year": 2025,
+      "journal": "Energy & Environmental Science",
+      "slug": "10-1039-d5ee01732g"
+    },
+    {
+      "openalex_id": "W7124422640",
+      "doi": "10.18154/rwth-2025-10332",
+      "title": "Fabrication and property modification of free-standing PSS/PDADMAC ultra- and microfiltration membranes by incorporating cellulosic additives",
+      "publication_year": 2025,
+      "journal": "Journal of Membrane Science Letters",
+      "slug": "10-18154-rwth-2025-10332"
+    },
+    {
+      "openalex_id": "W7125807231",
+      "doi": "10.34734/fzj-2026-01123",
+      "title": "Comparative Review of High\u2010 and Low\u2010Temperature Electrochemical Ammonia Synthesis",
+      "publication_year": 2025,
+      "journal": "JuSER Publikationsportal",
+      "slug": "10-34734-fzj-2026-01123"
+    },
+    {
+      "openalex_id": "W7125838293",
+      "doi": "10.34734/fzj-2026-01114",
+      "title": "Multi-species ion exchange model with competitive adsorption for iron removal in PEM water electrolysis",
+      "publication_year": 2025,
+      "journal": "Process Safety and Environmental Protection",
+      "slug": "10-34734-fzj-2026-01114"
+    },
+    {
+      "openalex_id": "W7126177486",
+      "doi": "10.18154/rwth-2025-07135",
+      "title": "Visualization of CO formation at the triple-phase boundary in gas diffusion electrodes for ecCO2RR",
+      "publication_year": 2025,
+      "journal": "Chem",
+      "slug": "10-18154-rwth-2025-07135"
+    },
+    {
+      "openalex_id": "W7128710204",
+      "doi": "10.18154/rwth-2025-10108",
+      "title": "Resistively heated spiral wound module for temperature swing adsorption of CO2",
+      "publication_year": 2025,
+      "journal": "RWTH Publications (RWTH Aachen)",
+      "slug": "10-18154-rwth-2025-10108"
+    },
+    {
+      "openalex_id": "W7160574985",
+      "doi": "",
+      "title": "Verfahren zur Herstellung leitf\u00e4higer PEDOT:PSS-Partikel",
+      "publication_year": 2025,
+      "journal": "RWTH Publications (RWTH Aachen)",
+      "slug": "2025-verfahren-zur-herstellung-leitfaehiger-pedot-pss-partikel"
+    },
+    {
+      "openalex_id": "W4405454747",
+      "doi": "10.1016/j.cej.2024.158374",
+      "title": "Electrochemical oxidation of 5-hydroxymethylfurfural with flow electrodes: A novel approach for continuous synthesis of 2,5-furandicarboxylic acid",
+      "publication_year": 2024,
+      "journal": "Chemical Engineering Journal",
+      "slug": "10-1016-j-cej-2024-158374"
+    },
+    {
+      "openalex_id": "W4404959348",
+      "doi": "10.1016/j.memsci.2024.123555",
+      "title": "Stabilization of electroconvective vortices by membrane corrugation: Thresholds, transitions, and impacts on ion transport",
+      "publication_year": 2024,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2024-123555"
+    },
+    {
+      "openalex_id": "W4404603353",
+      "doi": "10.1002/smll.202407311",
+      "title": "Hierarchically Structured and Tunable Hydrogel Patches: Design, Characterization, and Application",
+      "publication_year": 2024,
+      "journal": "Small",
+      "slug": "10-1002-smll-202407311"
+    },
+    {
+      "openalex_id": "W4404390062",
+      "doi": "10.1002/adhm.202403111",
+      "title": "Enhanced Hemodynamics of Anisometric TPMS Topology Reduce Blood Clotting in 3D Printed Blood Contactors",
+      "publication_year": 2024,
+      "journal": "Advanced Healthcare Materials",
+      "slug": "10-1002-adhm-202403111"
+    },
+    {
+      "openalex_id": "W4404326025",
+      "doi": "10.1002/smll.202404183",
+      "title": "Cell Adhesion and Local Cytokine Control on Protein\u2010Functionalized PNIPAM\u2010co\u2010AAc Hydrogel Microcarriers",
+      "publication_year": 2024,
+      "journal": "Small",
+      "slug": "10-1002-smll-202404183"
+    },
+    {
+      "openalex_id": "W4403895783",
+      "doi": "10.1002/adsu.202400398",
+      "title": "Toward Continuous Electrochemical Synthesis of Ferrate",
+      "publication_year": 2024,
+      "journal": "Advanced Sustainable Systems",
+      "slug": "10-1002-adsu-202400398"
+    },
+    {
+      "openalex_id": "W4403783141",
+      "doi": "10.1021/acssuschemeng.4c04754",
+      "title": "Membrane Matters in Paired Electrolysis: Synthesis of 2,5-Furandicarboxylic Acid and 2-Butanone",
+      "publication_year": 2024,
+      "journal": "ACS Sustainable Chemistry & Engineering",
+      "slug": "10-1021-acssuschemeng-4c04754"
+    },
+    {
+      "openalex_id": "W4403526587",
+      "doi": "10.1016/j.seppur.2024.130083",
+      "title": "Removal of emerging contaminants from water using novel electroconductive membranes in a hybrid membrane distillation and electro-Fenton process",
+      "publication_year": 2024,
+      "journal": "Separation and Purification Technology",
+      "slug": "10-1016-j-seppur-2024-130083"
+    },
+    {
+      "openalex_id": "W4403280230",
+      "doi": "10.1016/j.desal.2024.118170",
+      "title": "Unraveling the ion transport through top and wall coated polyelectrolyte membrane pores",
+      "publication_year": 2024,
+      "journal": "Desalination",
+      "slug": "10-1016-j-desal-2024-118170"
+    },
+    {
+      "openalex_id": "W4414862721",
+      "doi": "10.1002/adhm.202470154",
+      "title": "Cellular Architects at Work: Cells Building their Own Microgel Houses (Adv. Healthcare Mater. 25/2024)",
+      "publication_year": 2024,
+      "journal": "Advanced Healthcare Materials",
+      "slug": "10-1002-adhm-202470154"
+    },
+    {
+      "openalex_id": "W4402981979",
+      "doi": "10.1016/j.memsci.2024.123371",
+      "title": "Microscale insights into deep bed membrane filtration: Influence of internal surface roughness",
+      "publication_year": 2024,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2024-123371"
+    },
+    {
+      "openalex_id": "W4402668760",
+      "doi": "10.1016/j.memsci.2024.123356",
+      "title": "Open and FAIR data for nanofiltration in organic media: A unified approach",
+      "publication_year": 2024,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2024-123356"
+    },
+    {
+      "openalex_id": "W4400129503",
+      "doi": "10.1021/acsami.4c04641",
+      "title": "Unveiling the Role of PTFE Surface Coverage on Controlling Gas Diffusion Layer Water Content",
+      "publication_year": 2024,
+      "journal": "ACS Applied Materials & Interfaces",
+      "slug": "10-1021-acsami-4c04641"
+    },
+    {
+      "openalex_id": "W4399738857",
+      "doi": "10.1002/anie.202406924",
+      "title": "Dynamics of the Boundary Layer in Pulsed CO2 Electrolysis",
+      "publication_year": 2024,
+      "journal": "Angewandte Chemie International Edition",
+      "slug": "10-1002-anie-202406924"
+    },
+    {
+      "openalex_id": "W4399742751",
+      "doi": "10.1002/ange.202406924",
+      "title": "Dynamics of the Boundary Layer in Pulsed CO2 Electrolysis",
+      "publication_year": 2024,
+      "journal": "Angewandte Chemie",
+      "slug": "10-1002-ange-202406924"
+    },
+    {
+      "openalex_id": "W4399558745",
+      "doi": "10.1016/j.memsci.2024.122988",
+      "title": "Temporal resistance fluctuations during the initial filtration period of colloidal matter filtration",
+      "publication_year": 2024,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2024-122988"
+    },
+    {
+      "openalex_id": "W4399284775",
+      "doi": "10.1016/j.electacta.2024.144533",
+      "title": "Advancing hydrogen peroxide electro-generation: Selective production at high rates in a flow-through module",
+      "publication_year": 2024,
+      "journal": "Electrochimica Acta",
+      "slug": "10-1016-j-electacta-2024-144533"
+    },
+    {
+      "openalex_id": "W4396921591",
+      "doi": "10.1016/j.joule.2024.04.004",
+      "title": "Electrochemical urea synthesis",
+      "publication_year": 2024,
+      "journal": "Joule",
+      "slug": "10-1016-j-joule-2024-04-004"
+    },
+    {
+      "openalex_id": "W4396738485",
+      "doi": "10.1016/j.jece.2024.112995",
+      "title": "Bubble-less photocatalytic ozonation with ceramic membranes and static mixers enhances the total organic carbon removal and degradation of iodinated X-ray contrast agents",
+      "publication_year": 2024,
+      "journal": "Journal of environmental chemical engineering",
+      "slug": "10-1016-j-jece-2024-112995"
+    },
+    {
+      "openalex_id": "W4396705077",
+      "doi": "10.1021/acsami.4c02799",
+      "title": "Pure-Water-Fed Forward-Bias Bipolar Membrane CO2 Electrolyzer",
+      "publication_year": 2024,
+      "journal": "ACS Applied Materials & Interfaces",
+      "slug": "10-1021-acsami-4c02799"
+    },
+    {
+      "openalex_id": "W4394807174",
+      "doi": "10.1016/j.desal.2024.117595",
+      "title": "Comparison of current collector architectures for Flow-electrode Capacitive Deionization",
+      "publication_year": 2024,
+      "journal": "Desalination",
+      "slug": "10-1016-j-desal-2024-117595"
+    },
+    {
+      "openalex_id": "W4394689441",
+      "doi": "10.1016/j.memsci.2024.122753",
+      "title": "On the geometry and material stability of tubular PVDF-TiO2 static mixer membrane contactors for photocatalytic ozonation of micropollutants",
+      "publication_year": 2024,
+      "journal": "Journal of Membrane Science",
+      "slug": "10-1016-j-memsci-2024-122753"
+    },
+    {
+      "openalex_id": "W4393072460",
+      "doi": "10.1002/adfm.202401970",
+      "title": "Electro\u2010Conductive Ti 3 C 2 MXene Multilayered Membranes: Dye Removal and Antifouling Performance",
+      "publication_year": 2024,
+      "journal": "Advanced Functional Materials",
+      "slug": "10-1002-adfm-202401970"
+    },
+    {
+      "openalex_id": "W4392647121",
+      "doi": "10.1016/j.cej.2024.150031",
+      "title": "A continuous flow reactor for tubular gas diffusion electrodes",
+      "publication_year": 2024,
+      "journal": "Chemical Engineering Journal",
+      "slug": "10-1016-j-cej-2024-150031"
+    },
+    {
+      "openalex_id": "W4392628199",
+      "doi": "10.1002/marc.202300680",
+      "title": "Porous Anisometric PNIPAM Microgels: Tailored Porous Structure and Thermal Response",
+      "publication_year": 2024,
+      "journal": "Macromolecular Rapid Communications",
+      "slug": "10-1002-marc-202300680"
+    },
+    {
+      "openalex_id": "W4392246896",
+      "doi": "10.1016/j.ces.2024.119924",
+      "title": "Modeling of tubular membrane contactors for ozonation of water reveals reduced bromate formation with static mixers",
+      "publication_year": 2024,
+      "journal": "Chemical Engineering Science",
+      "slug": "10-1016-j-ces-2024-119924"
+    },
+    {
+      "openalex_id": "W4392098874",
+      "doi": "10.1103/physrevfluids.9.023701",
+      "title": "Measurement of an eddy diffusivity for chaotic electroconvection using combined computational and experimental techniques",
+      "publication_year": 2024,
+      "journal": "Physical Review Fluids",
+      "slug": "10-1103-physrevfluids-9-023701"
+    },
+    {
+      "openalex_id": "W4392104793",
+      "doi": "10.1002/admt.202301535",
+      "title": "A Microfluidic Perfusion Culture Setup to Investigate Cell Migration in 3D Constrictions",
+      "publication_year": 2024,
+      "journal": "Advanced Materials Technologies",
+      "slug": "10-1002-admt-202301535"
+    },
+    {
+      "openalex_id": "W4392035906",
+      "doi": "10.1002/smll.202310427",
+      "title": "Spatio\u2010Temporal Electrowetting and Reaction Monitoring in Microfluidic Gas Diffusion Electrode Elucidates Mass Transport Limitations",
+      "publication_year": 2024,
+      "journal": "Small",
+      "slug": "10-1002-smll-202310427"
+    },
+    {
+      "openalex_id": "W4391730925",
+      "doi": "10.1016/j.jwpe.2024.104954",
+      "title": "Flow-electrode capacitive deionization (FCDI) with microfiltration membranes for water reclamation from highly saline and dye-polluted wastewater",
+      "publication_year": 2024,
+      "journal": "Journal of Water Process Engineering",
+      "slug": "10-1016-j-jwpe-2024-104954"
+    },
+    {
+      "openalex_id": "W4391364092",
+      "doi": "10.1016/j.desal.2024.117313",
+      "title": "Flow electrode capacitive deionization with iron-based redox electrolyte",
+      "publication_year": 2024,
+      "journal": "Desalination",
+      "slug": "10-1016-j-desal-2024-117313"
+    },
+    {
+      "openalex_id": "W4391143223",
+      "doi": "10.1007/s11242-023-02051-y",
+      "title": "Convective Drying of Porous Media: Comparison of Phase-Field Simulations with Microfluidic Experiments",
+      "publication_year": 2024,
+      "journal": "Transport in Porous Media",
+      "slug": "10-1007-s11242-023-02051-y"
+    },
+    {
+      "openalex_id": "W4390967350",
+      "doi": "10.1016/j.cej.2024.148749",
+      "title": "Coupled optical-electric monitoring of charge percolation events in carbon flow-electrodes",
+      "publication_year": 2024,
+      "journal": "Chemical Engineering Journal",
+      "slug": "10-1016-j-cej-2024-148749"
+    },
+    {
+      "openalex_id": "W4390603482",
+      "doi": "10.1007/s43938-023-00039-0",
+      "title": "Foam control in biotechnological processes\u2014challenges and opportunities",
+      "publication_year": 2024,
+      "journal": "Discover Chemical Engineering",
+      "slug": "10-1007-s43938-023-00039-0"
+    },
+    {
+      "openalex_id": "W4390571171",
+      "doi": "10.1016/j.electacta.2023.143755",
+      "title": "Tubular and bio-based carbons as binder-free gas diffusion electrodes for heterogeneous electro-Fenton to remove micropollutants",
+      "publication_year": 2024,
+      "journal": "Electrochimica Acta",
+      "slug": "10-1016-j-electacta-2023-143755"
+    },
+    {
+      "openalex_id": "W4390510636",
+      "doi": "10.1021/acs.macromol.3c01915",
+      "title": "In Situ Visualization of Polymerization-Induced Phase Separation for 3D-Printing of Porous Architectures",
+      "publication_year": 2024,
+      "journal": "Macromolecules",
+      "slug": "10-1021-acs-macromol-3c01915"
+    },
+    {
+      "openalex_id": "W4401554086",
+      "doi": "10.1039/d4sm00734d",
+      "title": "Transport and clogging dynamics of flexible rods in pore constrictions",
+      "publication_year": 2024,
+      "journal": "Soft Matter",
+      "slug": "10-1039-d4sm00734d"
+    }
+  ],
+  "actions": [
+    {
+      "action": "update",
+      "slug": "10-1016-j-isci-2026-117623",
+      "title": "Physiological elasticity and topography modulate in vitro prostate cancer cell behavior"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-mame-70352",
+      "title": "Geometry\u2010Dependent Fidelity Limits in Projection Photopolymerization of Millimeter\u2010Scale PEG\u2010Based Hydrogels"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memlet-2026-100127",
+      "title": "Population-resolved quantification of lipid nanoparticle transmission during sterile filtration"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2026-126106",
+      "title": "Hydraulic coupling and flow redistribution in hollow fiber membrane modules with blocked fibers"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-smll-75540",
+      "title": "Electroconductive MXene\u2010Thin\u2010Film\u2010Composite Membranes for Coupled Osmotic Concentration and PFAS Mineralization"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adma-74361",
+      "title": "From Fiber Bundles to Architected Membranes: Triply Periodic Minimal Surface Architectures for Biohybrid Artificial Lungs"
+    },
+    {
+      "action": "update",
+      "slug": "10-1021-acs-iecr-6c01825",
+      "title": "Beyond Stack Metrics: Process-Economic Design of Sodium Sulfate Electro\u2013Electrodialysis"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-celc-70275",
+      "title": "Getting the Most of Your Catalyst: How Process Parameters and Pulse Procedures Affect the Performance of eCO 2 R"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-jcou-2026-103508",
+      "title": "Transport-kinetic trade-offs in pulsed CO2 electrolysis with gas diffusion electrodes: A microkinetic-continuum modeling study"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-ache-70003",
+      "title": "Tunable Anodes: A Dynamic Solution for Fluctuating Green Electricity"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2026-125770",
+      "title": "Beyond dehydration: Local coordination shapes ion-transport barriers in polyelectrolyte membranes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adem-70921",
+      "title": "Enhancing Bubble Removal in Geometry\u2010Optimized Electrodes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2026-125587",
+      "title": "Flow distribution in single-use intravenous in-line membrane filters"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-ijhydene-2026-154957",
+      "title": "Environmental Potential Of Co-Transporting Hydrogen In Natural Gas Pipelines Followed By Electrochemical Hydrogen Compression"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-elecom-2026-108180",
+      "title": "Reducing interfacial resistances in proton exchange membrane water electrolysis via gas diffusion layer-based layer-by-layer coating"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-desal-2026-119961",
+      "title": "Lithium recovery from battery recycling water via salt metathesis using flow-electrode capacitive deionization"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adsu-70365",
+      "title": "Electro\u2010Conductive Silver\u2010Coated Polyamide\u2010Imide Membranes for Sustainable Water Treatment (Adv. Sustainable Syst. 1/2026)"
+    },
+    {
+      "action": "update",
+      "slug": "10-18154-rwth-2026-01051",
+      "title": "Electro-Conductive Silver-Coated Polyamide-Imide Membranes for Sustainable Water Treatment"
+    },
+    {
+      "action": "update",
+      "slug": "2026-verfahren-zur-herstellung-flaechiger-poroeser-hydrogele-mittels-fluss-litho",
+      "title": "Verfahren zur Herstellung fl\u00e4chiger, por\u00f6ser Hydrogele mittels Fluss-Lithographie"
+    },
+    {
+      "action": "update",
+      "slug": "10-18154-rwth-2026-05946",
+      "title": "Flow distribution in single-use intravenous in-line membrane filters"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-advmem-2025-100193",
+      "title": "Molecular fractionation with poly(ether ether ketone) hollow fibers"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-advs-202512302",
+      "title": "3D Membrane Microstructures for Increased Efficiency in Blood\u2010Gas Transfer"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memlet-2025-100110",
+      "title": "Fabrication and property modification of free-standing PSS/PDADMAC ultra- and microfiltration membranes by incorporating cellulosic additives"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-jconrel-2025-114370",
+      "title": "Self-regulating microfluidic system for lipid nanoparticle production"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2025-124849",
+      "title": "Shape-dependent fouling dynamics in a crossflow model pore system"
+    },
+    {
+      "action": "update",
+      "slug": "10-1021-acsmacrolett-5c00608",
+      "title": "Continuous Flow Synthesis of Polyvinylidene Fluoride"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-cej-2025-168727",
+      "title": "Resistively heated spiral wound module for temperature swing adsorption of CO2"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-cherd-2025-09-009",
+      "title": "Multi-species ion exchange model with competitive adsorption for iron removal in PEM water electrolysis"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-ijhydene-2025-150980",
+      "title": "Effect of natural gas impurities on electrochemical hydrogen compression and strategies for mitigation"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adsu-202500527",
+      "title": "Electro\u2010Conductive Silver\u2010Coated Polyamide\u2010Imide Membranes for Sustainable Water Treatment"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-elecom-2025-108018",
+      "title": "Tubular electrochemical reactors for the biphasic oxidation of HMF to FDCA"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2025-124493",
+      "title": "Fabrication of low-fouling hollow fiber membranes through the immobilization of amine-functionalized microgels on a blended PES-SMA support"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-electacta-2025-146699",
+      "title": "Modeling different wetting states in gas diffusion electrodes for CO2 electrolysis"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-desal-2025-119026",
+      "title": "Separation of complex multi-salt-organic mixtures containing lithium salts with polyelectrolyte multilayer nanofiltration membranes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2025-124205",
+      "title": "Flow and fouling visualization in modules having multiple multichannel membranes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-chempr-2025-102582",
+      "title": "Visualization of CO formation at the triple-phase boundary in gas diffusion electrodes for ecCO2RR"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-desal-2025-118939",
+      "title": "Membrane arrangement influences time to steady state in FCDI with multi-ionic salt solutions"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-advs-202501162",
+      "title": "Tailored 3D Lattice Microstructures for Enhanced Functionality in Blood\u2010Gas Exchange"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-celc-202500034",
+      "title": "Feed and Bleed Operating Mode for Electrochemical Flow Cells: Challenges, Solutions and Practical Insights"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-elsa-70001",
+      "title": "Comparative Review of High\u2010 and Low\u2010Temperature Electrochemical Ammonia Synthesis"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memlet-2025-100094",
+      "title": "Visualizing the local ion concentration in electrodialysis cells via magnetic resonance imaging"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memlet-2025-100095",
+      "title": "On the diffusive water transport through polyelectrolyte-based membranes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-ces-2025-121465",
+      "title": "Fluid distribution in artificially manufactured porous mixed-wetting materials as a model for gas diffusion electrodes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2025-123916",
+      "title": "Electrically conductive laser-induced graphene engraved Janus membrane for membrane distillation"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-admt-202401996",
+      "title": "Microfluidic Spinning of PEDOT:PSS Microfibers for Nerve Guidance Conduits"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-hazl-2025-100148",
+      "title": "Recovery of nitrate and fluoride salts from stainless steel pickling wastewater with flow-electrode capacitive deionization"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-cep-2025-110209",
+      "title": "Paired electrochemical synthesis of Cl2 from alkali chloride and CO from CO2"
+    },
+    {
+      "action": "update",
+      "slug": "10-1038-s44286-025-00172-3",
+      "title": "Exploring the potential landscape of chemical engineering science"
+    },
+    {
+      "action": "update",
+      "slug": "10-1039-d5ee01732g",
+      "title": "An ecosystem of carbon dioxide removal reviews \u2013 part 1: direct air CO 2 capture and storage"
+    },
+    {
+      "action": "update",
+      "slug": "10-18154-rwth-2025-10332",
+      "title": "Fabrication and property modification of free-standing PSS/PDADMAC ultra- and microfiltration membranes by incorporating cellulosic additives"
+    },
+    {
+      "action": "update",
+      "slug": "10-34734-fzj-2026-01123",
+      "title": "Comparative Review of High\u2010 and Low\u2010Temperature Electrochemical Ammonia Synthesis"
+    },
+    {
+      "action": "update",
+      "slug": "10-34734-fzj-2026-01114",
+      "title": "Multi-species ion exchange model with competitive adsorption for iron removal in PEM water electrolysis"
+    },
+    {
+      "action": "update",
+      "slug": "10-18154-rwth-2025-07135",
+      "title": "Visualization of CO formation at the triple-phase boundary in gas diffusion electrodes for ecCO2RR"
+    },
+    {
+      "action": "update",
+      "slug": "10-18154-rwth-2025-10108",
+      "title": "Resistively heated spiral wound module for temperature swing adsorption of CO2"
+    },
+    {
+      "action": "update",
+      "slug": "2025-verfahren-zur-herstellung-leitfaehiger-pedot-pss-partikel",
+      "title": "Verfahren zur Herstellung leitf\u00e4higer PEDOT:PSS-Partikel"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-cej-2024-158374",
+      "title": "Electrochemical oxidation of 5-hydroxymethylfurfural with flow electrodes: A novel approach for continuous synthesis of 2,5-furandicarboxylic acid"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2024-123555",
+      "title": "Stabilization of electroconvective vortices by membrane corrugation: Thresholds, transitions, and impacts on ion transport"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-smll-202407311",
+      "title": "Hierarchically Structured and Tunable Hydrogel Patches: Design, Characterization, and Application"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adhm-202403111",
+      "title": "Enhanced Hemodynamics of Anisometric TPMS Topology Reduce Blood Clotting in 3D Printed Blood Contactors"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-smll-202404183",
+      "title": "Cell Adhesion and Local Cytokine Control on Protein\u2010Functionalized PNIPAM\u2010co\u2010AAc Hydrogel Microcarriers"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adsu-202400398",
+      "title": "Toward Continuous Electrochemical Synthesis of Ferrate"
+    },
+    {
+      "action": "update",
+      "slug": "10-1021-acssuschemeng-4c04754",
+      "title": "Membrane Matters in Paired Electrolysis: Synthesis of 2,5-Furandicarboxylic Acid and 2-Butanone"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-seppur-2024-130083",
+      "title": "Removal of emerging contaminants from water using novel electroconductive membranes in a hybrid membrane distillation and electro-Fenton process"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-desal-2024-118170",
+      "title": "Unraveling the ion transport through top and wall coated polyelectrolyte membrane pores"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adhm-202470154",
+      "title": "Cellular Architects at Work: Cells Building their Own Microgel Houses (Adv. Healthcare Mater. 25/2024)"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2024-123371",
+      "title": "Microscale insights into deep bed membrane filtration: Influence of internal surface roughness"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2024-123356",
+      "title": "Open and FAIR data for nanofiltration in organic media: A unified approach"
+    },
+    {
+      "action": "update",
+      "slug": "10-1021-acsami-4c04641",
+      "title": "Unveiling the Role of PTFE Surface Coverage on Controlling Gas Diffusion Layer Water Content"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-anie-202406924",
+      "title": "Dynamics of the Boundary Layer in Pulsed CO2 Electrolysis"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-ange-202406924",
+      "title": "Dynamics of the Boundary Layer in Pulsed CO2 Electrolysis"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2024-122988",
+      "title": "Temporal resistance fluctuations during the initial filtration period of colloidal matter filtration"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-electacta-2024-144533",
+      "title": "Advancing hydrogen peroxide electro-generation: Selective production at high rates in a flow-through module"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-joule-2024-04-004",
+      "title": "Electrochemical urea synthesis"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-jece-2024-112995",
+      "title": "Bubble-less photocatalytic ozonation with ceramic membranes and static mixers enhances the total organic carbon removal and degradation of iodinated X-ray contrast agents"
+    },
+    {
+      "action": "update",
+      "slug": "10-1021-acsami-4c02799",
+      "title": "Pure-Water-Fed Forward-Bias Bipolar Membrane CO2 Electrolyzer"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-desal-2024-117595",
+      "title": "Comparison of current collector architectures for Flow-electrode Capacitive Deionization"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-memsci-2024-122753",
+      "title": "On the geometry and material stability of tubular PVDF-TiO2 static mixer membrane contactors for photocatalytic ozonation of micropollutants"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-adfm-202401970",
+      "title": "Electro\u2010Conductive Ti 3 C 2 MXene Multilayered Membranes: Dye Removal and Antifouling Performance"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-cej-2024-150031",
+      "title": "A continuous flow reactor for tubular gas diffusion electrodes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-marc-202300680",
+      "title": "Porous Anisometric PNIPAM Microgels: Tailored Porous Structure and Thermal Response"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-ces-2024-119924",
+      "title": "Modeling of tubular membrane contactors for ozonation of water reveals reduced bromate formation with static mixers"
+    },
+    {
+      "action": "update",
+      "slug": "10-1103-physrevfluids-9-023701",
+      "title": "Measurement of an eddy diffusivity for chaotic electroconvection using combined computational and experimental techniques"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-admt-202301535",
+      "title": "A Microfluidic Perfusion Culture Setup to Investigate Cell Migration in 3D Constrictions"
+    },
+    {
+      "action": "update",
+      "slug": "10-1002-smll-202310427",
+      "title": "Spatio\u2010Temporal Electrowetting and Reaction Monitoring in Microfluidic Gas Diffusion Electrode Elucidates Mass Transport Limitations"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-jwpe-2024-104954",
+      "title": "Flow-electrode capacitive deionization (FCDI) with microfiltration membranes for water reclamation from highly saline and dye-polluted wastewater"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-desal-2024-117313",
+      "title": "Flow electrode capacitive deionization with iron-based redox electrolyte"
+    },
+    {
+      "action": "update",
+      "slug": "10-1007-s11242-023-02051-y",
+      "title": "Convective Drying of Porous Media: Comparison of Phase-Field Simulations with Microfluidic Experiments"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-cej-2024-148749",
+      "title": "Coupled optical-electric monitoring of charge percolation events in carbon flow-electrodes"
+    },
+    {
+      "action": "update",
+      "slug": "10-1007-s43938-023-00039-0",
+      "title": "Foam control in biotechnological processes\u2014challenges and opportunities"
+    },
+    {
+      "action": "update",
+      "slug": "10-1016-j-electacta-2023-143755",
+      "title": "Tubular and bio-based carbons as binder-free gas diffusion electrodes for heterogeneous electro-Fenton to remove micropollutants"
+    },
+    {
+      "action": "update",
+      "slug": "10-1021-acs-macromol-3c01915",
+      "title": "In Situ Visualization of Polymerization-Induced Phase Separation for 3D-Printing of Porous Architectures"
+    },
+    {
+      "action": "update",
+      "slug": "10-1039-d4sm00734d",
+      "title": "Transport and clogging dynamics of flexible rods in pore constrictions"
+    }
+  ]
+}

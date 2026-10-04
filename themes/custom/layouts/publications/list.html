@@ -1,0 +1,126 @@
+{{ define "main" }}
+<div class="container">
+    <header class="section-header">
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+        <div class="section-description">
+            {{ .Content }}
+        </div>
+        {{ end }}
+    </header>
+
+    {{ $years := slice }}
+    {{ $journals := slice }}
+    {{ range .Pages }}
+        {{ $year := .Params.publication_year | default (.Date.Format "2006") | string }}
+        {{ if and $year (not (in $years $year)) }}
+            {{ $years = $years | append $year }}
+        {{ end }}
+        {{ with .Params.publication }}
+            {{ if not (in $journals .) }}
+                {{ $journals = $journals | append . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ $years = collections.Reverse (sort $years) }}
+    {{ $journals = sort $journals }}
+
+    <div class="news-controls graduates-controls publications-controls">
+        <div class="news-search-wrap">
+            <label for="publications-search" class="news-control-label">Search</label>
+            <input id="publications-search" type="search" placeholder="Search by title, authors, or abstract" autocomplete="off">
+        </div>
+        <div class="news-search-wrap">
+            <label for="publications-topics-search" class="news-control-label">Topics</label>
+            <input id="publications-topics-search" type="search" placeholder="Filter by topic keyword" autocomplete="off">
+        </div>
+        <div class="news-sort-wrap">
+            <label for="publications-year" class="news-control-label">Year</label>
+            <select id="publications-year">
+                <option value="">All years</option>
+                {{ range $years }}
+                <option value="{{ . }}">{{ . }}</option>
+                {{ end }}
+            </select>
+        </div>
+        <div class="news-sort-wrap">
+            <label for="publications-journal" class="news-control-label">Journal</label>
+            <select id="publications-journal">
+                <option value="">All journals</option>
+                {{ range $journals }}
+                <option value="{{ . | lower }}">{{ . }}</option>
+                {{ end }}
+            </select>
+        </div>
+        <div class="news-sort-wrap">
+            <label for="publications-sort" class="news-control-label">Sort</label>
+            <select id="publications-sort">
+                <option value="newest">Newest first</option>
+                <option value="oldest">Oldest first</option>
+                <option value="title-asc">Title A–Z</option>
+                <option value="title-desc">Title Z–A</option>
+            </select>
+        </div>
+    </div>
+
+    <p id="publications-results-count" class="news-results-count"></p>
+
+    <div id="publications-list" class="news-list publications-list">
+        {{ range .Pages.ByDate.Reverse }}
+        {{ $year := .Params.publication_year | default (.Date.Format "2006") | string }}
+        {{ $sortDate := .Date.Unix }}
+        {{ $topicTags := "" }}
+        {{ with .Params.tags }}
+            {{ $topicTags = delimit . " " | lower }}
+        {{ end }}
+        {{ $authors := "" }}
+        {{ with .Params.authors }}
+            {{ $authors = delimit . ", " }}
+        {{ end }}
+        {{ $journal := .Params.publication | default "" }}
+        {{ $topicsSearch := trim (printf "%s %s %s" $topicTags (.Title | lower) (.Params.summary | default "" | lower)) " " }}
+        <article
+            class="news-item publications-entry"
+            data-title="{{ .Title | lower | htmlEscape }}"
+            data-summary="{{ (printf "%s %s %s %s" (.Params.summary | default "") $authors (.Params.doi | default "") (.Plain | default "")) | lower | htmlEscape }}"
+            data-topics="{{ $topicsSearch | htmlEscape }}"
+            data-year="{{ $year | htmlEscape }}"
+            data-journal="{{ $journal | lower | htmlEscape }}"
+            data-date="{{ $sortDate }}"
+        >
+            <div class="news-entry-layout">
+                <div class="news-main">
+                    <div class="news-meta">
+                        <time class="news-date">{{ $year }}</time>
+                        {{ with $journal }}
+                        <span class="graduates-institution">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    <h2 class="news-title">{{ .Title }}</h2>
+                    {{ if $authors }}
+                    <p class="news-summary graduates-blurb">{{ $authors }}</p>
+                    {{ end }}
+                    {{ if .Params.summary }}
+                    <p class="news-summary">{{ .Params.summary | truncate 220 }}</p>
+                    {{ end }}
+                    {{ with .Params.tags }}
+                    <div class="graduates-topics">
+                        {{ range . }}
+                        <span class="graduates-topic-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    <p class="patent-index-entry">
+                        {{ with .Params.doi }}<span>DOI: {{ . }}</span>{{ end }}
+                        {{ with .Params.cited_by_count }}<span>Cited: {{ . }}</span>{{ end }}
+                    </p>
+                    <a href="{{ .Permalink }}" class="read-more">Details →</a>
+                </div>
+            </div>
+        </article>
+        {{ else }}
+        <p class="no-content">No publications listed yet. Run <code>python scripts/sync_publications.py</code>.</p>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

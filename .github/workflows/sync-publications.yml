@@ -1,0 +1,88 @@
+name: Sync publications from OpenAlex
+
+on:
+  schedule:
+    # Mondays 06:15 UTC (~15:15 JST)
+    - cron: "15 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      since_year:
+        description: "Import works from this year onward"
+        required: false
+        default: "2024"
+      overwrite:
+        description: "Refresh existing openalex-sourced pages (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-publications
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync publications
+        id: sync
+        env:
+          SINCE_YEAR: ${{ github.event.inputs.since_year || '2024' }}
+          OVERWRITE: ${{ github.event.inputs.overwrite || 'false' }}
+        run: |
+          set -euo pipefail
+          args=(--since-year "${SINCE_YEAR}")
+          if [[ "${OVERWRITE}" == "true" ]]; then
+            args+=(--overwrite)
+          fi
+          python scripts/sync_publications.py "${args[@]}" | tee /tmp/sync-publications.log
+          created=$(sed -nE 's/.*created=([0-9]+).*/\1/p' /tmp/sync-publications.log | tail -1)
+          updated=$(sed -nE 's/.*updated=([0-9]+).*/\1/p' /tmp/sync-publications.log | tail -1)
+          echo "created=${created:-0}" >> "$GITHUB_OUTPUT"
+          echo "updated=${updated:-0}" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: |
+            Sync publications from OpenAlex
+
+            Automated weekly refresh of content/publications/ via scripts/sync_publications.py.
+          branch: chore/sync-publications
+          delete-branch: true
+          title: "Sync publications from OpenAlex"
+          body: |
+            ## Summary
+            - Weekly OpenAlex sync for ORCID `0000-0002-7874-5315` / author `A5031459065`
+            - Created: `${{ steps.sync.outputs.created }}` · Updated: `${{ steps.sync.outputs.updated }}`
+            - Since year: `${{ github.event.inputs.since_year || '2024' }}` · Overwrite: `${{ github.event.inputs.overwrite || 'false' }}`
+
+            ## Notes
+            - Review for false author attributions before merge
+            - Pages with `source = "manual"` are never overwritten
+            - LinkedIn remains the human cue; OpenAlex is the machine source
+
+            ## Test plan
+            - [ ] Spot-check new titles/DOIs against LinkedIn or Scholar
+            - [ ] Confirm `/publications/` builds and filters look right
+          add-paths: |
+            content/publications/**
+            data/publications_sync_report.json
+
+      - name: Summarize
+        run: |
+          echo "PR: ${{ steps.cpr.outputs.pull-request-url || '(no changes)' }}"
+          echo "created=${{ steps.sync.outputs.created }} updated=${{ steps.sync.outputs.updated }}"
