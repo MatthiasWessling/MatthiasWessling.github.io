@@ -9,9 +9,9 @@
   "fetched": 821,
   "dry_run": false,
   "overwrite": false,
-  "created": 728,
+  "created": 0,
   "updated": 0,
-  "skipped": 93,
+  "skipped": 821,
   "preserved": 0,
   "publications": [
     {
@@ -7045,3502 +7045,3502 @@
       "title": "Transport and clogging dynamics of flexible rods in pore constrictions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ohx-2023-e00506",
       "title": "Lab-scale tubular LED UV reactor for continuous photocatalysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ppap-202300186",
       "title": "PECVD and PEALD on polymer substrates (part II): Understanding and tuning of barrier and membrane properties of thin films"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2023-122315",
       "title": "Scalable fabrication of amine-functionalized microgel composite membranes and their gas permeation characteristics"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adhm-202302957",
       "title": "Cellular Architects at Work: Cells Building their Own Microgel Houses"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2023-117096",
       "title": "Towards pilot scale flow-electrode capacitive deionization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2023-122160",
       "title": "Flow and mass transfer prediction in anisotropic TPMS-structures as extracorporeal oxygenator membranes using reduced order modeling"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202300720",
       "title": "Tailoring Pore Networks \u2013 Gas Diffusion Electrodes via Additive Manufacturing"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adfm-202370228",
       "title": "PEDOT:PSS\u2010CNT Composite Particles Overcome Contact Resistances in Slurry Electrodes for Flow\u2010Electrode Capacitive Deionization (Adv. Funct. Mater. 38/2023)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2023-145335",
       "title": "On the weeping of the GDE cathode during bipolar membrane-based electrochemical CO2 reduction reaction at high current densities"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2023-121977",
       "title": "Evolution of particle deposits at communicating membrane pores during crossflow filtration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3390-membranes13080741",
       "title": "Incorporation of an Intermediate Polyelectrolyte Layer for Improved Interfacial Polymerization on PAI Hollow Fiber Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adma-202306716",
       "title": "Continuous Volumetric 3D Printing: Xolography in Flow"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1055-s-0043-1772098",
       "title": "Etablierung eines mikrofluidischen Tumormodells aus \u201ePrecision-Cut Liver Slices\u201c von prim\u00e4ren und sekund\u00e4ren Lebertumoren"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adhm-202301055",
       "title": "Toward the Next Generation of Neural Iontronic Interfaces"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsbiomaterials-3c00047",
       "title": "Peptide-Functionalized Electrospun Meshes for the Physiological Cultivation of Pulmonary Alveolar Capillary Barrier Models in a 3D-Printed Micro-Bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jhazmat-2023-131987",
       "title": "Toward decentralized wastewater treatment: A flow-through module using microtubular gas diffusion electrodes for micropollutants removal"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adtp-202300091",
       "title": "How Does Temporal and Sequential Delivery of Multiple Growth Factors Affect Vascularization Inside 3D Hydrogels?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adfm-202303606",
       "title": "PEDOT:PSS\u2010CNT Composite Particles Overcome Contact Resistances in Slurry Electrodes for Flow\u2010Electrode Capacitive Deionization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adhm-202301030",
       "title": "Transformative Materials to Create 3D Functional Human Tissue Models In Vitro in a Reproducible Manner"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2023-116697",
       "title": "Seawater desalination by forward-osmosis-assisted temperature swing solvent extraction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2023-143759",
       "title": "On the operation of switchable oxygen depolarized cathodes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acssuschemeng-3c01403",
       "title": "Integrated Biphasic Electrochemical Oxidation of Hydroxymethylfurfural to 2,5-Furandicarboxylic Acid"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adsu-202300077",
       "title": "Why Membranes Matter: Ion Exchange Membranes in Holistic Process Optimization of Electrochemical CO2 Reduction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2023-107497",
       "title": "Paired electrochemical synthesis of formate via oxidation of glycerol and reduction of CO2 in a flow cell reactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memlet-2023-100044",
       "title": "On the balance between albumin loss and removal of middle molecules in dialyzers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acssuschemeng-2c07523",
       "title": "Paired Electrosynthesis of Formic Acid from CO2 and Formaldehyde from Methanol"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1088-2634-4386-accd90",
       "title": "Spiking neural networks compensate for weight drift in organic neuromorphic device networks"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2023-107487",
       "title": "A falling film design for electrochemical CO2 reduction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-scitotenv-2023-163479",
       "title": "EfectroH2O: Development and evaluation of a novel treatment technology for high-brine industrial wastewater"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2023-121640",
       "title": "On the balance of hydrophilicity and electrostatic interactions during particle filtration and backwash at microfiltration pores"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202300044",
       "title": "Magnetically Actuable Complex\u2010Shaped Microgels for Spatio\u2010Temporal Flow Control"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jpowsour-2023-233026",
       "title": "A microfluidic proton flow reactor system: In-situ visualisation of hydrogen evolution and storage in carbon-based slurry electrodes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2023-121589",
       "title": "On the interaction of electroconvection at a membrane interface with the bulk flow in a spacer-filled feed channel"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adsu-202370011",
       "title": "An Electrode with Two\u2010Level Porosity for Electro\u2010Fenton: Carbon Nanofiber\u2010Functionalized Macroporous Nickel Foam (Adv. Sustainable Syst. 3/2023)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2023-121471",
       "title": "Helical-Ridge-Membranes from PVDF for enhanced gas\u2013liquid mass transfer"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2023-121436",
       "title": "Poly(aryl ether ketone) hollow fibers preparation with acid resistant spinnerets"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202201857",
       "title": "Freeform Membranes with Tunable Permeability in Microfluidics"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-bit-28334",
       "title": "A novel membrane stirrer system enables foam\u2010free biosurfactant production"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memlet-2023-100039",
       "title": "Single\u2010step polyelectrolyte complex coating on hollow fibers yields nanofiltration or biocatalytic properties"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1007-s43938-023-00018-5",
       "title": "Novel multiphase loop reactor with improved aeration prevents excessive foaming in Rhamnolipid production by Pseudomonas putida"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-202200928",
       "title": "Titanium\u2010Based Static Mixer Electrodes to Improve the Current Density of Slurry Electrodes**"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adem-202370005",
       "title": "Additive Manufacturing of Intertwined Electrode Pairs \u2010 Guided Mass Transport with Gyroids"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-d3gc02513f",
       "title": "Acetoin production by resting cells of Lactococcus lactis for direct electrochemical synthesis of 2-butanone"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-18154-rwth-2023-10140",
       "title": "A falling film design for electrochemical CO2 reduction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adsu-202200408",
       "title": "An Electrode with Two\u2010Level Porosity for Electro\u2010Fenton: Carbon Nanofiber\u2010Functionalized Macroporous Nickel Foam"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-202270267",
       "title": "Micromodel of a Gas Diffusion Electrode Tracks In\u2010Operando Pore\u2010Scale Wetting Phenomena (Small 49/2022)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202271208",
       "title": "Lithium recovery and concentration by flow\u2010electrode capacitive deionization for a sustainable use of lithium\u2010ion batteries"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1088-2634-4386-ac9c8a",
       "title": "Reminding forgetful organic neuromorphic device networks"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adem-202200986",
       "title": "Additive Manufacturing of Intertwined Electrode Pairs \u2010 Guided Mass Transport with Gyroids"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-202204012",
       "title": "Micromodel of a Gas Diffusion Electrode Tracks In\u2010Operando Pore\u2010Scale Wetting Phenomena"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3390-membranes12100994",
       "title": "On the Mixed Gas Behavior of Organosilica Membranes Fabricated by Plasma-Enhanced Chemical Vapor Deposition (PECVD)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202255132",
       "title": "Additive Manufacture of Porous Electrodes for Electrochemical Flow Reactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202255347",
       "title": "Direct Air Capture \u2013 Transdisciplinary Assessment Combining Labs, Environment, Economy, and Society"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202255100",
       "title": "The membrane stirrer: Solution for bubble\u2010less aeration of bioprocesses"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202255383",
       "title": "Lithium recovery and concentration by flow\u2010electrode capacitive deionization for a sustainable use of lithium\u2010ion batteries"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202255212",
       "title": "Helical Membranes Enhance Micropollutant Removal from Wastewater"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ece-2022-08-001",
       "title": "Hands-on kinetic measurements and simulation for chemical process engineering students"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adts-202270016",
       "title": "Coupled Ionic\u2013Electronic Charge Transport in Organic Neuromorphic Devices (Adv. Theory Simul. 6/2022)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2022-137006",
       "title": "One-pot synthesized, Fe-incorporated self-standing carbons with a hierarchical porosity remove carbamazepine and sulfamethoxazole through heterogeneous electro-Fenton"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2022-120599",
       "title": "Rotation-in-a-Spinneret integrates static mixers inside hollow fiber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41598-022-11175-y",
       "title": "TPMS-based membrane lung with locally-modified permeabilities for optimal flow distribution"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acssuschemeng-2c01971",
       "title": "Direct Electrosynthesis of 2-Butanone from Fermentation Supernatant"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ppap-202200016",
       "title": "Organosilica coating layer prevents aging of a polymer with intrinsic microporosity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2022-120567",
       "title": "Single-step chitosan functionalized membranes for heparinization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-tsf-2022-139169",
       "title": "Evaluation of the membrane performance of ultra-smooth silicon organic coatings depending on the process energy density"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-202107508",
       "title": "Fabrication, Flow Assembly, and Permeation of Microscopic Any\u2010Shape Particles"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adts-202100492",
       "title": "Coupled Ionic\u2013Electronic Charge Transport in Organic Neuromorphic Devices"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-1c21814",
       "title": "In-Line Characterization of the Temperature-Responsive Behavior of Surface-Bound Microgel Coatings by QCM-D: A Novel Strategy for Protein Repellence Evaluation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2022-120324",
       "title": "Chemistry in a spinneret\u2014Polydopamine functionalized hollow fiber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admi-202101895",
       "title": "Surface Charge Affecting Fluid\u2013Fluid Displacement at Pore Scale"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jhazmat-2022-128291",
       "title": "Linking the effect of temperature on adsorption from aqueous solution with solute dissociation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-elsa-202100160",
       "title": "Simulation\u2010based guidance for improving CO2${\\rm CO}_{2}$ reduction on silver gas diffusion electrodes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2022-107205",
       "title": "Two-level porosity electrodes from metal-polymer dispersions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-mex-2022-101814",
       "title": "Measurement of Electrokinetically induced hydrodynamics at Ion-selective interfaces using 3D Micro particle tracking velocimetry (\u00b5PTV)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jcoa-2021-100029",
       "title": "Why device design is crucial for membrane adsorbers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41598-021-03862-z",
       "title": "Discrepancy of particle passage in 101 mask batches during the first year of the Covid-19 pandemic in Germany"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-120100",
       "title": "Open and dense hollow fiber nanofiltration membranes through a streamlined polyelectrolyte-based spinning process"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2021-107176",
       "title": "Additive manufacturing of composite porosity mixer electrodes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-gch2-202170111",
       "title": "Freestanding Nitrogen\u2010Doped Carbons with Hierarchical Porosity for Environmental Applications: A Green Templating Route with Bio\u2010Based Precursors (Global Challenges 11/2021)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119988",
       "title": "Rotating microstructured spinnerets produce helical ridge membranes to overcome mass transfer limitations"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-apmt-2021-101213",
       "title": "Dynamic flow enables long\u2010term maintenance of 3\u2010D vascularized human skin models"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1111-aor-14081",
       "title": "Three\u2010dimensional membranes for artificial lungs: Comparison of flow\u2010induced hemolysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202100930",
       "title": "Ion Selective Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202100836",
       "title": "Porous PEDOT:PSS Particles and their Application as Tunable Cell Culture Substrate"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119846",
       "title": "Direct 3D observation and unraveling of electroconvection phenomena during concentration polarization at ion-exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3390-membranes11090671",
       "title": "Wetting-Induced Polyelectrolyte Pore Bridging"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-gch2-202100062",
       "title": "Freestanding Nitrogen\u2010Doped Carbons with Hierarchical Porosity for Environmental Applications: A Green Templating Route with Bio\u2010Based Precursors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-oprd-1c00087",
       "title": "In-line Monitoring of Microgel Synthesis: Flow versus Batch Reactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119636",
       "title": "Tuning the excess charge and inverting the salt rejection hierarchy of polyelectrolyte multilayer membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adhm-202100898",
       "title": "Biocompatible Micron\u2010Scale Silk Fibers Fabricated by Microfluidic Wet Spinning"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1007-s40831-021-00398-4",
       "title": "Metal Recovery from Multi-elementary Electroplating Wastewater Using Passion Fruit Powder"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119602",
       "title": "A mini-module with built-in spacers for high-throughput ultrafiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202100325",
       "title": "Porous PVDF Monoliths with Templated Geometry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119583",
       "title": "Space-Charge breakdown phenomenon and spatio-temporal ion concentration and fluid flow patterns in overlimiting current electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119533",
       "title": "Charge distribution in polyelectrolyte multilayer nanofiltration membranes affects ion separation and scaling propensity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202100250",
       "title": "Tollens Reaction\u2010Based Integration of Thin Film Wall Electrodes into Microfluidic PDMS Devices"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202100202",
       "title": "Mitigating Water Crossover by Crosslinked Coating of Cation\u2010Exchange Membranes for Brine Concentration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202100020",
       "title": "Polymeric Membranes With Sufficient Thermo\u2010Mechanical Stability to Deploy Temperature Enhanced Backwash"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41598-021-92119-w",
       "title": "Particle movements provoke avalanche-like compaction in soft colloid filter cakes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119520",
       "title": "How does porosity heterogeneity affect the transport properties of multibore filtration membranes?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3390-membranes11060423",
       "title": "Recycling and Separation of Homogeneous Catalyst from Aqueous Multicomponent Mixture by Organic Solvent Nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-surfcoat-2021-127338",
       "title": "Structure and gas separation properties of ultra-smooth PE-CVD silicon organic coated composite membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-bit-27822",
       "title": "A scalable bubble\u2010free membrane aerator for biosurfactant production"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adbi-202000427",
       "title": "Reconstruction of Ultra\u2010thin Alveolar\u2010capillary Basement Membrane Mimics"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ohx-2021-e00200",
       "title": "Automated tangential-flow diafiltration device"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admt-202100009",
       "title": "3D\u2010Printed Bioreactor with Integrated Impedance Spectroscopy for Cell Barrier Monitoring"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119371",
       "title": "Structure-dependent gas transfer performance of 3D-membranes for artificial membrane lungs"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-1c03698",
       "title": "Efficient Electrocatalytic N2 Reduction on Three-Phase Interface Coupled in a Three-Compartment Flow Reactor for the Ambient NH3 Synthesis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-202100237",
       "title": "Wet\u2010Spun PEDOT/CNT Composite Hollow Fibers as Flexible Electrodes for H 2 O 2 Production**"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2021-119263",
       "title": "Combining Manning's theory and the ionic conductivity experimental approach to characterize selectivity of cation exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adsu-202100001",
       "title": "CNT Microtubes with Entrapped Fe3O4 Nanoparticles Remove Micropollutants through a Heterogeneous Electro\u2010Fenton Process at Neutral pH"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adem-202001401",
       "title": "Polyelectrolyte Complex Tubular Membranes via a Salt Dilution Induced Phase Inversion Process"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1109-tbme-2021-3056526",
       "title": "Mapping Cell Viability Quantitatively and Independently From Cell Density in 3D Gels Noninvasively"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1177-0267659121989231",
       "title": "Platelet count reduction during in vitro membrane oxygenation affects platelet activation, neutrophil extracellular trap formation and clot stability, but does not prevent clotting"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41598-020-80324-y",
       "title": "Templating the morphology of soft microgel assemblies using a nanolithographic 3D-printed membrane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2021-artificial-oscillating-membrane-systems",
       "title": "Artificial oscillating membrane systems"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-34657-10016",
       "title": "3D-Printed Bioreactor with Integrated Impedance Spectroscopy for Cell Barrier Monitoring"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-119026",
       "title": "In-situ investigation of wetting patterns in polymeric multibore membranes via magnetic resonance imaging"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-d0cy02111c",
       "title": "Ultra-low temperature water\u2013gas shift reaction catalyzed by homogeneous Ru-complexes in a membrane reactor \u2013 membrane development and proof of concept"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-0c17427",
       "title": "Stimuli-Responsive Zwitterionic Core\u2013Shell Microgels for Antifouling Surface Coatings"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118912",
       "title": "Hydrogel membranes made from crosslinked microgel multilayers with tunable density"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41598-020-76970-x",
       "title": "Unravelling colloid filter cake motions in membrane cleaning procedures"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118851",
       "title": "Designing tubular composite membranes of polyelectrolyte multilayer on ceramic supports with nanofiltration and reverse osmosis transport properties"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-202001370",
       "title": "Microtubular Gas Diffusion Electrode Based on Ruthenium\u2010Carbon Nanotubes for Ambient Electrochemical Nitrogen Reduction to Ammonia"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-d0sm01548b",
       "title": "Towards synergistic oscillations in enzymatically active hydrogel spheres"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adbi-202000081",
       "title": "Trypsin\u2010Free Cultivation of 3D Mini\u2010Tissues in an Adaptive Membrane Bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admi-202000849",
       "title": "Wet\u2010Spinning of Biocompatible Core\u2013Shell Polyelectrolyte Complex Fibers for Tissue Engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-macromol-0c01163",
       "title": "CO2/CH4 Pure- and Mixed-Gas Dilation and Sorption in Thin (\u223c500 nm) and Ultrathin (\u223c50 nm) Polymers of Intrinsic Microporosity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118632",
       "title": "On the organic solvent free preparation of ultrafiltration and nanofiltration membranes using polyelectrolyte complexation in an all aqueous phase inversion process"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202055332",
       "title": "Single\u2010step fabrication of functionalized fibers using a membrane spinneret"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202055036",
       "title": "Foam\u2010less fermentation for biosurfactant synthesis via advanced membrane aeration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202055486",
       "title": "Schnell zu neuen Materialien \u2013 Effizientes Forschungsdatenmanagement an der Aachener Verfahrenstechnik"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202055411",
       "title": "Vom Labor in die Industrie: Flie\u00dfkapazitive Deionisierung und ihre Anwendungen"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202055292",
       "title": "Chemistry in a spinneret \u2013 Cross\u2010linked polyelectrolyte separation layer on hollow\u2010fiber membranes in a single step"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-202055413",
       "title": "In\u2010situ Untersuchung von Flie\u00dfelektroden f\u00fcr die kapazitive Deionisierung mittels elektrochemischer Impedanzspektroskopie"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118614",
       "title": "Process model for high salinity flow-electrode capacitive deionization processes with ion-exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-langmuir-0c01647",
       "title": "About a Membrane with Microfluidic Porous-Wall Channels of Cylindrical Shape for Droplet Formation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118430",
       "title": "How is mixed-gas permeation through poly(1-trimethylsilyl-1-propyne) membranes influenced by elevated temperatures?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118334",
       "title": "Can PDMS membranes separate aldehydes and alkenes at high temperatures?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118325",
       "title": "Chemistry in a spinneret \u2013 Formation of hollow fiber membranes with a cross-linked polyelectrolyte separation layer"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1088-1361-6463-aba296",
       "title": "Enhancing the separation properties of plasma polymerized membranes on polydimethylsiloxane substrates by adjusting the auxiliary gas in the PECVD processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118431",
       "title": "Direct membrane heating for temperature induced fouling prevention"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cattod-2020-06-045",
       "title": "Monolithic SiC supports with tailored hierarchical porosity for molecularly selective membranes and supported liquid-phase catalysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3762-bjnano-11-79",
       "title": "Atomic layer deposition for efficient oxygen evolution reaction at Pt/Ir catalyst layers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-chroma-2020-461319",
       "title": "Modeling hindered diffusion of antibodies in agarose beads considering pore size reduction due to adsorption"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-bios-2020-112345",
       "title": "Cell barrier characterization in transwell inserts by electrical impedance spectroscopy"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2020-114453",
       "title": "Flow-electrode capacitive deionization enables continuous and energy-efficient brine concentration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-anie-202003287",
       "title": "Catalytically Active Hollow Fiber Membranes with Enzyme\u2010Embedded Metal\u2013Organic Framework Coating"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ange-202003287",
       "title": "Catalytically Active Hollow Fiber Membranes with Enzyme\u2010Embedded Metal\u2013Organic Framework Coating"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cattod-2020-05-059",
       "title": "An electro-Fenton process coupled with nanofiltration for enhanced conversion of cellobiose to glucose"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-202000616",
       "title": "A Tubular Electrochemical Reactor for Slurry Electrodes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118208",
       "title": "Multi-scale membrane process optimization with high-fidelity ion transport models through machine learning"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-compchemeng-2020-106890",
       "title": "Modular modeling of electrochemical reactors: Comparison of CO2-electolyzers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2020-116863",
       "title": "Transients of micropollutant removal from high-strength wastewaters in PAC-assisted MBR and MBR coupled with high-retention membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-micromeso-2020-110218",
       "title": "Steady-state electrochemical synthesis of HKUST-1 with polarity reversal"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-202000242",
       "title": "On the Resistances of a Slurry Electrode Vanadium Redox Flow Battery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118095",
       "title": "Membrane-electrode assemblies for flow-electrode capacitive deionization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3390-membranes10040061",
       "title": "Assessment of Layer-By-Layer Modified Nanofiltration Membrane Stability in Phosphoric Acid"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118045",
       "title": "Unraveling the effect of charge distribution in a polyelectrolyte multilayer nanofiltration membrane on its ion transport properties"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-118010",
       "title": "A comprehensive mathematical model of water splitting in bipolar membranes: Impact of the spatial distribution of fixed charges and catalyst at bipolar junction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ijhydene-2020-01-218",
       "title": "Combining electrochemical hydrogen separation and temperature vacuum swing adsorption for the separation of N2, H2 and CO2"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-iecr-9b06607",
       "title": "Hydrotropic Solutions Enable Homogeneous Fenton Treatment of Lignin"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-9b21415",
       "title": "Rational Design of Ion Exchange Membrane Material Properties Limits the Crossover of CO2 Reduction Products in Artificial Photosynthesis Devices"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jhazmat-2020-122133",
       "title": "Freestanding PAC/CNT microtubes remove sulfamethoxazole from water through a temperature-assisted cyclic process"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-117886",
       "title": "What are the microscopic events during membrane backwashing?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-117860",
       "title": "Simultaneous rational design of ion separation membranes and processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2020-117854",
       "title": "On the permselectivity of cation-exchange membranes bearing an ion selective coating"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c9gc04440j",
       "title": "Early-stage evaluation of emerging CO 2 utilization technologies at low technology readiness levels"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-d0gc01483d",
       "title": "Continuous gas-phase hydroformylation of but-1-ene in a membrane reactor by supported liquid-phase (SLP) catalysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2020-jst",
       "title": "\u96fb\u6c17\u5316\u5b66\u7684\u30d5\u30a1\u30a6\u30ea\u30f3\u30b0\u5236\u5fa1\u306e\u305f\u3081\u306e\u91d1\u5c5e\u5316\u4e2d\u7a7a\u7cf8\u819c\u3010JST\u30fb\u4eac\u5927\u6a5f\u68b0\u7ffb\u8a33\u3011"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-34657-5450",
       "title": "Trypsin-Free Cultivation of 3D Mini-Tissues in an Adaptive Membrane Bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsapm-9b01135",
       "title": "Monodisperse Porous Microspheres with pH-Responsive Permeability and Reactivity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2019-106645",
       "title": "Tubular hollow fibre electrodes for CO2 reduction made from copper aluminum alloy with drastically increased intrinsic porosity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41598-019-55516-w",
       "title": "Direct Observation of Deformation in Microgel Filtration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201900090",
       "title": "Co\u2010generation of Ammonia and H2 from H2O Vapor and N2 Using a Membrane Electrode Assembly"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-germ-201970303",
       "title": "Smart Filters"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-langmuir-9b02498",
       "title": "Effect of the 3D Swelling of Microgels on Their 2D Phase Behavior at the Liquid\u2013Liquid Interface"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-watres-2019-115338",
       "title": "The hydrothermal solution for self-sustaining drinking water purification at point of use"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c9lc00749k",
       "title": "Soft temperature-responsive microgels of complex shape in stop-flow lithography"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3390-polym11111887",
       "title": "High-Throughput Production of Micrometer Sized Double Emulsions and Microgel Capsules in Parallelized 3D Printed Microfluidic Devices"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-117645",
       "title": "Ion mobility and partition determine the counter-ion selectivity of ion exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-117592",
       "title": "Tracking homogeneous reactions during electrodialysis of organic acids via EIS"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-117426",
       "title": "Short and spaced twisted tapes to mitigate fouling in tubular membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-117397",
       "title": "Metallized hollow fiber membranes for electrochemical fouling control"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-201970177",
       "title": "Lithography: Two\u2010Photon Vertical\u2010Flow Lithography for Microtube Synthesis (Small 33/2019)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ceat-201900110",
       "title": "Homogeneous Catalyst Recycling and Separation of a Multicomponent Mixture Using Organic Solvent Nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201900050",
       "title": "K\u00fchl\u2010 und Prozesswasserbehandlung in der Stahlindustrie"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-fors-201970204",
       "title": "Smarte Filter"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-117190",
       "title": "Charged microgels adsorbed on porous membranes - A study of their mobility and molecular retention"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-201901356",
       "title": "Two\u2010Photon Vertical\u2010Flow Lithography for Microtube Synthesis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-06-002",
       "title": "Improved phosphoric acid recovery from sewage sludge ash using layer-by-layer modified membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201900032",
       "title": "Direktes Herstellungsverfahren von Komposit\u2010Hohlfasermembranen mit sinusf\u00f6rmiger Geometrie"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-05-029",
       "title": "Chemistry in a spinneret \u2014 Sinusoidal-shaped composite hollow fiber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41560-019-0392-4",
       "title": "Converting two wastes to value"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-04-070",
       "title": "Shell and lumen side flow and pressure communication during permeation and filtration in a multibore polymer membrane module"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jcou-2019-04-007",
       "title": "The electrolyte matters: Stable systems for high rate electrochemical CO2 reduction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-201900692",
       "title": "Cell Encapsulation in Soft, Anisometric Poly(ethylene) Glycol Microgels Using a Novel Radical\u2010Free Microfluidic System"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2019-04-029",
       "title": "Electrical swing adsorption on functionalized hollow fibers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-03-023",
       "title": "Phosphorus recovery in an acidic environment using layer-by-layer modified membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2019-02-013",
       "title": "On charge percolation in slurry electrodes used in vanadium redox flow batteries"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2019-01-136",
       "title": "Optimizing hybrid membrane-pressure swing adsorption processes for biogenic hydrogen recovery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-01-037",
       "title": "Chilled membranes\u2014Efficient gas permeation at sub-ambient temperatures"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-carbon-2019-01-053",
       "title": "Unraveling charge transport in carbon flow-electrodes: Performance prediction for desalination applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2019-01-021",
       "title": "Influence of flow alterations on bacteria retention during microfiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2019-01-045",
       "title": "Beyond the catalyst: How electrode and reactor design determine the product spectrum during electrochemical CO2 reduction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c9ew00509a",
       "title": "Layer-by-layer membrane modification allows scandium recovery by nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c9ta00498j",
       "title": "Preparation and characterization of crosslinked poly(vinylimidazolium) anion exchange membranes for artificial photosynthesis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c9ra04830h",
       "title": "Multi-walled carbon nanotube-based composite materials as catalyst support for water\u2013gas shift and hydroformylation reactions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c8ta10871d",
       "title": "Lewis acidic water as a new carrier for facilitating CO 2 transport"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2019-13-aachener-tagung-wassertechnologie-verfahren-der-wasseraufbereitung-und-a",
       "title": "13. Aachener Tagung Wassertechnologie : Verfahren der Wasseraufbereitung und Abwasserbehandlung"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2019-c-6-bio-chemische-prozese",
       "title": "C.6 (Bio)-Chemische Prozese"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-12-077",
       "title": "Can the variance in membrane performance influence the design of organic solvent nanofiltration processes?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-est-8b05873",
       "title": "Aqueous-Phase Temperature Swing Adsorption for Pesticide Removal"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-201801676",
       "title": "Carboxylic Acids Production via Electrochemical Depolymerization of Lignin"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acssuschemeng-8b04670",
       "title": "Electrochemical Membrane Reactor Modeling for Lignin Depolymerization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-admi-201801309",
       "title": "2D Patterned Ion\u2010Exchange Membranes Induce Electroconvection"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-201801436",
       "title": "Indirect 3D Printed Electrode Mixers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-10-039",
       "title": "Aerating static mixers prevent fouling"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jclepro-2018-10-132",
       "title": "Methanol production via direct carbon dioxide hydrogenation using hydrogen from photocatalytic water splitting: Process development and techno-economic analysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1186-s13068-018-1273-y",
       "title": "From beech wood to itaconic acid: case study on biorefinery process integration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-10-013",
       "title": "Rational design of ion separation membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-09-058",
       "title": "Fouling minimization at membranes having a 3D surface topology with microgels as soft model colloids"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acssuschemeng-8b02466",
       "title": "Energy Recovery and Process Design in Continuous Flow\u2013Electrode Capacitive Deionization Processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201855111",
       "title": "Continuous homogeneous catalyst recycling using organic solvent nanofiltration (OSN) in a multiphase system for CO2 valorization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1089-ten-tec-2018-0087",
       "title": "Human Co- and Triple-Culture Model of the Alveolar-Capillary Barrier on a Basement Membrane Mimic"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1109-tbme-2018-2857443",
       "title": "Noninvasive Quantification of Cell Density in Three-Dimensional Gels by MRI"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-07-021",
       "title": "On the rejection and reversibility of fouling in ultrafiltration as assessed by hydraulic impedance spectroscopy"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-8b06920",
       "title": "From Batch to Continuous Precipitation Polymerization of Thermoresponsive Microgels"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1186-s12870-018-1305-6",
       "title": "Parallel online determination of ethylene release rate by Shaken Parsley cell cultures using a modified RAMOS device"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-s41598-018-25977-6",
       "title": "Microfluidic cell sorting: Towards improved biocompatibility of extracorporeal lung assist devices"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acssuschemeng-8b00335",
       "title": "Unravelling Electrochemical Lignin Depolymerization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-02-056",
       "title": "Membrane based direct pH parametric pumping"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2018-04-009",
       "title": "Adsorption of carbon dioxide on solid amine-functionalized sorbents: A dual kinetic model"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2018-03-181",
       "title": "Closing the cycle: Phosphorus removal and recovery from diluted effluents using acid resistive membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-03-086",
       "title": "Tuning the ion selectivity of porous poly(2,5-benzimidazole) membranes by phase separation for all vanadium redox flow batteries"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jmr-2018-03-012",
       "title": "Continuous hyperpolarization with parahydrogen in a membrane reactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-03-037",
       "title": "Monolayer microgel composite membranes with tunable permeability"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-03-051",
       "title": "Selectivity of ion exchange membranes: A review"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-iecr-7b05368",
       "title": "Optimized Hollow Fiber Sorbents and Pressure Swing Adsorption Process for H 2 Recovery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-03-026",
       "title": "3D-printed rotating spinnerets create membranes with a twist"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-8b01402",
       "title": "High-Pressure CO2 Sorption in Polymers of Intrinsic Microporosity under Ultrathin Film Confinement"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-02-051",
       "title": "Chemistry in a spinneret \u2013 Composite hollow fiber membranes in a single step process"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-02-023",
       "title": "What are the microscopic events of colloidal membrane fouling?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-02-015",
       "title": "Fouling mitigation in tubular membranes by 3D-printed turbulence promoters"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2018-02-002",
       "title": "Flow and filtration imaging of single use sterile membrane filters"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2018-book-of-abstracts-aachen-dresden-denkendorf-international-textile-conferenc",
       "title": "Book of abstracts : Aachen-Dresden-Denkendorf International Textile Conference : Stuttgart, November 30-December 1, 2017, Kultur- und Kongresszentrum Liederhalle / organization: Deutsche Institute f\u00fcr Textil- und Faserforschung Denkendorf (DITF), DWI-Leibniz-Institut f\u00fcr Interaktive Medien (Aachen), ITM Institut f\u00fcr Textilmaschinen und Textile Hochleistungswerkstofftechnik der TU Dresden"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2018-aachen-dresden-denkendorf-international-textile-conference-aachen-november-",
       "title": "Aachen-Dresden-Denkendorf : International Textile Conference : Aachen, November 29-30, 2018 : Book of abstracts"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2017-11-061",
       "title": "Feed flow patterns of combined Rayleigh-B\u00e9nard convection and membrane permeation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2017-10-026",
       "title": "Modeling continuous flow-electrode capacitive deionization processes with ion-exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2017-10-027",
       "title": "In-situ non-invasive imaging of liquid-immersed thin film composite membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-carbon-2017-10-023",
       "title": "High capacity polyethylenimine impregnated microtubes made of carbon nanotubes for CO2 capture"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-jpcb-7b10061",
       "title": "Mixed-Penetrant Sorption in Ultrathin Films of Polymer of Intrinsic Microporosity PIM-1"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-5004-dwt-2017-20802",
       "title": "Evaluating water purification at household level in India"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-201700662",
       "title": "3D\u2010Printed Electrodes with Improved Mass Transport Properties"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jwpe-2017-07-027",
       "title": "Effect of high salt concentration on phosphorus recovery from sewage sludge and dewatering properties"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2017-08-019",
       "title": "Membrane impedance porometry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2017-07-084",
       "title": "Helium recovery using membrane processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ijhydene-2017-07-023",
       "title": "CO2 aided H2 recovery from water splitting processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1186-s12302-017-0121-1",
       "title": "Project house water: a novel interdisciplinary framework to assess the environmental and socioeconomic consequences of flood-related impacts"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-celc-201700459",
       "title": "Laserless Additive Manufacturing of Membrane Electrode Assemblies"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-jpcb-7b03891",
       "title": "How Do Organic Vapors Swell Ultrathin Films of Polymer of Intrinsic Microporosity PIM-1?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2017-05-052",
       "title": "Tunable permeability and selectivity: Heatable inorganic porous hollow fiber membrane with a thermo-responsive microgel coating"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2017-04-027",
       "title": "Hydraulic impedance spectroscopy tracks colloidal matter accumulation during ultrafiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2017-03-030",
       "title": "Sinusoidal shaped hollow fibers for enhanced mass transfer"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acssuschemeng-6b03086",
       "title": "Flow-Electrode Capacitive Deionization for Double Displacement Reactions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ijhydene-2016-11-186",
       "title": "Systematic optimization of H 2 recovery from water splitting process using membranes and N 2 diluent"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-biomac-6b01509",
       "title": "Basement Membrane Mimics of Biofunctionalized Nanofibers for a Bipolar-Cultured Human Primary Alveolar-Capillary Barrier Model"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c7gc02115a",
       "title": "Emulsion electro-oxidation of kraft lignin"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1155-2017-5258196",
       "title": "Towards a Biohybrid Lung: Endothelial Cells Promote Oxygen Transfer through Gas Permeable Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2017-proceedings-aachen-dresden-denkendorf-international-textile-conference-stut",
       "title": "Proceedings Aachen-Dresden-Denkendorf International Textile Conference, Stuttgart, November 30-December 1, 2017"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0958-2118-17-30016-2",
       "title": "Hydrophobic membrane with nanopores developed for efficient energy storage"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2017-verfahren-der-wasseraufbereitung-und-abwasserbehandlung-12-aachener-tagung-",
       "title": "Verfahren der Wasseraufbereitung und Abwasserbehandlung : 12. Aachener Tagung Wassertechnologie ; Begleitbuch ; 24.-25. Oktober 2017 / Univ. Prof. Dr.-Ing. M. Wessling (Aachener Verfahrenstechnik (AVT)/Lehrstuhl f\u00fcr Chemische Verfahrenstechnik), Univ. Prof. Dr.-Ing. J. Pinnekamp (Institut f\u00fcr Siedlungswasserwirtschaft (ISA)) ; Veranstalter: Aachener Verfahrenstechnik/Lehrstuhl f\u00fcr Chemische Verfahrenstechnik der RWTH Aachen, Institut f\u00fcr Siedlungswasserwirtschaft der RWTH Aachen"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2016-10-030",
       "title": "Modeling heat and mass transfer in cross-counterflow enthalpy exchangers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c6gc02270g",
       "title": "Liquid/liquid extraction of biomass-derived lignin from lignocellulosic pretreatments"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cherd-2016-09-027",
       "title": "Online monitoring of transient L/L phase separation using locally resolved impedance measurements"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2016-09-009",
       "title": "Electrochemical impedance spectroscopy fingerprints the ion selectivity of microgel functionalized ion-exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acs-jpcb-6b06807",
       "title": "How Much Do Ultrathin Polymers with Intrinsic Microporosity Swell in Liquids?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2016-08-048",
       "title": "Regenerable polymer/ceramic hybrid nanofiltration membrane based on polyelectrolyte assembly by layer-by-layer technique"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650446",
       "title": "Membranprozesse zur Heliumgewinnung"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650306",
       "title": "Erfassung des Koaleszenz\u2010 und Sedimentationsverhaltens von tr\u00fcben Systemen in einer standardisierten Absetzzelle"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650170",
       "title": "Str\u00f6mungsprofil von \u00fcberlagerter Permeation und Rayleigh\u2010B\u00e9nard\u2010Konvektion"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650529",
       "title": "Dynamic Modelling of Membrane\u2010based pH Parametric Pumping"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650453",
       "title": "Mikrogel\u2010Kompositmembranen mit schaltbarer Permeabilit\u00e4t"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650353",
       "title": "Identifizierung optimaler Membraneigenschaften und \u2010konfigurationen f\u00fcr die Gastrennung"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650191",
       "title": "Direktes Spinnverfahren zur Herstellung von Komposit\u2010Hohlfasermembranen"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650526",
       "title": "Ion Tranport through Electrolyte/Polyelectrolyte Architectures"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650234",
       "title": "Bipolar Electrodialysis for Purification of Fermentation\u2010Based Products"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650411",
       "title": "Chaotic Flow Dynamics Investigated by 3D MRI and CFD Analysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650258",
       "title": "Hohlfasern aus Kohlenstoffnanor\u00f6hrchen mit immobilisiertem Polyethylenimin zur CO2\u2010Trennung"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201650493",
       "title": "Additive Fertigung elektrochemischer Reaktoren und Elektroden"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201690062",
       "title": "N\u00e4chste Generation von Produkten und Prozessen"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2016-08-024",
       "title": "Droplet-based liquid\u2013liquid extraction inside a porous capillary"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2016-07-055",
       "title": "Mechanistic modeling of the dielectric impedance of layered membrane architectures"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-6b05706",
       "title": "Dual-Charged Hollow Fiber Membranes for Low-Pressure Nanofiltration Based on Polyelectrolyte Complexes: One-Step Fabrication with Tailored Functionalities"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-aenm-201600517",
       "title": "Ultra\u2010High Proton/Vanadium Selectivity for Hydrophobic Polymer Membranes with Intrinsic Nanopores for Redox Flow Battery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2016-06-002",
       "title": "Spacer enhanced heat and mass transfer in membrane-based enthalpy exchangers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1103-physrevlett-116-194501",
       "title": "Coupling between Buoyancy Forces and Electroconvective Instability near Ion-Selective Surfaces"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-srep22505",
       "title": "On the Dynamical Regimes of Pattern-Accelerated Electroconvection"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2016-02-042",
       "title": "Rejection modeling of ceramic membranes in organic solvent nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-srep22376",
       "title": "Microfluidic colloid filtration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jpowsour-2016-02-042",
       "title": "Porous poly(benzimidazole) membrane for all vanadium redox flow battery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2015-12-070",
       "title": "On individual resistances of selective skin, porous support and diffusion boundary layer in water vapor permeation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2016-01-037",
       "title": "Rope coiling spinning of curled and meandering hollow-fiber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2016-01-009",
       "title": "On-line monitoring of cake layer structure during fouling on porous membranes by in situ electrical impedance analysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201500086",
       "title": "Additive Manufacturing in Fluid Process Engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jhazmat-2015-12-066",
       "title": "Tubular carbon nanotube-based gas diffusion electrode removes persistent organic pollutants by a cyclic adsorption \u2013 Electro-Fenton process"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c6gc01353h",
       "title": "Electrochemical depolymerisation of lignin in a deep eutectic solvent"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c6gc00878j",
       "title": "An integrated electrochemical process to convert lignin to value-added products under mild conditions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c6sm01345g",
       "title": "Microfiltration of deformable microgels"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c6sm00660d",
       "title": "Ultrafiltration of charge-stabilized dispersions at low salinity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2015-effects-of-buoyant-forces-on-chaotic-electroconvection",
       "title": "Effects of buoyant forces on chaotic electroconvection"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2015-enhancement-of-overlimiting-current-through-an-ion-selective-membrane-via-s",
       "title": "Enhancement of Overlimiting Current through an Ion-Selective Membrane via Surface Conductivity Patterning"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-5b08286",
       "title": "Sorption Behavior of Compressed CO2 and CH4 on Ultrathin Hybrid Poly(POSS-imide) Layers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2015-10-058",
       "title": "Precise tuning of salt retention of backwashable polyelectrolyte multilayer hollow fiber nanofiltration membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2015-09-028",
       "title": "Controlled depolymerization of lignin in an electrochemical membrane reactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2015-10-007",
       "title": "Optimization of membrane based nitrogen removal from natural gas"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2015-09-014",
       "title": "Solvent dependent solute solubility governs retention in silicone based organic solvent nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c5gc01506e",
       "title": "Overcoming lignin heterogeneity: reliably characterizing the cleavage of technical lignin"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1017-s1431927615002391",
       "title": "From Flat Membranes to Fabrication of Hollow Spun Fibers of Polyethersulfone/ Polyvinylpyrillidone (PES/PVP) - Correlative Scanning Electron Microscopy (FE-SEM), 3-D X ray Microscopy and Ultrafiltration Properties"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2015-07-018",
       "title": "Single module flow-electrode capacitive deionization for continuous water desalination"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1063-1-4929519",
       "title": "Droplet formation and shrinking in aqueous two-phase systems using a membrane emulsification method"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-srep11583",
       "title": "Ion transport through electrolyte/polyelectrolyte multi-layers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-acsami-5b03969",
       "title": "High-Throughput Generation of Emulsions and Microgels in Parallelized Microfluidic Drop-Makers Prepared by Rapid Prototyping"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1590-0104-1428-1818",
       "title": "Immobilization of myoglobin in sodium alginate composite membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ange-201503395",
       "title": "Innenr\u00fccktitelbild: Enzymatically Active Ultrathin Pepsin Membranes (Angew. Chem. 20/2015)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-anie-201503395",
       "title": "Inside Back Cover: Enzymatically Active Ultrathin Pepsin Membranes (Angew. Chem. Int. Ed. 20/2015)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-est-2015-01-001",
       "title": "Proton-exchange membranes based on sulfonated poly(ether ether ketone)/polyaniline blends for all- and air-vanadium redox flow battery applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2015-03-029",
       "title": "Estimation of the structure dependent performance of 3-D rapid prototyped membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adma-201405873",
       "title": "Bioactive Gyroid Scaffolds Formed by Sacrificial Templating of Nanocellulose and Nanochitin Hydrogels as Instructive Platforms for Biomimetic Tissue Engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2015-03-019",
       "title": "Water vapor permeance: The interplay of feed and permeate activity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-anie-201411263",
       "title": "Enzymatically Active Ultrathin Pepsin Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ange-201411263",
       "title": "Enzymatically Active Ultrathin Pepsin Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2015-03-008",
       "title": "Dynamic process simulation and process control of biogas permeation processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-supflu-2015-01-009",
       "title": "Drying of supercritical carbon dioxide with membrane processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-12-040",
       "title": "Print your membrane: Rapid prototyping of complex 3D-PDMS membranes via a sacrificial resist"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c5lc00428d",
       "title": "Efficient gas\u2013liquid contact using microfluidic membrane devices with staggered herringbone mixers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2015-verfahren-der-wasseraufbereitung-und-abwasserbehandlung-11-aachener-tagung-",
       "title": "Verfahren der Wasseraufbereitung und Abwasserbehandlung : 11. Aachener Tagung Wassertechnologie ; Begleitbuch zur 11. Aachener Tagung Wassertechnologie, 27.-28. Oktober 2015"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c4cp05501b",
       "title": "Galvanic deposition of Rh and Ru on randomly structured Ti felts for the electrochemical NH 3 synthesis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2014-11-021",
       "title": "Do silicone- based membranes permeate or reject salts?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2014-11-014",
       "title": "A membrane electrode assembly for the electrochemical synthesis of hydrocarbons from CO2(g) and H2O(g)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-10-045",
       "title": "Highly permeable and mechanically robust silicon carbide hollow fiber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-progpolymsci-2014-09-004",
       "title": "In situ ellipsometry studies on swelling of thin polymer films: A review"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-08-032",
       "title": "Structural optimization of membrane-based biogas upgrading processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-09-001",
       "title": "Characterization of hollow fiber membranes by impedance spectroscopy"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-bit-25448",
       "title": "A membrane stirrer for product recovery and substrate feeding"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-btpr-1988",
       "title": "In situ cell retention of a CHO culture by a reverse\u2010flow diafiltration membrane bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-bej-2014-08-021",
       "title": "Quasi-continuous fermentation in a reverse-flow diafiltration bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201450229",
       "title": "Simulationsgest\u00fctzte Auslegung von Extraktionssystemen f\u00fcr w\u00e4ssrige Zweiphasensysteme"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201450716",
       "title": "Integrierte Produktaufarbeitung am Beispiel organischer S\u00e4uren"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2014-07-025",
       "title": "The effect of NaCl and glucose concentration on retentions for nanofiltration membranes processing concentrated solutions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-biortech-2014-07-031",
       "title": "Hybrid membrane with TiO 2 based bio-catalytic nanoparticle suspension system for the degradation of bisphenol-A"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2014-06-006",
       "title": "A microtubular all CNT gas diffusion electrode"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2014-06-004",
       "title": "Batch mode and continuous desalination of water using flowing carbon deionization (FCDI) technology"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2014-05-011",
       "title": "Nanofiltration for the recovery of phosphorus \u2014 Development of a mass transport model"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-cm500691e",
       "title": "Hybrid Polyhedral Oligomeric Silsesquioxanes\u2013Imides with Tailored Intercage Spacing for Sieving of Hot Gases"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-05-022",
       "title": "On the droplet formation in hollow-fiber emulsification"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma5002707",
       "title": "Polymer Relaxations in Thin Films in the Vicinity of a Penetrant- or Temperature-Induced Glass Transition"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cep-2014-04-002",
       "title": "Development of thin palladium membranes supported on large porous 310L tubes for a steam reformer operated with gas-to-liquid fuel"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-04-017",
       "title": "Multicomponent mass transport in organic solvent nanofiltration with solvent mixtures"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-anie-201400316",
       "title": "Temperature\u2010Modulated Water Filtration Using Microgel\u2010Functionalized Hollow\u2010Fiber Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ange-201400316",
       "title": "Temperaturgesteuerte Wasserfiltration mit Mikrogel\u2010modifizierten Hohlfasermembranen"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-04-013",
       "title": "Effects of time, temperature, and pressure in the vicinity of the glass transition of a swollen polymer"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-03-059",
       "title": "Helically microstructured spacers improve mass transfer and fractionation selectivity in ultrafiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2014-03-010",
       "title": "Tubular macro-porous titanium membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-srep04294",
       "title": "Nanometer-thick lateral polyelectrolyte micropatterns induce macrosopic electro-osmotic chaotic fluid instabilities"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-bit-25220",
       "title": "In situ product recovery of single\u2010chain antibodies in a membrane bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-polymer-2014-02-040",
       "title": "Effective medium approximations for penetrant sorption in glassy polymers accounting for excess free volume"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-am4048317",
       "title": "Layer-by-Layer Modification of Cation Exchange Membranes Controls Ion Selectivity and Water Splitting"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c4lc00320a",
       "title": "Print your own membrane: direct rapid prototyping of polydimethylsiloxane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c4cp00173g",
       "title": "Towards a carbon independent and CO 2 -free electrochemical membrane process for NH 3 synthesis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1159-000356226",
       "title": "Mixed Matrix Membranes: A New Asset for Blood Purification Therapies"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1159-000361084",
       "title": "Front & Back Matter"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ja410047u",
       "title": "Sieving of Hot Gases by Hyper-Cross-Linked Nanoscale-Hybrid Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2013-11-008",
       "title": "Electrodialysis of itaconic acid: A short-cut model quantifying the electrical resistance in the overlimiting current density region"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-carbon-2013-11-005",
       "title": "Microtubes made of carbon nanotubes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie402660s",
       "title": "Techno-economic Analysis of Hybrid Processes for Biogas Upgrading"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-am403019y",
       "title": "Catalytic Polyelectrolyte Multilayers at the Bipolar Membrane Interface"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-biortech-2013-09-012",
       "title": "Membrane-based recovery of glucose from enzymatic hydrolysis of ionic liquid pretreated cellulose"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-chin-201340274",
       "title": "ChemInform Abstract: Challenges and Advances in the Field of Self\u2010Assembled Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201250613",
       "title": "Simulation von Extraktionskolonnen f\u00fcr w\u00e4ssrige Zweiphasensysteme"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-macp-201300371",
       "title": "Probing the Surface Swelling in Ultra\u2010Thin Supported Polystyrene Films During Case II Diffusion of n\u2010Hexane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-tsf-2013-07-077",
       "title": "Relaxation induced optical anisotropy during dynamic overshoot swelling of zwitterionic polymer films"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201390069",
       "title": "\u201eNext Generation Processes and Products\u201d"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-biomaterials-2013-07-008",
       "title": "Mixed matrix hollow fiber membranes for removal of protein-bound toxins from human plasma"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2013-06-009",
       "title": "On negative retentions in organic solvent nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2013-06-033",
       "title": "Microstructured spacers for submerged membrane filtration systems"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2013-05-030",
       "title": "Membrane processes in biorefinery applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2013-04-039",
       "title": "n-Hexane induced swelling of thin PDMS films under non-equilibrium nanofiltration permeation conditions, resolved by spectroscopic ellipsometry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-biortech-2013-03-044",
       "title": "Continuous production and recovery of itaconic acid in a membrane bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1007-s10450-013-9537-0",
       "title": "How to determine the correct sample volume by gravimetric sorption measurements"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-actbio-2013-02-029",
       "title": "Corrugated round fibers to improve cell adhesion and proliferation in tissue engineering scaffolds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie3028608",
       "title": "Enzymatic Conversion in Ion-Exchange Mixed Matrix Hollow Fiber Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie303330b",
       "title": "Techno-economic Analysis of Membrane-Based Argon Recovery in a Silicon Carbide Process"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2013-01-017",
       "title": "Overcoming the drawbacks of microsieves with micromeshes for in situ product recovery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2012-12-045",
       "title": "n-Hexane induced swelling of thin PDMS films under non-equilibrium nanofiltration permeation conditions, resolved by spectroscopic ellipsometry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c3cs60125k",
       "title": "Challenges and advances in the field of self-assembled membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2013-conjugated-polymer-particles-towards-self-assembling-organic-photonics",
       "title": "Conjugated polymer particles : Towards self-assembling organic photonics"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-polymer-2012-11-038",
       "title": "Temperature-induced transition of the diffusion mechanism of n-hexane in ultra-thin polystyrene films, resolved by in-situ Spectroscopic Ellipsometry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2012-2ap06-strategies-and-technologies-towards-tailor-made-fuels-from-biomass-bi",
       "title": "2Ap06 Strategies and technologies towards tailor made fuels from biomass(Bio-Based Production)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-rser-2012-08-009",
       "title": "Transforming biogas into biomethane using membrane technology"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2012-10-018",
       "title": "New crosslinking method of polyamide\u2013imide membranes for potential application in harsh polar aprotic solvents"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1080-19443994-2012-705049",
       "title": "Limitations, improvements and alternatives of the silt density index"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie301485q",
       "title": "Optimizing Argon Recovery: Membrane Separation of Carbon Monoxide at High Concentrations via the Water Gas Shift"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-elps-201200275",
       "title": "Porous membrane structures as stationary phase for capillary electrochromatography"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2012-07-080",
       "title": "Influence of geometrical and operational parameters on the performance of porous catalytic membrane reactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201250177",
       "title": "Entwicklung eines GtL\u2010Dampfreformers mit Metallmembran f\u00fcr die Kombination mit einer PEM\u2010Brennstoffzelle in APU\u2010Anwendungen"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-watres-2012-07-019",
       "title": "Characterization of antibacterial polyethersulfone membranes using the respiration activity monitoring system (RAMOS)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2012-06-044",
       "title": "Modeling of gas\u2013liquid reactions in porous membrane microreactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2012-06-034",
       "title": "Reverse-flow diafiltration for continuous in situ product recovery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adma-201201832",
       "title": "An Adaptive Self\u2010Healing Ionic Liquid Nanocomposite Membrane for Olefin\u2010Paraffin Separations"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2012-05-001",
       "title": "Limitations for transferring lab-scale microfiltration results to large-scale membrane bioreactor (MBR) processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1007-s10404-012-0987-6",
       "title": "A microgrooved membrane based gas\u2013liquid contactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-term-1504",
       "title": "Development of multilayer constructs for tissue engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie202594h",
       "title": "On the Design of a 4-End Spiral-Wound L/L Extraction Membrane Module"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1080-19443994-2012-683102",
       "title": "SDI: is it a reliable fouling index?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-5004-dwt-2012-2452",
       "title": "SDI: is it a reliable fouling index?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2012-03-056",
       "title": "New cross-linked PVA based polymer electrolyte membranes for alkaline fuel cells"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie202689m",
       "title": "Modeling Gas Permeation by Linking Nonideal Effects"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2012-03-030",
       "title": "Towards a generic method for inorganic porous hollow fibers preparation with shrinkage-controlled small radial dimensions, applied to Al2O3, Ni, SiC, stainless steel, and YSZ"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adma-201104642",
       "title": "Hierarchically Structured Assembly of Polymer Microsieves, made by a Combination of Phase Separation Micromolding and Float\u2010Casting"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adma-201290068",
       "title": "Microsieves: Hierarchically Structured Assembly of Polymer Microsieves, made by a Combination of Phase Separation Micromolding and Float\u2010Casting (Adv. Mater. 12/2012)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-actbio-2012-03-008",
       "title": "A novel approach for blood purification: Mixed-matrix membranes combining diffusion and adsorption in one step"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1080-19443994-2012-671154",
       "title": "Sensitivity of SDI for experimental errors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-5004-dwt-2012-2735",
       "title": "Sensitivity of SDI for experimental errors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2012-01-003",
       "title": "Siloxane removal using silicone\u2013rubber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-am2015958",
       "title": "Spectroscopic Ellipsometry Analysis of a Thin Film Composite Membrane Consisting of Polysulfone on a Porous \u03b1-Alumina Support"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c2jm31941a",
       "title": "Ultra-thin hybrid polyhedral silsesquioxane\u2013polyamide films with potentially unlimited 2D dimensions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-12-020",
       "title": "Simple purification of ionic liquid solvents by nanofiltration in biorefining of lignocellulosic substrates"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-11-039",
       "title": "Important factors influencing molecular weight cut-off determination of membranes in organic solvents"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-watres-2011-12-011",
       "title": "Water hammer reduces fouling during natural water ultrafiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-11-029",
       "title": "In situ product recovery: Submerged membranes vs. external loop membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-masy-201100031",
       "title": "Model to Design Multilayer Tissue Engineering Scaffolds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2011-09-049",
       "title": "Using SDI, SDI+ and MFI to evaluate fouling in a UF/RO desalination pilot plant"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2011-11-003",
       "title": "\u201cChemistry in a spinneret\u201d to fabricate hollow fibers for organic solvent filtration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1007-s10544-011-9588-5",
       "title": "Fabrication of cell container arrays with overlaid surface topographies"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jphotochem-2011-09-022",
       "title": "Porous Photocatalytic Membrane Microreactor (P2M2): A new reactor concept for photochemistry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1073-pnas-1109861108",
       "title": "An algorithm-based topographical biomaterials library to instruct cell fate"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-09-028",
       "title": "The influence of membrane properties on the Silt Density Index"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-09-022",
       "title": "CFD simulation of single- and multi-phase flows through submerged membrane units with irregular fiber arrangement"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-09-021",
       "title": "On the isolation of single acidic amino acids for biorefinery applications using electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-07-037",
       "title": "Carbon nanofibers in catalytic membrane microreactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2011-06-042",
       "title": "SDI normalization and alternatives"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-07-030",
       "title": "Effect of testing conditions and filtration mechanisms on SDI"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-07-018",
       "title": "Sulfonated poly(ether ether ketone) based composite membranes for nanofiltration of acidic and alkaline media"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2011-integration-of-hollow-fiber-membranes-with-3d-scaffolds-improves-nutrient-s",
       "title": "Integration of hollow fiber membranes with 3D scaffolds improves nutrient supply in-vitro"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-actbio-2011-06-012",
       "title": "Integration of hollow fiber membranes improves nutrient supply in three-dimensional tissue constructs"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2011-modeling-the-design-of-multi-layer-tissue-engineering-scaffolds",
       "title": "Modeling the DESIGN OF multi-layer tissue engineering scaffolds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-05-039",
       "title": "Pushing the limits of block copolymer membranes for CO2 separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-05-021",
       "title": "Geometrical influence on mixing in helical porous membrane microcontactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2011-05-012",
       "title": "Solvent-resistant P84-based mixed matrix membrane adsorbers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-04-043",
       "title": "Anion exchange membranes for alkaline fuel cells: A review"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-scriptamat-2011-03-023",
       "title": "Porous stainless steel hollow fibers with shrinkage-controlled small radial dimensions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-02-012",
       "title": "Effect of pH on the performance of polyamide/polyacrylonitrile based thin film composite membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-02-002",
       "title": "Fouling behavior of microstructured hollow fibers in cross-flow filtrations: Critical flux determination and direct visual observation of particle deposition"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-01-058",
       "title": "Composite capillary membrane for solvent resistant nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adma-201003538",
       "title": "Thermoforming of Film\u2010Based Biomedical Microdevices"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-01-018",
       "title": "NMR imaging of local cumulative permeate flux and local cake growth in submerged microfiltration processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-01-026",
       "title": "Development of poly(l-lactic acid) hollow fiber membranes for artificial vasculature in tissue engineering scaffolds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2011-01-004",
       "title": "Porous stainless steel hollow fiber membranes via dry\u2013wet spinning"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-la1037734",
       "title": "Fouling Behavior of Microstructured Hollow Fiber Membranes in Dead-End Filtrations: Critical Flux Determination and NMR Imaging of Particle Deposition"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-materresbull-2011-01-005",
       "title": "Tailoring of free standing microchannels structures via microtemplating"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2011-polymer-membranes-for-flue-gas-treatment",
       "title": "Polymer membranes for flue gas treatment"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2010-11-031",
       "title": "Silt Density Index and Modified Fouling Index relation, and effect of pressure, temperature and membrane resistance"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-12-010",
       "title": "Chemistry in a spinneret\u2014On the interplay of crosslinking and phase inversion during spinning of novel hollow fiber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-watres-2010-12-007",
       "title": "Fouling behavior of microstructured hollow fiber membranes in submerged and aerated filtrations"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-11-063",
       "title": "Hollow fiber ultrafiltration membranes with microstructured inner skin"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-11-060",
       "title": "Tailoring the surface charge of an ultrafiltration hollow fiber by addition of a polyanion to the coagulation bore liquid"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-elecom-2010-11-025",
       "title": "A polyelectrolyte membrane-based vanadium/air redox flow battery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2010-evaporation-and-impact-of-water-droplet-on-superhydrophobic-surfaces",
       "title": "Evaporation and impact of water droplet on superhydrophobic surfaces"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-11-026",
       "title": "Visual characterization of fouling with bidisperse solution"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cej-2010-11-005",
       "title": "Porous ceramic mesoreactors: A new approach for gas\u2013liquid contacting in multiphase microreaction technology"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-c0cp01104e",
       "title": "Ionic liquid silver salt complexes for propene/propane separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-10-035",
       "title": "On the effects of plasticization in CO2/light gas separation using polymeric solubility selective membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-09-034",
       "title": "Tailoring the interface layer of the bipolar membrane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie1011245",
       "title": "CO 2 Nucleation in Membrane Spacer Channels Remove Biofilms and Fouling Deposits"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie100241y",
       "title": "Kinetics of CO2Absorption in Aqueous Sarcosine Salt Solutions: Influence of Concentration, Temperature, and CO2Loading"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie100461k",
       "title": "Block Copolymer Derived Membranes for Sustained Carbon Dioxide\u2212Methane Separations"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cite-201050099",
       "title": "Tr\u00e4gergest\u00fctzte ionische Fl\u00fcssigkeiten zur Olefin/Paraffin\u2010Trennung"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-07-048",
       "title": "Particle deposition and biofilm formation on microstructured membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ijggc-2010-06-014",
       "title": "Highly hydrophilic, rubbery membranes for CO2 capture and dehydration of flue gas"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-07-025",
       "title": "A method for characterizing membranes during nanofiltration at extreme pH"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-cssc-201000076",
       "title": "Highly Selective Amino Acid Salt Solutions as Absorption Liquid for CO2 Capture in Gas\u2013Liquid Membrane Contactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-polymer-2010-06-031",
       "title": "CO2 sorption and transport behavior of ODPA-based polyetherimide polymer films"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-06-029",
       "title": "Use of Particle Imaging Velocimetry to measure liquid velocity profiles in liquid and liquid/gas flows through spacer filled channels"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-micromeso-2010-05-012",
       "title": "Ceramic microfluidic monoliths by ice templating"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-05-018",
       "title": "How do polymerized room-temperature ionic liquid membranes plasticize during high pressure CO2 permeation?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-05-011",
       "title": "Membrane with integrated spacer"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-app-31906",
       "title": "Synthesis and properties of hydrophilic segmented block copolymers based on poly(ethylene oxide)\u2010ran\u2010poly(propylene oxide)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1103-physrevlett-104-116102",
       "title": "Evaporation-Triggered Wetting Transition for Water Droplets upon Hydrophobic Microstructures"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2010-02-008",
       "title": "Poly(ethylene glycol) and poly(dimethyl siloxane): Combining their advantages into efficient CO2 gas separation membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1007-s00348-010-0827-y",
       "title": "On image pre-processing for PIV of single- and two-phase flows over reflecting objects"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-am900754z",
       "title": "Subambient Temperature CO2 and Light Gas Permeation Through Segmented Block Copolymers with Tailored Soft Phase"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-actbio-2009-12-051",
       "title": "A facile method to fabricate poly(l-lactide) nano-fibrous morphologies by phase inversion"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-b927207k",
       "title": "Insights into the role of material surface topography and wettability on cell-material interactions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2010-mixed-membranes-for-toxin-removal-from-blood",
       "title": "Mixed membranes for toxin removal from blood"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jeurceramsoc-2009-11-011",
       "title": "Surface texturing inside ceramic macro/micro channels"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-11-069",
       "title": "On the resistances of membrane, diffusion boundary layer and double layer in ion exchange membrane transport"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-11-050",
       "title": "Micro-patterned Nafion membranes for direct methanol fuel cell applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-10-054",
       "title": "Influence of membrane properties on fouling in submerged membrane bioreactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1063-1-3266505",
       "title": "Quantifying effective slip length over micropatterned hydrophobic surfaces"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-am900594p",
       "title": "Micropatterned Polymer Films by Vapor-Induced Phase Separation Using Permeable Molds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-10-015",
       "title": "Shrinkage effects during polymer phase separation on microfabricated molds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-10-011",
       "title": "Ion conductive spacers for increased power generation in reverse electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-10-010",
       "title": "Polymeric microsieves via phase separation microfabrication: Process and design optimization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-10-003",
       "title": "Microstructured hollow fibers for ultrafiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-09-054",
       "title": "Coiled fiber membrane chromatography"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-09-045",
       "title": "Tuning of mass transport properties of multi-block copolymers for CO2 capture applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-09-034",
       "title": "CO2 permeation properties of poly(ethylene oxide)-based segmented block copolymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-09-035",
       "title": "A microfluidic membrane chip for in situ fouling characterization"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-09-033",
       "title": "Transport limitations in ion exchange membranes at low salt concentrations"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-biomaterials-2009-07-057",
       "title": "Development and analysis of multi-layer scaffolds for tissue engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1140-epje-i2009-10489-3",
       "title": "Cassie-Baxter to Wenzel state wetting transition: Scaling of the front velocity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-es9009635",
       "title": "Practical Potential of Reverse Electrodialysis As Process for Sustainable Energy Generation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jeurceramsoc-2009-06-019",
       "title": "A novel method for the fabrication of freestanding PZT features on substrates"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-05-048",
       "title": "Towards spacer free electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-05-035",
       "title": "Gas\u2013liquid membrane contactors for CO2 removal"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-actbio-2009-05-017",
       "title": "Designing porosity and topography of poly(1,3-trimethylene carbonate) scaffolds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-04-009",
       "title": "Nafion\u00ae/H-ZSM-5 composite membranes with superior performance for direct methanol fuel cells"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-04-008",
       "title": "Unraveling ultrafiltration of polysaccharides with flow field flow fractionation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-03-051",
       "title": "Mixed water vapor/gas transport through the rubbery polymer PEBAX\u00ae 1074"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-01-040",
       "title": "Bubbles in spacers: Direct observation of bubble behavior in spacer filled membrane channels"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-01-050",
       "title": "High permeable PTMSP/PAN composite membranes for solvent nanofiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2009-01-046",
       "title": "An improved flux-step method to determine the critical flux and the critical flux for irreversibility in a membrane bioreactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1155-2009-147879",
       "title": "Influence of Pyrolysis Parameters on the Performance of CMSM"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2009-novel-membrane-based-scaffolds-for-tissue-engineering",
       "title": "Novel membrane-based scaffolds for tissue engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ja807611n",
       "title": "Microcontact Printing of Dendrimers, Proteins, and Nanoparticles by Porous Stamps"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-11-051",
       "title": "Impregnated membranes for direct methanol fuel cells at high methanol concentrations"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1103-physrevlett-101-236101",
       "title": "Direct Observation of a Nonequilibrium Electro-Osmotic Instability"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-b810638j",
       "title": "Sorption induced relaxations during water diffusion in S-PEEK"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-apcata-2008-09-011",
       "title": "Frozen slurry catalytic reactor: A new structured catalyst for transient studies in liquid phase"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-polb-21495",
       "title": "Modeling on swelling behavior of a confined polymer network"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-06-013",
       "title": "Particle-loaded hollow-fiber membrane adsorbers for lysozyme separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-05-013",
       "title": "Dimensionally stable Nafion\u2013polyethylene composite membranes for direct methanol fuel cell applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-04-037",
       "title": "Hollow fiber ultrafiltration: The concept of partial backwashing"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-03-052",
       "title": "Comparing flat and micro-patterned surfaces: Gas permeation and tensile stress measurements"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-03-059",
       "title": "A sacrificial-layer approach to prepare microfiltration membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ac7023602",
       "title": "Generation of Local Concentration Gradients by Gas\u2212Liquid Contacting"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-03-037",
       "title": "Current status of ion exchange membranes for power generation from salinity gradients"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1209-0295-5075-81-66002",
       "title": "Multiple time scale dynamics in the breakdown of superhydrophobicity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-01-035",
       "title": "Hollow fiber dead-end ultrafiltration: Axial transport variations during humic acid filtration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2008-01-024",
       "title": "Flue gas dehydration using polymer membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1089-tea-2008-1504",
       "title": "Materiomics: Dealing with complexity in tissue engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2008-hollow-fiber-membrane-to-reduce-necrosis-in-tissue-engineered-constructs",
       "title": "Hollow fiber membrane to reduce necrosis in tissue engineered constructs"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-12-035",
       "title": "Auto and mutual plasticization in single and mixed gas C3 transport through Matrimid-based hollow fiber membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2007-druppel-op-een-spijkerbed",
       "title": "Druppel op een spijkerbed"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-jp074966",
       "title": "Free Volume in C60 Modified PPO Polymer Membranes by Positron Annihilation Lifetime Spectroscopy"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-11-028",
       "title": "Boltorn-modified polyimide gas separation membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-11-008",
       "title": "Micro-fabricated metal nozzle plates used for water-in-oil and oil-in-water emulsification"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1103-physrevlett-99-156001",
       "title": "Spontaneous Breakdown of Superhydrophobicity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-09-062",
       "title": "Hollow fiber dead-end ultrafiltration: Influence of ionic environment on filtration of alginates"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-09-059",
       "title": "Medical applications of membranes: Drug delivery, artificial organs and tissue engineering"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-09-016",
       "title": "Preparation and characterization of nanofiltration membranes by coating polyethersulfone hollow fibers with sulfonated poly(ether ether ketone) (SPEEK)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2007-a-novel-process-route-for-the-production-of-building-blocks-for-chemicals-f",
       "title": "A novel process route for the production of building blocks for chemicals from protein sources using electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-07-048",
       "title": "Materials dependence of mixed gas plasticization behavior in asymmetric membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2007-07-015",
       "title": "Electrochemical acidification of milk by whey desalination"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma070772g",
       "title": "Boltorn-Modified Poly(2,6-dimethyl-1,4-phenylene oxide) Gas Separation Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma070202g",
       "title": "When Do Sorption-Induced Relaxations in Glassy Polymers Set In?"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jcis-2007-03-074",
       "title": "Interfacial aspects of water drop formation at micro-engineered orifices"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2007-vanadium-oxygen-redox-flow-fuel-cell",
       "title": "Vanadium/oxygen redox flow fuel cell"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-ceat-200600364",
       "title": "Porous Microfluidic Devices \u2013 Fabrication and Applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-jp068474t",
       "title": "Morphology and Microtopology of Cation-Exchange Polymers and the Origin of the Overlimiting Current"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1038-445726a",
       "title": "Silicon for the perfect membrane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-biomaterials-2006-12-023",
       "title": "One-step fabrication of porous micropatterned scaffolds to control cell behavior"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2007-nanofiltration-hollow-fibre-membranes-for-non-aqueous-application",
       "title": "Nanofiltration hollow fibre membranes for non-aqueous application."
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2007-nanocerfil-nanofiltration-hollow-membranes-for-non-aqueous-applications",
       "title": "NANOCERFIL: Nanofiltration hollow membranes for non-aqueous applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2007-engineering-vascularized-microtissues-for-bone-tissue-engineering",
       "title": "Engineering vascularized microtissues for bone tissue engineering."
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2007-hollow-fiber-membrane-to-reduce-necrosis-in-tissue-engineered-constructs",
       "title": "Hollow fiber membrane to reduce necrosis in tissue engineered constructs"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma061300p",
       "title": "Fullerene-Modified Poly(2,6-dimethyl-1,4-phenylene oxide) Gas Separation Membranes: Why Binding Is Better than Dispersing"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2006-10-042",
       "title": "Asymmetric bipolar membrane: A tool to improve product purity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2006-electrically-tunable-structured-superhydrophobic-surfaces",
       "title": "Electrically tunable structured superhydrophobic surfaces"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-es060533t",
       "title": "Outside-In Trimming of Humic Substances During Ozonation in a Membrane Contactor"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2006-09-001",
       "title": "Vibrating polymeric microsieves: Antifouling strategies for microfiltration"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2006-03-168",
       "title": "New membrane material for SRNF applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2006-03-175",
       "title": "Hybrid silica \u2013 polymer macroporous membranes with tunable surface functionality"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-ijhydene-2006-06-022",
       "title": "Integration of biohydrogen fermentation and gas separation processes to recover and enrich hydrogen"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2006-07-016",
       "title": "Polymeric microsieves produced by phase separation micromolding"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-colsurfa-2006-06-030",
       "title": "Tailoring surface properties for controlling droplet formation at microsieve membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2006-05-039",
       "title": "Multi-layer spacer geometries with improved mass transport"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-la060137o",
       "title": "Polymer-in-a-Silica-Crust Membranes: Macroporous Materials with Tunable Surface Functionality"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-desal-2005-06-048",
       "title": "Adsorption behavior of cation-exchange resin-mixed polyethersulfone-based fibrous adsorbents with bovine serum albumin"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2006-04-004",
       "title": "Poly[1-(trimethylsilyl)-1-propyne] as a solvent resistance nanofiltration membrane material"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-2166-wst-2006-261",
       "title": "Oestrogen removal from biological pretreated wastewater within decentralised sanitation and re-use concepts"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s1672-2515-07-60245-0",
       "title": "A novel method for fabricating composite mosaic membrane with unique NF selectivity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jcis-2006-03-006",
       "title": "Flux stabilization of silicon nitride microsieves by backpulsing and surface modification with PEG moieties"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2006-01-045",
       "title": "Enzyme capturing and concentration with mixed matrix membrane adsorbers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2006-functionalized-membranes-for-sustainable-process-applications",
       "title": "Functionalized Membranes for Sustainable Process Applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-la052701l",
       "title": "Superhydrophobic Surfaces Having Two-Fold Adjustable Roughness Prepared in a Single Step"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-3724-sp-j-1105-2006-00350",
       "title": "STUDIES OF ADSORPTION OF BOVINE SERUM ALBUMIN ON RESIN MIXED PES FIBROUS ADSORBENTS"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-12-033",
       "title": "Observations on the permeation performance of solvent resistant nanofiltration membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-b603275c",
       "title": "Membranes and microfluidics: a review"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2006-studies-of-adsorption-of-bovine-serum-albumin-on-resin-mixed-pes-fibrous-ad",
       "title": "Studies of adsorption of bovine serum albumin on resin mixed pes fibrous adsorbents"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1007-s10800-005-9074-y",
       "title": "Electrochemical reduction of dilute chromate solutions on carbon felt electrodes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-10-013",
       "title": "Protein aggregate deposition and fouling reduction strategies with high-flux silicon nitride microsieves"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-polymer-2005-10-063",
       "title": "Gas foaming of segmented poly(ester amide) films [Polymer 46 (2005) 9396\u20139403]"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2005-08-010",
       "title": "Water recycling from mixed chromic acid waste effluents by membrane technology"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-2166-wst-2005-0711",
       "title": "The effect of colloid stability of wastewater treatment plants effluent on nanofiltration performance"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2005-biomimetic-capillary-networks-for-tissue-engineering-scaffolds",
       "title": "Biomimetic capillary networks for tissue engineering scaffolds"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-polymer-2005-07-052",
       "title": "Gas foaming of segmented poly(ester amide) films"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-watres-2005-06-005",
       "title": "Nutrient removal by NF and RO membranes in a decentralized sanitation system"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2005-06-002",
       "title": "Chromic acid recovery by electro-electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-05-013",
       "title": "The effect of WWTP effluent zeta-potential on direct nanofiltration performance"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-05-010",
       "title": "Mixed gas water vapor/N transport in poly(ethylene oxide) poly(butylene terephthalate) block copolymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2005-04-001",
       "title": "Effect of PDMS cross-linking degree on the permeation performance of PAN/PDMS composite nanofiltration membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-04-019",
       "title": "Preparation and characterisation of monovalent ion selective cation exchange membranes based on sulphonated poly(ether ether ketone)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-200400128",
       "title": "Phase Separation Micromolding: A New Generic Approach for Microstructuring Various Materials"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-smll-200590016",
       "title": "Cover Picture: Phase Separation Micromolding: A New Generic Approach for Microstructuring Various Materials (Small 6/2005)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-03-031",
       "title": "Chromic acid recovery by electro-electrodialysisI. Evaluation of anion-exchange membrane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-03-008",
       "title": "Affinity membranes for hormone removal from aqueous solutions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-03-006",
       "title": "The role of wetting on the water flux performance of microsieve membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2005-02-022",
       "title": "High performance micro-engineered hollow fiber membranes by smart spinneret design"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-07-038",
       "title": "Hollow fiber membrane contactors\u2014A means to study the reaction kinetics of humic substance ozonation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-12-015",
       "title": "On the subtle balance between competitive sorption and plasticization effects in asymmetric hollow fiber gas separation membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1039-b509280a",
       "title": "New replication technique for the fabrication of thin polymeric microfluidic devices with tunable porosity"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adfm-200305155",
       "title": "Ag\u2010Functionalized Carbon Molecular\u2010Sieve Membranes Based on Polyelectrolyte/Polyimide Blend Precursors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-10-029",
       "title": "Solar driven membrane pervaporation for desalination processes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-08-036",
       "title": "Transport of water vapor and inert gas mixtures through highly selective and highly permeable polymer membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-10-022",
       "title": "Regeneration of mixed solvent by electrodialysis: selective removal of chloride and sulfate"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-marc-200400296",
       "title": "Novel Gas Separation Membranes Containing Covalently Bonded Fullerenes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-06-026",
       "title": "Anion-exchange membranes containing diamines: preparation and stability in alkaline solution"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adem-200400060",
       "title": "Chemical and Thermal Stability of Alkylsilane Based Coatings for Membrane Emulsification"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2004-effect-of-membrane-structure-and-process-parameters-on-the-performance-of-m",
       "title": "Effect of membrane structure and process parameters on the performance of membrane bioreactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-02-039",
       "title": "Towards single step production of multi-layer inorganic hollow fibers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2004-03-024",
       "title": "Intermediate polymer to carbon gas separation membranes based on Matrimid PI"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-cep-2003-11-010",
       "title": "Electro-catalytic membrane reactors and the development of bipolar membrane technology"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma049847w",
       "title": "Gas-Permeation Properties of Poly(ethylene oxide) Poly(butylene terephthalate) Block Copolymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-seppur-2003-08-002",
       "title": "Composite hollow fiber gas\u2013liquid membrane contactors for olefin/paraffin separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie0341350",
       "title": "Analysis of the Complexation Reaction between Ag+ and Ethylene"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2003-12-032",
       "title": "Role of membrane surface in concentration polarization at cation exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2003-12-015",
       "title": "Composite hollow fiber membranes for organic solvent-based liquid\u2013liquid extraction"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-polymer-2004-02-063",
       "title": "Polymer intrusion into narrow pores at the interface between a poor solvent and adsorbing and non-adsorbing surfaces"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-04-90198-1",
       "title": "Application of gas separation to recover biohydrogen produced by Thiocapsa roseopersicina"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2003-10-045",
       "title": "Super selective membranes in gas\u2013liquid membrane contactors for olefin/paraffin separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-app-20006",
       "title": "Selection of top layer materials for gas\u2013liquid membrane contactors"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2003-11-008",
       "title": "Mixed matrix microporous hollow fibers with ion-exchange functionality"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-jchromb-2003-12-020",
       "title": "Adsorptive membranes for bilirubin removal"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie030594p",
       "title": "Olefin-Selective Membranes in Gas\u2212Liquid Membrane Contactors for Olefin/Paraffin Separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-j-memsci-2003-10-002",
       "title": "Insight into the transport of hexane\u2013solute systems through tailor-made composite membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-jp035640d",
       "title": "Thermodynamics of Water Vapor Sorption in Poly(ethylene oxide) Poly(butylene terephthalate) Block Copolymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-bit-10807",
       "title": "Dynamic behavior of adsorber membranes for protein recovery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ol030053w",
       "title": "Heme-Protein Active Site Models via Self-Assembly in Water"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-adma-200304949",
       "title": "Phase Separation Micromolding\u2014PS\u03bcM"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma025947v",
       "title": "Analysis of Cell-Stabilizing Additives in Low-Density Polyethylene Foams Using Low-Frequency Dielectric Spectroscopy"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-aic-690490710",
       "title": "CO2 Plasticization of polyethersulfone/polyimide gas\u2010separation membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-03-00176-5",
       "title": "Functionalized Carbon Molecular Sieve membranes containing Ag-nanoclusters"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-03-00178-9",
       "title": "Preparation of mixed matrix adsorber membranes for protein recovery"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-la026864a",
       "title": "Ion Adsorption Parameters Determined from Zeta Potential and Titration Data for a \u03b3-Alumina Nanofiltration Membrane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0021-9673-03-00562-4",
       "title": "Mixed-matrix membrane adsorbers for protein separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-new-separation-methods-in-the-process-industry",
       "title": "New Separation Methods in the Process Industry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-app-11591",
       "title": "Preparation of porous hollow fiber membranes with a triple\u2010orifice spinneret"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1081-smts-120026595",
       "title": "Monte Carlo Calculations of Polymer Adsorption at the Entrance of Cylindrical Pores in Flat Adsorbing Surfaces"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-performance-studies-of-high-flux-microsieve-membranes-for-biotechnological-",
       "title": "Performance Studies of high-flux Microsieve Membranes for Biotechnological Applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-process-intensification-in-membrane-production-polymer-nanofoams",
       "title": "Process intensification in membrane production Polymer nanofoams"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-super-selective-olefin-paraffin-separation-by-membrane-gas-absorption",
       "title": "Super-selective olefin/paraffin separation by membrane gas absorption"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-organic-acid-and-protein-recovery-and-fractionation-using-direct-acidificat",
       "title": "Organic acid and protein recovery and fractionation using direct acidification by bipolar membrane electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-microsieve-membranes-for-dairy-food-processing",
       "title": "Microsieve membranes for dairy food processing"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-bubbles-in-microfluids",
       "title": "Bubbles in microfluids"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2003-gas-separation-membranes",
       "title": "Gas-Separation Membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-02-00409-x",
       "title": "Preparation of ethylene vinylalcohol copolymer membranes suitable for ligand coupling in affinity separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-stabilization-strategies-for-gas-liquid-membrane-contactors-in-paraffin-ole",
       "title": "Stabilization strategies for gas/liquid membrane contactors in paraffin/olefin separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-02-00118-7",
       "title": "Preparation of composite hollow fiber membranes: co-extrusion of hydrophilic coatings onto porous hydrophobic support structures"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-02-00824-x",
       "title": "The development of electro-membrane filtration for the isolation of bioactive peptides: the effect of membrane selection and operating parameters on the transport rate"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-02-00299-0",
       "title": "Effect of spinning conditions on the structure and the gas permeation properties of high flux polyethersulfone\u2014polyimide blend hollow fibers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-02-00435-6",
       "title": "Preparation and characterization of gas separation hollow fiber membranes based on polyethersulfone-polyimide miscible blends"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-02-00721-x",
       "title": "Water vapor and gas transport through a poly(butylene terephthalate) poly(ethylene oxide) block copolymer"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-02-00280-1",
       "title": "New ways to produce porous polymeric membranes by carbon dioxide foaming"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-02-00755-5",
       "title": "Synthesis of novel nanostructured mixed matrix membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0011-9164-02-00443-5",
       "title": "Monte Carlo simulations of polymer conformations at the bulk/membrane interface"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-1521-4095-20020805-14-15-1041-aid-adma1041-3-0-co-2-a",
       "title": "Ultralow-k Dielectrics Made by Supercritical Foaming of Thin Polymer Films"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma020176g",
       "title": "Monte Carlo Simulation of Partially Confined Flexible Polymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-1522-2640-200205-74-5-639-aid-cite1111639-3-0-co-2-c",
       "title": "The Development of Electro-Membrane Filtration for the Isolation of Valuable Charged Components"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-01-00695-0",
       "title": "Cation permeable membranes from blends of sulfonated poly(ether ether ketone) and poly(ether sulfone)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-01-00696-2",
       "title": "Comparison of bipolar membranes by means of chronopotentiometry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1023-a-1016317503435",
       "title": "Current\u2013voltage behaviour of bipolar membranes in concentrated salt solutions investigated with chronopotentiometry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie010655o",
       "title": "Porous Monofilaments by Continuous Solid-State Foaming"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma011672s",
       "title": "Open Nanoporous Morphologies from Polymeric Blends by Carbon Dioxide Foaming"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ie010524n",
       "title": "Asymmetric Bipolar Membranes in Acid\u2212Base Electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1006-jcis-2001-8029",
       "title": "Tailoring the Properties of Asymmetric Cellulose Acetate Membranes by Gas Plasma Etching"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1557-proc-752-aa10-2",
       "title": "Ag functionalized Carbon Molecular Sieves membranes for separating O2 and N2"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-fabrication-of-polymeric-microsieves-by-phase-separation-micro-moulding",
       "title": "Fabrication of polymeric microsieves by phase separation micro moulding"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-bipolar-membrane-electrodialysis-for-the-production-of-acids-and-bases",
       "title": "Bipolar membrane electrodialysis for the production of acids and bases"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-preparation-of-asymmetric-polyimide-ultrafiltration-hollow-fiber-membranes-",
       "title": "Preparation of asymmetric polyimide ultrafiltration hollow fiber membranes for non-acqueous systems"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-selective-protein-recovery-by-membrane-adsorption-technology",
       "title": "Selective protein recovery by membrane adsorption technology"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-monte-carlo-simulations-of-macromolecule-conformations-at-the-bulk-membrane",
       "title": "Monte carlo simulations of macromolecule conformations At the bulk/membrane interface"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-dehydration-of-natural-gas",
       "title": "Dehydration of natural gas"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-composite-microsieve-membranes-for-dairy-food-processing",
       "title": "Composite microsieve membranes for dairy food processing"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-nanofiltration-membranes-for-non-aqueous-applications",
       "title": "Nanofiltration membranes for non-aqueous applications"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-decentralized-treatment-of-black-water-for-nutrient-recovery-and-water-reus",
       "title": "Decentralized treatment of black water for nutrient recovery and water reuse"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-nanofiltration-of-municipal-sewage-treatment-plant-effluent",
       "title": "Nanofiltration of municipal sewage treatment plant effluent"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2002-water-vapor-and-gas-transport-through-peo-pbt-block-copolymers",
       "title": "Water vapor and gas transport through PEO PBT block copolymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma010854j",
       "title": "Bicontinuous Nanoporous Polymers by Carbon Dioxide Foaming"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0022-0728-01-00597-6",
       "title": "The role of the salt electrolyte on the electrical conductive properties of a polymeric bipolar membrane"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0040-6031-01-00587-1",
       "title": "Phase behavior of polymer\u2013diluent systems characterized by temperature modulated differential scanning calorimetry"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s1383-5866-01-00138-1",
       "title": "Two-dimensional stochastic modeling of membrane fouling"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s1383-5866-01-00127-7",
       "title": "Accelerated plasticization of thin-film composite membranes used in gas separation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-01-00329-5",
       "title": "Novel open-cellular polysulfone morphologies produced with trace concentrations of solvents as pore opener"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-aic-690470515",
       "title": "Suppression of gas separation membrane plasticization by homogeneous polymer blending"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0022-0728-01-00348-5",
       "title": "Chronopotentiometry for the advanced current\u2013voltage characterisation of bipolar membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1021-ma001291z",
       "title": "Microcellular Foaming of Amorphous High-Tg Polymers Using Carbon Dioxide"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2001-influence-of-the-nature-of-polymer-matrix-and-the-degree-of-sulfonation-on-",
       "title": "Influence of the nature of polymer matrix and the degree of sulfonation on the properties of membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2001-chronopotentiometry-for-advanced-current-voltage-characterization-of-bipola",
       "title": "Chronopotentiometry for advanced current-voltage characterization of bipolar membranes"
     },
@@ -10550,142 +10550,142 @@
       "title": "INFLUENCE OF THE NATURE OF POLYMER MATRIX AND THE DEGREE OF SULFONATION ON PHYSICOCHEMICAL PROPERTIES OF MEMBRANES"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "2000-open-cell-polymer-morphologies-produced-by-carbon-dioxide-foaming",
       "title": "Open-cell polymer morphologies produced by carbon dioxide foaming"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s1383-5866-99-00036-2",
       "title": "Limitations of the lifetime stabilization of supported liquid membrane by polyamides layers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1063-1-479042",
       "title": "The sorption induced glass transition in amorphous glassy polymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-98-00299-3",
       "title": "CO2-induced plasticization phenomena in glassy polymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s1383-5866-98-00057-4",
       "title": "Plasticization-resistant glassy polyimide membranes for CO2/CO4 separations"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s1383-5866-98-00080-x",
       "title": "Coupled transport phenomena in overlimiting current electrodialysis"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s1383-5866-98-00058-6",
       "title": "Behaviour of bipolar membranes at high current densityWater diffusion limitation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-98-00131-8",
       "title": "Supported liquid membranes modification with sulphonated poly(ether ether ketone)"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-sici-1099-0488-19980715-36-9-1547-aid-polb12-3-0-co-2-5",
       "title": "Suppression of CO2-plasticization by semiinterpenetrating polymer network formation"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1063-1-476404",
       "title": "A nonequilibrium simulation method for calculating tracer diffusion coefficients of small solutes in n-alkane liquids and polymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1080-01496399708000768",
       "title": "Removal of Dissolved VOCs from Water with an Air Stripper/Membrane Vapor Separation System"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-97-00007-0",
       "title": "Optical vs. direct sorption and swelling measurements for the study of stiff-chain polymer-penetrant interactions"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-96-00265-7",
       "title": "Analysis of the kinetics of vapor absorption/desorption in/from silicone rubber and cellulose acetate membranes in the presence of stagnant boundary layers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1063-1-472614",
       "title": "Free energy calculations of small molecules in dense amorphous polymers. Effect of the initial guess configuration in molecular dynamics studies"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1107-s0108767396093658",
       "title": "Design and application of matrices for the crystallization of membrane proteins"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-app-1995-070581105",
       "title": "Time\u2010dependent permeation of carbon dioxide through a polyimide membrane above the plasticization pressure"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "1995-atomistic-modelling-of-mass-transport-through-solutions-diffusion-membranes",
       "title": "Atomistic modelling of mass transport through solutions-diffusion membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "1995-water-splitting-with-bipolar-and-monopolar-ion-exchange-membranes",
       "title": "Water splitting with bipolar and monopolar ion exchange membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-polb-1995-090330907",
       "title": "Dilation kinetics of glassy, aromatic polyimides induced by carbon dioxide sorption"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-app-1994-070531112",
       "title": "Carbon dioxide foaming of glassy polymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-0376-7388-93-e0168-j",
       "title": "Modelling the permeability of polymers: a neural network approach"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-masy-19930700138",
       "title": "Transport of gases through polymeric membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-0376-7388-92-87083-a",
       "title": "Gas transport and sub-Tg relaxations in unmodified and nitrated polyarylethersulfones"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "1992-molecular-motions-in-solution-diffusion-membranes",
       "title": "Molecular motions in solution-diffusion membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-0950-4214-91-80028-4",
       "title": "Plasticization of gas separation membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "1991-an-experimental-approach-to-the-sorption-and-dilation-behaviour-of-glassy-p",
       "title": "An experimental approach to the sorption and dilation behaviour of glassy polymers"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1002-masy-19910450125",
       "title": "Diffusion through rubbery and glassy polymer membranes"
     },
     {
-      "action": "create",
+      "action": "skip-exists",
       "slug": "10-1016-s0376-7388-00-80682-1",
       "title": "Pervaporation of aromatic C8-isomers"
     }
