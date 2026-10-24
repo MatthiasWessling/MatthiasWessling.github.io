@@ -112,7 +112,7 @@
         {{ if and (eq $institution "") .Params.rwth_url }}{{ $institution = "RWTH" }}{{ end }}
         <article
             class="news-item graduates-entry"
-            data-title="{{ .Title | lower | htmlEscape }}"
+            data-title="{{ .Title | lower | htmlEscape }}{{ with .Params.former_names }} {{ delimit . " " | lower | htmlEscape }}{{ end }}"
             data-thesis-title="{{ $thesisTitle | lower | htmlEscape }}"
             data-topics="{{ $topicsSearch | htmlEscape }}"
             data-year="{{ $graduateYear | htmlEscape }}"
