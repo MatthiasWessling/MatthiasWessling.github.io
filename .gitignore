@@ -29,3 +29,7 @@ Wessling_ERC*.pdf
 # Graduate metadata scrape caches
 data/ut_cache/
 data/rwth_cache/
+
+# Secrets / local env (OpenAlex API key, etc.)
+.env
+.env.*

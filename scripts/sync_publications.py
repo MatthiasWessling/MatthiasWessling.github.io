@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import time
 import urllib.error
@@ -42,6 +43,9 @@ USER_AGENT = (
     "(https://matthiaswessling.github.io; ORCID "
     f"{DEFAULT_ORCID})"
 )
+
+# Optional: export OPENALEX_API_KEY=... (see https://help.openalex.org/api/authentication/).
+# Cursor paging past the first page requires a key under OpenAlex's 2026 limits.
 
 # Work types to import (OpenAlex type filter; OR within one field).
 DEFAULT_TYPES = ("article", "review")
@@ -121,8 +125,16 @@ def reconstruct_abstract(inverted: Optional[Dict[str, List[int]]]) -> str:
     return text.strip()
 
 
+def openalex_api_key() -> str:
+    return (os.environ.get("OPENALEX_API_KEY") or "").strip()
+
+
 def http_get_json(url: str, *, retries: int = 3) -> Dict[str, Any]:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    key = openalex_api_key()
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
+    req = urllib.request.Request(url, headers=headers)
     last_err: Optional[Exception] = None
     for attempt in range(retries):
         try:
@@ -158,6 +170,9 @@ def parse_work(raw: Dict[str, Any]) -> Optional[Publication]:
         return None
 
     doi = normalize_doi(raw.get("doi"))
+    # Skip DOI-less records (often mis-typed patents / local reports in OpenAlex).
+    if not doi:
+        return None
     year = int(raw.get("publication_year") or 0)
     pub_date = (raw.get("publication_date") or "").strip()
     if not pub_date and year:
@@ -220,7 +235,7 @@ def fetch_works(
     if since_year is not None:
         filters.append(f"from_publication_date:{since_year}-01-01")
     base = "https://api.openalex.org/works"
-    per_page = 50
+    per_page = 100
     cursor = "*"
     pubs: List[Publication] = []
 
