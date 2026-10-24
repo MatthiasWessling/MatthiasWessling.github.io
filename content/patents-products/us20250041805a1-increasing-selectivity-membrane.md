@@ -15,7 +15,7 @@ organization = "Gambro"
 inventors = ["Matthias Wessling"]
 topics = ["membranes"]
 google_patents_url = "https://patents.google.com/patent/US20250041805A1/en"
-family_publications = ""
+family_publications = "WO2023117808A1; AU2022420539A1"
 thumbnails = [
   "/images/patents/us20250041805a1/thumb-01.png",
   "/images/patents/us20250041805a1/thumb-02.png",
@@ -32,6 +32,7 @@ featured = false
 - **Priority date:** 2021-12-21
 - **Filing date:** 2022-12-16
 - **Publication date:** 2025-02-06
+- **Related family publications:** WO2023117808A1; AU2022420539A1
 - **Family status:** WO=NOT_ACTIVE;EP=ACTIVE;US=ACTIVE;CN=ACTIVE;JP=ACTIVE;KR=ACTIVE;AU=ACTIVE
 
 ## Summary of the invention

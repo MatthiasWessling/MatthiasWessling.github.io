@@ -15,7 +15,7 @@ organization = "XOLO"
 inventors = ["Matthias Wessling"]
 topics = ["polymers"]
 google_patents_url = "https://patents.google.com/patent/DE102023106667A1/en"
-family_publications = ""
+family_publications = "WO2024189178A1"
 thumbnails = [
   "/images/patents/de102023106667a1/thumb-01.png",
   "/images/patents/de102023106667a1/thumb-02.png",
@@ -32,6 +32,7 @@ featured = false
 - **Priority date:** 2023-03-16
 - **Filing date:** 2023-03-16
 - **Publication date:** 2024-09-19
+- **Related family publications:** WO2024189178A1 (published 2024-09-19)
 - **Family status:** WO=NOT_ACTIVE;DE=ACTIVE
 
 ## Summary of the invention

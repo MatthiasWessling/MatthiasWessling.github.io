@@ -10,13 +10,14 @@ priority_number = "DE102022118981 A1"
 filing_date = "2023-07-27"
 publication_date = "2025-06-04"
 priority_date = "2022-07-28"
-status = "Grant of patent intended (EP Register, 2026-02-18)"
+grant_date = "2026-07-01"
+status = "Granted (EP4561744B1, 2026-07-01)"
 assignee = "Rheinisch-Westfalische Technische Hochschule (RWTH) Aachen"
 organization = "RWTH"
 inventors = ["Stefan Herrmann", "Matthias Wessling"]
 topics = ["membrane reactors", "membranes", "polymers"]
 google_patents_url = "https://patents.google.com/patent/WO2024023237A1/en"
-family_publications = "WO2024023237A1"
+family_publications = "WO2024023237A1; EP4561744B1"
 thumbnails = [
   "/images/patents/ep4561744/thumb-01.png",
   "/images/patents/ep4561744/thumb-02.png",
@@ -29,9 +30,10 @@ thumbnails = [
 
 - **Title (EN):** Method for producing polyvinylidene fluoride in a membrane reactor
 - **Title (DE):** Verfahren zur Herstellung von Polyvinylidenfluorid in einem Membranreaktor
-- **Publication:** EP4561744 A1
+- **Publication:** EP4561744 A1 (granted as EP4561744 B1 on 2026-07-01)
 - **Priority:** DE102022118981 (2022-07-28)
 - **International publication:** WO2024023237 A1
+- **Related family publications:** WO2024023237A1; EP4561744B1
 
 ## Summary of the invention
 

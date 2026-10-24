@@ -15,7 +15,7 @@ organization = "DWI"
 inventors = ["Matthias Wessling"]
 topics = ["polyelectrolyte membranes", "membranes", "polymers"]
 google_patents_url = "https://patents.google.com/patent/US12458928B2/en"
-family_publications = "EP4161687C0"
+family_publications = "EP4161687C0; EP4161687B1"
 thumbnails = [
   "/images/patents/us12458928b2/thumb-01.png",
   "/images/patents/us12458928b2/thumb-02.png",
@@ -33,7 +33,7 @@ featured = false
 - **Filing date:** 2021-06-02
 - **Publication date:** 2025-11-04
 - **Grant date:** 2025-11-04
-- **Related family publications:** EP4161687C0
+- **Related family publications:** EP4161687C0; EP4161687B1 (EP grant 2024-04-17)
 - **Family status:** WO=NOT_ACTIVE;EP=ACTIVE;US=ACTIVE;CN=NOT_ACTIVE;KR=NOT_ACTIVE
 
 ## Summary of the invention

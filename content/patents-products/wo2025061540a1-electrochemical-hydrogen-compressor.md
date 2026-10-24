@@ -15,7 +15,7 @@ organization = "RWTH"
 inventors = ["Matthias Wessling"]
 topics = ["electrochemistry"]
 google_patents_url = "https://patents.google.com/patent/WO2025061540A1/en"
-family_publications = "DE102023125255A1"
+family_publications = "DE102023125255A1; EP4781007A1"
 thumbnails = [
   "/images/patents/wo2025061540a1/thumb-01.png",
   "/images/patents/wo2025061540a1/thumb-02.png",
@@ -32,8 +32,8 @@ featured = false
 - **Priority date:** 2023-09-19
 - **Filing date:** 2024-09-11
 - **Publication date:** 2025-03-27
-- **Related family publications:** DE102023125255A1
-- **Family status:** WO=ACTIVE;DE=ACTIVE
+- **Related family publications:** DE102023125255A1; EP4781007A1 (published 2026-07-29)
+- **Family status:** WO=NOT_ACTIVE;EP=ACTIVE;DE=ACTIVE
 
 ## Summary of the invention
 
