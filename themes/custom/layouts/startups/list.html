@@ -9,31 +9,98 @@
         {{ end }}
     </header>
 
-    <div class="news-controls">
+    {{ $years := slice }}
+    {{ $roles := slice }}
+    {{ $orgs := slice }}
+    {{ range .Pages }}
+        {{ $year := .Params.founded_year | default (.Date.Format "2006") | string }}
+        {{ if and $year (not (in $years $year)) }}
+            {{ $years = $years | append $year }}
+        {{ end }}
+        {{ with .Params.role }}
+            {{ if not (in $roles .) }}
+                {{ $roles = $roles | append . }}
+            {{ end }}
+        {{ end }}
+        {{ with .Params.organization }}
+            {{ if not (in $orgs .) }}
+                {{ $orgs = $orgs | append . }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ $years = collections.Reverse (sort $years) }}
+    {{ $roles = sort $roles }}
+    {{ $orgs = sort $orgs }}
+
+    <div class="news-controls graduates-controls startups-controls">
         <div class="news-search-wrap">
             <label for="startups-search" class="news-control-label">Search</label>
-            <input id="startups-search" type="search" placeholder="Search startups by title or content" autocomplete="off">
+            <input id="startups-search" type="search" placeholder="Search by name, summary, or topic" autocomplete="off">
+        </div>
+        <div class="news-search-wrap">
+            <label for="startups-topics-search" class="news-control-label">Topics</label>
+            <input id="startups-topics-search" type="search" placeholder="Filter by topic keyword" autocomplete="off">
+        </div>
+        <div class="news-sort-wrap">
+            <label for="startups-year" class="news-control-label">Year</label>
+            <select id="startups-year">
+                <option value="">All years</option>
+                {{ range $years }}
+                <option value="{{ . }}">{{ . }}</option>
+                {{ end }}
+            </select>
+        </div>
+        <div class="news-sort-wrap">
+            <label for="startups-organization" class="news-control-label">Organization</label>
+            <select id="startups-organization">
+                <option value="">All organizations</option>
+                {{ range $orgs }}
+                <option value="{{ . | lower }}">{{ . }}</option>
+                {{ end }}
+            </select>
+        </div>
+        <div class="news-sort-wrap">
+            <label for="startups-role" class="news-control-label">Role</label>
+            <select id="startups-role">
+                <option value="">All roles</option>
+                {{ range $roles }}
+                <option value="{{ . | lower }}">{{ . }}</option>
+                {{ end }}
+            </select>
         </div>
         <div class="news-sort-wrap">
             <label for="startups-sort" class="news-control-label">Sort</label>
             <select id="startups-sort">
                 <option value="newest">Newest first</option>
                 <option value="oldest">Oldest first</option>
-                <option value="title-asc">Title A-Z</option>
-                <option value="title-desc">Title Z-A</option>
+                <option value="title-asc">Title A–Z</option>
+                <option value="title-desc">Title Z–A</option>
             </select>
         </div>
     </div>
 
     <p id="startups-results-count" class="news-results-count"></p>
 
-    <div id="startups-list" class="news-list">
+    <div id="startups-list" class="news-list startups-list">
         {{ range .Pages.ByDate.Reverse }}
+        {{ $year := .Params.founded_year | default (.Date.Format "2006") | string }}
+        {{ $sortDate := .Date.Unix }}
+        {{ $topicTags := "" }}
+        {{ with .Params.topics }}
+            {{ $topicTags = delimit . " " | lower }}
+        {{ end }}
+        {{ $topicsSearch := trim (printf "%s %s %s" $topicTags (.Title | lower) (.Params.summary | default "" | lower)) " " }}
+        {{ $organization := .Params.organization | default "" }}
+        {{ $role := .Params.role | default "" }}
         <article
             class="news-item startups-entry"
-            data-title="{{ .Title | lower }}"
-            data-summary="{{ (printf "%s %s" (.Params.summary | default "") (.Plain | default "")) | lower }}"
-            data-date="{{ .Date.Unix }}"
+            data-title="{{ .Title | lower | htmlEscape }}"
+            data-summary="{{ (printf "%s %s %s" (.Params.summary | default "") (.Params.status | default "") (.Plain | default "")) | lower | htmlEscape }}"
+            data-topics="{{ $topicsSearch | htmlEscape }}"
+            data-year="{{ $year | htmlEscape }}"
+            data-organization="{{ $organization | lower | htmlEscape }}"
+            data-role="{{ $role | lower | htmlEscape }}"
+            data-date="{{ $sortDate }}"
         >
             <div class="news-entry-layout">
                 {{ if .Params.image }}
@@ -52,18 +119,37 @@
 
                 <div class="news-main">
                     <div class="news-meta">
-                        <time class="news-date">{{ .Date.Format "January 2, 2006" }}</time>
+                        <time class="news-date">{{ $year }}</time>
+                        {{ with .Params.organization }}
+                        <span class="graduates-institution">{{ . }}</span>
+                        {{ end }}
+                        {{ with .Params.role }}
+                        <span class="graduates-institution">{{ . }}</span>
+                        {{ end }}
                     </div>
                     <h2 class="news-title">{{ .Title }}</h2>
                     {{ if .Params.summary }}
-                    <p class="news-summary">{{ .Params.summary }}</p>
+                    <p class="news-summary graduates-blurb">{{ .Params.summary }}</p>
+                    {{ end }}
+                    {{ with .Params.topics }}
+                    <div class="graduates-topics">
+                        {{ range . }}
+                        <span class="graduates-topic-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    {{ if or .Params.status .Params.website }}
+                    <p class="patent-index-entry">
+                        {{ with .Params.status }}<span>{{ . }}</span>{{ end }}
+                        {{ with .Params.website }}<span><a href="{{ . }}" target="_blank" rel="noopener">Website</a></span>{{ end }}
+                    </p>
                     {{ end }}
                     <a href="{{ .Permalink }}" class="read-more">Details →</a>
                 </div>
             </div>
         </article>
         {{ else }}
-        <p class="no-content">No startup updates listed yet.</p>
+        <p class="no-content">No startups listed yet.</p>
         {{ end }}
     </div>
 </div>

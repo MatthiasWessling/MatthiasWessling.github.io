@@ -1,6 +1,6 @@
 +++
 title = "Startups"
-description = "Startup ideas, ventures, and company-building updates."
+description = "Spin-outs and startup support from University of Twente and RWTH Aachen / DWI membrane and electrochemical research."
 +++
 
-This section collects startup-related work and milestones.
+Spin-outs and startup support across membrane science, electrochemical systems, bioprocessing, and research infrastructure. Browse by year, organization, role, or topic. Related overviews are on the [Research](/research/) page; selected IP is listed under [Patents](/patents-products/).

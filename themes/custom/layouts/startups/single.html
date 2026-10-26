@@ -4,7 +4,10 @@
         <header class="news-header">
             <h1>{{ .Title }}</h1>
             <div class="news-meta">
-                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                <time>{{ with .Params.founded_year }}{{ . }}{{ else }}{{ .Date.Format "2006" }}{{ end }}</time>
+                {{ with .Params.organization }}
+                <span class="graduates-institution">{{ . }}</span>
+                {{ end }}
             </div>
         </header>
 
@@ -26,6 +29,26 @@
         <section class="news-summary">
             <p class="lead">{{ .Params.summary }}</p>
         </section>
+        {{ end }}
+
+        {{ if or .Params.founded_year .Params.role .Params.status .Params.organization .Params.location .Params.website .Params.topics }}
+        <section class="patent-meta-card">
+            {{ with .Params.founded_year }}<p><strong>Year:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.role }}<p><strong>Role:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.status }}<p><strong>Status:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.organization }}<p><strong>Organization context:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.location }}<p><strong>Location:</strong> {{ . }}</p>{{ end }}
+            {{ with .Params.website }}<p><strong>Website:</strong> <a href="{{ . }}" target="_blank" rel="noopener">{{ . }}</a></p>{{ end }}
+            {{ with .Params.topics }}<p><strong>Topics:</strong> {{ delimit . "; " }}</p>{{ end }}
+        </section>
+        {{ end }}
+
+        {{ with .Params.topics }}
+        <div class="graduates-topics" style="margin-bottom: 1rem;">
+            {{ range . }}
+            <span class="graduates-topic-tag">{{ . }}</span>
+            {{ end }}
+        </div>
         {{ end }}
 
         <div class="news-content">
