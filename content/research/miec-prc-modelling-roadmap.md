@@ -1,14 +1,14 @@
 +++
 title = 'Modelling roadmap: MIEC, physical reservoir computing, and emergence in soft matter'
 date = '2026-08-08'
-draft = false
+draft = true
 summary = 'Inventory and progress map of local coding campaigns that treat permeable soft matter—mixed ionic–electronic beads, colloidal assemblies, pore networks and ionic circuits—as physical reservoirs whose constitutive state stores and transforms history.'
 abstract = 'Inventory and progress map of local coding campaigns that treat permeable soft matter—mixed ionic–electronic beads, colloidal assemblies, pore networks and ionic circuits—as physical reservoirs whose constitutive state stores and transforms history.'
 authors = ['Matthias Wessling']
 publication = 'Research overview'
 publication_year = '2026'
 paper_url = ''
-featured = true
+featured = false
 image = '/images/blog/ink-miec-prc-roadmap.png'
 image_alt = 'Abstract black-ink drawing of porous beads, a contact network, a readout waveform, and soft colloidal trails'
 tags = ['MIEC', 'physical reservoir computing', 'soft matter', 'information materials', 'emergence', 'pore network', 'PEDOT:PSS', 'modelling roadmap']
