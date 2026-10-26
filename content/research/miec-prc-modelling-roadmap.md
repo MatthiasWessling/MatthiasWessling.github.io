@@ -12,6 +12,9 @@ featured = false
 image = '/images/blog/ink-miec-prc-roadmap.png'
 image_alt = 'Abstract black-ink drawing of porous beads, a contact network, a readout waveform, and soft colloidal trails'
 tags = ['MIEC', 'physical reservoir computing', 'soft matter', 'information materials', 'emergence', 'pore network', 'PEDOT:PSS', 'modelling roadmap']
+[_build]
+  render = 'never'
+  list = 'never'
 +++
 
 This note maps the modelling and coding activity underway for *information materials*: soft, permeable systems whose transport, charge and contacts co-evolve so that recent input is retained as distributed physical state and can be read out linearly—physical reservoir computing (PRC). The scientific centre is mixed ionic–electronic conductors (MIEC), especially porous PEDOT:PSS:PEI beads and networks (PERMEAC), flanked by soft-matter colloidal reservoirs and electrokinetic pore-network substrates. Related experimental and materials context appears in *[PEDOT:PSS](/research/pedot/)*, *[neural networks to neuromorphic devices](/research/from-spectra-to-synapses/)*, and *[spatio-temporal phenomena](/research/spatio-temporal-phenomena/)*.
